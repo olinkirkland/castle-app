@@ -1,0 +1,55 @@
+{
+  "id": "3",
+  "urls": [
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?id=3",
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=3",
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=3",
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=3",
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=3"
+  ],
+  "title": "Leubsdorf",
+  "timeline": "Die Besitzgeschichte des Burghauses ist bislang nur für das 18. Jh. rudimentär aufgearbeitet. Bis zum Beginn des 18. Jh. war der Besitz geteilt. Als eine der besitzenden Adelsfamilien begegnet in der frühen Neuzeit die niederadelige Familie von Zweiffel. (Jens Friedhoff)",
+  "buildingDevelopment": "Die Baugeschichte des Burghauses ist bislang noch nicht erforscht worden. Die Anlage geht in ihrem heutigen Erscheinungsbild (rechteckiger zweigeschossiger Baukörper mit vier Ecktürmchen in Fachwerkkonstruktion mit spitzen Hauben) auf das Spätmittelalter zurück. (Jens Friedhoff)",
+  "buildingDescription": "Über fast quadratischem Grundriss stattlicher, dreigeschossiger spätgotischer Steinbau. An den vier Ecken, zwischen denen die Südseite des Walmdaches in Fachwerk ausgebaut ist, je von einem polygonalen Fachwerktürmchen bekrönt. Angebaut ein barockes Fachwerkhaus mit Mansarddach. (Jens Friedhoff)",
+  "gallery": [
+    {
+      "url": "../r30/vc_content/bilder/firma451/msvc_intern/43_18_20050504154201.jpg",
+      "caption": "Gesamtansicht, Foto: J. Friedhoff (2000)",
+      "year": "2000"
+    }
+  ],
+  "misc": {
+    "nutzung als": [
+      "Privat,"
+    ],
+    "anfahrt / parkplatz": "Parkmöglichkeit im Ort",
+    "zugänglichkeit": "Unzugänglich, da Privatbesitz.",
+    "besichtigung / führung": [
+      "Besicht. aussen,"
+    ]
+  },
+  "country": "Bundesrepublik Deutschland",
+  "state": "Rheinland-Pfalz",
+  "region": "Mittelrhein",
+  "county": "Neuwied",
+  "city": "Leubsdorf",
+  "structureType": [
+    "Burg",
+    "Sonstiges"
+  ],
+  "classification": [
+    "Burghaus"
+  ],
+  "purpose": [
+    "Adelssitz",
+    "Ministerialensitz"
+  ],
+  "overview": "Spätmittelalterliches Burghaus inmitten des alten Ortskerns von Leubsdorf",
+  "dateBegin": "15.Jh.",
+  "dateEnd": "unbekannt",
+  "condition": "Weitgehend erhalten",
+  "conditionCommentary": "Gut erhaltenes spätmittelalterliches Burghaus.",
+  "references": [
+    "Dehio RP (1984), S. 554; KD Neuwied (1940), S. 197f."
+  ]
+}

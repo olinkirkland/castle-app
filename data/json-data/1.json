@@ -1,0 +1,78 @@
+{
+  "id": "1",
+  "urls": [
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?id=1",
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=1",
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=1",
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=1",
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=1"
+  ],
+  "title": "Linz",
+  "timeline": "In dem 1320 mit Stadtrechten begabten Ort Linz ließ der Kölner Erzbischof Engelbert von der Mark 1365 an der Nordwestecke der Stadtbefestigung eine Landesburg anlegen. 1366-76 wurde die Burg an den Koadjutor Kuno von Falkenstein versetzt. 1456 Verpfändung an Graf Heinrich von Nassau, Frank von Kronberg und Graf Philipp von Katzenelnbogen. In der Folgezeit dienten Stadt, Burg und Amt auch weiterhin als Pfandobjekte. Die Burg bildete den Mittelpunkt eines Amtes und war Sitz der landesherrlichen Behörden. Nach dem Übergang an Nassau 1802/03 diente sie wiederum als Behördensitz. Im Jahr 1821 gelangte die seit 1815 dem preußischen Fiskus unterstehende Anlage an die Familie Faith und 1950 schließlich in den Besitz der Stadt Linz. 1984 Verkauf und Beginn der Restaurierung sowie Einrichtung eines Burgmuseums. (Jens Friedhoff)",
+  "buildingDevelopment": "Für die Errichtung der Burg musste Erzbischof Engelbert von der Mark 1365 beim Domkapitel zu Köln eine Anleihe von 800 Gulden aufnehmen. Die Bürger der Stadt Linz wurden verpflichtet, die Burg in Stand und verteidigungsbereitem Zustand zu halten. Hinweise auf eine ältere Vorgängeranlage fehlen. In den Belagerungszeiten erlitt die Burg Schäden, beispielsweise infolge des Sturmes des Reichsheeres auf die Stadt Linz im Winter 1474/75. Die Schriftquellen berichten von häufigen Reparaturen und Bauarbeiten, wobei die meisten die Brücke, Graben und den Zollgang, der die Burg mit dem Zollhaus verband, betrafen. 1707 erfolgte im Zuge der Amtssitzverlegung von Altenwied nach Linz die Erweiterung des Westtraktes. (Jens Friedhoff)",
+  "buildingDescription": "Die über rechteckigem Grundriss in Stadtrandlage errichtete Hauptburg setzt sich aus vier Gebäudetrakten zusammen, die sich um einen Innenhof gruppieren. An der Nordwestecke befindet sich ein in seinen beiden unteren Dritteln runder, im oberen Teil achtseitiger Eckturm mit steiler gotischer Dachhaube. Der Turm gehört, wie die unteren Partien der Umfassungsmauer der Gründungszeit Mitte des 14. Jhs. an. Im übrigen bestimmen Neubauten des 17. u. 18. Jhs. das Erscheinungsbild der ursprünglich von einem Weiher umgebenen und in die Stadtbefestigung integrierten kurkölnischen Landesburg. (Jens Friedhoff)",
+  "gallery": [
+    {
+      "url": "../r30/vc_content/bilder/firma451/msvc_intern/44_18_20050509111318.jpg",
+      "caption": "Erzbischöfliche Burg und Rheintor, um 1835, aus: Oellers, Linz (1994)",
+      "year": "1994"
+    },
+    {
+      "url": "../r30/vc_content/bilder/firma451/msvc_intern/44_19_20050509111318.jpg",
+      "caption": "Burg und Rheintor, Foto: J. Friedhoff (2001)",
+      "year": "2001"
+    },
+    {
+      "url": "../r30/vc_content/bilder/firma451/msvc_intern/44_20_20050509111318.jpg",
+      "caption": "Feldseite der Burg, Foto: J. Friedhoff (2001)",
+      "year": "2001"
+    }
+  ],
+  "misc": {
+    "nutzung als": [
+      "Museum,",
+      "Restaurant,",
+      "Restaurant"
+    ],
+    "anfahrt / parkplatz": "Mehrere Parkplätze an der Linzer Rheinfront in unmittelbarer Nähe der Burg.",
+    "fußweg / zeit vom parkplatz": "Innerhalb einer Minute",
+    "zugänglichkeit": "Teilweise zugänglich (Restaurant)",
+    "besichtigung / führung": [
+      "Besicht. aussen,",
+      "Besicht. innen"
+    ],
+    "einkehrmöglichkeit": "Restaurant"
+  },
+  "country": "Bundesrepublik Deutschland",
+  "state": "Rheinland-Pfalz",
+  "region": "Mittelrhein",
+  "county": "Neuwied",
+  "city": "Linz",
+  "structureType": [
+    "Burg",
+    "Burg-Schloss",
+    "Sonstiges"
+  ],
+  "classification": [
+    "Wasserburg",
+    "Randhausanlage"
+  ],
+  "purpose": [
+    "Stadtburg",
+    "Landesburg"
+  ],
+  "overview": "Spätmittelalterliche Landesburg des Erzstifts Köln in Stadtrandlage.",
+  "dateBegin": "2.H.14.Jh.",
+  "dateEnd": "unbekannt",
+  "condition": "Bedeutende Reste",
+  "conditionCommentary": "Relativ gut erhaltene, in nachmittelalterlicher Zeit teilweise veränderte Stadtburg.",
+  "references": [
+    "Dehio RP (1985), S. 564.",
+    "KD Neuwied (1940), S. 255f.",
+    "BuK  Koblenz (1886), S. 514;",
+    "HHSt RP (1988), S. 207f.;",
+    "Rheinischer Städteatlas Lieferung XII, Nr. 64: Linz, bearb. von Ulrich Ritzerfeld, Bonn 1996;",
+    "Ritzerfeld, Ulrich, Der Kölner Erzbischof Heinrich von Virneburg und die Stadtwerdung von Linz am Rhein, in: Rheinische Vierteljahrsblätter 60 (1996), S. 88-120.",
+    "Thon/Ulrich, Burgen am unteren Mittelrhein (2010), S. 100-104."
+  ]
+}

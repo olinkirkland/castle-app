@@ -1,0 +1,61 @@
+{
+  "id": "4",
+  "urls": [
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?id=4",
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=4",
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=4",
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=4",
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=4"
+  ],
+  "title": "Dattenberg",
+  "timeline": "Die Burg gilt als Stammsitz der 1242 erstmals mit Wilhelm bezeugten niederadligen Familie von Dattenberg. 1331 gelangte die Burg als Lehen des Erzstifts Köln an den Ritter Rolmann von Sinzig zu Arenthal. Die Enkel Rolmanns benannten sich nach der Burg Dattenberg. Durch Erbgang gelangte die Anlage 1572 an Albrecht von Lülsdorf und 1664 an Johann Friedrich Raitz von Frentz. Nach dessen Tod wurde die Burg 1675 vom Kölner Erzstift als erledigtes Lehen eingezogen. Burg und Gericht wurden 1698 an die von Metternich zur Gracht auf Lebenszeit verliehen und bildeten eine kurkölnische Kameralherrschaft. 1837 erwarb Josef Stoppenbach, Notar zu Köln, die verfallene Anlage und errichtet im Vorburgbereich ein zweigeschossiges Landhaus. Der Berliner Baumeister Adolf Fuchs, der 1887 in den Besitz von Dattenberg gelangte, ließ 1890 das schlichte Landhaus zu einer historistischen Villa umbauen. Seit 1949 ist der Erftkreis Eigentümer der Burg, der in der Villa eine Jugendbildungsstätte unterhält. (Jens Friedhoff)",
+  "buildingDevelopment": "Die Baugeschichte der vermutlich in der ersten Hälfte des 13. Jhs. entstandenen Anlage konnte noch nicht geklärt werden. Archivalische Nachrichten zur baulichen Entwicklung sind bislang nicht bekannt. Dem Gründungsbau gehört sehr wahrscheinlich der runde Hauptturm (Wohnturm) an, der in geringem Abstand von einer Ringmauer umgeben ist. Auf dem Gelände der von der Hauptburg durch einen Halsgraben geschiedenen Vorburg im Norden entstand um 1890 eine historistische Villa. Adolf Fuchs ließ um 1890 den Mauerring um den Wohnturm erneuern und mit Zinnen versehen. (Jens Friedhoff)",
+  "buildingDescription": "Die durch einen Halsgraben von dem Vorburgbereich  geschiedene Hauptburg besteht im Wesentlichen aus einem runden Wohnturm von 8,50 m Durchmesser, der in geringem Abstand von einer Ringmauer umgeben ist. Jenseits des Halsgrabens im Norden des Hauptburgareals befindet sich das Gelände der Vorburg, von der sich keine Reste erhalten haben. An ihrer Stelle wurde 1890 eine Villa errichtet. Der Zinnenkranz der Hauptburg-Ringmauer entstand 1890. (Jens Friedhoff)",
+  "gallery": [
+    {
+      "url": "../r30/vc_content/bilder/firma451/msvc_intern/48_18_20050510153930.jpg",
+      "caption": "Gesamtansicht der Burg, Foto: J. Friedhoff (2000)",
+      "year": "2000"
+    }
+  ],
+  "misc": {
+    "nutzung als": [
+      "Marketing-Schulungszentrum"
+    ],
+    "anfahrt / parkplatz": "Parkplätze im Ort Dattenberg",
+    "fußweg / zeit vom parkplatz": "2 Minuten",
+    "zugänglichkeit": "Lediglich Außenbesichtigung der Ruine möglich.",
+    "besichtigung / führung": [
+      "Besicht. aussen,"
+    ]
+  },
+  "country": "Bundesrepublik Deutschland",
+  "state": "Rheinland-Pfalz",
+  "region": "Westerwald",
+  "county": "Neuwied",
+  "city": "Linz",
+  "structureType": [
+    "Burg",
+    "Sonstiges"
+  ],
+  "classification": [
+    "Wohnturm"
+  ],
+  "purpose": [
+    "Ministerialensitz",
+    "Herrschaftsmittelpunkt"
+  ],
+  "overview": "Kleine Ministerialenburg der niederadeligen Familie von Dattenberg; seit dem 14. Jh. Lehen des Erzstifts Köln.",
+  "dateBegin": "1.H.13.Jh.",
+  "dateEnd": "2.H.17.Jh.",
+  "condition": "Bedeutende Reste",
+  "conditionCommentary": "Umfangreiche Reste der lediglich aus einem Rundturm bestehenden Anlage erhalten.",
+  "references": [
+    "Dehio, RP (1985) S. 195;",
+    "KD Neuwied (1940), S. 82;",
+    "BuK Koblenz (1886), 472f.;",
+    "HHSt RP (1988), S. 69f.;",
+    "Kubach / Verbeek, Romanische Baukunst I (1976), S. 181; Bernd Willscheid, Burg Dattenberg, in: Heimatjahrbuch des Landkreises Neuwied (1993), S. 47-49.",
+    "Thon/Ulrich, Burgen am unteren Mittelrhein (2010), S. 42-46."
+  ]
+}
