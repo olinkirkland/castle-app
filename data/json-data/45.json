@@ -1,0 +1,75 @@
+{
+  "id": "45",
+  "urls": [
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?id=45",
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=45",
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=45",
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=45",
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=45"
+  ],
+  "title": "Wildenburg b. Friesenhagen",
+  "timeline": "In den 1230er Jahren im Zuge einer Erbteilung der Edelherren von Arenberg von Gerhard von Arenberg, dem Stifter der Familie von Wildenburg, angelegt. Die 1307 den Grafen von Sayn zu Lehen aufgetragene Ganerbenburg gelangte auf dem Erbweg nach dem Aussterben der Wildenburger 1418 an die Herren von Hatzfeldt. Seit dem 16. Jh. teilten sich die Hauptlinien der Familie den Besitz von Burg und Herrschaft Wildenburg: Oberschloss (Hatzfeldt-Weisweiler), Vorderschloss (Hatzfeldt-Crottorf-Gleichen und Hatzfeldt-Werther-Schönstein). 16.-18. Jh. Nutzung als Witwensitz. Ende 18. Jhs. beginnender Verfall. In den 1830er und 1850er Jahren teilweise Niederlegung der Anlage. Seit den 1850er Jahren Sitz eines Forstamtes (Hatzfeldt-Wildenburgsche Revierförsterei). (Jens Friedhoff)",
+  "buildingDevelopment": "Die bauliche Entwicklung der Anlage im Hoch- und Spätmittelalter ist weitgehend ungeklärt. Zum Bestand der Gründungsanlage des 13. Jhs. zählt der runde Bergfried. Die Nutzung als Ganerbenburg lässt eine recht komplizierte bauliche Entwicklung der vielgestaltigen Anlage seit dem 14. Jh. vermuten. 1491 bestanden bereits drei Burghäuser. Weiterer Ausbau im 15.-18. Jh. Barocke Umgestaltung des Oberschlosses. Gegen Ende der 1850er Jahre wurden Teile der weitläufigen Burg wegen Baufälligkeit niedergelegt. Erhalten blieb ein als \"Bollwerck\" 1491 genanntes Gebäude und der Bergfried der Oberburg sowie weitere Mauerreste von Ober- und Unterburg. (Jens Friedhoff)",
+  "buildingDescription": "Auf dem höchsten Punkt des Bergsporns befindet sich der runde etwa 25 m hohe Bergfried, an den sich im Norden der 1491 als \"Bollwerck\" bezeichnete Nordtrakt (Revierförsterei) anschließt. Vom Westtrakt des Oberschlosses blieben lediglich Kellergewölbe erhalten. Der Verbindungsbau zwischen Nordtrakt und Bergfried entstand 1932/33. An der Westseite des dem Oberschloss vorgelegten kleinen Hofes blieben Reste der spätmittelalterlichen Umfassungsmauer erhalten. Über den Fundamenten eines hufeisenförmigen Flankenturmes entstand das eingeschossige Torwächterhäuschen am \"oberen Tor\". Nördlich des Halsgrabens entstand im 17. Jh eine barocke Gartenanlage. Vom Vorderschloss an der Südwest- und an der Südseite blieben lediglich Grundmauern erhalten. Den Burgweg sicherte eine Zwingeranlage, von der ein hufeisenförmiger Flankenturm mit zwei Geschossen erhalten blieb. (Jens Friedhoff)",
+  "gallery": [
+    {
+      "url": "/r30/vc_content/bilder/firma451/msvc_intern/560_18_20060106103138.jpg",
+      "caption": "Ölgemälde (um 1835), aus: Friedhoff, Wildenburg (2001)",
+      "year": "2001"
+    },
+    {
+      "url": "/r30/vc_content/bilder/firma451/msvc_intern/560_19_20060106103138.jpg",
+      "caption": "Gesamtansicht, Foto: J. Friedhoff (2001)",
+      "year": "2001"
+    },
+    {
+      "url": "/r30/vc_content/bilder/firma451/msvc_intern/560_20_20060106103138.jpg",
+      "caption": "Sog. 'Bollwerk' mit Bergfried, Foto: J. Friedhoff (2003)",
+      "year": "2003"
+    },
+    {
+      "url": "/r30/vc_content/bilder/firma451/msvc_intern/560_24_20060106103138.jpg",
+      "caption": "Lageplan, aus: KD Altenkirchen (1935)",
+      "year": "1935"
+    }
+  ],
+  "misc": {
+    "nutzung als": [
+      "Verwaltung,",
+      "Privat,",
+      "Hatzfeldt-Wildenburgsche Revierförsterei"
+    ],
+    "anfahrt / parkplatz": "Eingeschränkte Parkmöglichkeit an der Straße Wildenburg-Römershagen",
+    "fußweg / zeit vom parkplatz": "5 Min. leichter Anstieg",
+    "zugänglichkeit": "Die Anlage ist unzugänglich. Durch den äußeren Hof führt ein Wanderweg.",
+    "besichtigung / führung": [
+      "Besicht. aussen,"
+    ],
+    "einkehrmöglichkeit": "Gaststätte 'Wildenburger Hof' im Ortsteil Crottorf."
+  },
+  "country": "Bundesrepublik Deutschland",
+  "state": "Rheinland-Pfalz",
+  "region": "Siegerland",
+  "county": "Altenkirchen",
+  "city": "Friesenhagen",
+  "structureType": [
+    "Burg",
+    "Sonstiges"
+  ],
+  "classification": [
+    "Randhausanlage",
+    "Kompaktanlage"
+  ],
+  "purpose": [
+    "Ganerbenburg",
+    "Dynastensitz"
+  ],
+  "overview": "Dynastenburg der Edelherren von Wildenburg, seit dem 14. Jh. Ganerbenburg, im 15. Jh. an die Familie von Hatzfeldt.",
+  "dateBegin": "1.H.13.Jh.",
+  "dateEnd": "unbekannt",
+  "condition": "Weitgehend erhalten",
+  "conditionCommentary": "Teile des Oberschlosses Wildenburg (Bergfried, Nordtrakt und kleines Pfortenhaus) erhalten und als Sitz einer Revierförsterei genutzt. Vorderschloss ruinös und teilweise gesichert.",
+  "references": [
+    "Dehio RP (1984), S. 295; BuK Reg.-Bez. Koblenz (1886), S. 123f.; KD Altenkirchen (1935), S. 165-171; HHSt RP (1988), S. 404; Jens Friedhoff, Städtischer Adelshof und \"festes Schloss\". Adeliges Wohnen in der frühen Neuzeit am Beispiel der Familie von Hatzfeldt, in: Siegerland 1999/I, S. 49-67; Friedhoff, Unterhaltung und Ausstattung (1999), S. 33-41; Friedhoff, Schönstein und die Wildenburg (2001); Friedhoff, Burgenbau (2001), S. 103-120; Jens Friedhoff, Die Wildenburg im Kreis Altenkirchen. Bauliche Unterhaltung und Nutzung im Spiegel archivalischer Quellen, in: Burgen und Schlösser 2001/1, S. 12-26; Friedhoff, Sauerland und Siegerland (2002), S. 148-152."
+  ]
+}

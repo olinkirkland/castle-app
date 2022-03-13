@@ -40,7 +40,7 @@ const keyMap = [
  * Perform Actions
  */
 
-const max = 5;
+const max = 50;
 const rawDir = 'data/raw-data/';
 const jsonDir = 'data/json-data/';
 
@@ -262,13 +262,13 @@ function parseToObject(u) {
 
   let gallery = [];
   galleryImgEl.forEach((el) => {
-    let galleryImg = { url: el.src };
+    let galleryImg = { url: el.src.substring(el.src.indexOf('/')) };
     if (el.alt) {
       galleryImg.caption = el.alt;
 
       // Get year from caption
       const arr = el.alt.match(/\(([0-9]{4})\)/);
-      if (arr.length > 0) galleryImg.year = arr.pop();
+      if (arr && arr.length > 0) galleryImg.year = arr.pop();
     }
 
     gallery.push(galleryImg);

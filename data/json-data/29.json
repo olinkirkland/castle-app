@@ -1,0 +1,63 @@
+{
+  "id": "29",
+  "urls": [
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?id=29",
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=29",
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=29",
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=29",
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=29"
+  ],
+  "title": "Dierdorf",
+  "timeline": "Als Initiator der vor 1324 erfolgten Burggründung gelten die Herren von Isenburg-Braunsberg. 1327 wurde die Burg dem Erzstift Trier zu Lehen aufgetragen. Die Burg und der 1357 mit Stadtrechten begabte Ort werden 1401 Offenhaus des Erzstifts Köln. Bereits 1324 wird die Hälfte der Burg an die Walpoden von der Neuerburg verpfändet. Bei der Teilung der Grafschaft Wied 1595 wurde Dierdorf der oberen Grafschaft zugeschlagen und diente fortan neben Runkel als Residenz der Linie Wied-Runkel, die mit Christian Ludwig (1762-1791) in den Reichsfürstenstand erhoben wurde. Der Zerstörung der Burg 1633 folgte ein Wiederaufbau und 1702-1725 schließlich der Neubau einer dreiflügeligen Schlossanlage an der Stelle der spätmittelalterlichen Niederungsburg. Im Jahr 1902 wurde die baufällige Anlage vollständig abgetragen. (Jens Friedhoff)",
+  "buildingDevelopment": "Zur baulichen Entwicklung der spätmittelalterlichen Burg liegen bislang keine gesicherten Erkenntnisse vor. Nach der Zerstörung 1633 wurde die Anlage wieder hergestellt. Das 1674 als reparaturbedürftig bezeichnete Gebäude wich 1702-1725 einem barocken Schlossbau auf dem Hauptinsel der Wasserburg Dierdorf. 1902 wurde die Schlossanlage niedergelegt. (Jens Friedhoff)",
+  "buildingDescription": "Von der spätmittelalterlichen Niederungsburg Dierdorf haben sich keine Reste erhalten. Auf der annähernd rechteckigen Insel der Hauptburg entstand zu Beginn des 18. Jahrhunderts eine barocke Schlossanlage, die 1902 abgetragen wurde. (Jens Friedhoff)",
+  "gallery": [
+    {
+      "url": "/r30/vc_content/bilder/firma451/msvc_intern/534_18_20051207101035.jpg",
+      "caption": "Historische Fotografie des abgerissenen Schlosses, vor 1904, aus: KD Neuwied (1940)",
+      "year": "1940"
+    },
+    {
+      "url": "/r30/vc_content/bilder/firma451/msvc_intern/534_24_20051207101035.jpg",
+      "caption": "Lageplan von Schloss und Stadt, aus: KD Neuwied (1940)",
+      "year": "1940"
+    }
+  ],
+  "misc": {
+    "nutzung als": [
+      "Hauptburginsel mit Minigolfanlage"
+    ],
+    "anfahrt / parkplatz": "Parkmöglichkeiten in Dierdorf",
+    "fußweg / zeit vom parkplatz": "2 Min.",
+    "zugänglichkeit": "Jederzeit frei zugängliches Schlossgelände.",
+    "besichtigung / führung": [
+      "Besicht. aussen,"
+    ]
+  },
+  "country": "Bundesrepublik Deutschland",
+  "state": "Rheinland-Pfalz",
+  "region": "Westerwald",
+  "county": "Neuwied",
+  "city": "Dierdorf",
+  "structureType": [
+    "Burg",
+    "Burg-Schloss",
+    "Sonstiges"
+  ],
+  "classification": [
+    "Abgegangene Burgstelle",
+    "Wasserburg"
+  ],
+  "purpose": [
+    "Landesburg",
+    "Dynastensitz"
+  ],
+  "overview": "Spätmittelalterliche Burg- (vor 1324) und Stadtgründung (1357) der Herren von Isenburg (1324). Im späten 16. Jh. mit Runkel Residenz der oberen Graschaft Wied.",
+  "dateBegin": "1.H.14.Jh.",
+  "dateEnd": "1.H.18.Jh.",
+  "condition": "Keine Reste",
+  "conditionCommentary": "Von dem aus der spätmittelalterlichen Niederungsburg hervorgegangenen Schloss hat sich lediglich die wasserumschlossene Insel der Hauptburg erhalten.",
+  "references": [
+    "Dehio RP (1984), S. 206; KD Neuwied (1940), S. 96f.; BuK Reg.-Bez. Koblenz (1886), S. 480; HHSt RP (1988),  S. 75."
+  ]
+}

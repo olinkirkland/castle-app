@@ -1,0 +1,42 @@
+{
+  "id": "49",
+  "urls": [
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?id=49",
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=49",
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=49",
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=49",
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=49"
+  ],
+  "title": "Vroneck",
+  "timeline": "Die Burg Vroneck wurde kurz vor 1340 von den Grafen von Sayn gegründet und dem Erzstift Trier zu Lehen aufgetragen. Als Standort der Burg wählte man die Burgstelle Nister. Die Anlage scheint nur kurze Zeit bestanden zu haben. Auf Einspruch der unmittelbar gegenüber dem Burgberg gelegenen Zisterzienserabtei Marienstatt wurde die saynische Burg Vroneck schließlich 1344 niedergelegt. (Jens Friedhoff)",
+  "buildingDevelopment": "Von der spätmittelalterlichen Burg Vroneck haben sich nach bisherigem Kenntnisstand keine oberirdisch sichtbaren Reste erhalten. Die wenigen Spuren, die auf dem Felsgrat von einer Burg künden, stammen offensichtlich von der um 1100 entstandenen und spätestens 1206 zerstörten Burg Nister. (Jens Friedhoff)",
+  "buildingDescription": null,
+  "gallery": [],
+  "misc": {
+    "nutzung als": [],
+    "besichtigung / führung": []
+  },
+  "country": "Bundesrepublik Deutschland",
+  "state": "Rheinland-Pfalz",
+  "region": "Westerwald",
+  "county": "Westerwaldkreis",
+  "city": "Hachenburg",
+  "structureType": [
+    "Burg",
+    "Sonstiges"
+  ],
+  "classification": [
+    "Abgegangene Burgstelle"
+  ],
+  "purpose": [
+    "Landesburg"
+  ],
+  "overview": "Spätmittelalterliche Burggründung der Grafen von Sayn an der Stelle der bereits an der Wende vom 12. zum 13. Jhs. zerstörten Burg Nister.",
+  "dateBegin": "1.H.14.Jh.",
+  "dateEnd": "1.H.14.Jh.",
+  "condition": "Keine Reste",
+  "conditionCommentary": "Nur Bearbeitungsspuren im Fels",
+  "references": [
+    "HHSt RP (1988), S. 107f.; Karl Kessler, Marienstatt. Die Burgen Nister und Froneck, in: Der Westerwald (Führer zu archäologischen Denkmälern in Deutschland 26), Stuttgart 1993, S. 149f.; D. Trautmann, Die ehemaligen Burgen Nister und Vroneck, in: Müschenbach gestern und heute, Hachenburg 1990, S. 81ff."
+  ]
+}

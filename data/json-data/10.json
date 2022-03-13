@@ -1,0 +1,43 @@
+{
+  "id": "10",
+  "urls": [
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?id=10",
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=10",
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=10",
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=10",
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=10"
+  ],
+  "title": "Rohrburg",
+  "timeline": "Die Rohrburg wird in der schriftlichen Überlieferung lediglich 1343 und 1371 erwähnt. Als Initiator des Burgenbaus inmitten eines Sumpfgeländes unweit des Dorfes Dreifelden gilt Graf Wilhelm zu Wied. Bereits während des Baus der Niederungsburg nötigte der Trierer Erzbischof Balduin von Luxemburg (reg. 1307-1354) den Grafen von Wied, ihm die Rohrburg zu Lehen aufzutragen. Zu Beginn des Jahres 1343 sollte Graf Wilhelm an der Burg nicht weiterbauen. Ob die Burg jemals vollendet wurde, ist umstritten. 1355 aus kurtrierischem Pfandbesitz ausgelöst, wurde die Anlage 1371 erneut an das Erzstift versetzt. In der frühen Neuzeit wurde die Burgstelle durch den aufgestauten Dreifelder Weiher (Seeweiher) überflutet. Unweit der im Dreifelder Weiher versunkenen Burgstelle Rohrburg liegt auf einer kleinen Anhöhe am Südwestufer des Weihers die Seeburg. Es handelt sich um das sog. \"Jägerhaus\", ein Nebengebäude zu dem 1655 von Graf Friedrich III. von Wied angelegten Schloss Seeburg. Von der frühneuzeitlichen Schlossanlage, die im 19. Jh. niedergelegt wurde, blieb lediglich ein Schutthaufen mit verstürztem Mauerwerk übrig. Die Reste werden in der Ortsakte der archäologischen Denkmalpflege Rheinland-Pfalz, Koblenz, irrtümlich als mittelalterliche Motte gedeutet. (Jens Friedhoff)",
+  "buildingDevelopment": "Zur baulichen Entwicklung der lediglich in wenigen Schriftquellen des 14. Jhs. erwähnten Burg liegen bislang noch keine Erkenntnisse vor. Ob der sehr wahrscheinlich unmittelbar vor 1343 begonnene Burgbau jemals vollendet wurde, ist in der regionalgeschichtlichen Literatur umstritten. Lesefunde von einer kleinen Insel im Weiher deuten auf eine Besiedlung der Burgstelle Rohrburg im 14. und 15. Jh. hin. (Jens Friedhoff)",
+  "buildingDescription": "Baugestalt und Grundriss der im Seeweiher verschwundenen Rohrburg sind unbekannt. Die Existenz der Burg ist lediglich durch die Schriftquellen sowie einige Lesefunde nachweisbar. Von dem unweit der untergegangenen Burgstelle am südwestlichen Seeufer gelegenen Hauptgebäude des 1655 von den Grafen von Wied angelegten und zu Beginn des 19. Jhs. abgerissenen Schloss Seeburg blieben einige wenige verstürzte Mauerreste auf Privatgelände übrig. Das zum Schloss gehörende \"Jägerhaus\" befindet sich in Privatbesitz und ist daher unzugänglich. (Jens Friedhoff)",
+  "gallery": [],
+  "misc": {
+    "nutzung als": [],
+    "besichtigung / führung": []
+  },
+  "country": "Bundesrepublik Deutschland",
+  "state": "Rheinland-Pfalz",
+  "region": "Westerwald",
+  "county": "Westerwaldkreis",
+  "city": "Hachenburg",
+  "structureType": [
+    "Burg",
+    "Sonstiges"
+  ],
+  "classification": [
+    "Abgegangene Burgstelle",
+    "Niederungsburg"
+  ],
+  "purpose": [
+    "Landesburg"
+  ],
+  "overview": "Spätmittelalterliche Burggründung der Grafen von Wied. Vermutlich unvollendete, lediglich 1343 und 1371 erwähnte Niederungsburg.",
+  "dateBegin": "1.H.14.Jh.",
+  "dateEnd": "2.H.14.Jh.",
+  "condition": "Keine Reste",
+  "conditionCommentary": "Von der im Dreifelder Weiher gelegenen Burg haben sich keine Reste erhalten.",
+  "references": [
+    "HHSt RP (1988), S. 81; Westerwald-Führer (1980), S. 200; Gensicke, Burgen Unterwesterwald (1962), S. 12);  H. Priewer / H. Sartor, Versank die Rohrburg doch im Dreifelder Weiher? In: Wäller Heimat. Jahrbuch des Westerwald-Kreises (2003), S. 109-111; Hans-Jürgen Krüger / Helmut Priewer / Arno Schmidt, Der Hof Seeburg am Dreifelder Weiher, in: Wäller Heimat. Jahrbuch des Westerwald-Kreises (2002), S. 125-137; Dies., Das Schloss Seeburg am Dreifelder Weiher, in: Wäller Heimat (2001), S. 164-170."
+  ]
+}

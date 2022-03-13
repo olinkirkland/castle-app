@@ -1,0 +1,66 @@
+{
+  "id": "16",
+  "urls": [
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?id=16",
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=16",
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=16",
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=16",
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=16"
+  ],
+  "title": "Rheinbreitbach, Obere Burg",
+  "timeline": "Die Obere Burg zu Rheinbreitbach war Lehen des Kölner Stifts St. Marien ad Gradus und befand sich im Besitz der Herren von Lewendal. Im Jahr 1655 lässt sich Dr. Adolf Bequerer als Lehnsinhaber nachweisen. Auf dem Erbweg gelangte die Burg an Peter von Geyr. 1730 ist die Familie Buschmann Eigentümer der Burg. Die Anlage ging 1829 an Johann Wilhelm Schmitz aus Köln über. 1907 wurde die Obere Burg von dem Schriftsteller Rudolf Herzog erworben und ausgebaut. Seit 1992 befindet sich die Burg im Besitz der Gemeinde Rheinbreitbach und dient als Bürgerzentrum. Um die Revitalisierung der im Zweiten Weltkrieg beschädigten und baulich vernachlässigten Anlage bemüht sich seit 1982 der örtliche Förderverein \"Obere Burg Rheinbreitbach\". (Jens Friedhoff)",
+  "buildingDevelopment": "Untersuchungen zur Baugeschichte der Burg stehen noch aus. Den Kern der spätmittelalterlichen Anlage bildet ein drei-, ehemals viergeschossiger Wohnturm, der in nachmittelalterlicher Zeit durch mehrere Anbauten ergänzt wurde. Zu Beginn des 20. Jhs. wurde die Anlage durch späthistoristische Umbauten teilweise umgestaltet. In den 1980er Jahren erfolgte eine grundlegende Sanierung des Objekts. (Jens Friedhoff)",
+  "buildingDescription": "Dem spätmittelalterlichen Baubestand der Oberen Burg zu Rheinbreitbach gehört im Wesentlichen der drei-, ursprünglich viergeschossige rechteckige Wohnturm an, der an der Ostseite ein Maßwerkfenster aufweist. Auf der Federzeichnung von R. Roidkin (um 1720) zeigt der Wohnturm noch ein viertes vorkragendes Fachwerkobergeschoss. Die Anbauten an den Turm entstanden in nachmittelalterlicher Zeit und wurden 1907 historistisch überformt. Eine Zutat des 19. Jh. ist der polygonale schlanke Turm an der Westseite des Wohnturms. (Jens Friedhoff)",
+  "gallery": [
+    {
+      "url": "/r30/vc_content/bilder/firma451/msvc_intern/54_18_20050511124118.jpg",
+      "caption": "Gesamtansicht, Foto: J. Friedhoff (1996)",
+      "year": "1996"
+    },
+    {
+      "url": "/r30/vc_content/bilder/firma451/msvc_intern/54_19_20050511124118.jpg",
+      "caption": "Obere Burg mit Parkgelände, Foto: J. Friedhoff (1996)",
+      "year": "1996"
+    },
+    {
+      "url": "/r30/vc_content/bilder/firma451/msvc_intern/54_20_20050511124118.jpg",
+      "caption": "Obere Burg um 1730, aus: KD Neuwied (1940)",
+      "year": "1940"
+    }
+  ],
+  "misc": {
+    "nutzung als": [
+      "Verwaltung,",
+      "Bürgerzentrum, Kommunalverwaltung"
+    ],
+    "anfahrt / parkplatz": "Parkmöglichkeit innerhalb des Ortes und vor der Burg",
+    "fußweg / zeit vom parkplatz": "1 Minute",
+    "zugänglichkeit": "Teilweise im Rahmen der Öffnungszeiten der Behörde zugänglich.",
+    "besichtigung / führung": [
+      "Besicht. aussen,"
+    ]
+  },
+  "country": "Bundesrepublik Deutschland",
+  "state": "Rheinland-Pfalz",
+  "region": "Mittelrhein",
+  "county": "Neuwied",
+  "city": "Rheinbreitbach",
+  "structureType": [
+    "Burg",
+    "Sonstiges"
+  ],
+  "classification": [
+    "Wohnturm"
+  ],
+  "purpose": [
+    "Adelssitz"
+  ],
+  "overview": "Spätmittelalterliche Lehensburg des Kölner Stifts St. Maria ad Gradus im Besitz der Herren von Lewendal.",
+  "dateBegin": "14.Jh.",
+  "dateEnd": "unbekannt",
+  "condition": "Weitgehend erhalten",
+  "conditionCommentary": "Gut erhaltener spätmittelalterlicher Wohnturm mit späthistoristischen Anbauten.",
+  "references": [
+    "Dehio RP (1984), S. 866; BuK Koblenz (1886), S. 531; KD Neuwied (1940), S. 353ff.; HHSt RP (1988), S. 306."
+  ]
+}

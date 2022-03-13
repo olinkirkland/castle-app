@@ -1,0 +1,72 @@
+{
+  "id": "42",
+  "urls": [
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?id=42",
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=42",
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=42",
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=42",
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=42"
+  ],
+  "title": "Höferburg",
+  "timeline": "Urkundliche Nachrichten, die Aufschlüsse über den Zeitpunkt der Errichtung oder die Initiatoren der Burggründung geben könnten, fehlen. Bei der Bezeichnung \"Höferburg\" handelt es sich um einen Notnamen, der sich von dem im Wisserbachtal gelegenen Höferhof herleitet. Als Gründer der Burg kommen wahrscheinlich die Edelherren von Arenberg in Betracht, die als Vögte der Abtei Werden a.d. Ruhr im Raum Friesenhagen agierten. Des weiteren könnte es sich um die Stammburg der mit den Arenbergern verwandten Edelfreien von Kappenstein handeln, die im zweiten Jahrzehnt des 13. Jhs. in Merten an der Sieg begütert waren. Infolge der Erbteilung im Hause Arenberg Mitte der 1230er Jahre und der Gründung der Burgen Schönstein und Wildenburg könnte die Höferburg aufgegeben worden sein. (Jens Friedhoff)",
+  "buildingDevelopment": "Die bauliche Abfolge der Burg ist lediglich im Zuge einer noch ausstehenden archäologischen Untersuchung der Anlage zu klären. Anlagetypus und Baubefund (Reste von Fischgrätmauerwerk) legen eine Datierung ins Hochmittelalter nahe. (Jens Friedhoff)",
+  "buildingDescription": "Die etwa 120 m lange und durchschnittlich 20-30 m breite, zweiteilige Burg wird von dem nach Süden leicht ansteigenden Gelände durch einen doppelten Abschnittsgraben getrennt. Auf dem nach N anschließenden Plateau von 48 x 28 m befand sich die Vorburg. Die von bis zu 12 m hohen Wällen umgebene Hauptburg nimmt eine unregelmäßig ovale Fläche von 18-20 m Durchmesser ein. Reste von in Fischgrätmauerwerk aufgeführtem Mörtelmauerwerk. (Jens Friedhoff)",
+  "gallery": [
+    {
+      "url": "/r30/vc_content/bilder/firma451/msvc_intern/557_18_20060106092103.jpg",
+      "caption": "Hauptburg, Foto: J. Friedhoff (2002)",
+      "year": "2002"
+    },
+    {
+      "url": "/r30/vc_content/bilder/firma451/msvc_intern/557_19_20060106092103.jpg",
+      "caption": "Wall der Hauptburg, Foto: J. Friedhoff (2002)",
+      "year": "2002"
+    },
+    {
+      "url": "/r30/vc_content/bilder/firma451/msvc_intern/557_20_20060106092103.jpg",
+      "caption": "Verstürzter Mauerrest in der Hauptburg, Foto: J. Friedhoff (2002)",
+      "year": "2002"
+    },
+    {
+      "url": "/r30/vc_content/bilder/firma451/msvc_intern/557_24_20060106092103.jpg",
+      "caption": "Grundriss, aus: Friedhoff, Burgenbau (2001)",
+      "year": "2001"
+    }
+  ],
+  "misc": {
+    "nutzung als": [
+      "Ruine keine Nutzung"
+    ],
+    "anfahrt / parkplatz": "Begrenzte Parkmöglichkeit unweit der Straßengabelung Morsbach-Friesenhagen/Katzwinkel-Betzdorf",
+    "fußweg / zeit vom parkplatz": "etwa 40 Min. von der vom Wisserbachtal abzweigenden Straße nach Betzdorf entlang des Baches",
+    "zugänglichkeit": "Jederzeit frei zugängliche Burgstelle.",
+    "besichtigung / führung": [
+      "Besicht. aussen,"
+    ]
+  },
+  "country": "Bundesrepublik Deutschland",
+  "state": "Rheinland-Pfalz",
+  "region": "Siegerland",
+  "county": "Altenkirchen",
+  "city": "Friesenhagen",
+  "structureType": [
+    "Burg",
+    "Sonstiges"
+  ],
+  "classification": [
+    "Burgstelle",
+    "Bodendenkmal"
+  ],
+  "purpose": [
+    "Dynastensitz",
+    "Herrschaftsmittelpunkt"
+  ],
+  "overview": "Vermutliche Dynastenburg der Herren von Arenberg, im 13. Jh. aufgegeben.",
+  "dateBegin": "1.H.13.Jh.",
+  "dateEnd": "1.H.13.Jh.",
+  "condition": "Geringe Reste",
+  "conditionCommentary": "Von der zweiteiligen Anlage blieben das Grabensystem, die bis zu 12 m hohen Wälle und im Bereich der Hauptburg verstürzte Ringmauerzüge erhalten",
+  "references": [
+    "Dehio RP (1984), S. 295; KD Altenkirchen (1935), S. 106; Friedhoff, Burgenbau (2001), S. 103-121; Friedhoff, Sauerland und Siegerland (2002), S. 84-86."
+  ]
+}

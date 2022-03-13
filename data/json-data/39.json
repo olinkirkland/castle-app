@@ -1,0 +1,47 @@
+{
+  "id": "39",
+  "urls": [
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?id=39",
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=39",
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=39",
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=39",
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=39"
+  ],
+  "title": "Altenburg a. d. Ahr",
+  "timeline": "Der genaue Zeitpunkt der Burggründung ist ebenso unbekannt wie die Initiatoren des Baus. Anlässlich eines 948/970 datierten Güteraustauschs der Abtei Prüm mit einem Sigebodo wird eine Manse zu \"rifenesburch\" genannt. Vermutlich bezieht sich der in der Urkunde erwähnte Name auf die archäologisch nachweisbare Altenburg. (Jens Friedhoff)",
+  "buildingDevelopment": "Von der auf einem Bergsporn gelegenen Anlage kündet lediglich ein Grabeneinschnitt. (Jens Friedhoff)",
+  "buildingDescription": "Bei einer Begehung der Burg in den 1960er Jahren stieß man auf Keramik des 11./12. Jh. (u.a. Keramik Pingsdorfer Art mit gitterförmiger roter Bemalung) und auf Steine mit Mörtelresten. (J.F.)",
+  "gallery": [],
+  "misc": {
+    "nutzung als": [
+      "Ruine keine Nutzung"
+    ],
+    "zugänglichkeit": "Jederzeit frei zugängliche Burgstelle",
+    "besichtigung / führung": [
+      "Besicht. aussen,"
+    ]
+  },
+  "country": "Bundesrepublik Deutschland",
+  "state": "Rheinland-Pfalz",
+  "region": "Eifel",
+  "county": "Ahrweiler",
+  "city": "Altenahr",
+  "structureType": [
+    "Burg",
+    "Sonstiges"
+  ],
+  "classification": [
+    "Burgstelle"
+  ],
+  "purpose": [
+    "Unbekannt"
+  ],
+  "overview": "Burganlage des 10. Jh.",
+  "dateBegin": "10.Jh.",
+  "dateEnd": "unbekannt",
+  "condition": "Keine Reste",
+  "conditionCommentary": "Von der Burgstelle hat sich lediglich ein Grabeneinschnitt erhalten.",
+  "references": [
+    "KD Ahrweiler (1938), S. 158; Jansen, Wüstungsfrage (1975), Bd. II, S. 256; Gondorf, Burgen (1984), S. 30"
+  ]
+}

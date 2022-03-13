@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <ul className="castle-list">
         {Object.keys(castles).map((key) => (
-          <li>
+          <li key={key}>
             <CastleTile castle={castles[key as keyof typeof castles]} />
           </li>
         ))}

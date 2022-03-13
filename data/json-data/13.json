@@ -1,0 +1,42 @@
+{
+  "id": "13",
+  "urls": [
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?id=13",
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=13",
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=13",
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=13",
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=13"
+  ],
+  "title": "Neuspay",
+  "timeline": "Der spätmittelalterliche Adelssitz \"Neuspay\" wird nach bisherigem Kenntnisstand lediglich einmal in einer Urkunde des Jahres 1406 erwähnt. In diesem Jahr errichtete der Niederadelige Henne von Spay mit Genehmigung des Trierer Erzbischofs ein neues Haus, das Neuspay (Nuwen Speye) genannt wurde. Ob dem vermutlich als Burghaus anzusprechenden Anwesen eine ältere Anlage vorausging, ist nicht mit letzter Sicherheit zu sagen, ist jedoch angesichts der Bezeichnung \"Neu-\" gut denkbar. (Jens Friedhoff)",
+  "buildingDevelopment": null,
+  "buildingDescription": null,
+  "gallery": [],
+  "misc": {
+    "nutzung als": [],
+    "besichtigung / führung": []
+  },
+  "country": "Bundesrepublik Deutschland",
+  "state": "Rheinland-Pfalz",
+  "region": "Westerwald",
+  "county": "Westerwaldkreis",
+  "city": "Montabaur",
+  "structureType": [
+    "Burg",
+    "Sonstiges"
+  ],
+  "classification": [
+    "Abgegangene Burgstelle",
+    "Burghaus"
+  ],
+  "purpose": [
+    "Ministerialensitz"
+  ],
+  "overview": "Spätmittelalterliches Burghaus der Familie von Spay. Lehen des Erzstifts Trier.",
+  "dateBegin": "1.H.15.Jh.",
+  "dateEnd": "unbekannt",
+  "condition": "Keine Reste",
+  "references": [
+    "Gensicke, Burgen Unterwesterwaldkreis (1962), S. 13."
+  ]
+}

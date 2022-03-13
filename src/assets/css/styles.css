@@ -1,3 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
 
+html {
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+  scroll-behavior: smooth; }
+
+li {
+  list-style: none;
+  font-size: 1.6rem; }
+
+.castle-tile {
+  margin: 1rem;
+  padding: 2rem;
+  border: 1px dashed grey; }
+  .castle-tile h2 {
+    margin-bottom: 0.4rem; }
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem; }
+
+.gallery-item {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 4px; }
+  .gallery-item img {
+    height: 16rem;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    margin-bottom: 0.4rem; }
 
 /*# sourceMappingURL=styles.css.map */

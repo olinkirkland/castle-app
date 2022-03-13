@@ -1,0 +1,45 @@
+{
+  "id": "14",
+  "urls": [
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?id=14",
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=14",
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=14",
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=14",
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=14"
+  ],
+  "title": "Gilsbach",
+  "timeline": "Die Burg der Herren von Gilsbach ist lediglich in den Schriftquellen nachgewiesen. Der genaue Standort der Anlage in dem gleichnamigen Ort ließ sich bislang noch nicht ermitteln. Als erste Mitglieder eines sich sehr wahrscheinlich nach der Burg zu Gilsbach benennenden Zweiges der Herren von Seelbach werden die Brüder Denhard und Johann von Gilsbach in einer Urkunde vom 24. Juni 1350 erwähnt. Im Jahre 1351 verfügte Godebrecht von Achenbach über einen Anteil an der Burg zu Gilsbach, die 1364 als Offenhaus der Grafen von Sayn erwähnt wird. Im letzten Jahrzehnt des 15. Jhs. werden letztmalig Mitglieder der Familie von Seelbach zu Gilsbach in den Schriftquellen genannt. (J.F.)",
+  "buildingDevelopment": "Zur baulichen Entwicklung und zur Baugestalt der Anlage sind aufgrund des Fehlens von Quellen keine Angaben möglich. (J.F.)",
+  "buildingDescription": "Von der nur mittels urkundlicher Belege nachweisbaren Burg im Ort Gilsbach haben sich keine oberirdisch sichtbaren Baureste erhalten. Selbst die Lage der Burg ist unbekannt. (Jens Friedhoff)",
+  "gallery": [],
+  "misc": {
+    "nutzung als": [
+      "Privat,",
+      "Ruine keine Nutzung"
+    ],
+    "besichtigung / führung": []
+  },
+  "country": "Bundesrepublik Deutschland",
+  "state": "Nordrhein-Westfalen",
+  "region": "Siegerland",
+  "county": "Siegen-Wittgenstein",
+  "city": "Burbach",
+  "structureType": [
+    "Burg",
+    "Sonstiges"
+  ],
+  "classification": [
+    "Abgegangene Burgstelle"
+  ],
+  "purpose": [
+    "Ministerialensitz"
+  ],
+  "overview": "Spätmittelalterlicher Ministerialensitz der Herren von Gilsbach aus dem Hause Seelbach. Lehen der Grafen von Sayn.",
+  "dateBegin": "1.H.14.Jh.",
+  "dateEnd": "15.Jh.",
+  "condition": "Keine Reste",
+  "references": [
+    "Jens Friedhoff, Burgen im südlichen Siegerland. Handreichungen zu einem Inventar der mittelalterlichen Wehr- und Wohnbauten im südlichen Teil des Kreises Siegen-Wittgenstein, in: Siegerland 82 (2005), S. 25-104, hier S. 94.",
+    "Gerhard Schloss, Von Burgen und Schlössern im Siegerland, Kreuztal 1971, S. 59."
+  ]
+}

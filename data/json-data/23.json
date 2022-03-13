@@ -1,0 +1,60 @@
+{
+  "id": "23",
+  "urls": [
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?id=23",
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=23",
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=23",
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=23",
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=23"
+  ],
+  "title": "Burbach",
+  "timeline": "Die Burg auf dem sogenannten \"Römer\" in Burbach, einem langgezogenen Bergrücken über dem Hellertal, wird in den Schriftquellen explizit im Jahr ihrer Zerstörung, 1367, erwähnt. Unter dem Datum des 29. Oktober 1367 sühnten sich die Brüder Rorich, Hunold, Wolf und Johann aus der Burbacher Linie der Herren von Seelbach mit dem Trierer Kurfürsten und Erzbischof Kuno II. von Falkenstein (reg. 1362-1388). Der Unterwerfung der Ritter war die Eroberung und Zerstörung der Burg durch den rheinischen Kirchenfürsten vorausgegangen. Die sich nach der Burg benennende Familie der Herren von Burbach aus dem Hause Seelbach lässt sich bereits für 1313 nachweisen. 1324 trug Rorich von Burbach seinen \"Hof\" zu Burbach den Grafen von Nassau zu Lehen auf. Bei dem Hof könnte es sich um die Snorrenburg gehandelt haben. Nach deren Zerstörung wurde an der Stelle ein schlichtes Burghaus errichtet, das schließlich 1758 einem Brand zum Opfer fiel. Im Zuge von Ausschachtungsarbeiten an dem Haus Klein, das am Standort des Burghauses entstanden war, stieß man 1954 auf ein Kellergewölbe der spätmittelalterlichen Snorrenburg. Heute ist das Gewölbe in das Restaurant \"Snorrenburg\" integriert. (Jens Friedhoff)",
+  "buildingDevelopment": "Die Burg enstand vermutlich vor 1313 und wurde bereits 1367 zerstört. An ihre Stelle trat ein Burghaus, das 1758 einem Feuer zum Opfer fiel.  Heute befindet sich am Standort des Burghauses ein Fachwerkbau. (Jens Friedhoff)",
+  "buildingDescription": "Die Snorrenburg - der Name leitet sich von dem Namen \"Snorre\" ab - nahm den vorderen Teil eines etwa 200 m langen und bis zu 70 m breiten Hügels ein. Auf dem Sporn des Hügels (\"Römer\") liegt die ev. Pfarrkirche von Burbach, deren Westturm noch in das 13. Jh. zurückreicht. Ob sich zwischen Kirche und Burg eine kleine Siedlung erstreckte, ließe sich nur durch archäologische Grabungen klären. Von der 1367 zerstörten Burg blieb lediglich ein 1954 freigelegtes Kellergewölbe unter dem Restaurant \"Snorrenburg\" erhalten. Eine 1954 freigelegte Brunnenanlage unweit des Gewölbes wurde aufgemessen und wieder zugeschüttet. (Jens Friedhoff)",
+  "gallery": [
+    {
+      "url": "/r30/vc_content/bilder/firma451/msvc_intern/572_18_20060801125150.jpg",
+      "caption": "Barockes Fachwerkhaus mit Kellergewölbe der Snorrenburg, Foto: J. Friedhoff (2006)",
+      "year": "2006"
+    }
+  ],
+  "misc": {
+    "nutzung als": [
+      "Privat,",
+      "Restaurant \"Snorrenburg\""
+    ],
+    "anfahrt / parkplatz": "Parkplätze in der Ortsmitte von Burbach",
+    "fußweg / zeit vom parkplatz": "2 Min.",
+    "zugänglichkeit": "Restaurant mit spätmittelalterlichem Gewölbekeller der Snorrenburg.",
+    "besichtigung / führung": [
+      "Besicht. aussen,"
+    ],
+    "einkehrmöglichkeit": "Restaurant \"Snorrenburg\"."
+  },
+  "country": "Bundesrepublik Deutschland",
+  "state": "Nordrhein-Westfalen",
+  "region": "Siegerland",
+  "county": "Siegen-Wittgenstein",
+  "city": "Burbach",
+  "structureType": [
+    "Burg",
+    "Sonstiges"
+  ],
+  "classification": [
+    "Burgstelle"
+  ],
+  "purpose": [
+    "Ganerbenburg"
+  ],
+  "overview": "Spätmittelalterliche Burggründung der Ganerben von Seelbach.",
+  "dateBegin": "1.H.14.Jh.",
+  "dateEnd": "2.H.14.Jh.",
+  "condition": "Geringe Reste",
+  "conditionCommentary": "Von der 1367 zerstörten Burg blieb lediglich ein Kellergewölbe unter dem Haus Klein, dem heutigen Restaurant \"Snorrenburg\" erhalten.",
+  "references": [
+    "HHSt NRW (1970), S. 131.",
+    "Jens Friedhoff, Burgen im südlichen Siegerland. Handreichnungen zu einem Inventar der mittelalterlichen Wehr- und Wohnbauten im südlichen Teil des Kreises Siegen-Wittgenstein, in: Siegerland 82 (2005), S. 85-104.",
+    "Gerhard Scholl, Von Burgen und Schlössern im Siegerland, Kreuztal 1971, S. 71.",
+    "Gerhard Scholl, Die Snorrenburg in Burbach, in: Siegerland 34 (1957), S. 94-98."
+  ]
+}

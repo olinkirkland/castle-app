@@ -1,0 +1,32 @@
+{
+  "id": "38",
+  "urls": [
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?id=38",
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=38",
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=38",
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=38",
+    "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=38"
+  ],
+  "title": "Hundsburgskopf",
+  "timeline": null,
+  "buildingDevelopment": null,
+  "buildingDescription": null,
+  "gallery": [],
+  "misc": {
+    "nutzung als": [],
+    "besichtigung / führung": []
+  },
+  "country": "Bundesrepublik Deutschland",
+  "state": "Rheinland-Pfalz",
+  "county": "Ahrweiler",
+  "city": "Dümpelfeld",
+  "structureType": [
+    "Sonstiges"
+  ],
+  "classification": [
+    "Burgstelle"
+  ],
+  "dateBegin": "unbekannt",
+  "dateEnd": "unbekannt",
+  "references": []
+}
