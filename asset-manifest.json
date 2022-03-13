@@ -1,16 +1,13 @@
 {
   "files": {
-    "main.css": "/castle-app/static/css/main.073c9b0a.css",
-    "main.js": "/castle-app/static/js/main.8844ef72.js",
-    "static/js/787.72d32374.chunk.js": "/castle-app/static/js/787.72d32374.chunk.js",
-    "static/media/logo.svg": "/castle-app/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/castle-app/static/css/main.bd87c81f.css",
+    "main.js": "/castle-app/static/js/main.0a3fdf11.js",
     "index.html": "/castle-app/index.html",
-    "main.073c9b0a.css.map": "/castle-app/static/css/main.073c9b0a.css.map",
-    "main.8844ef72.js.map": "/castle-app/static/js/main.8844ef72.js.map",
-    "787.72d32374.chunk.js.map": "/castle-app/static/js/787.72d32374.chunk.js.map"
+    "main.bd87c81f.css.map": "/castle-app/static/css/main.bd87c81f.css.map",
+    "main.0a3fdf11.js.map": "/castle-app/static/js/main.0a3fdf11.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.8844ef72.js"
+    "static/css/main.bd87c81f.css",
+    "static/js/main.0a3fdf11.js"
   ]
 }
