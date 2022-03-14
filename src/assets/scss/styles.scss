@@ -8,6 +8,7 @@ html {
   /* Percentage of user's browser font-size setting */
   font-size: 62.5%;
   scroll-behavior: smooth;
+  font-family: 'Domine', serif;
 }
 
 li {
@@ -18,7 +19,8 @@ li {
 .castle-tile {
   margin: 1rem;
   padding: 2rem;
-  border: 1px dashed grey;
+
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 5px;
 
   h2 {
     margin-bottom: 0.4rem;
@@ -26,24 +28,46 @@ li {
 }
 
 .gallery {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 1rem;
+  display: flex;
+  width: fit-content;
+  border-radius: 5px;
+  overflow: hidden;
 }
 
 .gallery-item {
   display: flex;
   flex-direction: column;
-  padding: 1rem;
-
-  border-radius: 5px;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 4px;
+  position: relative;
+  cursor: pointer;
 
   img {
-    height: 16rem;
-    width: 100%;
+    width: 8rem;
+    height: 4rem;
+
     object-fit: cover;
-    object-position: top;
-    margin-bottom: 0.4rem;
+    object-position: center;
+    vertical-align: bottom;
+
+    transition: all 0.3s;
+  }
+
+  img:hover {
+    opacity: 1;
+  }
+
+  .gallery-item-overlay {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+
+  .gallery-item-overlay:hover {
+    opacity: 1;
+    background-color: #00000040;
   }
 }

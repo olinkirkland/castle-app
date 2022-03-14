@@ -9,13 +9,15 @@ function CastleTile({ castle }: Props) {
   return (
     <div className="castle-tile">
       <h2>{castle.title}</h2>
+      <p>{castle.condition}</p>
+      <p>{castle.city}</p>
       <ul className="gallery">
         {castle.gallery.map((g) => (
           <li className="gallery-item" key={g.url}>
-            <img src={`http://ebidat.de${g.url}`} alt="" />
-            <a href={`http://ebidat.de${g.url}`} target="_blank">
-              {g.caption}
-            </a>
+            <img src={`https://ebidat.de${g.url}`} alt="" />
+            <div className="gallery-item-overlay">
+              <i className="fas fa-external-link-alt"></i>
+            </div>
           </li>
         ))}
       </ul>

@@ -40,7 +40,7 @@ const keyMap = [
  * Perform Actions
  */
 
-const max = 50;
+const max = 100;
 const rawDir = 'data/raw-data/';
 const jsonDir = 'data/json-data/';
 
