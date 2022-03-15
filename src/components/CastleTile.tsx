@@ -26,10 +26,7 @@ function CastleTile({ castle }: Props) {
 
         {castle.condition && (
           <div className="info">
-            <p className="title">
-              <i className="fa-solid fa-chess-rook"></i>
-              Condition
-            </p>
+            <p className="title">Condition</p>
             <p>{castle.condition}</p>
           </div>
         )}
@@ -37,6 +34,7 @@ function CastleTile({ castle }: Props) {
         {castle.classification && (
           <div className="info">
             <p className="title">Classification</p>
+
             <p>{castle.classification.join(', ')}</p>
           </div>
         )}
