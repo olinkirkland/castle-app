@@ -31,6 +31,13 @@ function CastleTile({ castle }: Props) {
           </div>
         )}
 
+        {castle.dateBegin && castle.dateEnd && (
+          <div className="info">
+            <p className="title">Dating</p>
+            <p>{`${castle.dateBegin} - ${castle.dateEnd}`}</p>
+          </div>
+        )}
+        
         {castle.classification && (
           <div className="info">
             <p className="title">Classification</p>

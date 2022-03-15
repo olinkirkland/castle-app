@@ -324,8 +324,10 @@ function parseDataEls(dom) {
       keyMap.forEach((key) => {
         if (key.ebidatKeys.indexOf(dataKey) >= 0) {
           // Match!
-          o[key.id] = dataValue;
-          keyMatch = true;
+          if (dataValue != '') {
+            o[key.id] = dataValue;
+            keyMatch = true;
+          }
         }
       });
 
