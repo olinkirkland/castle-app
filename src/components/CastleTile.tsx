@@ -43,7 +43,7 @@ function CastleTile({ castle }: Props) {
             {castle.gallery.map((g) => (
               <li className="gallery-item" key={g.url}>
                 <a href={`https://ebidat.de${g.url}`} target="_blank">
-                  <img src={`https://ebidat.de${g.url}`} alt="" />
+                  <img src={``} alt="" />
                   <div className="gallery-item-overlay">
                     <i className="fas fa-external-link-alt"></i>
                   </div>

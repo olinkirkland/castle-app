@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './assets/css/styles.css';
+import './assets/css/queries.css';
 import CastleTile from './components/CastleTile';
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
+    <div className="app">
       <ul className="castle-list">
         {Object.keys(castles).map((key) => (
           <li key={key}>
