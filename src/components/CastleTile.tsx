@@ -6,6 +6,11 @@ type Props = {
 };
 
 function CastleTile({ castle }: Props) {
+  function onClickJson() {
+    // Todo route subdomain in new window
+    console.log(castle);
+  }
+
   return (
     <div className="castle-tile">
       <h2>{castle.title}</h2>
@@ -48,6 +53,11 @@ function CastleTile({ castle }: Props) {
           </ul>
         </div>
       )}
+
+      <a className="btn" onClick={onClickJson}>
+        <i className="fa-solid fa-code"></i>
+        <span>Json data</span>
+      </a>
     </div>
   );
 }

@@ -35,7 +35,26 @@ li {
 }
 
 a.btn {
-  border-bottom: 1px solid var(--secondary);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+
+  color: var(--secondary);
+  text-decoration: none;
+
+  opacity: 0.8;
+  border-bottom: 1px dashed var(--secondary);
+  transition: all 0.3s;
+
+  i {
+    font-size: 80%;
+  }
+}
+
+a.btn:hover {
+  opacity: 1;
+  border-bottom: 1px dashed #00000000;
 }
 
 h2 {
