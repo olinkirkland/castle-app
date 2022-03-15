@@ -97,6 +97,9 @@ h2 {
     border: 1px solid var(--background);
 
     p.title {
+      display: flex;
+      gap: 0.8rem;
+      align-items: center;
       font-size: 80%;
       letter-spacing: 1px;
       text-transform: uppercase;
@@ -153,4 +156,12 @@ h2 {
       }
     }
   }
+}
+
+.castle-tile-footer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 1.6rem;
+  padding: 0.8rem;
 }

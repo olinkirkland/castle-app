@@ -1,0 +1,34 @@
+/* rem and em do NOT depend on HTML font-size in media queries 
+instead, 1rem = 1em = 16px */
+
+/* rem has some bugs in some browsers when used in media
+ queries, so use em */
+
+/**************************************/
+/* S -- BELOW 768 */
+/**************************************/
+
+/* 768px / 16px = 48 */
+@media (max-width: 48em) {
+  body {
+    padding: 0;
+    display: block;
+  }
+
+  .castle-tile {
+    width: 100%;
+    margin: 0;
+
+    .info {
+      width: 100%;
+      .gallery {
+        display: block;
+        width: 100%;
+
+        .gallery-item {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

@@ -46,10 +46,10 @@ const jsonDir = 'data/json-data/';
 
 // Download new data from EBIDAT, then parse once the downloads are complete
 // This can take a long time, will save to the raw-data folder
-loadFromEbidat(1, 0, parseDownloadedFiles);
+// loadFromEbidat(1, 0, parseDownloadedFiles);
 
 // Parse downloaded data
-// parseDownloadedFiles();
+parseDownloadedFiles(true);
 
 /**
  * Download from EBIDAT
@@ -108,7 +108,7 @@ function ensureDirectoryExistence(filePath) {
  */
 
 let allJson = {};
-function parseDownloadedFiles() {
+function parseDownloadedFiles(downloadImages = false) {
   const dirMain = fs.readdir(rawDir, function (err, dirs) {
     if (err) {
       return console.log(`Unable to scan directory: ${err}`);

@@ -17,13 +17,19 @@ function CastleTile({ castle }: Props) {
 
       <div className="wrap">
         <div className="info">
-          <p className="title">Location</p>
+          <p className="title">
+            <i className="fa-solid fa-location-dot"></i>
+            Location
+          </p>
           <p>{`${castle.city}, ${castle.county}`}</p>
         </div>
 
         {castle.condition && (
           <div className="info">
-            <p className="title">Condition</p>
+            <p className="title">
+              <i className="fa-solid fa-chess-rook"></i>
+              Condition
+            </p>
             <p>{castle.condition}</p>
           </div>
         )}
@@ -54,10 +60,14 @@ function CastleTile({ castle }: Props) {
         </div>
       )}
 
-      <a className="btn" onClick={onClickJson}>
-        <i className="fa-solid fa-code"></i>
-        <span>Json data</span>
-      </a>
+      <div className="castle-tile-footer">
+        <a className="btn" onClick={onClickJson}>
+          <span>Json data</span>
+        </a>
+        <a className="btn" href={castle.urls[0]} target="_blank">
+          <span>Source</span>
+        </a>
+      </div>
     </div>
   );
 }
