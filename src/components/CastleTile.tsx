@@ -3,16 +3,17 @@ import { Castle, Gallery } from '../Castle';
 
 type Props = {
   castle: Castle;
+  openModal: Function;
 };
 
-function CastleTile({ castle }: Props) {
+function CastleTile({ castle, openModal }: Props) {
   function onClickJson() {
     // Todo route subdomain in new window
     navigator.clipboard.writeText(JSON.stringify(castle));
   }
 
   function onClickGalleryItem(g: any) {
-    console.log(JSON.stringify(g, null, '  '));
+    openModal(castle.title, g);
   }
 
   return (

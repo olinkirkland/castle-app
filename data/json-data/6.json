@@ -16,6 +16,7 @@
       "id": "0",
       "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/535_101_20051207101856.jpg",
       "path": "/images/6/0.jpg",
+      "castle": "6",
       "caption": "Hauptburg, Foto: J. Friedhoff (1999)",
       "year": "1999"
     },
@@ -23,6 +24,7 @@
       "id": "1",
       "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/535_103_20051207101856.jpg",
       "path": "/images/6/1.jpg",
+      "castle": "6",
       "caption": "Geschützturm, Foto: J. Friedhoff (2002)",
       "year": "2002"
     },
@@ -30,6 +32,7 @@
       "id": "2",
       "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/535_105_20051207101856.jpg",
       "path": "/images/6/2.jpg",
+      "castle": "6",
       "caption": "Ansicht der Burg auf einem spätmittelalterlichen Glasfenster der Klosterkirche, aus: van Rooijen, Liebfrauenthal (1979)",
       "year": "1979"
     },
@@ -37,6 +40,7 @@
       "id": "3",
       "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/535_23_20051207101856.jpg",
       "path": "/images/6/3.jpg",
+      "castle": "6",
       "caption": "Grundriss und Schnitte aus: KD Neuwied (1940)",
       "year": "1940"
     }

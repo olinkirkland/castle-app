@@ -20,14 +20,14 @@ html {
 
 body {
   color: var(--text);
-  padding: 2rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
+  font-size: 1.6rem; }
+
+section {
+  width: 64rem;
+  margin: 0 auto; }
 
 li {
-  list-style: none;
-  font-size: 1.6rem; }
+  list-style: none; }
 
 a.btn {
   cursor: pointer;
@@ -51,6 +51,9 @@ h2 {
   text-transform: uppercase;
   letter-spacing: 1.8px; }
 
+.main {
+  position: relative; }
+
 .wrap {
   display: flex;
   flex-wrap: wrap;
@@ -62,7 +65,6 @@ h2 {
   gap: 1rem; }
 
 .castle-tile {
-  width: 64rem;
   padding: 2rem;
   display: flex;
   flex-direction: column;
@@ -130,5 +132,29 @@ h2 {
   justify-content: center;
   gap: 1.6rem;
   padding: 0.8rem; }
+
+.modal {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .modal .modal-panel {
+    padding: 2rem;
+    border-radius: 5px;
+    background-color: black; }
+    .modal .modal-panel .modal-header {
+      margin-bottom: 1.2rem;
+      display: flex; }
+      .modal .modal-panel .modal-header h2.title {
+        width: 100%; }
+      .modal .modal-panel .modal-header a.close {
+        font-size: 2rem;
+        cursor: pointer; }
+    .modal .modal-panel .modal-body img {
+      width: 64rem; }
 
 /*# sourceMappingURL=styles.css.map */

@@ -2,9 +2,11 @@ import React, { useEffect, useState } from 'react';
 import './assets/css/styles.css';
 import './assets/css/queries.css';
 import CastleTile from './components/CastleTile';
+import Modal from './components/Modal';
 
 function App() {
   const [castles, setCastles] = useState({});
+  const [galleryItem, setGalleryItem] = useState();
 
   useEffect(() => {
     fetch(`${process.env.PUBLIC_URL}/data.json`)
@@ -12,15 +14,46 @@ function App() {
       .then((data) => setCastles(data));
   }, []);
 
+  function openModal(title: string, galleryItem: any) {
+    console.log(JSON.stringify(galleryItem, null, '  '));
+    setGalleryItem(galleryItem);
+
+    // Lock scroll
+    document.querySelector('body')!.classList.add('scroll-lock');
+  }
+
+  function closeModal() {
+    setGalleryItem(undefined);
+
+    // Unlock scroll
+    document.querySelector('body')!.classList.remove('scroll-lock');
+  }
+
   return (
-    <div className="app">
-      <ul className="castle-list">
-        {Object.keys(castles).map((key) => (
-          <li key={key}>
-            <CastleTile castle={castles[key as keyof typeof castles]} />
-          </li>
-        ))}
-      </ul>
+    <div className="main">
+      <section>
+        <ul className="castle-list">
+          {Object.keys(castles).map((key) => (
+            <li key={key}>
+              <CastleTile
+                castle={castles[key as keyof typeof castles]}
+                openModal={openModal}
+              />
+            </li>
+          ))}
+        </ul>
+      </section>
+      {galleryItem && (
+        <Modal
+          title={castles[galleryItem['castle']]['title']}
+          closeModal={closeModal}
+        >
+          {/* id, url, path, caption, year */}
+          <img src={process.env.PUBLIC_URL + galleryItem['path']} alt="" />
+          <p>{galleryItem['caption']}</p>
+          <p>{galleryItem['year']}</p>
+        </Modal>
+      )}
     </div>
   );
 }

@@ -46,13 +46,21 @@ const max = 15;
 const rawDir = 'data/raw-data/';
 const jsonDir = 'data/json-data/';
 
+/**
+ * OPTION 1
+ */
+
 // Download new data from EBIDAT, then parse once the downloads are complete
 // This can take a long time, will save to the raw-data folder
 // loadFromEbidat(1, 0, parseDownloadedFiles);
 
-// Parse downloaded data
+/**
+ * OPTION 2
+ */
 
-parseDownloadedFiles(downloadImages);
+// Parse downloaded data
+// parseDownloadedFiles();
+// parseDownloadedFiles(downloadImages);
 
 /**
  * Download from EBIDAT
@@ -280,6 +288,7 @@ function parseToObject(u) {
 
   galleryImgEl.forEach((el, index) => {
     let galleryItem = gallery[index];
+    galleryItem.castle = o.id;
     // galleryItem.thumbnail =
     //   'https://ebidat.de' + el.src.substring(el.src.indexOf('/'));
 

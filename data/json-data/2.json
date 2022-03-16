@@ -16,6 +16,7 @@
       "id": "0",
       "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/42_101_20050504150614.jpg",
       "path": "/images/2/0.jpg",
+      "castle": "2",
       "caption": "Mühlenturm, Foto: J. Friedhoff (1996)",
       "year": "1996"
     },
@@ -23,6 +24,7 @@
       "id": "1",
       "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/42_103_20050504150614.jpg",
       "path": "/images/2/1.jpg",
+      "castle": "2",
       "caption": "Gesamtansicht des Burgberges, Foto: J. Friedhoff (1996)",
       "year": "1996"
     },
@@ -30,6 +32,7 @@
       "id": "2",
       "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/42_105_20050504150614.jpg",
       "path": "/images/2/2.jpg",
+      "castle": "2",
       "caption": "sog. 'Barbarossamauer', Foto: J. Friedhoff (1996)",
       "year": "1996"
     },
@@ -37,6 +40,7 @@
       "id": "3",
       "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/42_23_20050504150614.jpg",
       "path": "/images/2/3.jpg",
+      "castle": "2",
       "caption": "Grundriss aus: KD Neuwied (1940)",
       "year": "1940"
     }

@@ -16,6 +16,7 @@
       "id": "0",
       "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/40_101_20050504135744.jpg",
       "path": "/images/9/0.jpg",
+      "castle": "9",
       "caption": "Tor zur Hauptburg, Foto: J. Friedhoff (2000)",
       "year": "2000"
     },
@@ -23,6 +24,7 @@
       "id": "1",
       "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/40_103_20050504135744.jpg",
       "path": "/images/9/1.jpg",
+      "castle": "9",
       "caption": "Hauptburg, Foto: J. Friedhoff (2000)",
       "year": "2000"
     },
@@ -30,6 +32,7 @@
       "id": "2",
       "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/40_105_20050504135744.jpg",
       "path": "/images/9/2.jpg",
+      "castle": "9",
       "caption": "Burgruine, 1785, aus: KD Neuwied (1940)",
       "year": "1940"
     },
@@ -37,6 +40,7 @@
       "id": "3",
       "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/40_23_20050504124231.jpg",
       "path": "/images/9/3.jpg",
+      "castle": "9",
       "caption": "Grundriss aus KD Neuwied (1940)",
       "year": "1940"
     }

@@ -16,6 +16,7 @@
       "id": "0",
       "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/47_101_20050509124902.jpg",
       "path": "/images/11/0.jpg",
+      "castle": "11",
       "caption": "Detail der Ringmauer, Foto: J. Friedhoff (1996)",
       "year": "1996"
     },
@@ -23,6 +24,7 @@
       "id": "1",
       "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/47_103_20050509125020.jpg",
       "path": "/images/11/1.jpg",
+      "castle": "11",
       "caption": "Burgruine um 1825, aus Burgen und Schlösser im Westerwald (1999)",
       "year": "1999"
     },
@@ -30,6 +32,7 @@
       "id": "2",
       "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/47_105_20050509125306.jpg",
       "path": "/images/11/2.jpg",
+      "castle": "11",
       "caption": "Geamtansicht der Hauptburg, Foto: J. Friedhoff (1996)",
       "year": "1996"
     },
@@ -37,6 +40,7 @@
       "id": "3",
       "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/47_23_20050509125306.jpg",
       "path": "/images/11/3.jpg",
+      "castle": "11",
       "caption": "Grundriss und Schnitt, aus KD Neuwied (1940)",
       "year": "1940"
     }
