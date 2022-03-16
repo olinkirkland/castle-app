@@ -36,11 +36,13 @@ const keyMap = [
   { ebidatKeys: ['erhaltung - kommentar'], id: 'conditionCommentary' }
 ];
 
+let allJson = {};
+
 /**
  * Perform Actions
  */
 
-const max = 100;
+const max = 15;
 const rawDir = 'data/raw-data/';
 const jsonDir = 'data/json-data/';
 
@@ -49,7 +51,8 @@ const jsonDir = 'data/json-data/';
 // loadFromEbidat(1, 0, parseDownloadedFiles);
 
 // Parse downloaded data
-parseDownloadedFiles(true);
+
+parseDownloadedFiles(downloadImages);
 
 /**
  * Download from EBIDAT
@@ -107,8 +110,7 @@ function ensureDirectoryExistence(filePath) {
  * Parse downloaded files to json
  */
 
-let allJson = {};
-function parseDownloadedFiles(downloadImages = false) {
+function parseDownloadedFiles(callback = null) {
   const dirMain = fs.readdir(rawDir, function (err, dirs) {
     if (err) {
       return console.log(`Unable to scan directory: ${err}`);
@@ -168,6 +170,8 @@ function parseDownloadedFiles(downloadImages = false) {
           // End
           writeAllJson();
           printAllKeys();
+
+          if (callback) callback();
         }
       });
     }
@@ -256,22 +260,36 @@ function parseToObject(u) {
     : null;
 
   // Gallery
+  // Get urls of full-size images
+  let gallery = [];
+  const galleryAEl =
+    history.window.document.querySelectorAll('div.galerie > a');
+  galleryAEl.forEach((el, index) => {
+    const url =
+      'https://www.ebidat.de' + el.href.substring(el.href.indexOf('/'));
+    gallery.push({
+      id: `${index}`,
+      url: url,
+      path: `/images/${o.id}/${index}${fileTypeFromUrl(url)}`
+    });
+  });
+
   const galleryImgEl = history.window.document.querySelectorAll(
     'div.galerie > a > img'
   );
 
-  let gallery = [];
-  galleryImgEl.forEach((el) => {
-    let galleryImg = { url: el.src.substring(el.src.indexOf('/')) };
+  galleryImgEl.forEach((el, index) => {
+    let galleryItem = gallery[index];
+    // galleryItem.thumbnail =
+    //   'https://ebidat.de' + el.src.substring(el.src.indexOf('/'));
+
     if (el.alt) {
-      galleryImg.caption = el.alt;
+      galleryItem.caption = el.alt;
 
-      // Get year from caption
+      // Extract year from caption
       const arr = el.alt.match(/\(([0-9]{4})\)/);
-      if (arr && arr.length > 0) galleryImg.year = arr.pop();
+      if (arr && arr.length > 0) galleryItem.year = arr.pop();
     }
-
-    gallery.push(galleryImg);
   });
   o.gallery = gallery;
 
@@ -299,8 +317,43 @@ function parseToObject(u) {
   }
 
   o.references = refs;
-
   return o;
+}
+
+function downloadImages() {
+  let queue = [];
+  Object.values(allJson).forEach((castle) => {
+    castle.gallery.map((g) => {
+      const url = `public${g.path}`;
+      ensureDirectoryExistence(url);
+      queue.push({ path: url, url: g.url });
+    });
+  });
+
+  console.log(`Downloading ${queue.length} images...`);
+  const imageCount = queue.length;
+  let current;
+  const intervalId = setInterval(() => {
+    if (!current) {
+      console.log(`${imageCount - queue.length}/${imageCount}`);
+
+      if (queue.length == 0) {
+        clearInterval(intervalId);
+        return;
+      }
+
+      current = queue.pop();
+      const file = fs.createWriteStream(current.path);
+      const request = https.get(current.url, function (response) {
+        response.pipe(file);
+        current = null;
+      });
+    }
+  }, 200);
+}
+
+function fileTypeFromUrl(url) {
+  return url.substring(url.lastIndexOf('.'));
 }
 
 function parseDataEls(dom) {

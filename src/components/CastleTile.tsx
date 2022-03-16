@@ -1,5 +1,5 @@
 import React from 'react';
-import { Castle } from '../Castle';
+import { Castle, Gallery } from '../Castle';
 
 type Props = {
   castle: Castle;
@@ -8,7 +8,11 @@ type Props = {
 function CastleTile({ castle }: Props) {
   function onClickJson() {
     // Todo route subdomain in new window
-    console.log(castle);
+    navigator.clipboard.writeText(JSON.stringify(castle));
+  }
+
+  function onClickGalleryItem(g: any) {
+    console.log(JSON.stringify(g, null, '  '));
   }
 
   return (
@@ -37,7 +41,15 @@ function CastleTile({ castle }: Props) {
             <p>{`${castle.dateBegin} - ${castle.dateEnd}`}</p>
           </div>
         )}
-        
+
+        {castle.structureType && (
+          <div className="info">
+            <p className="title">Structure</p>
+
+            <p>{castle.structureType.join(', ')}</p>
+          </div>
+        )}
+
         {castle.classification && (
           <div className="info">
             <p className="title">Classification</p>
@@ -49,14 +61,16 @@ function CastleTile({ castle }: Props) {
 
       {castle.gallery.length > 0 && (
         <div className="info">
-          <p className="title">Gallery ({castle.gallery.length})</p>
+          <p className="title">
+            <i className="fa-solid fa-images"></i>Gallery ({castle.gallery.length})
+          </p>
           <ul className="gallery">
-            {castle.gallery.map((g) => (
-              <li className="gallery-item" key={g.url}>
-                <a href={`https://ebidat.de${g.url}`} target="_blank">
-                  <img src={``} alt="" />
+            {castle.gallery.map((g, index) => (
+              <li className="gallery-item" key={index}>
+                <a onClick={() => onClickGalleryItem(g)} target="_blank">
+                  <img src={process.env.PUBLIC_URL + g.path} alt="" />
                   <div className="gallery-item-overlay">
-                    <i className="fas fa-external-link-alt"></i>
+                    <i className="fa-solid fa-image"></i>
                   </div>
                 </a>
               </li>

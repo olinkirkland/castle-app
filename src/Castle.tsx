@@ -25,6 +25,7 @@ export interface Castle {
 
 export interface Gallery {
   url: string;
+  path: string;
   caption: string;
   year: string;
 }

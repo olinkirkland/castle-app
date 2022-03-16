@@ -13,22 +13,30 @@
   "buildingDescription": "Die auf dem höchsten Grat des Bergsporns gelegene Hauptburg beschreibt ein Rechteck mit abgeschnittener Südwestecke. Bis zur Zerstörung 1944/45 wies der Wohnbau über Kellergewölben drei Geschosse auf (oberstes Stockwerk über Rundbogenfries vorkragend). Der Zugang zur Hauptburg erfolgte durch einen der Westfront vorgelegten Torbau und einen an der Südseite befindlichen gewölbten Torturm zur Vorburg. Das langgestreckte Vorburggelände wird von den Gebäuden der neuzeitlichen Revierförsterei dominiert. An der Ostseite hat sich der Halsgraben mit einer steinernen Brücke erhalten. (Jens Friedhoff)",
   "gallery": [
     {
-      "url": "/r30/vc_content/bilder/firma451/msvc_intern/47_18_20050509124902.jpg",
+      "id": "0",
+      "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/47_101_20050509124902.jpg",
+      "path": "/images/11/0.jpg",
       "caption": "Detail der Ringmauer, Foto: J. Friedhoff (1996)",
       "year": "1996"
     },
     {
-      "url": "/r30/vc_content/bilder/firma451/msvc_intern/47_19_20050509125020.jpg",
+      "id": "1",
+      "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/47_103_20050509125020.jpg",
+      "path": "/images/11/1.jpg",
       "caption": "Burgruine um 1825, aus Burgen und Schlösser im Westerwald (1999)",
       "year": "1999"
     },
     {
-      "url": "/r30/vc_content/bilder/firma451/msvc_intern/47_20_20050509125306.jpg",
+      "id": "2",
+      "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/47_105_20050509125306.jpg",
+      "path": "/images/11/2.jpg",
       "caption": "Geamtansicht der Hauptburg, Foto: J. Friedhoff (1996)",
       "year": "1996"
     },
     {
-      "url": "/r30/vc_content/bilder/firma451/msvc_intern/47_24_20050509125306.jpg",
+      "id": "3",
+      "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/47_23_20050509125306.jpg",
+      "path": "/images/11/3.jpg",
       "caption": "Grundriss und Schnitt, aus KD Neuwied (1940)",
       "year": "1940"
     }

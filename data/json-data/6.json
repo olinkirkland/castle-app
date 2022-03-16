@@ -13,22 +13,30 @@
   "buildingDescription": "Die auf einem Berggrat im Mehrbachtal gelegene Burg wird zur westlichen Angriffsseite hin durch zwei Halsgräben gesichert. Vor dem äußeren Halsgraben befindet sich der runde, viergeschossige Geschützturm (um 1526). Über dem inneren Halsgraben erhebt sich die mehrfach polygonal gebrochene Mantelmauer mit einem Rundturm an der Nordwestecke. Die nördliche Ringmauerpartie wird von einem halbrunden Schalenturm flankiert. Der Zugang zur Burg erfolgte ursprünglich von der Südseite durch ein Torhaus. Von dem über fünfeckigen Grundriss errichteten Wohngebäude (spitze Seite zur westl. Angriffsseite) ist das Mauerwerk bis zum dritten Stockwerk erhalten. Die Gesamtansicht des Wallonen Renier Roidkin, um 1720, zeigt zwei parallele spitze Dachgiebel. An der Südostseite der Kernburg finden sich die Ruinen eines zweiten, längsrechteckigen Wohnbaus. Von der Befestigung der Vorburg blieb die Ringmauer im Westen mit zwei Flankentürmen (südlicher Turm polygonal; nördlicher Turm rund) erhalten. (Jens Friedhoff)",
   "gallery": [
     {
-      "url": "/r30/vc_content/bilder/firma451/msvc_intern/535_18_20051207101856.jpg",
+      "id": "0",
+      "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/535_101_20051207101856.jpg",
+      "path": "/images/6/0.jpg",
       "caption": "Hauptburg, Foto: J. Friedhoff (1999)",
       "year": "1999"
     },
     {
-      "url": "/r30/vc_content/bilder/firma451/msvc_intern/535_19_20051207101856.jpg",
+      "id": "1",
+      "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/535_103_20051207101856.jpg",
+      "path": "/images/6/1.jpg",
       "caption": "Geschützturm, Foto: J. Friedhoff (2002)",
       "year": "2002"
     },
     {
-      "url": "/r30/vc_content/bilder/firma451/msvc_intern/535_20_20051207101856.jpg",
+      "id": "2",
+      "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/535_105_20051207101856.jpg",
+      "path": "/images/6/2.jpg",
       "caption": "Ansicht der Burg auf einem spätmittelalterlichen Glasfenster der Klosterkirche, aus: van Rooijen, Liebfrauenthal (1979)",
       "year": "1979"
     },
     {
-      "url": "/r30/vc_content/bilder/firma451/msvc_intern/535_24_20051207101856.jpg",
+      "id": "3",
+      "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/535_23_20051207101856.jpg",
+      "path": "/images/6/3.jpg",
       "caption": "Grundriss und Schnitte aus: KD Neuwied (1940)",
       "year": "1940"
     }

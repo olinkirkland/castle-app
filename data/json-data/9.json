@@ -13,22 +13,30 @@
   "buildingDescription": "Am östlichen Ende der etwa 200 m langen und maximal 40 m breiten Abschnittsburg befindet sich der als Schildmauer dienende rechteckige Wohnturm (Höhe 15 m; Breite 8 m), der eine auffällige Parallele mit dem schmalen rechteckigen Wohnturm der Burg Hattstein (HE, Hochtaunuskreis) aufweist. Nach Westen schließt sich an den Wohnturm das Areal der Hauptburg mit dem nicht mehr vorhandenen runden Bergfried sowie verschiedenen, sich an die Ringmauer anlehnenden Wohngebäuden und der Kapelle an. Durch drei Toranlagen gelangt man zu der westlich vorgelagerten Vorburg und zur Talsiedlung. Den Burgweg sichert eine westlich der Kapelle gelegene Bastion aus nachmittelalterlicher Zeit. (Jens Friedhoff)",
   "gallery": [
     {
-      "url": "/r30/vc_content/bilder/firma451/msvc_intern/40_18_20050504135744.jpg",
+      "id": "0",
+      "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/40_101_20050504135744.jpg",
+      "path": "/images/9/0.jpg",
       "caption": "Tor zur Hauptburg, Foto: J. Friedhoff (2000)",
       "year": "2000"
     },
     {
-      "url": "/r30/vc_content/bilder/firma451/msvc_intern/40_19_20050504135744.jpg",
+      "id": "1",
+      "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/40_103_20050504135744.jpg",
+      "path": "/images/9/1.jpg",
       "caption": "Hauptburg, Foto: J. Friedhoff (2000)",
       "year": "2000"
     },
     {
-      "url": "/r30/vc_content/bilder/firma451/msvc_intern/40_20_20050504135744.jpg",
+      "id": "2",
+      "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/40_105_20050504135744.jpg",
+      "path": "/images/9/2.jpg",
       "caption": "Burgruine, 1785, aus: KD Neuwied (1940)",
       "year": "1940"
     },
     {
-      "url": "/r30/vc_content/bilder/firma451/msvc_intern/40_24_20050504124231.jpg",
+      "id": "3",
+      "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/40_23_20050504124231.jpg",
+      "path": "/images/9/3.jpg",
       "caption": "Grundriss aus KD Neuwied (1940)",
       "year": "1940"
     }

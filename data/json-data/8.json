@@ -13,22 +13,30 @@
   "buildingDescription": "Zur Angriffsseite hin ist der über trapezförmigem Grundriss mit vorgelegter Spitze errichteten Hauptburg an der Ostseite ein Halsgraben vorgelagert. Der fünfeckige, viergeschossige Bergfried richtet seine Spitze ebenfalls zur östlichen Angriffsseite. Die Südostecke der Ringmauer nimmt der zweigeschossige Saalgeschossbau (23 x 10,5m) ein. Nördlich des Tores befinden sich im Nordwestwinkel der Ringmauer die Reste der einschiffigen Kapelle (5,50 x 9,50 m), an die sich nach einer Urkunde von 1261 das Haus des Burgmannen Ludwig Walpode von der Neuerburg anschloss. Westlich der Hauptburg liegen die Ruinen der Vorburg mit einem Torbau an der Südseite der Hauptburg und weiteren Gebäuden unbekannter Funktion. An den Torbau schließt sich ein Torzwinger mit ehemals drei einfachen Toren an. Vor dem Halsgraben befand sich vermutlich eine zweite Vorburg. (Jens Friedhoff)",
   "gallery": [
     {
-      "url": "/r30/vc_content/bilder/firma451/msvc_intern/396_18_20050930152814.jpg",
+      "id": "0",
+      "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/396_101_20050930152814.jpg",
+      "path": "/images/8/0.jpg",
       "caption": "Gesamtansicht, Foto: J. Friedhoff (2005)",
       "year": "2005"
     },
     {
-      "url": "/r30/vc_content/bilder/firma451/msvc_intern/396_19_20050930152814.jpg",
+      "id": "1",
+      "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/396_103_20050930152814.jpg",
+      "path": "/images/8/1.jpg",
       "caption": "Kapelle, Foto: J. Friedhoff (2005)",
       "year": "2005"
     },
     {
-      "url": "/r30/vc_content/bilder/firma451/msvc_intern/396_20_20050930152814.jpg",
+      "id": "2",
+      "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/396_105_20050930152814.jpg",
+      "path": "/images/8/2.jpg",
       "caption": "Modell Neuerburg, Foto: J. Friedhoff (2005)",
       "year": "2005"
     },
     {
-      "url": "/r30/vc_content/bilder/firma451/msvc_intern/396_24_20050930152814.jpg",
+      "id": "3",
+      "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/396_23_20050930152814.jpg",
+      "path": "/images/8/3.jpg",
       "caption": "Grundriss, aus: DBV Dokumentation"
     }
   ],

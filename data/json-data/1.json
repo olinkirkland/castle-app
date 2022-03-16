@@ -13,17 +13,23 @@
   "buildingDescription": "Die über rechteckigem Grundriss in Stadtrandlage errichtete Hauptburg setzt sich aus vier Gebäudetrakten zusammen, die sich um einen Innenhof gruppieren. An der Nordwestecke befindet sich ein in seinen beiden unteren Dritteln runder, im oberen Teil achtseitiger Eckturm mit steiler gotischer Dachhaube. Der Turm gehört, wie die unteren Partien der Umfassungsmauer der Gründungszeit Mitte des 14. Jhs. an. Im übrigen bestimmen Neubauten des 17. u. 18. Jhs. das Erscheinungsbild der ursprünglich von einem Weiher umgebenen und in die Stadtbefestigung integrierten kurkölnischen Landesburg. (Jens Friedhoff)",
   "gallery": [
     {
-      "url": "/r30/vc_content/bilder/firma451/msvc_intern/44_18_20050509111318.jpg",
+      "id": "0",
+      "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/44_101_20050509111318.jpg",
+      "path": "/images/1/0.jpg",
       "caption": "Erzbischöfliche Burg und Rheintor, um 1835, aus: Oellers, Linz (1994)",
       "year": "1994"
     },
     {
-      "url": "/r30/vc_content/bilder/firma451/msvc_intern/44_19_20050509111318.jpg",
+      "id": "1",
+      "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/44_103_20050509111318.jpg",
+      "path": "/images/1/1.jpg",
       "caption": "Burg und Rheintor, Foto: J. Friedhoff (2001)",
       "year": "2001"
     },
     {
-      "url": "/r30/vc_content/bilder/firma451/msvc_intern/44_20_20050509111318.jpg",
+      "id": "2",
+      "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/44_105_20050509111318.jpg",
+      "path": "/images/1/2.jpg",
       "caption": "Feldseite der Burg, Foto: J. Friedhoff (2001)",
       "year": "2001"
     }
