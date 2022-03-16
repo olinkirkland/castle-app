@@ -22,12 +22,11 @@ instead, 1rem = 1em = 16px */
     .info {
       width: 100%;
       .gallery {
-        display: block;
-        width: 100%;
+        grid-template-columns: repeat(3, 1fr);
+      }
 
-        .gallery-item {
-          width: 100%;
-        }
+      .gallery .gallery-item {
+        width: 100%;
       }
     }
   }

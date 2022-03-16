@@ -60,9 +60,10 @@ function CastleTile({ castle }: Props) {
       </div>
 
       {castle.gallery.length > 0 && (
-        <div className="info">
+        <div className="info full">
           <p className="title">
-            <i className="fa-solid fa-images"></i>Gallery ({castle.gallery.length})
+            <i className="fa-solid fa-images"></i>Gallery (
+            {castle.gallery.length})
           </p>
           <ul className="gallery">
             {castle.gallery.map((g, index) => (

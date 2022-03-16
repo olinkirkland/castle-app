@@ -17,9 +17,8 @@ instead, 1rem = 1em = 16px */
     .castle-tile .info {
       width: 100%; }
       .castle-tile .info .gallery {
-        display: block;
-        width: 100%; }
-        .castle-tile .info .gallery .gallery-item {
-          width: 100%; } }
+        grid-template-columns: repeat(3, 1fr); }
+      .castle-tile .info .gallery .gallery-item {
+        width: 100%; } }
 
 /*# sourceMappingURL=queries.css.map */
