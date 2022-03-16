@@ -15,7 +15,7 @@ function App() {
   }, []);
 
   function openModal(title: string, galleryItem: any) {
-    console.log(JSON.stringify(galleryItem, null, '  '));
+    // console.log(JSON.stringify(galleryItem, null, '  '));
     setGalleryItem(galleryItem);
 
     // Lock scroll
@@ -48,10 +48,11 @@ function App() {
           title={castles[galleryItem['castle']]['title']}
           closeModal={closeModal}
         >
-          {/* id, url, path, caption, year */}
           <img src={process.env.PUBLIC_URL + galleryItem['path']} alt="" />
-          <p>{galleryItem['caption']}</p>
-          <p>{galleryItem['year']}</p>
+          <div className="modal-info">
+            <p>{galleryItem['caption']}</p>
+            <p>{galleryItem['year']}</p>
+          </div>
         </Modal>
       )}
     </div>
