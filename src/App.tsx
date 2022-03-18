@@ -55,8 +55,8 @@ function App() {
             ))}
           </ul>
         </section>
-        <section id="map">Map</section>
-        <section id="details">Details</section>
+
+        
       </article>
       <Footer />
 

@@ -25,14 +25,10 @@ function CastleTile({ castle, openModal }: Props) {
         )}
       </div>
 
-      {/* <div className="wrap"> */}
-      <div className="info full">
-        <p className="title">
-          <i className="fa-solid fa-location-dot"></i>
-          Location
-        </p>
+      <span>
+        <i className="fa-solid fa-location-dot"></i>
         <p>{`${castle.location.city}, ${castle.location.county}, ${castle.location.region}`}</p>
-      </div>
+      </span>
 
       {/* {castle.condition && (
           <div className="info">
