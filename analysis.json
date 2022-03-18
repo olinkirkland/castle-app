@@ -17,7 +17,16 @@
       "city": "Linz",
       "county": "Neuwied",
       "region": "Mittelrhein",
-      "country": "Bundesrepublik Deutschland"
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Pfalz",
+        "abbreviation": "rp"
+      },
+      "country": {
+        "de": "Bundesrepublik Deutschland",
+        "en": "Germany",
+        "abbreviation": "de"
+      }
     },
     "classifications": [
       {
@@ -62,7 +71,16 @@
       "city": "Hammerstein",
       "county": "Neuwied",
       "region": "Mittelrhein",
-      "country": "Bundesrepublik Deutschland"
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Pfalz",
+        "abbreviation": "rp"
+      },
+      "country": {
+        "de": "Bundesrepublik Deutschland",
+        "en": "Germany",
+        "abbreviation": "de"
+      }
     },
     "classifications": [
       {
@@ -103,7 +121,16 @@
       "city": "Leubsdorf",
       "county": "Neuwied",
       "region": "Mittelrhein",
-      "country": "Bundesrepublik Deutschland"
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Pfalz",
+        "abbreviation": "rp"
+      },
+      "country": {
+        "de": "Bundesrepublik Deutschland",
+        "en": "Germany",
+        "abbreviation": "de"
+      }
     },
     "classifications": [
       {
@@ -140,7 +167,16 @@
       "city": "Linz",
       "county": "Neuwied",
       "region": "Westerwald",
-      "country": "Bundesrepublik Deutschland"
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Pfalz",
+        "abbreviation": "rp"
+      },
+      "country": {
+        "de": "Bundesrepublik Deutschland",
+        "en": "Germany",
+        "abbreviation": "de"
+      }
     },
     "classifications": [
       {
@@ -177,7 +213,16 @@
       "city": "Linz",
       "county": "Neuwied",
       "region": "Mittelrhein",
-      "country": "Bundesrepublik Deutschland"
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Pfalz",
+        "abbreviation": "rp"
+      },
+      "country": {
+        "de": "Bundesrepublik Deutschland",
+        "en": "Germany",
+        "abbreviation": "de"
+      }
     },
     "classifications": [],
     "structures": [
@@ -209,7 +254,16 @@
       "city": "Neustadt",
       "county": "Neuwied",
       "region": "Westerwald",
-      "country": "Bundesrepublik Deutschland"
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Pfalz",
+        "abbreviation": "rp"
+      },
+      "country": {
+        "de": "Bundesrepublik Deutschland",
+        "en": "Germany",
+        "abbreviation": "de"
+      }
     },
     "classifications": [
       {
@@ -250,7 +304,16 @@
       "city": "Neustadt",
       "county": "Neuwied",
       "region": "Westerwald",
-      "country": "Bundesrepublik Deutschland"
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Pfalz",
+        "abbreviation": "rp"
+      },
+      "country": {
+        "de": "Bundesrepublik Deutschland",
+        "en": "Germany",
+        "abbreviation": "de"
+      }
     },
     "classifications": [
       {
@@ -287,7 +350,16 @@
       "city": "Niederbreitbach",
       "county": "Neuwied",
       "region": "Westerwald",
-      "country": "Bundesrepublik Deutschland"
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Pfalz",
+        "abbreviation": "rp"
+      },
+      "country": {
+        "de": "Bundesrepublik Deutschland",
+        "en": "Germany",
+        "abbreviation": "de"
+      }
     },
     "classifications": [
       {
@@ -324,7 +396,16 @@
       "city": "Neuwied",
       "county": "Neuwied",
       "region": "Westerwald",
-      "country": "Bundesrepublik Deutschland"
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Pfalz",
+        "abbreviation": "rp"
+      },
+      "country": {
+        "de": "Bundesrepublik Deutschland",
+        "en": "Germany",
+        "abbreviation": "de"
+      }
     },
     "classifications": [
       {
@@ -361,7 +442,16 @@
       "city": "Hachenburg",
       "county": "Westerwaldkreis",
       "region": "Westerwald",
-      "country": "Bundesrepublik Deutschland"
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Pfalz",
+        "abbreviation": "rp"
+      },
+      "country": {
+        "de": "Bundesrepublik Deutschland",
+        "en": "Germany",
+        "abbreviation": "de"
+      }
     },
     "classifications": [
       {
@@ -402,7 +492,16 @@
       "city": "Neuwied",
       "county": "Neuwied",
       "region": "Westerwald",
-      "country": "Bundesrepublik Deutschland"
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Pfalz",
+        "abbreviation": "rp"
+      },
+      "country": {
+        "de": "Bundesrepublik Deutschland",
+        "en": "Germany",
+        "abbreviation": "de"
+      }
     },
     "classifications": [
       {
@@ -439,7 +538,16 @@
       "city": "Isenburg",
       "county": "Neuwied",
       "region": "Westerwald",
-      "country": "Bundesrepublik Deutschland"
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Pfalz",
+        "abbreviation": "rp"
+      },
+      "country": {
+        "de": "Bundesrepublik Deutschland",
+        "en": "Germany",
+        "abbreviation": "de"
+      }
     },
     "classifications": [
       {
@@ -476,7 +584,16 @@
       "city": "Montabaur",
       "county": "Westerwaldkreis",
       "region": "Westerwald",
-      "country": "Bundesrepublik Deutschland"
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Pfalz",
+        "abbreviation": "rp"
+      },
+      "country": {
+        "de": "Bundesrepublik Deutschland",
+        "en": "Germany",
+        "abbreviation": "de"
+      }
     },
     "classifications": [
       {
@@ -517,7 +634,16 @@
       "city": "Burbach",
       "county": "Siegen-Wittgenstein",
       "region": "Siegerland",
-      "country": "Bundesrepublik Deutschland"
+      "state": {
+        "de": "Nordrhein-Westfalen",
+        "en": "North Rhine-Westphalia",
+        "abbreviation": "nw"
+      },
+      "country": {
+        "de": "Bundesrepublik Deutschland",
+        "en": "Germany",
+        "abbreviation": "de"
+      }
     },
     "classifications": [
       {
@@ -554,7 +680,16 @@
       "city": "Westerburg",
       "county": "Westerwaldkreis",
       "region": "Westerwald",
-      "country": "Bundesrepublik Deutschland"
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Pfalz",
+        "abbreviation": "rp"
+      },
+      "country": {
+        "de": "Bundesrepublik Deutschland",
+        "en": "Germany",
+        "abbreviation": "de"
+      }
     },
     "classifications": [
       {
@@ -595,7 +730,16 @@
       "city": "Rheinbreitbach",
       "county": "Neuwied",
       "region": "Mittelrhein",
-      "country": "Bundesrepublik Deutschland"
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Pfalz",
+        "abbreviation": "rp"
+      },
+      "country": {
+        "de": "Bundesrepublik Deutschland",
+        "en": "Germany",
+        "abbreviation": "de"
+      }
     },
     "classifications": [
       {
@@ -632,7 +776,16 @@
       "city": "Rheinbreitbach",
       "county": "Neuwied",
       "region": "Mittelrhein",
-      "country": "Bundesrepublik Deutschland"
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Pfalz",
+        "abbreviation": "rp"
+      },
+      "country": {
+        "de": "Bundesrepublik Deutschland",
+        "en": "Germany",
+        "abbreviation": "de"
+      }
     },
     "classifications": [
       {
@@ -669,7 +822,16 @@
       "city": "Asbach",
       "county": "Neuwied",
       "region": "Westerwald",
-      "country": "Bundesrepublik Deutschland"
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Pfalz",
+        "abbreviation": "rp"
+      },
+      "country": {
+        "de": "Bundesrepublik Deutschland",
+        "en": "Germany",
+        "abbreviation": "de"
+      }
     },
     "classifications": [],
     "structures": [
@@ -701,7 +863,16 @@
       "city": "Unkel",
       "county": "Neuwied",
       "region": "Mittelrhein",
-      "country": "Bundesrepublik Deutschland"
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Pfalz",
+        "abbreviation": "rp"
+      },
+      "country": {
+        "de": "Bundesrepublik Deutschland",
+        "en": "Germany",
+        "abbreviation": "de"
+      }
     },
     "classifications": [
       {
@@ -742,7 +913,16 @@
       "city": "Neuwied",
       "county": "Neuwied",
       "region": "Mittelrhein",
-      "country": "Bundesrepublik Deutschland"
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Pfalz",
+        "abbreviation": "rp"
+      },
+      "country": {
+        "de": "Bundesrepublik Deutschland",
+        "en": "Germany",
+        "abbreviation": "de"
+      }
     },
     "classifications": [
       {
@@ -779,7 +959,16 @@
       "city": "Puderbach",
       "county": "Neuwied",
       "region": "Westerwald",
-      "country": "Bundesrepublik Deutschland"
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Pfalz",
+        "abbreviation": "rp"
+      },
+      "country": {
+        "de": "Bundesrepublik Deutschland",
+        "en": "Germany",
+        "abbreviation": "de"
+      }
     },
     "classifications": [
       {
@@ -820,7 +1009,16 @@
       "city": "Horn",
       "county": "Rhein-Hunsrück-Kreis",
       "region": "Hunsrück",
-      "country": "Bundesrepublik Deutschland"
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Pfalz",
+        "abbreviation": "rp"
+      },
+      "country": {
+        "de": "Bundesrepublik Deutschland",
+        "en": "Germany",
+        "abbreviation": "de"
+      }
     },
     "classifications": [
       {
@@ -857,7 +1055,16 @@
       "city": "Burbach",
       "county": "Siegen-Wittgenstein",
       "region": "Siegerland",
-      "country": "Bundesrepublik Deutschland"
+      "state": {
+        "de": "Nordrhein-Westfalen",
+        "en": "North Rhine-Westphalia",
+        "abbreviation": "nw"
+      },
+      "country": {
+        "de": "Bundesrepublik Deutschland",
+        "en": "Germany",
+        "abbreviation": "de"
+      }
     },
     "classifications": [
       {
@@ -893,7 +1100,16 @@
     "location": {
       "city": "Ahrweiler",
       "county": "Ahrweiler",
-      "country": "Bundesrepublik Deutschland"
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Pfalz",
+        "abbreviation": "rp"
+      },
+      "country": {
+        "de": "Bundesrepublik Deutschland",
+        "en": "Germany",
+        "abbreviation": "de"
+      }
     },
     "classifications": [
       {
@@ -926,7 +1142,16 @@
       "city": "Neunkirchen",
       "county": "Siegen-Wittgenstein",
       "region": "Siegerland",
-      "country": "Bundesrepublik Deutschland"
+      "state": {
+        "de": "Nordrhein-Westfalen",
+        "en": "North Rhine-Westphalia",
+        "abbreviation": "nw"
+      },
+      "country": {
+        "de": "Bundesrepublik Deutschland",
+        "en": "Germany",
+        "abbreviation": "de"
+      }
     },
     "classifications": [
       {
@@ -966,7 +1191,16 @@
     "location": {
       "city": "Bad Neuenahr-Ahrweiler",
       "county": "Ahrweiler",
-      "country": "Bundesrepublik Deutschland"
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Pfalz",
+        "abbreviation": "rp"
+      },
+      "country": {
+        "de": "Bundesrepublik Deutschland",
+        "en": "Germany",
+        "abbreviation": "de"
+      }
     },
     "classifications": [
       {
@@ -998,7 +1232,16 @@
     "location": {
       "city": "Neunkirchen",
       "county": "Siegen-Wittgenstein",
-      "country": "Bundesrepublik Deutschland"
+      "state": {
+        "de": "Nordrhein-Westfalen",
+        "en": "North Rhine-Westphalia",
+        "abbreviation": "nw"
+      },
+      "country": {
+        "de": "Bundesrepublik Deutschland",
+        "en": "Germany",
+        "abbreviation": "de"
+      }
     },
     "classifications": [
       {
@@ -1031,7 +1274,16 @@
       "city": "Bad Hönningen",
       "county": "Neuwied",
       "region": "Mittelrhein",
-      "country": "Bundesrepublik Deutschland"
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Pfalz",
+        "abbreviation": "rp"
+      },
+      "country": {
+        "de": "Bundesrepublik Deutschland",
+        "en": "Germany",
+        "abbreviation": "de"
+      }
     },
     "classifications": [
       {
@@ -1072,7 +1324,16 @@
       "city": "Dierdorf",
       "county": "Neuwied",
       "region": "Westerwald",
-      "country": "Bundesrepublik Deutschland"
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Pfalz",
+        "abbreviation": "rp"
+      },
+      "country": {
+        "de": "Bundesrepublik Deutschland",
+        "en": "Germany",
+        "abbreviation": "de"
+      }
     },
     "classifications": [
       {
@@ -1117,7 +1378,16 @@
       "city": "Linz",
       "county": "Neuwied",
       "region": "Mittelrhein",
-      "country": "Bundesrepublik Deutschland"
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Pfalz",
+        "abbreviation": "rp"
+      },
+      "country": {
+        "de": "Bundesrepublik Deutschland",
+        "en": "Germany",
+        "abbreviation": "de"
+      }
     },
     "classifications": [],
     "structures": [
@@ -1149,7 +1419,16 @@
       "city": "Engers",
       "county": "Neuwied",
       "region": "Mittelrhein",
-      "country": "Bundesrepublik Deutschland"
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Pfalz",
+        "abbreviation": "rp"
+      },
+      "country": {
+        "de": "Bundesrepublik Deutschland",
+        "en": "Germany",
+        "abbreviation": "de"
+      }
     },
     "classifications": [],
     "structures": [
@@ -1181,7 +1460,16 @@
       "city": "Altenkirchen",
       "county": "Altenkirchen",
       "region": "Westerwald",
-      "country": "Bundesrepublik Deutschland"
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Pfalz",
+        "abbreviation": "rp"
+      },
+      "country": {
+        "de": "Bundesrepublik Deutschland",
+        "en": "Germany",
+        "abbreviation": "de"
+      }
     },
     "classifications": [
       {
@@ -1226,7 +1514,16 @@
       "city": "Friesenhagen",
       "county": "Altenkirchen",
       "region": "Siegerland",
-      "country": "Bundesrepublik Deutschland"
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Pfalz",
+        "abbreviation": "rp"
+      },
+      "country": {
+        "de": "Bundesrepublik Deutschland",
+        "en": "Germany",
+        "abbreviation": "de"
+      }
     },
     "classifications": [
       {
@@ -1271,7 +1568,16 @@
       "city": "Daaden",
       "county": "Altenkirchen",
       "region": "Siegerland",
-      "country": "Bundesrepublik Deutschland"
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Pfalz",
+        "abbreviation": "rp"
+      },
+      "country": {
+        "de": "Bundesrepublik Deutschland",
+        "en": "Germany",
+        "abbreviation": "de"
+      }
     },
     "classifications": [],
     "structures": [
@@ -1307,7 +1613,16 @@
       "city": "Wilnsdorf",
       "county": "Siegen-Wittgenstein",
       "region": "Siegerland",
-      "country": "Bundesrepublik Deutschland"
+      "state": {
+        "de": "Nordrhein-Westfalen",
+        "en": "North Rhine-Westphalia",
+        "abbreviation": "nw"
+      },
+      "country": {
+        "de": "Bundesrepublik Deutschland",
+        "en": "Germany",
+        "abbreviation": "de"
+      }
     },
     "classifications": [
       {
@@ -1347,7 +1662,16 @@
     "location": {
       "city": "Unkelbach",
       "county": "Ahrweiler",
-      "country": "Bundesrepublik Deutschland"
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Pfalz",
+        "abbreviation": "rp"
+      },
+      "country": {
+        "de": "Bundesrepublik Deutschland",
+        "en": "Germany",
+        "abbreviation": "de"
+      }
     },
     "classifications": [],
     "structures": [
@@ -1374,7 +1698,16 @@
     "location": {
       "city": "Dümpelfeld",
       "county": "Ahrweiler",
-      "country": "Bundesrepublik Deutschland"
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Pfalz",
+        "abbreviation": "rp"
+      },
+      "country": {
+        "de": "Bundesrepublik Deutschland",
+        "en": "Germany",
+        "abbreviation": "de"
+      }
     },
     "classifications": [
       {
@@ -1407,7 +1740,16 @@
       "city": "Altenahr",
       "county": "Ahrweiler",
       "region": "Eifel",
-      "country": "Bundesrepublik Deutschland"
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Pfalz",
+        "abbreviation": "rp"
+      },
+      "country": {
+        "de": "Bundesrepublik Deutschland",
+        "en": "Germany",
+        "abbreviation": "de"
+      }
     },
     "classifications": [
       {
@@ -1443,7 +1785,16 @@
     "location": {
       "city": "Bad Neuenahr-Ahrweiler",
       "county": "Ahrweiler",
-      "country": "Bundesrepublik Deutschland"
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Pfalz",
+        "abbreviation": "rp"
+      },
+      "country": {
+        "de": "Bundesrepublik Deutschland",
+        "en": "Germany",
+        "abbreviation": "de"
+      }
     },
     "classifications": [
       {
@@ -1476,7 +1827,16 @@
       "city": "Hachenburg",
       "county": "Westerwaldkreis",
       "region": "Westerwald",
-      "country": "Bundesrepublik Deutschland"
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Pfalz",
+        "abbreviation": "rp"
+      },
+      "country": {
+        "de": "Bundesrepublik Deutschland",
+        "en": "Germany",
+        "abbreviation": "de"
+      }
     },
     "classifications": [
       {
@@ -1517,7 +1877,16 @@
       "city": "Friesenhagen",
       "county": "Altenkirchen",
       "region": "Siegerland",
-      "country": "Bundesrepublik Deutschland"
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Pfalz",
+        "abbreviation": "rp"
+      },
+      "country": {
+        "de": "Bundesrepublik Deutschland",
+        "en": "Germany",
+        "abbreviation": "de"
+      }
     },
     "classifications": [
       {
@@ -1558,7 +1927,16 @@
       "city": "Altenkirchen",
       "county": "Altenkirchen",
       "region": "Westerwald",
-      "country": "Bundesrepublik Deutschland"
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Pfalz",
+        "abbreviation": "rp"
+      },
+      "country": {
+        "de": "Bundesrepublik Deutschland",
+        "en": "Germany",
+        "abbreviation": "de"
+      }
     },
     "classifications": [
       {
@@ -1595,7 +1973,16 @@
       "city": "Flammersfeld",
       "county": "Altenkirchen",
       "region": "Westerwald",
-      "country": "Bundesrepublik Deutschland"
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Pfalz",
+        "abbreviation": "rp"
+      },
+      "country": {
+        "de": "Bundesrepublik Deutschland",
+        "en": "Germany",
+        "abbreviation": "de"
+      }
     },
     "classifications": [
       {
@@ -1632,7 +2019,16 @@
       "city": "Friesenhagen",
       "county": "Altenkirchen",
       "region": "Siegerland",
-      "country": "Bundesrepublik Deutschland"
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Pfalz",
+        "abbreviation": "rp"
+      },
+      "country": {
+        "de": "Bundesrepublik Deutschland",
+        "en": "Germany",
+        "abbreviation": "de"
+      }
     },
     "classifications": [
       {
@@ -1673,7 +2069,16 @@
       "city": "Kirchen",
       "county": "Altenkirchen",
       "region": "Siegtal",
-      "country": "Bundesrepublik Deutschland"
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Pfalz",
+        "abbreviation": "rp"
+      },
+      "country": {
+        "de": "Bundesrepublik Deutschland",
+        "en": "Germany",
+        "abbreviation": "de"
+      }
     },
     "classifications": [
       {
@@ -1714,7 +2119,16 @@
       "city": "Wissen",
       "county": "Altenkirchen",
       "region": "Siegerland",
-      "country": "Bundesrepublik Deutschland"
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Pfalz",
+        "abbreviation": "rp"
+      },
+      "country": {
+        "de": "Bundesrepublik Deutschland",
+        "en": "Germany",
+        "abbreviation": "de"
+      }
     },
     "classifications": [
       {
@@ -1759,7 +2173,16 @@
       "city": "Westerburg",
       "county": "Westerwaldkreis",
       "region": "Westerwald",
-      "country": "Bundesrepublik Deutschland"
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Pfalz",
+        "abbreviation": "rp"
+      },
+      "country": {
+        "de": "Bundesrepublik Deutschland",
+        "en": "Germany",
+        "abbreviation": "de"
+      }
     },
     "classifications": [],
     "structures": [
@@ -1791,7 +2214,16 @@
       "city": "Hachenburg",
       "county": "Westerwaldkreis",
       "region": "Westerwald",
-      "country": "Bundesrepublik Deutschland"
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Pfalz",
+        "abbreviation": "rp"
+      },
+      "country": {
+        "de": "Bundesrepublik Deutschland",
+        "en": "Germany",
+        "abbreviation": "de"
+      }
     },
     "classifications": [
       {
