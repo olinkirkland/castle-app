@@ -1,0 +1,1813 @@
+[
+  {
+    "id": "1",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=1",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=1",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=1",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=1",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=1"
+    ],
+    "name": {
+      "primary": "Linz",
+      "secondary": null
+    },
+    "slug": "linz",
+    "location": {
+      "city": "Linz",
+      "county": "Neuwied",
+      "region": "Mittelrhein",
+      "country": "Bundesrepublik Deutschland"
+    },
+    "classifications": [
+      {
+        "de": "wasserburg",
+        "en": "water castle"
+      },
+      {
+        "de": "randhausanlage",
+        "en": null
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "burg-schloss",
+        "en": "castle-manor"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=2",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=2",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=2",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=2",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=2"
+    ],
+    "name": {
+      "primary": "Hammerstein",
+      "secondary": null
+    },
+    "slug": "hammerstein",
+    "location": {
+      "city": "Hammerstein",
+      "county": "Neuwied",
+      "region": "Mittelrhein",
+      "country": "Bundesrepublik Deutschland"
+    },
+    "classifications": [
+      {
+        "de": "ringmauerburg",
+        "en": null
+      },
+      {
+        "de": "schildmauerburg",
+        "en": null
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=3",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=3",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=3",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=3",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=3"
+    ],
+    "name": {
+      "primary": "Leubsdorf",
+      "secondary": null
+    },
+    "slug": "leubsdorf",
+    "location": {
+      "city": "Leubsdorf",
+      "county": "Neuwied",
+      "region": "Mittelrhein",
+      "country": "Bundesrepublik Deutschland"
+    },
+    "classifications": [
+      {
+        "de": "burghaus",
+        "en": "fortified house"
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=4",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=4",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=4",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=4",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=4"
+    ],
+    "name": {
+      "primary": "Dattenberg",
+      "secondary": null
+    },
+    "slug": "dattenberg",
+    "location": {
+      "city": "Linz",
+      "county": "Neuwied",
+      "region": "Westerwald",
+      "country": "Bundesrepublik Deutschland"
+    },
+    "classifications": [
+      {
+        "de": "wohnturm",
+        "en": "keep"
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=5",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=5",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=5",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=5",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=5"
+    ],
+    "name": {
+      "primary": "Ockenfels",
+      "secondary": null
+    },
+    "slug": "ockenfels",
+    "location": {
+      "city": "Linz",
+      "county": "Neuwied",
+      "region": "Mittelrhein",
+      "country": "Bundesrepublik Deutschland"
+    },
+    "classifications": [],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=6",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=6",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=6",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=6",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=6"
+    ],
+    "name": {
+      "primary": "Ehrenstein",
+      "secondary": "bei Neustadt a. d. Wied"
+    },
+    "slug": "ehrenstein-bei-neustadt-a-d-wied",
+    "location": {
+      "city": "Neustadt",
+      "county": "Neuwied",
+      "region": "Westerwald",
+      "country": "Bundesrepublik Deutschland"
+    },
+    "classifications": [
+      {
+        "de": "randhausanlage",
+        "en": null
+      },
+      {
+        "de": "ringmauerburg",
+        "en": null
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=7",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=7",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=7",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=7",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=7"
+    ],
+    "name": {
+      "primary": "Altenwied",
+      "secondary": null
+    },
+    "slug": "altenwied",
+    "location": {
+      "city": "Neustadt",
+      "county": "Neuwied",
+      "region": "Westerwald",
+      "country": "Bundesrepublik Deutschland"
+    },
+    "classifications": [
+      {
+        "de": "randhausanlage",
+        "en": null
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=8",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=8",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=8",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=8",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=8"
+    ],
+    "name": {
+      "primary": "Neuerburg",
+      "secondary": "a. d. Wied"
+    },
+    "slug": "neuerburg-a-d-wied",
+    "location": {
+      "city": "Niederbreitbach",
+      "county": "Neuwied",
+      "region": "Westerwald",
+      "country": "Bundesrepublik Deutschland"
+    },
+    "classifications": [
+      {
+        "de": "randhausanlage",
+        "en": null
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=9",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=9",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=9",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=9",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=9"
+    ],
+    "name": {
+      "primary": "Altwied",
+      "secondary": null
+    },
+    "slug": "altwied",
+    "location": {
+      "city": "Neuwied",
+      "county": "Neuwied",
+      "region": "Westerwald",
+      "country": "Bundesrepublik Deutschland"
+    },
+    "classifications": [
+      {
+        "de": "randhausanlage",
+        "en": null
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=10",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=10",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=10",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=10",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=10"
+    ],
+    "name": {
+      "primary": "Rohrburg",
+      "secondary": null
+    },
+    "slug": "rohrburg",
+    "location": {
+      "city": "Hachenburg",
+      "county": "Westerwaldkreis",
+      "region": "Westerwald",
+      "country": "Bundesrepublik Deutschland"
+    },
+    "classifications": [
+      {
+        "de": "abgegangene burgstelle",
+        "en": "abandoned ruin"
+      },
+      {
+        "de": "niederungsburg",
+        "en": "lowland castle"
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=11",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=11",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=11",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=11",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=11"
+    ],
+    "name": {
+      "primary": "Braunsberg",
+      "secondary": null
+    },
+    "slug": "braunsberg",
+    "location": {
+      "city": "Neuwied",
+      "county": "Neuwied",
+      "region": "Westerwald",
+      "country": "Bundesrepublik Deutschland"
+    },
+    "classifications": [
+      {
+        "de": "randhausanlage",
+        "en": null
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=12",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=12",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=12",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=12",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=12"
+    ],
+    "name": {
+      "primary": "Isenburg",
+      "secondary": "im Saynbachtal"
+    },
+    "slug": "isenburg-im-saynbachtal",
+    "location": {
+      "city": "Isenburg",
+      "county": "Neuwied",
+      "region": "Westerwald",
+      "country": "Bundesrepublik Deutschland"
+    },
+    "classifications": [
+      {
+        "de": "randhausanlage",
+        "en": null
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ]
+  },
+  {
+    "id": "13",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=13",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=13",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=13",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=13",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=13"
+    ],
+    "name": {
+      "primary": "Neuspay",
+      "secondary": null
+    },
+    "slug": "neuspay",
+    "location": {
+      "city": "Montabaur",
+      "county": "Westerwaldkreis",
+      "region": "Westerwald",
+      "country": "Bundesrepublik Deutschland"
+    },
+    "classifications": [
+      {
+        "de": "abgegangene burgstelle",
+        "en": "abandoned ruin"
+      },
+      {
+        "de": "burghaus",
+        "en": "fortified house"
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ]
+  },
+  {
+    "id": "14",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=14",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=14",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=14",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=14",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=14"
+    ],
+    "name": {
+      "primary": "Gilsbach",
+      "secondary": null
+    },
+    "slug": "gilsbach",
+    "location": {
+      "city": "Burbach",
+      "county": "Siegen-Wittgenstein",
+      "region": "Siegerland",
+      "country": "Bundesrepublik Deutschland"
+    },
+    "classifications": [
+      {
+        "de": "abgegangene burgstelle",
+        "en": "abandoned ruin"
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ]
+  },
+  {
+    "id": "15",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=15",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=15",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=15",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=15",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=15"
+    ],
+    "name": {
+      "primary": "Weltersburg",
+      "secondary": "Reiffenberger Schlösschen"
+    },
+    "slug": "weltersburg-reiffenberger-schlösschen",
+    "location": {
+      "city": "Westerburg",
+      "county": "Westerwaldkreis",
+      "region": "Westerwald",
+      "country": "Bundesrepublik Deutschland"
+    },
+    "classifications": [
+      {
+        "de": "burghaus",
+        "en": "fortified house"
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "burg-schloss",
+        "en": "castle-manor"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ]
+  },
+  {
+    "id": "16",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=16",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=16",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=16",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=16",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=16"
+    ],
+    "name": {
+      "primary": "Rheinbreitbach",
+      "secondary": "Obere Burg"
+    },
+    "slug": "rheinbreitbach-obere-burg",
+    "location": {
+      "city": "Rheinbreitbach",
+      "county": "Neuwied",
+      "region": "Mittelrhein",
+      "country": "Bundesrepublik Deutschland"
+    },
+    "classifications": [
+      {
+        "de": "wohnturm",
+        "en": "keep"
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ]
+  },
+  {
+    "id": "17",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=17",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=17",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=17",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=17",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=17"
+    ],
+    "name": {
+      "primary": "Rheinbreitbach",
+      "secondary": "Untere Burg"
+    },
+    "slug": "rheinbreitbach-untere-burg",
+    "location": {
+      "city": "Rheinbreitbach",
+      "county": "Neuwied",
+      "region": "Mittelrhein",
+      "country": "Bundesrepublik Deutschland"
+    },
+    "classifications": [
+      {
+        "de": "wohnturm",
+        "en": "keep"
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ]
+  },
+  {
+    "id": "18",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=18",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=18",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=18",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=18",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=18"
+    ],
+    "name": {
+      "primary": "Uetgenbach",
+      "secondary": null
+    },
+    "slug": "uetgenbach",
+    "location": {
+      "city": "Asbach",
+      "county": "Neuwied",
+      "region": "Westerwald",
+      "country": "Bundesrepublik Deutschland"
+    },
+    "classifications": [],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ]
+  },
+  {
+    "id": "19",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=19",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=19",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=19",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=19",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=19"
+    ],
+    "name": {
+      "primary": "Vilszelt",
+      "secondary": null
+    },
+    "slug": "vilszelt",
+    "location": {
+      "city": "Unkel",
+      "county": "Neuwied",
+      "region": "Mittelrhein",
+      "country": "Bundesrepublik Deutschland"
+    },
+    "classifications": [
+      {
+        "de": "burghaus",
+        "en": "fortified house"
+      },
+      {
+        "de": "wasserburg",
+        "en": "water castle"
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg-schloss",
+        "en": "castle-manor"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ]
+  },
+  {
+    "id": "20",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=20",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=20",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=20",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=20",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=20"
+    ],
+    "name": {
+      "primary": "Wollendorf",
+      "secondary": null
+    },
+    "slug": "wollendorf",
+    "location": {
+      "city": "Neuwied",
+      "county": "Neuwied",
+      "region": "Mittelrhein",
+      "country": "Bundesrepublik Deutschland"
+    },
+    "classifications": [
+      {
+        "de": "burghaus",
+        "en": "fortified house"
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ]
+  },
+  {
+    "id": "21",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=21",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=21",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=21",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=21",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=21"
+    ],
+    "name": {
+      "primary": "Reichenstein",
+      "secondary": "bei Puderbach"
+    },
+    "slug": "reichenstein-bei-puderbach",
+    "location": {
+      "city": "Puderbach",
+      "county": "Neuwied",
+      "region": "Westerwald",
+      "country": "Bundesrepublik Deutschland"
+    },
+    "classifications": [
+      {
+        "de": "wohnturm",
+        "en": "keep"
+      },
+      {
+        "de": "frontturmburg",
+        "en": null
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ]
+  },
+  {
+    "id": "22",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=22",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=22",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=22",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=22",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=22"
+    ],
+    "name": {
+      "primary": "Horn",
+      "secondary": "im Hunsrück"
+    },
+    "slug": "horn-im-hunsrück",
+    "location": {
+      "city": "Horn",
+      "county": "Rhein-Hunsrück-Kreis",
+      "region": "Hunsrück",
+      "country": "Bundesrepublik Deutschland"
+    },
+    "classifications": [
+      {
+        "de": "bodendenkmal",
+        "en": ""
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ]
+  },
+  {
+    "id": "23",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=23",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=23",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=23",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=23",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=23"
+    ],
+    "name": {
+      "primary": "Burbach",
+      "secondary": null
+    },
+    "slug": "burbach",
+    "location": {
+      "city": "Burbach",
+      "county": "Siegen-Wittgenstein",
+      "region": "Siegerland",
+      "country": "Bundesrepublik Deutschland"
+    },
+    "classifications": [
+      {
+        "de": "burgstelle",
+        "en": "castle site"
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ]
+  },
+  {
+    "id": "24",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=24",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=24",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=24",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=24",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=24"
+    ],
+    "name": {
+      "primary": "Ahrburg",
+      "secondary": null
+    },
+    "slug": "ahrburg",
+    "location": {
+      "city": "Ahrweiler",
+      "county": "Ahrweiler",
+      "country": "Bundesrepublik Deutschland"
+    },
+    "classifications": [
+      {
+        "de": "burg allgemein",
+        "en": "castle"
+      }
+    ],
+    "structures": [
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ]
+  },
+  {
+    "id": "25",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=25",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=25",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=25",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=25",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=25"
+    ],
+    "name": {
+      "primary": "Zeppenfeld",
+      "secondary": null
+    },
+    "slug": "zeppenfeld",
+    "location": {
+      "city": "Neunkirchen",
+      "county": "Siegen-Wittgenstein",
+      "region": "Siegerland",
+      "country": "Bundesrepublik Deutschland"
+    },
+    "classifications": [
+      {
+        "de": "wasserburg",
+        "en": "water castle"
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "burg-schloss",
+        "en": "castle-manor"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ]
+  },
+  {
+    "id": "26",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=26",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=26",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=26",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=26",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=26"
+    ],
+    "name": {
+      "primary": "Ahrweiler",
+      "secondary": "Roter Turm"
+    },
+    "slug": "ahrweiler-roter-turm",
+    "location": {
+      "city": "Bad Neuenahr-Ahrweiler",
+      "county": "Ahrweiler",
+      "country": "Bundesrepublik Deutschland"
+    },
+    "classifications": [
+      {
+        "de": "wasserburg",
+        "en": "water castle"
+      }
+    ],
+    "structures": [
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ]
+  },
+  {
+    "id": "27",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=27",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=27",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=27",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=27",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=27"
+    ],
+    "name": {
+      "primary": "Neunkirchen-I",
+      "secondary": null
+    },
+    "slug": "neunkirchen-i",
+    "location": {
+      "city": "Neunkirchen",
+      "county": "Siegen-Wittgenstein",
+      "country": "Bundesrepublik Deutschland"
+    },
+    "classifications": [
+      {
+        "de": "abgegangene burgstelle",
+        "en": "abandoned ruin"
+      }
+    ],
+    "structures": [
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ]
+  },
+  {
+    "id": "28",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=28",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=28",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=28",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=28",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=28"
+    ],
+    "name": {
+      "primary": "Arenfels",
+      "secondary": null
+    },
+    "slug": "arenfels",
+    "location": {
+      "city": "Bad Hönningen",
+      "county": "Neuwied",
+      "region": "Mittelrhein",
+      "country": "Bundesrepublik Deutschland"
+    },
+    "classifications": [
+      {
+        "de": "randhausanlage",
+        "en": null
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "burg-schloss",
+        "en": "castle-manor"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ]
+  },
+  {
+    "id": "29",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=29",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=29",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=29",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=29",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=29"
+    ],
+    "name": {
+      "primary": "Dierdorf",
+      "secondary": null
+    },
+    "slug": "dierdorf",
+    "location": {
+      "city": "Dierdorf",
+      "county": "Neuwied",
+      "region": "Westerwald",
+      "country": "Bundesrepublik Deutschland"
+    },
+    "classifications": [
+      {
+        "de": "abgegangene burgstelle",
+        "en": "abandoned ruin"
+      },
+      {
+        "de": "wasserburg",
+        "en": "water castle"
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "burg-schloss",
+        "en": "castle-manor"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ]
+  },
+  {
+    "id": "30",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=30",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=30",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=30",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=30",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=30"
+    ],
+    "name": {
+      "primary": "Rennenberg",
+      "secondary": null
+    },
+    "slug": "rennenberg",
+    "location": {
+      "city": "Linz",
+      "county": "Neuwied",
+      "region": "Mittelrhein",
+      "country": "Bundesrepublik Deutschland"
+    },
+    "classifications": [],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ]
+  },
+  {
+    "id": "32",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=32",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=32",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=32",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=32",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=32"
+    ],
+    "name": {
+      "primary": "Engers",
+      "secondary": null
+    },
+    "slug": "engers",
+    "location": {
+      "city": "Engers",
+      "county": "Neuwied",
+      "region": "Mittelrhein",
+      "country": "Bundesrepublik Deutschland"
+    },
+    "classifications": [],
+    "structures": [
+      {
+        "de": "burg-schloss",
+        "en": "castle-manor"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ]
+  },
+  {
+    "id": "33",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=33",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=33",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=33",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=33",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=33"
+    ],
+    "name": {
+      "primary": "Altenkirchen",
+      "secondary": null
+    },
+    "slug": "altenkirchen",
+    "location": {
+      "city": "Altenkirchen",
+      "county": "Altenkirchen",
+      "region": "Westerwald",
+      "country": "Bundesrepublik Deutschland"
+    },
+    "classifications": [
+      {
+        "de": "abgegangene burgstelle",
+        "en": "abandoned ruin"
+      },
+      {
+        "de": "randhausanlage",
+        "en": null
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "burg-schloss",
+        "en": "castle-manor"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ]
+  },
+  {
+    "id": "34",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=34",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=34",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=34",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=34",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=34"
+    ],
+    "name": {
+      "primary": "Crottorf",
+      "secondary": null
+    },
+    "slug": "crottorf",
+    "location": {
+      "city": "Friesenhagen",
+      "county": "Altenkirchen",
+      "region": "Siegerland",
+      "country": "Bundesrepublik Deutschland"
+    },
+    "classifications": [
+      {
+        "de": "wasserburg",
+        "en": "water castle"
+      },
+      {
+        "de": "kastellburg",
+        "en": "quadrangular castle"
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "burg-schloss",
+        "en": "castle-manor"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ]
+  },
+  {
+    "id": "35",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=35",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=35",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=35",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=35",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=35"
+    ],
+    "name": {
+      "primary": "Friedewald",
+      "secondary": "bei Daaden"
+    },
+    "slug": "friedewald-b-daaden",
+    "location": {
+      "city": "Daaden",
+      "county": "Altenkirchen",
+      "region": "Siegerland",
+      "country": "Bundesrepublik Deutschland"
+    },
+    "classifications": [],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "burg-schloss",
+        "en": "castle-manor"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ]
+  },
+  {
+    "id": "36",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=36",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=36",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=36",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=36",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=36"
+    ],
+    "name": {
+      "primary": "Wilnsdorf",
+      "secondary": "Wasserburg"
+    },
+    "slug": "wilnsdorf-wasserburg",
+    "location": {
+      "city": "Wilnsdorf",
+      "county": "Siegen-Wittgenstein",
+      "region": "Siegerland",
+      "country": "Bundesrepublik Deutschland"
+    },
+    "classifications": [
+      {
+        "de": "burgstelle",
+        "en": "castle site"
+      },
+      {
+        "de": "wasserburg",
+        "en": "water castle"
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ]
+  },
+  {
+    "id": "37",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=37",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=37",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=37",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=37",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=37"
+    ],
+    "name": {
+      "primary": "Marienfels",
+      "secondary": null
+    },
+    "slug": "marienfels",
+    "location": {
+      "city": "Unkelbach",
+      "county": "Ahrweiler",
+      "country": "Bundesrepublik Deutschland"
+    },
+    "classifications": [],
+    "structures": [
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ]
+  },
+  {
+    "id": "38",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=38",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=38",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=38",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=38",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=38"
+    ],
+    "name": {
+      "primary": "Hundsburgskopf",
+      "secondary": null
+    },
+    "slug": "hundsburgskopf",
+    "location": {
+      "city": "Dümpelfeld",
+      "county": "Ahrweiler",
+      "country": "Bundesrepublik Deutschland"
+    },
+    "classifications": [
+      {
+        "de": "burgstelle",
+        "en": "castle site"
+      }
+    ],
+    "structures": [
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ]
+  },
+  {
+    "id": "39",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=39",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=39",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=39",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=39",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=39"
+    ],
+    "name": {
+      "primary": "Altenburg",
+      "secondary": "a. d. Ahr"
+    },
+    "slug": "altenburg-a-d-ahr",
+    "location": {
+      "city": "Altenahr",
+      "county": "Ahrweiler",
+      "region": "Eifel",
+      "country": "Bundesrepublik Deutschland"
+    },
+    "classifications": [
+      {
+        "de": "burgstelle",
+        "en": "castle site"
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ]
+  },
+  {
+    "id": "40",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=40",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=40",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=40",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=40",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=40"
+    ],
+    "name": {
+      "primary": "Birresdorf",
+      "secondary": null
+    },
+    "slug": "birresdorf",
+    "location": {
+      "city": "Bad Neuenahr-Ahrweiler",
+      "county": "Ahrweiler",
+      "country": "Bundesrepublik Deutschland"
+    },
+    "classifications": [
+      {
+        "de": "burg allgemein",
+        "en": "castle"
+      }
+    ],
+    "structures": [
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ]
+  },
+  {
+    "id": "41",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=41",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=41",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=41",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=41",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=41"
+    ],
+    "name": {
+      "primary": "Nister",
+      "secondary": null
+    },
+    "slug": "nister",
+    "location": {
+      "city": "Hachenburg",
+      "county": "Westerwaldkreis",
+      "region": "Westerwald",
+      "country": "Bundesrepublik Deutschland"
+    },
+    "classifications": [
+      {
+        "de": "felsenburg",
+        "en": "rock castle"
+      },
+      {
+        "de": "burgstall",
+        "en": "stable"
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ]
+  },
+  {
+    "id": "42",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=42",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=42",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=42",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=42",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=42"
+    ],
+    "name": {
+      "primary": "Höferburg",
+      "secondary": null
+    },
+    "slug": "höferburg",
+    "location": {
+      "city": "Friesenhagen",
+      "county": "Altenkirchen",
+      "region": "Siegerland",
+      "country": "Bundesrepublik Deutschland"
+    },
+    "classifications": [
+      {
+        "de": "burgstelle",
+        "en": "castle site"
+      },
+      {
+        "de": "bodendenkmal",
+        "en": ""
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ]
+  },
+  {
+    "id": "43",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=43",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=43",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=43",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=43",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=43"
+    ],
+    "name": {
+      "primary": "Honneroth",
+      "secondary": null
+    },
+    "slug": "honneroth",
+    "location": {
+      "city": "Altenkirchen",
+      "county": "Altenkirchen",
+      "region": "Westerwald",
+      "country": "Bundesrepublik Deutschland"
+    },
+    "classifications": [
+      {
+        "de": "abgegangene burgstelle",
+        "en": "abandoned ruin"
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ]
+  },
+  {
+    "id": "44",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=44",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=44",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=44",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=44",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=44"
+    ],
+    "name": {
+      "primary": "Burglahr",
+      "secondary": null
+    },
+    "slug": "burglahr",
+    "location": {
+      "city": "Flammersfeld",
+      "county": "Altenkirchen",
+      "region": "Westerwald",
+      "country": "Bundesrepublik Deutschland"
+    },
+    "classifications": [
+      {
+        "de": "kompaktanlage",
+        "en": null
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ]
+  },
+  {
+    "id": "45",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=45",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=45",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=45",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=45",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=45"
+    ],
+    "name": {
+      "primary": "Wildenburg",
+      "secondary": "bei Friesenhagen"
+    },
+    "slug": "wildenburg-b-friesenhagen",
+    "location": {
+      "city": "Friesenhagen",
+      "county": "Altenkirchen",
+      "region": "Siegerland",
+      "country": "Bundesrepublik Deutschland"
+    },
+    "classifications": [
+      {
+        "de": "randhausanlage",
+        "en": null
+      },
+      {
+        "de": "kompaktanlage",
+        "en": null
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ]
+  },
+  {
+    "id": "46",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=46",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=46",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=46",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=46",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=46"
+    ],
+    "name": {
+      "primary": "Freusburg",
+      "secondary": null
+    },
+    "slug": "freusburg",
+    "location": {
+      "city": "Kirchen",
+      "county": "Altenkirchen",
+      "region": "Siegtal",
+      "country": "Bundesrepublik Deutschland"
+    },
+    "classifications": [
+      {
+        "de": "randhausanlage",
+        "en": null
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "burg-schloss",
+        "en": "castle-manor"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ]
+  },
+  {
+    "id": "47",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=47",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=47",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=47",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=47",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=47"
+    ],
+    "name": {
+      "primary": "Schönstein",
+      "secondary": "a. d. Sieg"
+    },
+    "slug": "schönstein-a-d-sieg",
+    "location": {
+      "city": "Wissen",
+      "county": "Altenkirchen",
+      "region": "Siegerland",
+      "country": "Bundesrepublik Deutschland"
+    },
+    "classifications": [
+      {
+        "de": "randhausanlage",
+        "en": null
+      },
+      {
+        "de": "kompaktanlage",
+        "en": null
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "burg-schloss",
+        "en": "castle-manor"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ]
+  },
+  {
+    "id": "48",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=48",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=48",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=48",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=48",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=48"
+    ],
+    "name": {
+      "primary": "Rotenhain",
+      "secondary": null
+    },
+    "slug": "rotenhain",
+    "location": {
+      "city": "Westerburg",
+      "county": "Westerwaldkreis",
+      "region": "Westerwald",
+      "country": "Bundesrepublik Deutschland"
+    },
+    "classifications": [],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ]
+  },
+  {
+    "id": "49",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=49",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=49",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=49",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=49",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=49"
+    ],
+    "name": {
+      "primary": "Vroneck",
+      "secondary": null
+    },
+    "slug": "vroneck",
+    "location": {
+      "city": "Hachenburg",
+      "county": "Westerwaldkreis",
+      "region": "Westerwald",
+      "country": "Bundesrepublik Deutschland"
+    },
+    "classifications": [
+      {
+        "de": "abgegangene burgstelle",
+        "en": "abandoned ruin"
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ]
+  }
+]
