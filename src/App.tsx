@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './assets/css/styles.css';
+import './assets/css/queries.css';
 import CastleTile from './components/CastleTile';
 import Footer from './components/Footer';
 import Header from './components/Header';

@@ -58,10 +58,20 @@ a.btn:hover {
   border-bottom: 1px dashed #00000000;
 }
 
+h1,
 h2 {
   font-weight: 100;
   text-transform: uppercase;
-  letter-spacing: 1.8px;
+  letter-spacing: 4px;
+}
+
+h1 {
+  font-size: 2rem;
+  letter-spacing: 8px;
+
+  span {
+    opacity: 0.4;
+  }
 }
 
 .main {
@@ -101,11 +111,6 @@ section#map {
 
 section#details {
   width: 44rem;
-}
-
-footer {
-  padding: 2rem;
-  text-align: center;
 }
 
 .wrap {
@@ -290,4 +295,10 @@ footer {
 // FOOTER
 
 footer {
+  padding: 2rem;
+  text-align: center;
+
+  span {
+    opacity: 0.4;
+  }
 }
