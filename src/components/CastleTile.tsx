@@ -25,10 +25,20 @@ function CastleTile({ castle, openModal }: Props) {
         )}
       </div>
 
-      <span>
+      <div className="location">
         <i className="fa-solid fa-location-dot"></i>
-        <p>{`${castle.location.city}, ${castle.location.county}, ${castle.location.region}`}</p>
-      </span>
+        <div>
+          <p>{`${castle.location.city}, ${castle.location.county}`}</p>
+
+          <p>
+            {castle.location.region && (
+              <span>{`${castle.location.region}, `}</span>
+            )}
+            <span>{`${castle.location.state.en}`}</span>
+            <span className="country-code">{`${castle.location.country.abbreviation!.toUpperCase()}`}</span>
+          </p>
+        </div>
+      </div>
 
       {/* {castle.condition && (
           <div className="info">

@@ -17,12 +17,14 @@ export interface Location {
   city?: string;
   county?: string;
   region?: string;
-  country: string;
+  state: Translatable;
+  country: Translatable;
 }
 
 export interface Translatable {
   de: string;
-  en: string | null;
+  en?: string;
+  abbreviation?: string;
 }
 
 export interface Gallery {

@@ -22,7 +22,8 @@ Object.keys(data).forEach((key) => {
       city: d.city,
       county: d.county,
       region: d.region,
-      country: d.country
+      state: transformState(d.state),
+      country: transformCountry(d.country)
     },
     classifications: d.classification
       ? d.classification.map((c) => transformClassification(c))
@@ -111,6 +112,53 @@ function transformClassification(str) {
 
   if (!uniqueClassifications.includes(str)) uniqueClassifications.push(str);
   return t;
+}
+
+function transformCountry(str) {
+  const countries = [
+    {
+      de: 'Bundesrepublik Deutschland',
+      en: 'Germany',
+      abbreviation: 'de'
+    }
+  ];
+
+  const c = countries.find((t) => t.de == str);
+  if (!c) console.error(`Country "${str}" didn't match any defined countries`);
+  return c;
+}
+
+function transformState(str) {
+  const states = [
+    { de: 'Baden-Württemberg', en: 'Baden-Württemberg', abbreviation: 'bw' },
+    { de: 'Bayern', en: 'Bavaria', abbreviation: 'by' },
+    { de: 'Berlin', en: 'Berlin', abbreviation: 'be' },
+    { de: 'Brandenburg', en: 'Brandenburg', abbreviation: 'bb' },
+    { de: 'Bremen', en: 'Bremen', abbreviation: 'hb' },
+    { de: 'Hamburg ', en: 'Hamburg', abbreviation: 'hh' },
+    { de: 'Hessen', en: 'Hesse', abbreviation: 'he' },
+    { de: 'Niedersachsen', en: 'Lower Saxony', abbreviation: 'ni' },
+    {
+      de: 'Mecklenburg-Vorpommern',
+      en: 'Mecklenburg-Western Pomerania',
+      abbreviation: 'mv'
+    },
+    {
+      de: 'Nordrhein-Westfalen',
+      en: 'North Rhine-Westphalia',
+      abbreviation: 'nw'
+    },
+    { de: 'Rheinland-Pfalz', en: 'Rheinland-Pfalz', abbreviation: 'rp' },
+    { de: 'Saarland', en: 'Saarland', abbreviation: 'sl' },
+    { de: 'Sachsen', en: 'Saxony', abbreviation: 'sn' },
+    { de: 'Sachsen-Anhalt', en: 'Saxony-Anhalt', abbreviation: 'st' },
+    { de: 'Schleswig-Holstein', en: 'Schleswig-Holstein', abbreviation: 'sh' },
+    { de: 'Thüringen', en: 'Thuringia', abbreviation: 'th' }
+  ];
+
+  const s = states.find((t) => t.de == str);
+  if (!s) console.error(`State "${str}" didn't match any defined states`);
+  return s;
 }
 
 function generateSlug(str) {

@@ -36,6 +36,11 @@ li {
   opacity: 0.4;
 }
 
+.flag-sm {
+  height: 1.8rem;
+  border-radius: 5px;
+}
+
 a.btn {
   cursor: pointer;
   display: inline-flex;
@@ -135,6 +140,33 @@ section#details {
   text-align: center;
 }
 
+// REUSABLES
+.country-code {
+  color: var(--background);
+  background-color: #ffffff40;
+  padding: 0.2rem 0.4rem;
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
+
+.location {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.8rem;
+
+  i {
+    opacity: 0.4;
+  }
+
+  p {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.4rem;
+  }
+}
+
 // CASTLE LIST
 .castle-tile {
   cursor: pointer;
@@ -150,13 +182,6 @@ section#details {
   background-color: var(--foreground);
   box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 5px;
   transition: all 0.3s;
-
-  span {
-    display: flex;
-    gap: 0.8rem;
-    align-items: center;
-    opacity: 0.4;
-  }
 
   .castle-tile-header {
     h2.secondary {
