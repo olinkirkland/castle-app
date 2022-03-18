@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import './assets/css/styles.css';
 import CastleTile from './components/CastleTile';
+import Footer from './components/Footer';
+import Header from './components/Header';
 import Modal from './components/Modal';
 import Search from './components/Search';
 
@@ -35,8 +37,10 @@ function App() {
 
   return (
     <div className="main">
-      <header>Header</header>
+      <Header />
+
       <Search applyFilter={applyFilters} />
+
       <article>
         <section id="list">
           <ul className="castle-list">
@@ -53,7 +57,7 @@ function App() {
         <section id="map">Map</section>
         <section id="details">Details</section>
       </article>
-      <footer>Footer</footer>
+      <Footer />
 
       {galleryItem && (
         <Modal

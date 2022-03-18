@@ -30,9 +30,14 @@ li {
   list-style: none;
 }
 
+.text-divider {
+  margin: 0 1rem;
+  opacity: 0.4;
+}
+
 a.btn {
   cursor: pointer;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   gap: 0.4rem;
 
@@ -119,6 +124,12 @@ footer {
   overflow-y: scroll;
 }
 
+// SEARCH & FILTERS
+.search {
+  text-align: center;
+}
+
+// CASTLE LIST
 .castle-tile {
   padding: 1rem 1.6rem;
   margin-right: 1rem;
@@ -274,4 +285,9 @@ footer {
       }
     }
   }
+}
+
+// FOOTER
+
+footer {
 }

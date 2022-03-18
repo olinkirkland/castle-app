@@ -3,7 +3,11 @@ type Props = {
 };
 
 function Search({ applyFilter }: Props) {
-  return <p>Search & Filters</p>;
+  return (
+    <div className="search">
+      <p>Search & Filters</p>
+    </div>
+  );
 }
 
 export default Search;
