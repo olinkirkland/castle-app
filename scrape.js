@@ -42,7 +42,7 @@ let allJson = {};
  * Perform Actions
  */
 
-const max = 15;
+const max = 50;
 const rawDir = 'data/raw-data/';
 const jsonDir = 'data/json-data/';
 
@@ -59,7 +59,9 @@ const jsonDir = 'data/json-data/';
  */
 
 // Parse downloaded data
-// parseDownloadedFiles();
+parseDownloadedFiles(() => {
+  printOneKey('dateBegin');
+});
 // parseDownloadedFiles(downloadImages);
 
 /**
@@ -177,7 +179,7 @@ function parseDownloadedFiles(callback = null) {
         } else {
           // End
           writeAllJson();
-          printAllKeys();
+          // printAllKeys();
 
           if (callback) callback();
         }
@@ -329,7 +331,7 @@ function parseToObject(u) {
   return o;
 }
 
-function downloadImages() {
+function downloadImages(overwrite = false) {
   let queue = [];
   Object.values(allJson).forEach((castle) => {
     castle.gallery.map((g) => {
@@ -352,13 +354,20 @@ function downloadImages() {
       }
 
       current = queue.pop();
-      const file = fs.createWriteStream(current.path);
-      const request = https.get(current.url, function (response) {
-        response.pipe(file);
+
+      // If overwrite is set to false, skip this download if the file already exists
+      if (!overwrite && fs.existsSync(current.path)) {
+        console.log(`SKIP ${current.path} already exists`);
         current = null;
-      });
+      } else {
+        const file = fs.createWriteStream(current.path);
+        const request = https.get(current.url, function (response) {
+          response.pipe(file);
+          current = null;
+        });
+      }
     }
-  }, 200);
+  }, 100);
 }
 
 function fileTypeFromUrl(url) {
@@ -401,6 +410,11 @@ function parseDataEls(dom) {
   });
 
   return o;
+}
+
+function printOneKey(key) {
+  const arr = Object.values(allJson).map((u) => u[key]);
+  console.log(arr);
 }
 
 function formatDataKey(str) {

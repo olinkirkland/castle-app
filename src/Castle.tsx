@@ -1,26 +1,28 @@
 export interface Castle {
   id: string;
   urls: string[];
-  title: string;
-  timeline: string;
-  buildingDevelopment: string;
-  buildingDescription: string;
-  gallery: Gallery[];
-  misc: any;
+  name: Name;
+  slug: string;
+  location: Location;
+  classifications: Translatable[];
+  structures: Translatable[];
+}
+
+export interface Name {
+  primary: string;
+  secondary: null | string;
+}
+
+export interface Location {
+  city?: string;
+  county?: string;
+  region?: string;
   country: string;
-  state: string;
-  region: string;
-  county: string;
-  city: string;
-  structureType: string[];
-  classification: string[];
-  purpose: string[];
-  overview: string;
-  dateBegin: string;
-  dateEnd: string;
-  condition: string;
-  conditionCommentary: string;
-  references: string[];
+}
+
+export interface Translatable {
+  de: string;
+  en: string | null;
 }
 
 export interface Gallery {

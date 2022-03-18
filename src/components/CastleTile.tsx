@@ -1,5 +1,5 @@
 import React from 'react';
-import { Castle, Gallery } from '../Castle';
+import { Castle } from '../Castle';
 
 type Props = {
   castle: Castle;
@@ -13,23 +13,28 @@ function CastleTile({ castle, openModal }: Props) {
   }
 
   function onClickGalleryItem(g: any) {
-    openModal(castle.title, g);
+    openModal(castle.name.primary, g);
   }
 
   return (
     <div className="castle-tile">
-      <h2>{castle.title}</h2>
+      <div className="castle-tile-header">
+        <h2 className="primary">{castle.name.primary}</h2>
+        {castle.name.secondary && (
+          <h2 className="secondary">{castle.name.secondary}</h2>
+        )}
+      </div>
 
-      <div className="wrap">
-        <div className="info">
-          <p className="title">
-            <i className="fa-solid fa-location-dot"></i>
-            Location
-          </p>
-          <p>{`${castle.city}, ${castle.county}`}</p>
-        </div>
+      {/* <div className="wrap"> */}
+      <div className="info full">
+        <p className="title">
+          <i className="fa-solid fa-location-dot"></i>
+          Location
+        </p>
+        <p>{`${castle.location.city}, ${castle.location.county}, ${castle.location.region}`}</p>
+      </div>
 
-        {castle.condition && (
+      {/* {castle.condition && (
           <div className="info">
             <p className="title">Condition</p>
             <p>{castle.condition}</p>
@@ -57,10 +62,10 @@ function CastleTile({ castle, openModal }: Props) {
 
             <p>{castle.classification.join(', ')}</p>
           </div>
-        )}
-      </div>
+        )} */}
+      {/* </div> */}
 
-      {castle.gallery.length > 0 && (
+      {/* {false && castle.gallery.length > 0 && (
         <div className="info full">
           <p className="title">
             <i className="fa-solid fa-images"></i>Gallery (
@@ -79,16 +84,16 @@ function CastleTile({ castle, openModal }: Props) {
             ))}
           </ul>
         </div>
-      )}
+      )} */}
 
-      <div className="castle-tile-footer">
+      {/* <div className="castle-tile-footer">
         <a className="btn" onClick={onClickJson}>
           <span>Json data</span>
         </a>
         <a className="btn" href={castle.urls[0]} target="_blank">
           <span>Source</span>
         </a>
-      </div>
+      </div> */}
     </div>
   );
 }
