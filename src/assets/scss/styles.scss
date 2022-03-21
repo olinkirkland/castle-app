@@ -77,6 +77,7 @@ li {
 
 h1,
 h2 {
+  font-size: 1.4rem;
   font-weight: 100;
   text-transform: uppercase;
   letter-spacing: 4px;
@@ -120,11 +121,6 @@ section {
 
 section#list {
   width: 32rem;
-}
-
-
-section#details {
-  flex-grow: 1;
 }
 
 .wrap {
@@ -190,11 +186,7 @@ section#details {
   background-color: var(--foreground);
   transition: all 0.3s;
 
-  h2.primary {
-    font-size: 1.2rem;
-  }
   h2.secondary {
-    font-size: 1.2rem;
     opacity: 0.4;
   }
 }
@@ -205,23 +197,35 @@ section#details {
 
 .details {
   width: 100%;
-  border: 1px solid var(--foreground);
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 1.6rem;
   padding: 0.8rem;
 
+  .info {
+    border: 1px solid var(--foreground);
+    padding: 2rem;
+
+    .info-header {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      opacity: 0.4;
+      margin-bottom: 1.2rem;
+    }
+  }
+
   // Gallery
   .gallery {
     width: 100%;
-    gap: 0.8rem;
 
     display: grid;
     grid-template-columns: repeat(5, 1fr);
 
     .gallery-item {
-      height: 6rem;
+      height: 8rem;
+
       overflow: hidden;
       background-color: var(--background);
 
@@ -254,59 +258,6 @@ section#details {
       .gallery-item-overlay:hover {
         opacity: 1;
         background-color: #00000040;
-      }
-    }
-  }
-}
-
-.modal {
-  position: fixed;
-  width: 100vw;
-  height: 100vh;
-
-  top: 0;
-  background-color: rgba(0, 0, 0, 0.6);
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  .modal-panel {
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 15px;
-    background-color: var(--background);
-    border-radius: 5px;
-
-    .modal-header {
-      display: flex;
-      align-items: center;
-      padding: 1.2rem;
-
-      h2.title {
-        font-size: 1.2rem;
-        width: 100%;
-      }
-
-      a.close {
-        text-align: center;
-        width: 2rem;
-        font-size: 2rem;
-        cursor: pointer;
-      }
-    }
-
-    .modal-body {
-      display: flex;
-      flex-direction: column;
-
-      img {
-        width: 24rem;
-        // max-height: 32rem;
-      }
-
-      .modal-info {
-        padding: 2rem;
-        text-align: center;
-        opacity: 0.4;
       }
     }
   }

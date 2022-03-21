@@ -1,5 +1,5 @@
 import React from 'react';
-import { Castle } from '../Castle';
+import Castle from '../Castle';
 
 type Props = {
   castle?: Castle;
@@ -16,26 +16,31 @@ export default function CastleDetails({ castle }: Props) {
 
   return (
     <div className="details">
-      <div className="location">
-        <i className="fa-solid fa-location-dot"></i>
-        <div>
-          <p>
-            <span>{castle.location.city && `${castle.location.city},`}</span>
-            <span>{!castle.location.city && `${castle.location.county},`}</span>
-            <span>{`${castle.location.state.en}`}</span>
-          </p>
-          <img
-            className="flag-sm"
-            src={`${process.env.PUBLIC_URL}/flags/countries/${castle.location.country.abbreviation}/states/${castle.location.state.abbreviation}.svg`}
-            alt=""
-          />
+      <div className="info">
+        <div className="info-header">
+          <i className="fa-solid fa-location-dot"></i>
+          <h2>Location</h2>
         </div>
+        <p>
+          <span>{castle.location.city && `${castle.location.city},`}</span>
+          <span>{!castle.location.city && `${castle.location.county},`}</span>
+          <span>{`${castle.location.state.en}`}</span>
+        </p>
+        <img
+          className="flag-sm"
+          src={`${process.env.PUBLIC_URL}/flags/countries/${castle.location.country.abbreviation}/states/${castle.location.state.abbreviation}.svg`}
+          alt=""
+        />
       </div>
 
       {castle.condition && (
         <div className="info">
-          <p className="title">Condition</p>
+          <div className="info-header">
+            <i className="fa-solid fa-archway"></i>
+            <h2>Condition</h2>
+          </div>
           <p>{castle.condition.en}</p>
+          <p>{castle.conditionCommentary}</p>
         </div>
       )}
 
@@ -63,11 +68,11 @@ export default function CastleDetails({ castle }: Props) {
         )} */}
 
       {castle.gallery.length > 0 && castle.gallery.length > 0 && (
-        <div className="info full">
-          <p className="title">
-            <i className="fa-solid fa-images"></i>Gallery (
-            {castle.gallery.length})
-          </p>
+        <div className="info">
+          <div className="info-header">
+            <i className="fa-solid fa-images"></i>
+            <h2>Gallery ({castle.gallery.length})</h2>
+          </div>
           <ul className="gallery">
             {castle.gallery.map((g, index) => (
               <li className="gallery-item" key={index}>

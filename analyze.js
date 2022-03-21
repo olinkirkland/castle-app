@@ -1,7 +1,4 @@
 const fs = require('fs');
-const https = require('https');
-const path = require('path');
-const { title } = require('process');
 
 // Get raw json
 const data = JSON.parse(fs.readFileSync('public/data.json', 'utf8'));
@@ -31,6 +28,7 @@ Object.keys(data).forEach((key) => {
       : [],
     structures: d.structureType.map((t) => transformStructure(t)),
     condition: transformCondition(d.condition),
+    conditionCommentary: d.conditionCommentary,
     gallery: d.gallery
   };
 

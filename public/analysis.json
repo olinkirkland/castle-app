@@ -49,6 +49,7 @@
       "en": "small leftovers",
       "value": 2
     },
+    "conditionCommentary": "Von der Höhenburg haben sich lediglich sanierte Reste der Ringmauer auf dem Berggipfel und am Burgberg erhalten.",
     "gallery": [
       {
         "id": "0",
@@ -110,6 +111,7 @@
       "en": "small leftovers",
       "value": 2
     },
+    "conditionCommentary": "Das Burggelände mit der Ruine eines Torturms",
     "gallery": [
       {
         "id": "0",
@@ -175,6 +177,7 @@
       "en": "no remains",
       "value": 0
     },
+    "conditionCommentary": "Von dem Burghaus sind keine Reste auf uns gekommen. Erhalten blieb lediglich ein zum Anwesen gehörender Turm der Ortsbefestigung.",
     "gallery": []
   },
   {
@@ -226,6 +229,7 @@
       "en": "largely preserved",
       "value": 4
     },
+    "conditionCommentary": "Gut erhaltene, im Kern mittelalterliche, später zu einem Schloss umgestaltete Anlage.",
     "gallery": [
       {
         "id": "0",
@@ -311,6 +315,7 @@
       "en": "small leftovers",
       "value": 2
     },
+    "conditionCommentary": "Von der Burg haben sich der sanierte runde Bergfried und Teile der Ringmauer erhalten.",
     "gallery": [
       {
         "id": "0",
@@ -396,6 +401,7 @@
       "en": "significant remains",
       "value": 3
     },
+    "conditionCommentary": "Relativ gut erhaltene, 1954 in Teilen (Torhaus) modern ausgebaute Burgruine. Umfangreiche Sanierungsarbeiten in den 1990er Jahren.",
     "gallery": [
       {
         "id": "0",
@@ -481,6 +487,7 @@
       "en": "significant remains",
       "value": 3
     },
+    "conditionCommentary": "Relativ gut erhaltene, 1970 und 1984 sanierte Burgruine.",
     "gallery": [
       {
         "id": "0",
@@ -574,6 +581,7 @@
       "en": "small leftovers",
       "value": 2
     },
+    "conditionCommentary": "An der Stelle der mittelalterlichen Burg entstand ab 1760 ein Barockschloss.",
     "gallery": [
       {
         "id": "0",
@@ -720,6 +728,7 @@
       "en": "small leftovers",
       "value": 2
     },
+    "conditionCommentary": "Erhalten blieben Reste einss Abschnittswall mit Vorwall im Süden",
     "gallery": [
       {
         "id": "0",
@@ -780,6 +789,7 @@
       "en": "largely preserved",
       "value": 4
     },
+    "conditionCommentary": "Relativ gut erhaltene, vorbildlich sanierte Burg- bzw. Schlossanlage. Neubauten der 1970er Jahre auf dem Burggelände passen sich der Architektur der Gesamtanlage an. .",
     "gallery": [
       {
         "id": "0",
@@ -869,6 +879,7 @@
       "en": "small leftovers",
       "value": 2
     },
+    "conditionCommentary": "Von der mittelalterlichen Burg blieben geringe Mauerreste in dem barocken Schloss erhalten. Mitte der 1970er Jahre wurde das Schloss umfassend renoviert.",
     "gallery": [
       {
         "id": "0",
@@ -933,6 +944,7 @@
       "en": "largely preserved",
       "value": 4
     },
+    "conditionCommentary": "Gut erhaltener Mottenhügel.",
     "gallery": [
       {
         "id": "0",
@@ -1066,6 +1078,7 @@
       "en": "largely preserved",
       "value": 4
     },
+    "conditionCommentary": "Relativ gut erhaltene mittelalterliche Höhenburg mit zahlreichen frühneuzeitlichen Um- und Ausbauten.",
     "gallery": [
       {
         "id": "0",
@@ -1153,6 +1166,7 @@
       "en": "historic reshaping",
       "value": 4
     },
+    "conditionCommentary": "Unter Verwendung von mittelalterlichen Bauteilen entstand 1850-55 eine imposante neugotische Schlossanlage von pränganter Silhouettenwirkung.",
     "gallery": [
       {
         "id": "0",
@@ -1292,6 +1306,7 @@
       "en": "largely preserved",
       "value": 4
     },
+    "conditionCommentary": "Neuere archäologische Untersuchungen und Bauuntersuchungen seit 1986",
     "gallery": [
       {
         "id": "0",
@@ -1381,6 +1396,7 @@
       "en": "significant remains",
       "value": 3
     },
+    "conditionCommentary": "Von der mittelalterlichen Burg blieb im Wesentlichen die Ringmauer und ein rechteckiger Torturm sowie ein Wohngebäude des 16. Jh. erhalten.",
     "gallery": [
       {
         "id": "0",
@@ -1464,6 +1480,7 @@
       "en": "largely preserved",
       "value": 4
     },
+    "conditionCommentary": "Guterhaltene spätmittelalterliche Burganlage mit barockem Hauptgebäude. Sicherungsarbeiten seit Ende der 1970er Jahre.",
     "gallery": [
       {
         "id": "0",
@@ -1549,6 +1566,7 @@
       "en": "largely preserved",
       "value": 4
     },
+    "conditionCommentary": "Relativ gut erhaltene Burgruine, Saalgeschossbau 1979-82 zu einem Gastronomiebetrieb ausgebaut.",
     "gallery": [
       {
         "id": "0",
@@ -1624,6 +1642,7 @@
       "en": "significant remains",
       "value": 3
     },
+    "conditionCommentary": "relativ gut erhaltene Burgruine in imposanter Spornlage.",
     "gallery": [
       {
         "id": "0",
@@ -1709,6 +1728,7 @@
       "en": "no remains",
       "value": 0
     },
+    "conditionCommentary": "Von der Burg haben sich keine Reste erhalten. Lediglich die zu dem Adelssitz gehörende 1756 errichtete Mühle besteht noch.",
     "gallery": [
       {
         "id": "0",
@@ -1778,6 +1798,7 @@
       "en": "largely preserved",
       "value": 4
     },
+    "conditionCommentary": "Gut erhaltene, in der Barockzeit baulich veränderte Niederungsburg.",
     "gallery": [
       {
         "id": "0",
@@ -1862,6 +1883,7 @@
       "en": "significant remains",
       "value": 3
     },
+    "conditionCommentary": "Imposante Burgruine mit teilweise frei rekonstruiertem Palas. Der West-Bergfried erhielt Ende der 1970er Jahre ein Dach mit Eckwarten.",
     "gallery": [
       {
         "id": "0",
@@ -1947,18 +1969,19 @@
       "en": "significant remains",
       "value": 3
     },
+    "conditionCommentary": "Die relativ gut erhaltene Ruine wurde teilweise 1977 instandgesetzt. In das Mauerwerk des Wohnturms wurden Betondecken eingezogen.",
     "gallery": [
       {
         "id": "0",
-        "url": "https://www.ebidat.de/cgi-bin/r30msvccms_seiten_ansicht.pl?var_hauptpfad=../r30/vc_content/&var_seiten_nummer_uebergabe=15&var_fa1_select=var_fa1_select||451|&var_server_select=var_server_select|||&var_htmldatei_mix=&var_htmlpfad_mix=",
-        "path": "/images/75/0./r30/vc_content/&var_seiten_nummer_uebergabe=15&var_fa1_select=var_fa1_select||451|&var_server_select=var_server_select|||&var_htmldatei_mix=&var_htmlpfad_mix=",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/24_101_20050421101041.jpg",
+        "path": "/images/75/0.jpg",
         "castle": "75",
         "caption": "Luftaufnahme: Czerwinski (2000), aus. DBV Dokumentation Liebenstein",
         "year": "2000"
       },
       {
         "id": "1",
-        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/24_101_20050421101041.jpg",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/24_103_20050421101041.jpg",
         "path": "/images/75/1.jpg",
         "castle": "75",
         "caption": "Rückansicht, Foto: G. Wagner (2004)",
@@ -1966,7 +1989,7 @@
       },
       {
         "id": "2",
-        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/24_103_20050421101041.jpg",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/24_105_20050421101041.jpg",
         "path": "/images/75/2.jpg",
         "castle": "75",
         "caption": "Wippbrücke, Foto: S. Wagner (2004)",
@@ -1974,16 +1997,11 @@
       },
       {
         "id": "3",
-        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/24_105_20050421101041.jpg",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/24_23_20050421101041.jpg",
         "path": "/images/75/3.jpg",
         "castle": "75",
         "caption": "Grund- und Aufriss, aus: Monschauer, Sterrenberg und Liebenstein (1985)",
         "year": "1985"
-      },
-      {
-        "id": "4",
-        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/24_23_20050421101041.jpg",
-        "path": "/images/75/4.jpg"
       }
     ]
   },
@@ -2032,6 +2050,7 @@
       "en": "significant remains",
       "value": 3
     },
+    "conditionCommentary": "1968-78 Teilausbau der in bedeutenen Resten erhaltenen Burgruine.",
     "gallery": [
       {
         "id": "0",
@@ -2121,6 +2140,7 @@
       "en": "no remains",
       "value": 0
     },
+    "conditionCommentary": "Die letzten Reste der Burg wurden 1848 geschleift. Die Burgstelle ist teilweise im Gelände nachvollziehbar.",
     "gallery": [
       {
         "id": "0",
@@ -2186,6 +2206,7 @@
       "en": "largely preserved",
       "value": 4
     },
+    "conditionCommentary": "Sehr gut erhaltene spätmittelalterliche Zollburg in Insellage",
     "gallery": [
       {
         "id": "0",
@@ -2271,6 +2292,7 @@
       "en": "largely preserved",
       "value": 4
     },
+    "conditionCommentary": "Gut erhaltene hochmittelalterliche Höhenburg.",
     "gallery": [
       {
         "id": "0",
@@ -2356,6 +2378,7 @@
       "en": "largely preserved",
       "value": 4
     },
+    "conditionCommentary": "Weitgehend erhaltene, Mitte des 19. Jh. s ausgebaute Höhenburg.",
     "gallery": [
       {
         "id": "0",
@@ -2427,6 +2450,7 @@
       }
     ],
     "condition": "unknown",
+    "conditionCommentary": "Der recht gut erhaltene Wohnturm wurde 1910 durch den Anbau eines Sommersitzes ergänzt.",
     "gallery": [
       {
         "id": "0",
@@ -2581,6 +2605,7 @@
       "en": "significant remains",
       "value": 3
     },
+    "conditionCommentary": "Gut erhaltene, 1909-12 teilweise ausgebaute Burgruine.",
     "gallery": [
       {
         "id": "0",
@@ -2665,6 +2690,7 @@
       "en": "small leftovers",
       "value": 2
     },
+    "conditionCommentary": "Nur wenige Mauerreste und Abarbeitungen am Fels.",
     "gallery": [
       {
         "id": "0",
@@ -2749,6 +2775,7 @@
       "en": "overbuilt",
       "value": 0
     },
+    "conditionCommentary": "An die Stelle der mittelalterlichen Wasserburg trat im 16. Jh. ein zweigeschossiges Fachwerkgebäude.",
     "gallery": [
       {
         "id": "0",
@@ -2830,6 +2857,7 @@
       "en": "overbuilt",
       "value": 0
     },
+    "conditionCommentary": "An der Stelle der spätmittelalterlichen Wasserburg entstand um 1600 ein Schlossbau.",
     "gallery": [
       {
         "id": "0",
@@ -2974,6 +3002,7 @@
       "en": "largely preserved",
       "value": 4
     },
+    "conditionCommentary": "Die relativ gut erhaltene spätmittelalterliche Burg wurde 1900-1906 teilweise ausgebaut.",
     "gallery": [
       {
         "id": "0",
@@ -3059,6 +3088,7 @@
       "en": "significant remains",
       "value": 3
     },
+    "conditionCommentary": "Gut erhaltene, imposante Burganlage. Seit den 1990er Jahre Sicherungsarbeiten.",
     "gallery": [
       {
         "id": "0",
@@ -3144,6 +3174,7 @@
       "en": "significant remains",
       "value": 3
     },
+    "conditionCommentary": "Relativ gut erhaltene Burgruine. Umfangreiche Sanierungsmaßnahmen 1991-1998.",
     "gallery": [
       {
         "id": "0",
@@ -3224,6 +3255,7 @@
       "en": "significant remains",
       "value": 3
     },
+    "conditionCommentary": "Von der Burg blieb neben Resten der Umfassungsmauer im wesentlichen der in den 1980er Jahren sanierte fünfeckige Bergfried erhalten.",
     "gallery": [
       {
         "id": "0",
@@ -3311,6 +3343,7 @@
       "en": "largely preserved",
       "value": 4
     },
+    "conditionCommentary": "Gut erhaltene, im Kern spätmittelalterliche Niederungsburg mit barockem Herrenhaus, das unter teilweiser Verwendung eines mittelalterlichen Vorgängerbaus entstand.",
     "gallery": [
       {
         "id": "0",
@@ -3396,6 +3429,7 @@
       "en": "significant remains",
       "value": 3
     },
+    "conditionCommentary": "Die noch recht stattliche Burgruine befindet sich in rasch fortschreitendem Verfall und bedarf dringend einer Sanierung.",
     "gallery": [
       {
         "id": "0",
@@ -3476,6 +3510,7 @@
       "en": "small leftovers",
       "value": 2
     },
+    "conditionCommentary": "Erhalten blieb die talseitige Wand eines viergeschossigen Wohnturms.",
     "gallery": [
       {
         "id": "0",
@@ -3549,6 +3584,7 @@
       "en": "small leftovers",
       "value": 2
     },
+    "conditionCommentary": "Von der hochmittelalterlichen Burg haben sich lediglich Reste von Wall und Graben erhalten.",
     "gallery": []
   },
   {
@@ -3596,6 +3632,7 @@
       "en": "historic reshaping",
       "value": 4
     },
+    "conditionCommentary": "Relativ gut erhaltene Burgruine, in Teilen in den 1770er Jahren ausgebaut (Unterburg).",
     "gallery": [
       {
         "id": "0",
@@ -3675,6 +3712,7 @@
       "de": "stark modern überformt",
       "en": null
     },
+    "conditionCommentary": "Im Zuge der Nutzung als Gastronomiebetrieb teilweise baulich veränderte Burgruine mit Aussichtsterrasse.",
     "gallery": [
       {
         "id": "0",
@@ -3739,6 +3777,7 @@
       "en": "significant remains",
       "value": 3
     },
+    "conditionCommentary": "Die relativ gut erhaltene Anlage wurde 1971 renoviert.",
     "gallery": [
       {
         "id": "0",
@@ -3824,6 +3863,7 @@
       "en": "significant remains",
       "value": 3
     },
+    "conditionCommentary": "Beeindruckende Ruine in fortschreitendem Verfall.",
     "gallery": [
       {
         "id": "0",
@@ -3904,6 +3944,7 @@
       "en": "significant remains",
       "value": 3
     },
+    "conditionCommentary": "Relativ gut erhaltene, gepflegte Burgruine.",
     "gallery": [
       {
         "id": "0",
@@ -3989,6 +4030,7 @@
       "en": "significant remains",
       "value": 3
     },
+    "conditionCommentary": "Bedeutende Reste der hochmittelalterlichen Burganlage, die umfassend saniert worden ist.",
     "gallery": [
       {
         "id": "0",
@@ -4063,6 +4105,7 @@
       "en": "small leftovers",
       "value": 2
     },
+    "conditionCommentary": "2002 Freilegung einer Felsgrube an der südlichen Schmalseite des Burgfelsens (Zisterne).",
     "gallery": [
       {
         "id": "0",
@@ -4300,6 +4343,7 @@
       "en": "small leftovers",
       "value": 2
     },
+    "conditionCommentary": "in Oberburg Felsausarbeitungen, in Unterburg Gebäudereste.",
     "gallery": [
       {
         "id": "0",
@@ -4374,6 +4418,7 @@
       "en": "significant remains",
       "value": 3
     },
+    "conditionCommentary": "Sehr gut erhaltene, 1970/71 und 1985-87 aufwendig sanierte Burgruine.",
     "gallery": [
       {
         "id": "0",
@@ -4459,6 +4504,7 @@
       "en": "small leftovers",
       "value": 2
     },
+    "conditionCommentary": "Im Rahmen der 1989-95 durchgeführten Konservierungsmaßnahmen fanden Grabungen im Bereich der Wirtschaftsgebäude der nördlichen Unterburg statt.",
     "gallery": [
       {
         "id": "0",
@@ -4544,6 +4590,7 @@
       "en": "significant remains",
       "value": 3
     },
+    "conditionCommentary": "Gut erhaltene, sanierte Höhenburg in Spornlage. Um die Jahrhundertwende zum 20. Jh., vor allem aber seit den 1960er Jahren fanden umfangreiche Sanierungs- und Sicherungsarbeiten statt.",
     "gallery": [
       {
         "id": "0",
@@ -4632,6 +4679,7 @@
       "de": "stark modern überformt",
       "en": null
     },
+    "conditionCommentary": "auf Oberburg kaum Reste, Unterburg überformt",
     "gallery": [
       {
         "id": "0",
@@ -4706,6 +4754,7 @@
       "en": "significant remains",
       "value": 3
     },
+    "conditionCommentary": "1979-81 umfangreiche Instandsetzungsarbeiten. Sanierung der Ringmauern und des Palasmauerwerks mit Ausgrabung des Kellers; Freilegung, Sicherung und teilweise Aufmauerung der Kapellenmauern. Einmauerung gefundener Profilsteine.",
     "gallery": [
       {
         "id": "0",
@@ -4791,6 +4840,7 @@
       "en": "significant remains",
       "value": 3
     },
+    "conditionCommentary": "Relativ gut erhaltene, teilweise stark sanierte Anlage. 1981 als Baudenkmal ausgewiesen. Ab 1994 umfangreiche Sanierungsmaßnahmen.",
     "gallery": [
       {
         "id": "0",
@@ -4868,6 +4918,7 @@
       "en": "small leftovers",
       "value": 2
     },
+    "conditionCommentary": "Eine in den 1960er Jahren freigelegte Zisterne ist heute verschüttet.",
     "gallery": [
       {
         "id": "0",
@@ -4953,6 +5004,7 @@
       "en": "small leftovers",
       "value": 2
     },
+    "conditionCommentary": "Planmäßige Grabungen 1935 und seit 1988.",
     "gallery": [
       {
         "id": "0",
@@ -5034,6 +5086,7 @@
       "en": "significant remains",
       "value": 3
     },
+    "conditionCommentary": "Grundmauern erhalten und restauriert. Besonders die westliche Ringmauer, die Schildmauer und Teile des Bergfrieds sind stark ergänzt.",
     "gallery": [
       {
         "id": "0",
@@ -5189,6 +5242,7 @@
       "en": "foundations",
       "value": 1
     },
+    "conditionCommentary": "Recht gut erhaltene, bislang noch nicht eingehend archäologisch untersuchte Burgstelle.",
     "gallery": [
       {
         "id": "0",
@@ -5369,6 +5423,7 @@
       "en": "significant remains",
       "value": 3
     },
+    "conditionCommentary": "Bedeutende im Besitz der staatlichen Schlösserverwaltung Rheinland-Pfalz (BSA) befindliche Burgruine. Restaurierung seit 1970 insbes. Bergfried und Wohnbaureste. 1992 fotogrammetrische Vermessung von Palas und Kapelle.",
     "gallery": [
       {
         "id": "0",
@@ -5438,6 +5493,7 @@
       "en": "significant remains",
       "value": 3
     },
+    "conditionCommentary": "Eindrucksvolle, in Teilen stark sanierte Burgruine.",
     "gallery": [
       {
         "id": "0",
@@ -5523,6 +5579,7 @@
       "en": "significant remains",
       "value": 3
     },
+    "conditionCommentary": "Von der Burg blieben beeindruckende, 1921 gesicherte Baureste erhalten.",
     "gallery": [
       {
         "id": "0",
@@ -5612,6 +5669,7 @@
       "en": "largely preserved",
       "value": 4
     },
+    "conditionCommentary": "Die Wasserburg wurde 1978-86 umfassend saniert und instandgesetzt.",
     "gallery": [
       {
         "id": "0",
@@ -5701,6 +5759,7 @@
       "en": "significant remains",
       "value": 3
     },
+    "conditionCommentary": "Von der spätmittelalterlichen Anlage haben sich beachtliche Reste der Ringmauer und eines quadratischen Turmes erhalten, die in die Bauten des 17. Jh. einbezogen wurden.",
     "gallery": [
       {
         "id": "0",
@@ -5786,6 +5845,7 @@
       "en": "overbuilt",
       "value": 0
     },
+    "conditionCommentary": "Auf dem Gelände des spätmittelalterlichen Burghauses entstand im 16. Jh. das heutige Herrenhaus.",
     "gallery": [
       {
         "id": "0",
@@ -5846,6 +5906,7 @@
       "en": "small leftovers",
       "value": 2
     },
+    "conditionCommentary": "Von der mittelalterlichen Burganlage haben sich lediglich die Reste zweier runder Flankentürme erhalten. Die Gebäude des Burghofs datieren ins 18./19. Jh.",
     "gallery": [
       {
         "id": "0",
@@ -5907,6 +5968,7 @@
       "en": "significant remains",
       "value": 3
     },
+    "conditionCommentary": "Relativ gut erhaltene, in den 1930er Jahren teilweise ausgebaute Burgruine.",
     "gallery": [
       {
         "id": "0",
@@ -6267,6 +6329,7 @@
       "en": "largely preserved",
       "value": 4
     },
+    "conditionCommentary": "Gut erhaltener 1984/85 sanierter Wohnturm.",
     "gallery": [
       {
         "id": "0",
@@ -6377,6 +6440,7 @@
       "en": "overbuilt",
       "value": 0
     },
+    "conditionCommentary": "Im heutigen Schlossbau noch ältere Reste.",
     "gallery": [
       {
         "id": "0",
@@ -6461,6 +6525,7 @@
       "en": "small leftovers",
       "value": 2
     },
+    "conditionCommentary": "Teilweise sanierte Burgruine",
     "gallery": [
       {
         "id": "0",
@@ -6547,6 +6612,7 @@
       "en": "significant remains",
       "value": 3
     },
+    "conditionCommentary": "Imposante, dringend sanierungsbedürftige Burgruine.",
     "gallery": [
       {
         "id": "0",

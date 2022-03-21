@@ -1,5 +1,5 @@
 import React from 'react';
-import { Castle } from '../Castle';
+import Castle from '../Castle';
 
 type Props = {
   castle: Castle;

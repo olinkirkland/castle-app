@@ -1,4 +1,4 @@
-export interface Castle {
+export default interface Castle {
   id: string;
   urls: string[];
   name: Name;
@@ -7,6 +7,7 @@ export interface Castle {
   classifications: Translatable[];
   structures: Translatable[];
   condition: Translatable;
+  conditionCommentary: string;
   gallery: GalleryImage[];
 }
 
