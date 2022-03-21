@@ -42,7 +42,7 @@ let allJson = {};
  * Perform Actions
  */
 
-const max = 50;
+const max = 150;
 const rawDir = 'data/raw-data/';
 const jsonDir = 'data/json-data/';
 
@@ -59,10 +59,11 @@ const jsonDir = 'data/json-data/';
  */
 
 // Parse downloaded data
-parseDownloadedFiles(() => {
-  printOneKey('dateBegin');
-});
-// parseDownloadedFiles(downloadImages);
+// parseDownloadedFiles(() => {
+//   printOneKey('dateBegin');
+// });
+parseDownloadedFiles(downloadImages);
+// downloadImages();
 
 /**
  * Download from EBIDAT
@@ -83,12 +84,19 @@ function loadFromEbidat(index = 1, section = 0, callback = null) {
     }% | ${index}/${max - 1} | ${sectionNames[section]} | ${url}`
   );
 
-  const request = https.get(url, function (res) {
-    res.setEncoding('binary');
-    res.pipe(file);
+  if (fs.existsSync(filePath)) {
+    next();
+  } else {
+    const request = https.get(url, function (res) {
+      res.setEncoding('binary');
+      res.pipe(file);
 
-    console.log('  --> Saved to ' + filePath);
+      console.log('  --> Saved to ' + filePath);
+      next();
+    });
+  }
 
+  function next() {
     // Determine if the next query of the current index should be loaded
     // Or if the next index should be loaded (with the query index reset)
     section++;
@@ -104,7 +112,7 @@ function loadFromEbidat(index = 1, section = 0, callback = null) {
       console.log('100% | Downloads complete.');
       callback();
     }
-  });
+  }
 }
 
 function ensureDirectoryExistence(filePath) {
@@ -190,7 +198,7 @@ function parseDownloadedFiles(callback = null) {
 
 function printAllKeys() {
   let arr = [];
-  for (key in allKeys) {
+  for (let key in allKeys) {
     arr.push({ key: key, value: allKeys[key] });
   }
 
@@ -217,7 +225,7 @@ function writeAllJson() {
 
 let allKeys = {};
 function analyzeObject(o) {
-  for (key in o) {
+  for (let key in o) {
     allKeys[key] = allKeys[key] ? allKeys[key] + 1 : 1;
   }
 }
@@ -272,8 +280,13 @@ function parseToObject(u) {
   // Gallery
   // Get urls of full-size images
   let gallery = [];
-  const galleryAEl =
-    history.window.document.querySelectorAll('div.galerie > a');
+
+  const galleryImgEl = history.window.document.querySelectorAll(
+    'div.galerie > a > img'
+  );
+
+  const galleryAEl = [];
+  galleryImgEl.forEach((img) => galleryAEl.push(img.closest('a')));
   galleryAEl.forEach((el, index) => {
     const url =
       'https://www.ebidat.de' + el.href.substring(el.href.indexOf('/'));
@@ -283,10 +296,6 @@ function parseToObject(u) {
       path: `/images/${o.id}/${index}${fileTypeFromUrl(url)}`
     });
   });
-
-  const galleryImgEl = history.window.document.querySelectorAll(
-    'div.galerie > a > img'
-  );
 
   galleryImgEl.forEach((el, index) => {
     let galleryItem = gallery[index];
@@ -357,7 +366,7 @@ function downloadImages(overwrite = false) {
 
       // If overwrite is set to false, skip this download if the file already exists
       if (!overwrite && fs.existsSync(current.path)) {
-        console.log(`SKIP ${current.path} already exists`);
+        // console.log(`SKIP ${current.path} already exists`);
         current = null;
       } else {
         const file = fs.createWriteStream(current.path);
@@ -367,7 +376,7 @@ function downloadImages(overwrite = false) {
         });
       }
     }
-  }, 100);
+  }, 50);
 }
 
 function fileTypeFromUrl(url) {

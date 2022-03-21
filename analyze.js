@@ -9,6 +9,7 @@ const data = JSON.parse(fs.readFileSync('public/data.json', 'utf8'));
 // Analysis
 let uniqueStructures = [];
 let uniqueClassifications = [];
+let uniqueConditions = [];
 
 let all = [];
 Object.keys(data).forEach((key) => {
@@ -28,16 +29,22 @@ Object.keys(data).forEach((key) => {
     classifications: d.classification
       ? d.classification.map((c) => transformClassification(c))
       : [],
-    structures: d.structureType.map((t) => transformStructure(t))
+    structures: d.structureType.map((t) => transformStructure(t)),
+    condition: transformCondition(d.condition),
+    gallery: d.gallery
   };
 
   all.push(analysis);
 });
 
+console.log(`${all.length} entries`);
+
 console.log('=== unique classifications ===');
 console.log(uniqueClassifications);
 console.log('=== unique types ===');
 console.log(uniqueStructures);
+console.log('=== unique conditions ===');
+console.log(uniqueConditions);
 
 // Write to json
 fs.writeFileSync('public/analysis.json', JSON.stringify(all, null, 2));
@@ -48,6 +55,7 @@ function transformTitle(str) {
   str = str.replaceAll(/([\.,])([a-z])/gi, '$1 $2');
 
   str = str.replaceAll(' b. ', ' bei ');
+  str = str.replaceAll(' i. ', ' im ');
 
   const regex = /(b\.|bei|im|a\. d\.|,)/gi;
   const separatorIndex = str.search(regex);
@@ -111,6 +119,26 @@ function transformClassification(str) {
   if (!t) t = { de: str, en: null };
 
   if (!uniqueClassifications.includes(str)) uniqueClassifications.push(str);
+  return t;
+}
+
+function transformCondition(str) {
+  const conditions = [
+    { de: 'keine reste', en: 'no remains', value: 0 },
+    { de: 'überbaut', en: 'overbuilt', value: 0 },
+    { de: 'fundamente', en: 'foundations', value: 1 },
+    { de: 'geringe reste', en: 'small leftovers', value: 2 },
+    { de: 'bedeutende reste', en: 'significant remains', value: 3 },
+    { de: 'weitgehend erhalten', en: 'largely preserved', value: 4 },
+    { de: 'stark historisierend überformt', en: 'historic reshaping', value: 4 }
+  ];
+
+  if (!str) return 'unknown';
+  str = str.toLowerCase();
+  let t = conditions.find((c) => c.de == str);
+  if (!t) t = { de: str, en: null };
+
+  if (!uniqueConditions.includes(str)) uniqueConditions.push(str);
   return t;
 }
 

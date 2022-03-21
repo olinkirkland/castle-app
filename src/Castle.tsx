@@ -6,6 +6,8 @@ export interface Castle {
   location: Location;
   classifications: Translatable[];
   structures: Translatable[];
+  condition: Translatable;
+  gallery: GalleryImage[];
 }
 
 export interface Name {
@@ -25,9 +27,10 @@ export interface Translatable {
   de: string;
   en?: string;
   abbreviation?: string;
+  value?: any;
 }
 
-export interface Gallery {
+export interface GalleryImage {
   url: string;
   path: string;
   caption: string;

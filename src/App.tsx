@@ -6,9 +6,11 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import Modal from './components/Modal';
 import Search from './components/Search';
+import CastleDetails from './components/CastleDetails';
 
 function App() {
   const [castles, setCastles] = useState({});
+  const [selectedCastle, setSelectedCastle] = useState();
   const [galleryItem, setGalleryItem] = useState();
 
   useEffect(() => {
@@ -46,17 +48,22 @@ function App() {
         <section id="list">
           <ul className="castle-list">
             {Object.keys(castles).map((key) => (
-              <li key={key}>
-                <CastleTile
-                  castle={castles[key as keyof typeof castles]}
-                  openModal={openModal}
-                />
+              <li
+                key={key}
+                onClick={() => {
+                  const c = castles[key as keyof typeof castles];
+                  console.log(c);
+                  setSelectedCastle(c);
+                }}
+              >
+                <CastleTile castle={castles[key as keyof typeof castles]} />
               </li>
             ))}
           </ul>
         </section>
-
-        
+        <section id="details">
+          <CastleDetails castle={selectedCastle} />
+        </section>
       </article>
       <Footer />
 
