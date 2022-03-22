@@ -1,6 +1,5 @@
 import React from 'react';
 import Castle from '../Castle';
-import CastleList from './CastleList';
 
 type Props = {
   castle?: Castle;
