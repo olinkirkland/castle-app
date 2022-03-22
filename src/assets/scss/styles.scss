@@ -242,6 +242,17 @@ section#details {
     }
   }
 
+  // Dates
+  .dates {
+  }
+
+  // Footer
+  .details-footer {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+  }
+
   // Gallery
   .gallery {
     width: 100%;

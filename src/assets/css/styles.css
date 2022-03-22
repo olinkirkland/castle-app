@@ -188,6 +188,10 @@ section#details {
       align-items: center;
       opacity: 0.4;
       margin-bottom: 1.2rem; }
+  .details .details-footer {
+    display: flex;
+    gap: 1rem;
+    justify-content: center; }
   .details .gallery {
     width: 100%;
     display: grid;

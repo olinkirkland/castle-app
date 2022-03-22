@@ -95,7 +95,7 @@ export default function CastleDetails({ castle }: Props) {
         </div>
       )}
 
-      <div className="button-bar">
+      <div className="details-footer">
         <button className="btn" onClick={onClickJson}>
           <span>Json data</span>
         </button>
