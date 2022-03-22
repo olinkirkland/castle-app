@@ -16,7 +16,6 @@ export default function CastleList({ castles, setSelectedCastle }: Props) {
         <li
           key={c.id}
           onClick={() => {
-            console.log(c);
             setSelectedCastle(c);
           }}
         >

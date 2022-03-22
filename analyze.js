@@ -29,7 +29,8 @@ Object.keys(data).forEach((key) => {
     structures: d.structureType.map((t) => transformStructure(t)),
     condition: transformCondition(d.condition),
     conditionCommentary: d.conditionCommentary,
-    gallery: d.gallery
+    gallery: d.gallery,
+    dates: { start: transformDate(d.dateBegin), end: transformDate(d.dateEnd) }
   };
 
   all.push(analysis);
@@ -47,10 +48,32 @@ console.log(uniqueConditions);
 // Write to json
 fs.writeFileSync('public/analysis.json', JSON.stringify(all, null, 2));
 
+function transformDate(str) {
+  let date = { century: null, half: null };
+
+  if (!str) return;
+  str = str.toLowerCase().trim();
+
+  // Unknown
+  if (str === 'unbekannt') {
+    return date;
+  }
+
+  // Half & Century
+  console.log(str + ' ====');
+  const regex = /((?<half>[0-9]+).H.)?((?<century>[0-9]+).Jh.)/gi;
+  const r = regex.exec(str);
+  console.log(r.groups.half ? r.groups.half : null, r.groups.century);
+  return {
+    century: r.groups.century,
+    half: r.groups.half ? r.groups.half : null
+  };
+}
+
 function transformTitle(str) {
   // Fix foo.bar -> foo. bar
   // Fix foo,bar -> foo, bar
-  str = str.replaceAll(/([\.,])([a-z])/gi, '$1 $2');
+  str = str.replaceAll(/([.,])([a-z])/gi, '$1 $2');
 
   str = str.replaceAll(' b. ', ' bei ');
   str = str.replaceAll(' i. ', ' im ');
@@ -68,7 +91,7 @@ function transformTitle(str) {
   let secondary =
     separatorIndex < 0 ? null : str.substring(separatorIndex).trim();
   // Fix leading comma
-  if (secondary && secondary.indexOf(', ') == 0)
+  if (secondary && secondary.indexOf(', ') === 0)
     secondary = secondary.substring(2);
 
   return {
@@ -85,7 +108,7 @@ function transformStructure(str) {
   ];
 
   str = str.toLowerCase();
-  let t = structures.find((t) => t.de == str);
+  let t = structures.find((t) => t.de === str);
   if (!t) t = { de: str, en: null };
 
   if (!uniqueStructures.includes(str)) uniqueStructures.push(str);

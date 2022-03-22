@@ -1,5 +1,6 @@
 import React from 'react';
 import Castle from '../Castle';
+import CastleList from './CastleList';
 
 type Props = {
   castle?: Castle;
@@ -43,6 +44,15 @@ export default function CastleDetails({ castle }: Props) {
           <p>{castle.conditionCommentary}</p>
         </div>
       )}
+
+      <div className="info">
+        <div className="info-header">
+          <i className="fa-solid fa-calendar-day"></i>
+          <h2>Dates</h2>
+        </div>
+        {!castle.dates.begin && !castle.dates.end && <p>Unknown</p>}
+        <pre>{JSON.stringify(castle.dates, null, 2)}</pre>
+      </div>
 
       {/* {castle.dateBegin && castle.dateEnd && (
           <div className="info">

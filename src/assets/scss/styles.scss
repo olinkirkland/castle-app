@@ -106,8 +106,8 @@ header {
 article {
   position: relative;
   display: flex;
-  height: 0;
-  flex-grow: 1;
+  height: 100rem;
+  // flex-grow: 1;
 }
 
 section {
@@ -119,14 +119,18 @@ section {
   gap: 1rem;
 }
 
-section#list {
-  width: 32rem;
-}
-
 .wrap {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
+}
+
+section#list {
+  width: 32rem;
+}
+
+section#details {
+  width: 100%;
 }
 
 .castle-list {
@@ -196,7 +200,6 @@ section#list {
 }
 
 .details {
-  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;

@@ -357,7 +357,7 @@ function downloadImages(overwrite = false) {
     if (!current) {
       console.log(`${imageCount - queue.length}/${imageCount}`);
 
-      if (queue.length == 0) {
+      if (queue.length === 0) {
         clearInterval(intervalId);
         return;
       }
@@ -370,7 +370,7 @@ function downloadImages(overwrite = false) {
         current = null;
       } else {
         const file = fs.createWriteStream(current.path);
-        const request = https.get(current.url, function (response) {
+        https.get(current.url, function (response) {
           response.pipe(file);
           current = null;
         });

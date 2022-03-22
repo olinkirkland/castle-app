@@ -9,6 +9,7 @@ export default interface Castle {
   condition: Translatable;
   conditionCommentary: string;
   gallery: GalleryImage[];
+  dates: { begin: HistoryDate; end: HistoryDate };
 }
 
 export interface Name {
@@ -36,4 +37,9 @@ export interface GalleryImage {
   path: string;
   caption: string;
   year: string;
+}
+
+export interface HistoryDate {
+  century: number | null;
+  half: number | null;
 }

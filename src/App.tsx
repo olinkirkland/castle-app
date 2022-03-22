@@ -35,7 +35,9 @@ function App() {
       <Search applyFilter={applyFilters} />
 
       <article>
-        <CastleList castles={castles} setSelectedCastle={setSelectedCastle} />
+        <section id="list">
+          <CastleList castles={castles} setSelectedCastle={setSelectedCastle} />
+        </section>
         <section id="details">
           <CastleDetails castle={selectedCastle} />
         </section>

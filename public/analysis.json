@@ -59,7 +59,17 @@
         "caption": "Burgberg mit Ringmauerresten, Foto: J. Friedhoff (2003)",
         "year": "2003"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "12",
+        "half": "1"
+      },
+      "end": {
+        "century": "16",
+        "half": "2"
+      }
+    }
   },
   {
     "id": "51",
@@ -121,7 +131,17 @@
         "caption": "Ruine des Torturms, Foto: J. Friedhoff (2005)",
         "year": "2005"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "13",
+        "half": "2"
+      },
+      "end": {
+        "century": "16",
+        "half": null
+      }
+    }
   },
   {
     "id": "52",
@@ -178,7 +198,17 @@
       "value": 0
     },
     "conditionCommentary": "Von dem Burghaus sind keine Reste auf uns gekommen. Erhalten blieb lediglich ein zum Anwesen gehörender Turm der Ortsbefestigung.",
-    "gallery": []
+    "gallery": [],
+    "dates": {
+      "start": {
+        "century": "14",
+        "half": "1"
+      },
+      "end": {
+        "century": "18",
+        "half": "2"
+      }
+    }
   },
   {
     "id": "53",
@@ -263,7 +293,17 @@
         "caption": "Lageplan von Burg und Schloss Westerburg (1760), aus: Hans Heiberger, Schloss Westerburg (1992)",
         "year": "1760"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "12",
+        "half": "2"
+      },
+      "end": {
+        "century": null,
+        "half": null
+      }
+    }
   },
   {
     "id": "54",
@@ -349,7 +389,17 @@
         "caption": "Grundriss, aus: Krahe, Burgenlexikon (1994)",
         "year": "1994"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "11",
+        "half": null
+      },
+      "end": {
+        "century": "16",
+        "half": "2"
+      }
+    }
   },
   {
     "id": "55",
@@ -435,7 +485,17 @@
         "caption": "Lageplan, aus: Spiegel, Chronik (1984)",
         "year": "1984"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "13",
+        "half": "1"
+      },
+      "end": {
+        "century": "18",
+        "half": null
+      }
+    }
   },
   {
     "id": "56",
@@ -521,7 +581,17 @@
         "caption": "Grundriss, aus: Liessem, Sporkenburg (1997)",
         "year": "1997"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "14",
+        "half": "1"
+      },
+      "end": {
+        "century": "17",
+        "half": "1"
+      }
+    }
   },
   {
     "id": "57",
@@ -599,7 +669,17 @@
         "caption": "Lageplan der Burg nach dem Burgmodell, aus: Die von Walderdorff, Köln (1998)",
         "year": "1998"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "12",
+        "half": "1"
+      },
+      "end": {
+        "century": null,
+        "half": null
+      }
+    }
   },
   {
     "id": "58",
@@ -676,7 +756,17 @@
         "caption": "Bleistiftzeichnung, um 1860, aus: BuK Unter-Westerwald, St. Goarshausen, Untertaunus und Wiesbaden (1914)",
         "year": "1914"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "14",
+        "half": "1"
+      },
+      "end": {
+        "century": "19",
+        "half": "2"
+      }
+    }
   },
   {
     "id": "59",
@@ -738,7 +828,17 @@
         "caption": "Lageplan der Gesamtanlage, aus: von Uslar, Studien (1964)",
         "year": "1964"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "12",
+        "half": "1"
+      },
+      "end": {
+        "century": "12",
+        "half": "2"
+      }
+    }
   },
   {
     "id": "60",
@@ -823,7 +923,17 @@
         "caption": "Baualtersplan Schloss Montabaur, aus: Markus Wild, Schloss Montabaur (1994)",
         "year": "1994"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "10",
+        "half": "2"
+      },
+      "end": {
+        "century": null,
+        "half": null
+      }
+    }
   },
   {
     "id": "61",
@@ -897,7 +1007,17 @@
         "caption": "Grundriss, aus Magnus Backes, Zur Baugeschichte des Schlosses Hachenburg, in: Nassauische Annalen 69 (1958)",
         "year": "1958"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "13",
+        "half": "1"
+      },
+      "end": {
+        "century": null,
+        "half": null
+      }
+    }
   },
   {
     "id": "62",
@@ -954,7 +1074,17 @@
         "caption": "Gesamtansicht, Foto: J. Friedhoff (1999)",
         "year": "1999"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "11",
+        "half": null
+      },
+      "end": {
+        "century": "15",
+        "half": null
+      }
+    }
   },
   {
     "id": "63",
@@ -1027,7 +1157,17 @@
         "castle": "63",
         "caption": "Grundriss (EG) von 1875, stellt den realisierten (links) wie nur den geplanten Teil (rechts in Rot) dar, aus: von Preuschen, Schloss Liebeneck, in BuS 2/2003"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": null,
+        "half": null
+      },
+      "end": {
+        "century": null,
+        "half": null
+      }
+    }
   },
   {
     "id": "64",
@@ -1110,7 +1250,17 @@
         "castle": "64",
         "caption": "Grundriss"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "11",
+        "half": "2"
+      },
+      "end": {
+        "century": null,
+        "half": null
+      }
+    }
   },
   {
     "id": "65",
@@ -1198,7 +1348,17 @@
         "castle": "65",
         "caption": "Lageplan von 1868"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "12",
+        "half": "2"
+      },
+      "end": {
+        "century": null,
+        "half": null
+      }
+    }
   },
   {
     "id": "66",
@@ -1254,7 +1414,17 @@
         "castle": "66",
         "caption": "zum Vergrößern anklicken!"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "16",
+        "half": "2"
+      },
+      "end": {
+        "century": null,
+        "half": null
+      }
+    }
   },
   {
     "id": "67",
@@ -1340,7 +1510,17 @@
         "caption": "Grundriss, aus: Backes / von der Dollen, Marksburg (1993)",
         "year": "1993"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "13",
+        "half": "1"
+      },
+      "end": {
+        "century": null,
+        "half": null
+      }
+    }
   },
   {
     "id": "68",
@@ -1428,7 +1608,17 @@
         "caption": "Grundriss, aus: Hehemann, Burgen (1991)",
         "year": "1991"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "12",
+        "half": "1"
+      },
+      "end": {
+        "century": null,
+        "half": null
+      }
+    }
   },
   {
     "id": "69",
@@ -1514,7 +1704,17 @@
         "caption": "Grundriss, aus: Dehio RP (1984)",
         "year": "1984"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "14",
+        "half": "2"
+      },
+      "end": {
+        "century": null,
+        "half": null
+      }
+    }
   },
   {
     "id": "70",
@@ -1599,7 +1799,17 @@
         "castle": "70",
         "caption": "Grundriss"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "14",
+        "half": "2"
+      },
+      "end": {
+        "century": "18",
+        "half": null
+      }
+    }
   },
   {
     "id": "71",
@@ -1672,7 +1882,17 @@
         "castle": "71",
         "caption": "Grundriss"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "14",
+        "half": "2"
+      },
+      "end": {
+        "century": "17",
+        "half": null
+      }
+    }
   },
   {
     "id": "72",
@@ -1738,7 +1958,17 @@
         "caption": "Lützelauer Mühle (18. Jh.), Foto: J. Friedhoff (2006)",
         "year": "2006"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "13",
+        "half": "2"
+      },
+      "end": {
+        "century": "19",
+        "half": "1"
+      }
+    }
   },
   {
     "id": "73",
@@ -1831,7 +2061,17 @@
         "caption": "Grundriss, aus: BuK Unterwesterwald, St. Goarshausen, Untertaunus, Wiesbaden (1914)",
         "year": "1914"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "14",
+        "half": "1"
+      },
+      "end": {
+        "century": null,
+        "half": null
+      }
+    }
   },
   {
     "id": "74",
@@ -1917,7 +2157,17 @@
         "caption": "Grundriss, aus: BuK Lahngebiet (1907)",
         "year": "1907"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "12",
+        "half": "1"
+      },
+      "end": {
+        "century": "16",
+        "half": null
+      }
+    }
   },
   {
     "id": "75",
@@ -2003,7 +2253,17 @@
         "caption": "Grund- und Aufriss, aus: Monschauer, Sterrenberg und Liebenstein (1985)",
         "year": "1985"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "13",
+        "half": "2"
+      },
+      "end": {
+        "century": "17",
+        "half": "2"
+      }
+    }
   },
   {
     "id": "76",
@@ -2084,7 +2344,17 @@
         "caption": "Grund- und Aufriss, aus: Monschauer, Sterrenberg und Liebenstein (1985).",
         "year": "1985"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "11",
+        "half": "2"
+      },
+      "end": {
+        "century": "16",
+        "half": null
+      }
+    }
   },
   {
     "id": "77",
@@ -2150,7 +2420,17 @@
         "caption": "Gesamtansicht der Burgstelle, Foto: J. Friedhoff (2005)",
         "year": "2005"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "13",
+        "half": "2"
+      },
+      "end": {
+        "century": "16",
+        "half": null
+      }
+    }
   },
   {
     "id": "78",
@@ -2240,7 +2520,17 @@
         "caption": "Grundriss, aus: BuK Unterwesterwald, St. Goarshausen, Untertaunus, Wiesbaden (1914)",
         "year": "1914"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "14",
+        "half": "1"
+      },
+      "end": {
+        "century": null,
+        "half": null
+      }
+    }
   },
   {
     "id": "79",
@@ -2326,7 +2616,17 @@
         "caption": "Grundriss, aus: BuK Unterwesterwald, St. Goarshausen, Untertaunus, Wiesbaden (1914)",
         "year": "1914"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "13",
+        "half": "1"
+      },
+      "end": {
+        "century": "18",
+        "half": "2"
+      }
+    }
   },
   {
     "id": "80",
@@ -2411,7 +2711,17 @@
         "caption": "Grundriss, aus: BuK Unterwesterwald, St. Goarshausen, Untertaunus, Wiesbaden (1914)",
         "year": "1914"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "13",
+        "half": "1"
+      },
+      "end": {
+        "century": "17",
+        "half": "2"
+      }
+    }
   },
   {
     "id": "81",
@@ -2482,7 +2792,13 @@
         "castle": "81",
         "caption": "Grundriss 1. OG (C. Herrmann 1992)"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "14",
+        "half": "1"
+      }
+    }
   },
   {
     "id": "82",
@@ -2558,7 +2874,17 @@
         "caption": "Herzogenstein, Foto: G. Wagner (2004)",
         "year": "2004"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "14",
+        "half": "2"
+      },
+      "end": {
+        "century": "14",
+        "half": "2"
+      }
+    }
   },
   {
     "id": "84",
@@ -2638,7 +2964,17 @@
         "castle": "84",
         "caption": "Sauerburg"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "14",
+        "half": "2"
+      },
+      "end": {
+        "century": "17",
+        "half": "2"
+      }
+    }
   },
   {
     "id": "85",
@@ -2723,7 +3059,17 @@
         "castle": "85",
         "caption": "Grundriss Aufmaß Roser"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "11",
+        "half": "1"
+      },
+      "end": {
+        "century": "12",
+        "half": "1"
+      }
+    }
   },
   {
     "id": "86",
@@ -2801,7 +3147,17 @@
         "caption": "Foto: R. Friedrich (2003)",
         "year": "2003"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "13",
+        "half": "2"
+      },
+      "end": {
+        "century": null,
+        "half": null
+      }
+    }
   },
   {
     "id": "87",
@@ -2883,7 +3239,17 @@
         "caption": "Innenhof mit Tor, Foto: G. Wagner (2005)",
         "year": "2005"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "14",
+        "half": null
+      },
+      "end": {
+        "century": null,
+        "half": null
+      }
+    }
   },
   {
     "id": "88",
@@ -2955,7 +3321,17 @@
         "caption": "Foto: R. Friedrich (2004)",
         "year": "2004"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": null,
+        "half": null
+      },
+      "end": {
+        "century": null,
+        "half": null
+      }
+    }
   },
   {
     "id": "89",
@@ -3036,7 +3412,17 @@
         "caption": "Grundriss, aus: BuK Unterwesterwald, St. Goarshausen, Untertaunus, Wiesbaden (1914).",
         "year": "1914"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "14",
+        "half": "2"
+      },
+      "end": {
+        "century": "18",
+        "half": "1"
+      }
+    }
   },
   {
     "id": "90",
@@ -3122,7 +3508,17 @@
         "caption": "Grundriss, aus: BuK Unterwesterwald, St. Goarshausen, Untertaunus, Wiesbaden (1914)",
         "year": "1914"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "14",
+        "half": "1"
+      },
+      "end": {
+        "century": "17",
+        "half": null
+      }
+    }
   },
   {
     "id": "91",
@@ -3208,7 +3604,17 @@
         "caption": "Grundriss, aus: Urban, Burgen (1996)",
         "year": "1996"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "14",
+        "half": "1"
+      },
+      "end": {
+        "century": "17",
+        "half": "2"
+      }
+    }
   },
   {
     "id": "92",
@@ -3287,7 +3693,17 @@
         "castle": "92",
         "caption": "Grundriss"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "11",
+        "half": "2"
+      },
+      "end": {
+        "century": "17",
+        "half": "1"
+      }
+    }
   },
   {
     "id": "93",
@@ -3377,7 +3793,17 @@
         "caption": "Grundriss, aus: BuK Lahngebiet (1907)",
         "year": "1907"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "13",
+        "half": "1"
+      },
+      "end": {
+        "century": null,
+        "half": null
+      }
+    }
   },
   {
     "id": "94",
@@ -3462,7 +3888,17 @@
         "caption": "Grundriss, aus: BuK Lahngebiet (1907)",
         "year": "1907"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "12",
+        "half": "2"
+      },
+      "end": {
+        "century": "17",
+        "half": null
+      }
+    }
   },
   {
     "id": "95",
@@ -3533,7 +3969,17 @@
         "castle": "95",
         "caption": "Fenster des Wohnturms, Foto: E. Peller 2021"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "13",
+        "half": "2"
+      },
+      "end": {
+        "century": "15",
+        "half": "1"
+      }
+    }
   },
   {
     "id": "96",
@@ -3585,7 +4031,17 @@
       "value": 2
     },
     "conditionCommentary": "Von der hochmittelalterlichen Burg haben sich lediglich Reste von Wall und Graben erhalten.",
-    "gallery": []
+    "gallery": [],
+    "dates": {
+      "start": {
+        "century": "11",
+        "half": null
+      },
+      "end": {
+        "century": "13",
+        "half": null
+      }
+    }
   },
   {
     "id": "97",
@@ -3666,7 +4122,17 @@
         "caption": "Grundriss, aus: KD Landau (1928)",
         "year": "1928"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "13",
+        "half": "1"
+      },
+      "end": {
+        "century": "18",
+        "half": null
+      }
+    }
   },
   {
     "id": "98",
@@ -3730,7 +4196,17 @@
         "caption": "Grundriss, aus: KD Landau (1928)",
         "year": "1928"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "12",
+        "half": "2"
+      },
+      "end": {
+        "century": "16",
+        "half": null
+      }
+    }
   },
   {
     "id": "99",
@@ -3811,7 +4287,17 @@
         "caption": "Grundriss und Schnitt aus: KD Bergzabern (1935)",
         "year": "1935"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "12",
+        "half": null
+      },
+      "end": {
+        "century": "16",
+        "half": "2"
+      }
+    }
   },
   {
     "id": "100",
@@ -3897,7 +4383,17 @@
         "caption": "Grundriss, aus: KD Bergzabern (1935)",
         "year": "1935"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "11",
+        "half": null
+      },
+      "end": {
+        "century": "17",
+        "half": null
+      }
+    }
   },
   {
     "id": "101",
@@ -3978,7 +4474,17 @@
         "caption": "Grundriss und Schnitt aus: KD Bergzabern (1935)",
         "year": "1935"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "13",
+        "half": "1"
+      },
+      "end": {
+        "century": "16",
+        "half": "1"
+      }
+    }
   },
   {
     "id": "102",
@@ -4053,7 +4559,17 @@
         "castle": "102",
         "caption": "Tankzisterne"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "12",
+        "half": "2"
+      },
+      "end": {
+        "century": null,
+        "half": null
+      }
+    }
   },
   {
     "id": "103",
@@ -4139,7 +4655,17 @@
         "caption": "Grundriss, aus: KD Bergzabern (1935)",
         "year": "1935"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "11",
+        "half": null
+      },
+      "end": {
+        "century": "14",
+        "half": null
+      }
+    }
   },
   {
     "id": "104",
@@ -4213,7 +4739,17 @@
         "castle": "104",
         "caption": "Berwartstein, kolorierter Stich, EBI"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "12",
+        "half": "1"
+      },
+      "end": {
+        "century": "16",
+        "half": "2"
+      }
+    }
   },
   {
     "id": "105",
@@ -4291,7 +4827,17 @@
         "castle": "105",
         "caption": "Brücke an der Felstreppe zur Oberburg, evtl. Zugbrücke, Foto: Werner Westermann, 01/2011"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "13",
+        "half": "2"
+      },
+      "end": {
+        "century": "16",
+        "half": null
+      }
+    }
   },
   {
     "id": "106",
@@ -4366,7 +4912,17 @@
         "castle": "106",
         "caption": "Westlicher Ostfelsen von Osten"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "13",
+        "half": "1"
+      },
+      "end": {
+        "century": "16",
+        "half": "1"
+      }
+    }
   },
   {
     "id": "107",
@@ -4452,7 +5008,17 @@
         "caption": "Grundriss, aus: Pfälzer Burgenlexikon II (2002)",
         "year": "2002"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "13",
+        "half": "1"
+      },
+      "end": {
+        "century": "17",
+        "half": "1"
+      }
+    }
   },
   {
     "id": "108",
@@ -4538,7 +5104,17 @@
         "caption": "Grundriss, aus: KD Bad Bergzabern (1935)",
         "year": "1935"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "12",
+        "half": null
+      },
+      "end": {
+        "century": "16",
+        "half": "1"
+      }
+    }
   },
   {
     "id": "109",
@@ -4624,7 +5200,17 @@
         "caption": "Grundriss und Schnitt, aus: KD Bergzabern (1935)",
         "year": "1935"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "12",
+        "half": "2"
+      },
+      "end": {
+        "century": "17",
+        "half": "2"
+      }
+    }
   },
   {
     "id": "110",
@@ -4702,7 +5288,17 @@
         "castle": "110",
         "caption": "Ringmauer von Südwesten"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "12",
+        "half": "2"
+      },
+      "end": {
+        "century": "17",
+        "half": "2"
+      }
+    }
   },
   {
     "id": "111",
@@ -4788,7 +5384,17 @@
         "caption": "Grundriss, aus: KD Bergzabern (1935)",
         "year": "1935"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "12",
+        "half": null
+      },
+      "end": {
+        "century": "16",
+        "half": "1"
+      }
+    }
   },
   {
     "id": "112",
@@ -4866,7 +5472,17 @@
         "caption": "Teilsanierter Bergfriedrest der Kernburg, Foto: D. Barz (2003)",
         "year": "2003"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "11",
+        "half": "2"
+      },
+      "end": {
+        "century": "17",
+        "half": "2"
+      }
+    }
   },
   {
     "id": "113",
@@ -4952,7 +5568,17 @@
         "caption": "Grundriss, aus: KD Landau (1928)",
         "year": "1928"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "12",
+        "half": "1"
+      },
+      "end": {
+        "century": "17",
+        "half": "2"
+      }
+    }
   },
   {
     "id": "114",
@@ -5034,7 +5660,17 @@
         "castle": "114",
         "caption": "Grundriss Kernburg Vorburg, Quelle: D. Barz"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "11",
+        "half": null
+      },
+      "end": {
+        "century": "12",
+        "half": "1"
+      }
+    }
   },
   {
     "id": "115",
@@ -5116,7 +5752,17 @@
         "castle": "115",
         "caption": "Steinenschloss, Grundriss"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "12",
+        "half": null
+      },
+      "end": {
+        "century": "12",
+        "half": "2"
+      }
+    }
   },
   {
     "id": "116",
@@ -5190,7 +5836,17 @@
         "castle": "116",
         "caption": "Ober-, Mittel- und Unterburg von Osten  "
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "13",
+        "half": "1"
+      },
+      "end": {
+        "century": "17",
+        "half": null
+      }
+    }
   },
   {
     "id": "117",
@@ -5276,7 +5932,17 @@
         "caption": "Grundriss, aus: Liessem, Burgen der Salierzeit (1991)",
         "year": "1991"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "11",
+        "half": null
+      },
+      "end": {
+        "century": "13",
+        "half": null
+      }
+    }
   },
   {
     "id": "119",
@@ -5328,7 +5994,17 @@
       "en": "no remains",
       "value": 0
     },
-    "gallery": []
+    "gallery": [],
+    "dates": {
+      "start": {
+        "century": "13",
+        "half": "1"
+      },
+      "end": {
+        "century": null,
+        "half": null
+      }
+    }
   },
   {
     "id": "121",
@@ -5371,7 +6047,17 @@
       }
     ],
     "condition": "unknown",
-    "gallery": []
+    "gallery": [],
+    "dates": {
+      "start": {
+        "century": null,
+        "half": null
+      },
+      "end": {
+        "century": null,
+        "half": null
+      }
+    }
   },
   {
     "id": "125",
@@ -5441,7 +6127,17 @@
         "caption": "Grundriss, aus: Schuler, Monreal (1982)",
         "year": "1982"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "13",
+        "half": "1"
+      },
+      "end": {
+        "century": "17",
+        "half": "2"
+      }
+    }
   },
   {
     "id": "126",
@@ -5527,7 +6223,17 @@
         "caption": "Niederburg, Grundriss, aus: KD Wittlich (1982)",
         "year": "1982"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "13",
+        "half": "1"
+      },
+      "end": {
+        "century": "18",
+        "half": "2"
+      }
+    }
   },
   {
     "id": "127",
@@ -5613,7 +6319,17 @@
         "caption": "Oberburg, Grundriss, aus: KD Wittlich (1982)",
         "year": "1982"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "12",
+        "half": "1"
+      },
+      "end": {
+        "century": "17",
+        "half": "2"
+      }
+    }
   },
   {
     "id": "130",
@@ -5703,7 +6419,17 @@
         "caption": "Rittersdorf, Grundriss. Aus: KD Bitburg (1927)",
         "year": "1927"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "13",
+        "half": "2"
+      },
+      "end": {
+        "century": null,
+        "half": null
+      }
+    }
   },
   {
     "id": "132",
@@ -5793,7 +6519,17 @@
         "caption": "Seinsfeld, Grundriss, aus: KD Wittlich (1982)",
         "year": "1982"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "14",
+        "half": "1"
+      },
+      "end": {
+        "century": null,
+        "half": null
+      }
+    }
   },
   {
     "id": "133",
@@ -5855,7 +6591,17 @@
         "caption": "Gesamtansicht des Burghauses, Foto: J. Friedhoff (2003)",
         "year": "2003"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "14",
+        "half": "1"
+      },
+      "end": {
+        "century": null,
+        "half": null
+      }
+    }
   },
   {
     "id": "134",
@@ -5916,7 +6662,17 @@
         "caption": "Gesamtansicht, Foto: J. Friedhoff (2005)",
         "year": "2005"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "13",
+        "half": "1"
+      },
+      "end": {
+        "century": "18",
+        "half": "2"
+      }
+    }
   },
   {
     "id": "135",
@@ -6002,7 +6758,17 @@
         "caption": "Lageplan, aus : KD Mayen (1943)",
         "year": "1943"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "13",
+        "half": "1"
+      },
+      "end": {
+        "century": "17",
+        "half": "2"
+      }
+    }
   },
   {
     "id": "136",
@@ -6058,7 +6824,17 @@
       "en": "no remains",
       "value": 0
     },
-    "gallery": []
+    "gallery": [],
+    "dates": {
+      "start": {
+        "century": "13",
+        "half": "2"
+      },
+      "end": {
+        "century": "17",
+        "half": null
+      }
+    }
   },
   {
     "id": "137",
@@ -6096,7 +6872,17 @@
       }
     ],
     "condition": "unknown",
-    "gallery": []
+    "gallery": [],
+    "dates": {
+      "start": {
+        "century": null,
+        "half": null
+      },
+      "end": {
+        "century": null,
+        "half": null
+      }
+    }
   },
   {
     "id": "138",
@@ -6139,7 +6925,17 @@
       }
     ],
     "condition": "unknown",
-    "gallery": []
+    "gallery": [],
+    "dates": {
+      "start": {
+        "century": "16",
+        "half": "2"
+      },
+      "end": {
+        "century": null,
+        "half": null
+      }
+    }
   },
   {
     "id": "140",
@@ -6186,7 +6982,17 @@
       "en": "significant remains",
       "value": 3
     },
-    "gallery": []
+    "gallery": [],
+    "dates": {
+      "start": {
+        "century": null,
+        "half": null
+      },
+      "end": {
+        "century": null,
+        "half": null
+      }
+    }
   },
   {
     "id": "141",
@@ -6234,7 +7040,17 @@
       "en": "significant remains",
       "value": 3
     },
-    "gallery": []
+    "gallery": [],
+    "dates": {
+      "start": {
+        "century": "14",
+        "half": null
+      },
+      "end": {
+        "century": null,
+        "half": null
+      }
+    }
   },
   {
     "id": "142",
@@ -6277,7 +7093,17 @@
       }
     ],
     "condition": "unknown",
-    "gallery": []
+    "gallery": [],
+    "dates": {
+      "start": {
+        "century": "14",
+        "half": null
+      },
+      "end": {
+        "century": null,
+        "half": null
+      }
+    }
   },
   {
     "id": "143",
@@ -6347,7 +7173,17 @@
         "caption": "Grundriss und Querschnitte, aus: Laß/Schmidt, Herrschaftsrepräsentation (2007)",
         "year": "2007"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "12",
+        "half": "2"
+      },
+      "end": {
+        "century": null,
+        "half": null
+      }
+    }
   },
   {
     "id": "144",
@@ -6384,7 +7220,17 @@
       }
     ],
     "condition": "unknown",
-    "gallery": []
+    "gallery": [],
+    "dates": {
+      "start": {
+        "century": null,
+        "half": null
+      },
+      "end": {
+        "century": null,
+        "half": null
+      }
+    }
   },
   {
     "id": "145",
@@ -6473,7 +7319,17 @@
         "caption": "Grundriss (1898) aus: Krienke",
         "year": "1898"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "13",
+        "half": "1"
+      },
+      "end": {
+        "century": "18",
+        "half": "1"
+      }
+    }
   },
   {
     "id": "146",
@@ -6556,7 +7412,17 @@
         "caption": "-Schnitt-KD-Kreuznach-(1935)",
         "year": "1935"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "12",
+        "half": null
+      },
+      "end": {
+        "century": "18",
+        "half": "2"
+      }
+    }
   },
   {
     "id": "148",
@@ -6646,6 +7512,16 @@
         "caption": "Grundriss aus: KD Rhein-Hunsrück I (1977)",
         "year": "1977"
       }
-    ]
+    ],
+    "dates": {
+      "start": {
+        "century": "14",
+        "half": "1"
+      },
+      "end": {
+        "century": "18",
+        "half": null
+      }
+    }
   }
 ]
