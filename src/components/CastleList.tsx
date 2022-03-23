@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Castle from '../Castle';
 import CastleTile from './CastleTile';
 
@@ -8,6 +8,10 @@ type Props = {
 };
 
 export default function CastleList({ castles, setSelectedCastle }: Props) {
+  useEffect(() => {
+    if (castles) setSelectedCastle(castles[0]);
+  }, [castles]);
+
   if (!castles) return <></>;
 
   return (
