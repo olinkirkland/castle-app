@@ -9,7 +9,7 @@ export default interface Castle {
   condition: Translatable;
   conditionCommentary: string;
   gallery: GalleryImage[];
-  dates: { begin: HistoryDate; end: HistoryDate };
+  dates: { start: HistoryDate; end: HistoryDate };
 }
 
 export interface Name {

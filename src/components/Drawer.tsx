@@ -22,7 +22,17 @@ export default function Drawer({ textOpen, textClose, children }: Props) {
           onToggle(event);
         }}
       >
-        {isOpen ? textClose : textOpen}
+        {isOpen ? (
+          <>
+            <i className="fa-solid fa-caret-up"></i>
+            <span>{textClose}</span>
+          </>
+        ) : (
+          <>
+            <i className="fa-solid fa-caret-down"></i>
+            <span>{textOpen}</span>
+          </>
+        )}
       </button>
     </div>
   );

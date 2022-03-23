@@ -1,5 +1,6 @@
 import React from 'react';
-import Castle from '../Castle';
+import Castle, { HistoryDate } from '../Castle';
+import Util from '../Util';
 import Drawer from './Drawer';
 
 type Props = {
@@ -9,6 +10,19 @@ type Props = {
 export default function CastleDetails({ castle }: Props) {
   function onClickJson() {
     console.log(JSON.stringify(castle));
+  }
+
+  function formatDate(date: HistoryDate): string {
+    let str = 'Unknown';
+    if (!date) return str;
+
+    if (date.century) {
+      str = Util.numberToAdj(date.century) + ' century';
+      if (date.half)
+        str = `${date.half === 1 ? 'First' : 'Second'} half of the ${str}`;
+    }
+
+    return str;
   }
 
   if (!castle) {
@@ -58,10 +72,10 @@ export default function CastleDetails({ castle }: Props) {
       <div className="info">
         <div className="info-header">
           <i className="fa-solid fa-calendar-day"></i>
-          <h2>Dates</h2>
+          <h2>Dating</h2>
         </div>
-        {!castle.dates.begin && !castle.dates.end && <p>Unknown</p>}
-        <pre>{JSON.stringify(castle.dates, null, 2)}</pre>
+        {formatDate(castle.dates.start)} - {formatDate(castle.dates.end)}
+        {/* <pre>{JSON.stringify(castle.dates, null, 2)}</pre> */}
       </div>
 
       {/* {castle.dateBegin && castle.dateEnd && (
