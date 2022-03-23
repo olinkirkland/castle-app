@@ -38,32 +38,49 @@ const keyMap = [
 
 let allJson = {};
 
-/**
- * Perform Actions
- */
-
-const max = 150;
 const rawDir = 'data/raw-data/';
 const jsonDir = 'data/json-data/';
 
 /**
- * OPTION 1
+ * Perform Actions
  */
 
-// Download new data from EBIDAT, then parse once the downloads are complete
-// This can take a long time, will save to the raw-data folder
-// loadFromEbidat(1, 0, parseDownloadedFiles);
+let max = 10;
 
-/**
- * OPTION 2
- */
+if (process.argv.length > 2) {
+  const command = process.argv[2];
+  switch (command) {
+    // DOWNLOAD HTML
+    case 'download':
+      if (process.argv.length > 2) max = process.argv[3];
+      // Download new data from EBIDAT, then parse once the downloads are complete
+      // This can take a long time, will save to the raw-data folder
+      console.log(`Downloading ${max} entries...`);
+      loadFromEbidat(1, 0, parseDownloadedFiles);
+      break;
+    // PARSE
+    case 'parse':
+      // Parse downloaded data
+      console.log(`Parsing data...`);
+      parseDownloadedFiles(() => {
+        printOneKey('dateBegin');
+      });
+      parseDownloadedFiles(downloadImages);
+      downloadImages();
+      break;
+    default:
+      printArgError();
+      break;
+  }
+} else {
+  printArgError();
+}
 
-// Parse downloaded data
-// parseDownloadedFiles(() => {
-//   printOneKey('dateBegin');
-// });
-parseDownloadedFiles(downloadImages);
-// downloadImages();
+function printArgError() {
+  console.log('No action performed; try:');
+  console.log('  node scrape download 50');
+  console.log('  node scrape parse');
+}
 
 /**
  * Download from EBIDAT
@@ -100,7 +117,7 @@ function loadFromEbidat(index = 1, section = 0, callback = null) {
     // Determine if the next query of the current index should be loaded
     // Or if the next index should be loaded (with the query index reset)
     section++;
-    if (section == sectionUrls.length) {
+    if (section === sectionUrls.length) {
       section = 0;
       index++;
     }

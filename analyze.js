@@ -7,6 +7,7 @@ const data = JSON.parse(fs.readFileSync('public/data.json', 'utf8'));
 let uniqueStructures = [];
 let uniqueClassifications = [];
 let uniqueConditions = [];
+let uniquePurposes = [];
 
 let all = [];
 Object.keys(data).forEach((key) => {
@@ -29,6 +30,7 @@ Object.keys(data).forEach((key) => {
     structures: d.structureType.map((t) => transformStructure(t)),
     condition: transformCondition(d.condition),
     conditionCommentary: d.conditionCommentary,
+    purpose: transformPurpose(d.purpose),
     gallery: d.gallery,
     dates: { start: transformDate(d.dateBegin), end: transformDate(d.dateEnd) }
   };
@@ -38,12 +40,14 @@ Object.keys(data).forEach((key) => {
 
 console.log(`${all.length} entries`);
 
-console.log('=== unique classifications ===');
-console.log(uniqueClassifications);
-console.log('=== unique types ===');
-console.log(uniqueStructures);
-console.log('=== unique conditions ===');
-console.log(uniqueConditions);
+// console.log('=== unique classifications ===');
+// console.log(uniqueClassifications);
+// console.log('=== unique types ===');
+// console.log(uniqueStructures);
+// console.log('=== unique conditions ===');
+// console.log(uniqueConditions);
+console.log('=== unique purposes ===');
+console.log(uniquePurposes);
 
 // Write to json
 fs.writeFileSync('public/analysis.json', JSON.stringify(all, null, 2));
