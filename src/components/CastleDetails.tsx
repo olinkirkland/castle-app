@@ -80,10 +80,10 @@ export default function CastleDetails({ castle }: Props) {
         {/* <pre>{JSON.stringify(castle.dates, null, 2)}</pre> */}
       </div>
 
-      {castle.structures && (
+      {castle.purpose && (
         <div className="info">
-          <p className="title">Structure</p>
-          <pre>{JSON.stringify(castle.structures, null, 2)}</pre>
+          <p className="title">Purpose</p>
+          <pre>{JSON.stringify(castle.purpose, null, 2)}</pre>
         </div>
       )}
 
@@ -91,6 +91,13 @@ export default function CastleDetails({ castle }: Props) {
         <div className="info">
           <p className="title">Classification</p>
           <pre>{JSON.stringify(castle.classifications, null, 2)}</pre>
+        </div>
+      )}
+
+      {castle.structures && (
+        <div className="info">
+          <p className="title">Structure</p>
+          <pre>{JSON.stringify(castle.structures, null, 2)}</pre>
         </div>
       )}
 

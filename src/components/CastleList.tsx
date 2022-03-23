@@ -10,7 +10,7 @@ type Props = {
 export default function CastleList({ castles, setSelectedCastle }: Props) {
   useEffect(() => {
     if (castles) setSelectedCastle(castles[0]);
-  }, [castles]);
+  }, [castles, setSelectedCastle]);
 
   if (!castles) return <></>;
 

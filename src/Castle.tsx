@@ -7,6 +7,7 @@ export default interface Castle {
   classifications: Translatable[];
   structures: Translatable[];
   condition: Translatable;
+  purpose: Translatable[];
   conditionCommentary: string;
   gallery: GalleryImage[];
   dates: { start: HistoryDate; end: HistoryDate };
