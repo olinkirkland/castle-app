@@ -93,12 +93,22 @@ function transformDate(str) {
 }
 
 function transformTitle(str) {
+  if (!str.trim().includes(' ')) {
+    // No multiple words, just return the str
+    return {
+      primary: str,
+      secondary: null
+    };
+  }
+
   // Fix foo.bar -> foo. bar
   // Fix foo,bar -> foo, bar
   str = str.replaceAll(/([.,])([a-z])/gi, '$1 $2');
 
   str = str.replaceAll(' b. ', ' bei ');
   str = str.replaceAll(' i. ', ' im ');
+
+  console.log(`  ${str}`);
 
   const regex = /(b\.|bei|im|a\. d\.|,)/gi;
   const separatorIndex = str.search(regex);
