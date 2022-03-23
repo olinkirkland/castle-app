@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/castle-app/static/css/main.6197ec1e.css",
-    "main.js": "/castle-app/static/js/main.30a5533a.js",
+    "main.css": "/castle-app/static/css/main.a3fd53b7.css",
+    "main.js": "/castle-app/static/js/main.2865676e.js",
     "index.html": "/castle-app/index.html",
-    "main.6197ec1e.css.map": "/castle-app/static/css/main.6197ec1e.css.map",
-    "main.30a5533a.js.map": "/castle-app/static/js/main.30a5533a.js.map"
+    "main.a3fd53b7.css.map": "/castle-app/static/css/main.a3fd53b7.css.map",
+    "main.2865676e.js.map": "/castle-app/static/js/main.2865676e.js.map"
   },
   "entrypoints": [
-    "static/css/main.6197ec1e.css",
-    "static/js/main.30a5533a.js"
+    "static/css/main.a3fd53b7.css",
+    "static/js/main.2865676e.js"
   ]
 }
