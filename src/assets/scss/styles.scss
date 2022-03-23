@@ -36,6 +36,13 @@ body {
   font-size: 1.4rem;
 }
 
+.drawer-body {
+  margin-bottom: 1rem;
+  background-color: var(--dark);
+  padding: 2rem;
+  border-radius: 5px;
+}
+
 pre {
   border: 1px solid var(--secondary);
   color: var(--dark-text);
@@ -52,6 +59,22 @@ pre {
 
 li {
   list-style: none;
+}
+
+ul.badge-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+
+  li {
+    padding: 0.4rem 0.8rem;
+    border-radius: 5px;
+    background-color: var(--light);
+  }
+}
+
+.capitalize {
+  text-transform: capitalize;
 }
 
 .text-divider {
@@ -77,7 +100,7 @@ li {
   font-size: inherit;
   font-family: inherit;
 
-  color: var(--secondary);
+  color: var(--primary);
   text-decoration: none;
 
   padding-block: 0;
@@ -85,7 +108,7 @@ li {
   background: none;
 
   opacity: 0.8;
-  border-bottom: 1px dashed var(--secondary);
+  border-bottom: 1px dashed var(--primary);
   transition: all 0.3s;
 
   i {
@@ -129,8 +152,8 @@ header {
 article {
   position: relative;
   display: flex;
-  height: 100rem;
-  // flex-grow: 1;
+  height: 0;
+  flex-grow: 1;
 }
 
 section {
@@ -233,6 +256,12 @@ section#details {
     border: 1px solid var(--foreground);
     padding: 2rem;
 
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+    gap: 1rem;
+
     .info-header {
       display: flex;
       gap: 1rem;
@@ -242,15 +271,16 @@ section#details {
     }
   }
 
-  // Dates
-  .dates {
+  // Locaiton
+  .location {
   }
 
-  // Footer
-  .details-footer {
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
+  // Condition
+  .condition {
+  }
+
+  // Dates
+  .dates {
   }
 
   // Gallery
@@ -297,6 +327,13 @@ section#details {
         background-color: #00000040;
       }
     }
+  }
+
+  // Footer
+  .details-footer {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
   }
 }
 

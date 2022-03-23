@@ -1,5 +1,6 @@
 import React from 'react';
 import Castle from '../Castle';
+import Drawer from './Drawer';
 
 type Props = {
   castle?: Castle;
@@ -16,6 +17,11 @@ export default function CastleDetails({ castle }: Props) {
 
   return (
     <div className="details">
+      <div className="info">
+        <h1>{castle.name.primary}</h1>
+        <h2>{castle.name.secondary}</h2>
+      </div>
+
       <div className="info">
         <div className="info-header">
           <i className="fa-solid fa-location-dot"></i>
@@ -39,8 +45,13 @@ export default function CastleDetails({ castle }: Props) {
             <i className="fa-solid fa-archway"></i>
             <h2>Condition</h2>
           </div>
-          <p>{castle.condition.en}</p>
-          <p>{castle.conditionCommentary}</p>
+          <p className="capitalize">{castle.condition.en}</p>
+          <Drawer
+            textOpen="Show Condition Notes"
+            textClose="Hide Condition Notes"
+          >
+            <p>{castle.conditionCommentary}</p>
+          </Drawer>
         </div>
       )}
 
@@ -94,6 +105,17 @@ export default function CastleDetails({ castle }: Props) {
           </ul>
         </div>
       )}
+
+      <div className="info">
+        <div className="info-header">
+          <i className="fa-solid fa-book"></i>
+          <h2>Miscellaneous</h2>
+        </div>
+        <ul className="badge-group">
+          <li>{castle.id}</li>
+          <li>{castle.slug}</li>
+        </ul>
+      </div>
 
       <div className="details-footer">
         <button className="btn" onClick={onClickJson}>

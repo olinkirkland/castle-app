@@ -31,6 +31,12 @@ body {
   color: var(--text);
   font-size: 1.4rem; }
 
+.drawer-body {
+  margin-bottom: 1rem;
+  background-color: var(--dark);
+  padding: 2rem;
+  border-radius: 5px; }
+
 pre {
   border: 1px solid var(--secondary);
   color: var(--dark-text);
@@ -46,6 +52,18 @@ pre {
 
 li {
   list-style: none; }
+
+ul.badge-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem; }
+  ul.badge-group li {
+    padding: 0.4rem 0.8rem;
+    border-radius: 5px;
+    background-color: var(--light); }
+
+.capitalize {
+  text-transform: capitalize; }
 
 .text-divider {
   margin: 0 1rem;
@@ -65,13 +83,13 @@ li {
   gap: 0.4rem;
   font-size: inherit;
   font-family: inherit;
-  color: var(--secondary);
+  color: var(--primary);
   text-decoration: none;
   padding-block: 0;
   border: none;
   background: none;
   opacity: 0.8;
-  border-bottom: 1px dashed var(--secondary);
+  border-bottom: 1px dashed var(--primary);
   transition: all 0.3s; }
   .btn i {
     font-size: 80%; }
@@ -105,7 +123,8 @@ header {
 article {
   position: relative;
   display: flex;
-  height: 100rem; }
+  height: 0;
+  flex-grow: 1; }
 
 section {
   height: 100%;
@@ -181,17 +200,17 @@ section#details {
   padding: 0.8rem; }
   .details .info {
     border: 1px solid var(--foreground);
-    padding: 2rem; }
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem; }
     .details .info .info-header {
       display: flex;
       gap: 1rem;
       align-items: center;
       opacity: 0.4;
       margin-bottom: 1.2rem; }
-  .details .details-footer {
-    display: flex;
-    gap: 1rem;
-    justify-content: center; }
   .details .gallery {
     width: 100%;
     display: grid;
@@ -223,6 +242,10 @@ section#details {
       .details .gallery .gallery-item .gallery-item-overlay:hover {
         opacity: 1;
         background-color: #00000040; }
+  .details .details-footer {
+    display: flex;
+    gap: 1rem;
+    justify-content: center; }
 
 footer {
   padding: 2rem;
