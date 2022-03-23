@@ -33,7 +33,9 @@ export default function CastleDetails({ castle }: Props) {
     <div className="details">
       <div className="info">
         <h1>{castle.name.primary}</h1>
-        <h2>{castle.name.secondary}</h2>
+        {castle.name.secondary && castle.name.secondary.length > 0 && (
+          <h2>{castle.name.secondary}</h2>
+        )}
       </div>
 
       <div className="info">
