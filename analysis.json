@@ -50,6 +50,16 @@
       "value": 2
     },
     "conditionCommentary": "Von der Höhenburg haben sich lediglich sanierte Reste der Ringmauer auf dem Berggipfel und am Burgberg erhalten.",
+    "purpose": [
+      {
+        "de": "landesburg",
+        "en": null
+      },
+      {
+        "de": "ganerbenburg",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -122,6 +132,12 @@
       "value": 2
     },
     "conditionCommentary": "Das Burggelände mit der Ruine eines Torturms",
+    "purpose": [
+      {
+        "de": "ministerialensitz",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -198,6 +214,12 @@
       "value": 0
     },
     "conditionCommentary": "Von dem Burghaus sind keine Reste auf uns gekommen. Erhalten blieb lediglich ein zum Anwesen gehörender Turm der Ortsbefestigung.",
+    "purpose": [
+      {
+        "de": "adelssitz",
+        "en": null
+      }
+    ],
     "gallery": [],
     "dates": {
       "start": {
@@ -260,6 +282,16 @@
       "value": 4
     },
     "conditionCommentary": "Gut erhaltene, im Kern mittelalterliche, später zu einem Schloss umgestaltete Anlage.",
+    "purpose": [
+      {
+        "de": "dynastensitz",
+        "en": null
+      },
+      {
+        "de": "herrschaftsmittelpunkt",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -356,6 +388,16 @@
       "value": 2
     },
     "conditionCommentary": "Von der Burg haben sich der sanierte runde Bergfried und Teile der Ringmauer erhalten.",
+    "purpose": [
+      {
+        "de": "landesburg",
+        "en": null
+      },
+      {
+        "de": "herrschaftsmittelpunkt",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -452,6 +494,16 @@
       "value": 3
     },
     "conditionCommentary": "Relativ gut erhaltene, 1954 in Teilen (Torhaus) modern ausgebaute Burgruine. Umfangreiche Sanierungsarbeiten in den 1990er Jahren.",
+    "purpose": [
+      {
+        "de": "herrschaftsmittelpunkt",
+        "en": null
+      },
+      {
+        "de": "stammsitz",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -548,6 +600,16 @@
       "value": 3
     },
     "conditionCommentary": "Relativ gut erhaltene, 1970 und 1984 sanierte Burgruine.",
+    "purpose": [
+      {
+        "de": "herrschaftsmittelpunkt",
+        "en": null
+      },
+      {
+        "de": "ministerialensitz",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -652,6 +714,16 @@
       "value": 2
     },
     "conditionCommentary": "An der Stelle der mittelalterlichen Burg entstand ab 1760 ein Barockschloss.",
+    "purpose": [
+      {
+        "de": "dynastensitz",
+        "en": null
+      },
+      {
+        "de": "herrschaftsmittelpunkt",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -739,6 +811,16 @@
       "en": "no remains",
       "value": 0
     },
+    "purpose": [
+      {
+        "de": "landesburg",
+        "en": null
+      },
+      {
+        "de": "herrschaftsmittelpunkt",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -819,6 +901,12 @@
       "value": 2
     },
     "conditionCommentary": "Erhalten blieben Reste einss Abschnittswall mit Vorwall im Süden",
+    "purpose": [
+      {
+        "de": "herrschaftsmittelpunkt",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -890,6 +978,16 @@
       "value": 4
     },
     "conditionCommentary": "Relativ gut erhaltene, vorbildlich sanierte Burg- bzw. Schlossanlage. Neubauten der 1970er Jahre auf dem Burggelände passen sich der Architektur der Gesamtanlage an. .",
+    "purpose": [
+      {
+        "de": "landesburg",
+        "en": null
+      },
+      {
+        "de": "herrschaftsmittelpunkt",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -990,6 +1088,16 @@
       "value": 2
     },
     "conditionCommentary": "Von der mittelalterlichen Burg blieben geringe Mauerreste in dem barocken Schloss erhalten. Mitte der 1970er Jahre wurde das Schloss umfassend renoviert.",
+    "purpose": [
+      {
+        "de": "landesburg",
+        "en": null
+      },
+      {
+        "de": "herrschaftsmittelpunkt",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -1065,6 +1173,12 @@
       "value": 4
     },
     "conditionCommentary": "Gut erhaltener Mottenhügel.",
+    "purpose": [
+      {
+        "de": "herrschaftsmittelpunkt",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -1127,6 +1241,7 @@
       "en": "largely preserved",
       "value": 4
     },
+    "purpose": [],
     "gallery": [
       {
         "id": "0",
@@ -1219,6 +1334,12 @@
       "value": 4
     },
     "conditionCommentary": "Relativ gut erhaltene mittelalterliche Höhenburg mit zahlreichen frühneuzeitlichen Um- und Ausbauten.",
+    "purpose": [
+      {
+        "de": "dynastensitz",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -1317,6 +1438,16 @@
       "value": 4
     },
     "conditionCommentary": "Unter Verwendung von mittelalterlichen Bauteilen entstand 1850-55 eine imposante neugotische Schlossanlage von pränganter Silhouettenwirkung.",
+    "purpose": [
+      {
+        "de": "herrschaftsmittelpunkt",
+        "en": null
+      },
+      {
+        "de": "ganerbenburg",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -1406,6 +1537,7 @@
       "en": "significant remains",
       "value": 3
     },
+    "purpose": [],
     "gallery": [
       {
         "id": "0",
@@ -1477,6 +1609,16 @@
       "value": 4
     },
     "conditionCommentary": "Neuere archäologische Untersuchungen und Bauuntersuchungen seit 1986",
+    "purpose": [
+      {
+        "de": "landesburg",
+        "en": null
+      },
+      {
+        "de": "dynastensitz",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -1577,6 +1719,16 @@
       "value": 3
     },
     "conditionCommentary": "Von der mittelalterlichen Burg blieb im Wesentlichen die Ringmauer und ein rechteckiger Torturm sowie ein Wohngebäude des 16. Jh. erhalten.",
+    "purpose": [
+      {
+        "de": "dynastensitz",
+        "en": null
+      },
+      {
+        "de": "landesburg",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -1671,6 +1823,16 @@
       "value": 4
     },
     "conditionCommentary": "Guterhaltene spätmittelalterliche Burganlage mit barockem Hauptgebäude. Sicherungsarbeiten seit Ende der 1970er Jahre.",
+    "purpose": [
+      {
+        "de": "ganerbenburg",
+        "en": null
+      },
+      {
+        "de": "herrschaftsmittelpunkt",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -1767,6 +1929,12 @@
       "value": 4
     },
     "conditionCommentary": "Relativ gut erhaltene Burgruine, Saalgeschossbau 1979-82 zu einem Gastronomiebetrieb ausgebaut.",
+    "purpose": [
+      {
+        "de": "landesburg",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -1853,6 +2021,16 @@
       "value": 3
     },
     "conditionCommentary": "relativ gut erhaltene Burgruine in imposanter Spornlage.",
+    "purpose": [
+      {
+        "de": "landesburg",
+        "en": null
+      },
+      {
+        "de": "grenzlage",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -1949,6 +2127,16 @@
       "value": 0
     },
     "conditionCommentary": "Von der Burg haben sich keine Reste erhalten. Lediglich die zu dem Adelssitz gehörende 1756 errichtete Mühle besteht noch.",
+    "purpose": [
+      {
+        "de": "ministerialensitz",
+        "en": null
+      },
+      {
+        "de": "adelssitz",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -2029,6 +2217,16 @@
       "value": 4
     },
     "conditionCommentary": "Gut erhaltene, in der Barockzeit baulich veränderte Niederungsburg.",
+    "purpose": [
+      {
+        "de": "stadtburg",
+        "en": null
+      },
+      {
+        "de": "landesburg",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -2124,6 +2322,16 @@
       "value": 3
     },
     "conditionCommentary": "Imposante Burgruine mit teilweise frei rekonstruiertem Palas. Der West-Bergfried erhielt Ende der 1970er Jahre ein Dach mit Eckwarten.",
+    "purpose": [
+      {
+        "de": "dynastensitz",
+        "en": null
+      },
+      {
+        "de": "residenz",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -2220,6 +2428,12 @@
       "value": 3
     },
     "conditionCommentary": "Die relativ gut erhaltene Ruine wurde teilweise 1977 instandgesetzt. In das Mauerwerk des Wohnturms wurden Betondecken eingezogen.",
+    "purpose": [
+      {
+        "de": "ganerbenburg",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -2311,6 +2525,12 @@
       "value": 3
     },
     "conditionCommentary": "1968-78 Teilausbau der in bedeutenen Resten erhaltenen Burgruine.",
+    "purpose": [
+      {
+        "de": "reichsburg",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -2411,6 +2631,12 @@
       "value": 0
     },
     "conditionCommentary": "Die letzten Reste der Burg wurden 1848 geschleift. Die Burgstelle ist teilweise im Gelände nachvollziehbar.",
+    "purpose": [
+      {
+        "de": "ministerialensitz",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -2487,6 +2713,16 @@
       "value": 4
     },
     "conditionCommentary": "Sehr gut erhaltene spätmittelalterliche Zollburg in Insellage",
+    "purpose": [
+      {
+        "de": "zollstelle",
+        "en": null
+      },
+      {
+        "de": "landesburg",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -2583,6 +2819,12 @@
       "value": 4
     },
     "conditionCommentary": "Gut erhaltene hochmittelalterliche Höhenburg.",
+    "purpose": [
+      {
+        "de": "landesburg",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -2679,6 +2921,16 @@
       "value": 4
     },
     "conditionCommentary": "Weitgehend erhaltene, Mitte des 19. Jh. s ausgebaute Höhenburg.",
+    "purpose": [
+      {
+        "de": "grenzlage",
+        "en": null
+      },
+      {
+        "de": "landesburg",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -2761,6 +3013,12 @@
     ],
     "condition": "unknown",
     "conditionCommentary": "Der recht gut erhaltene Wohnturm wurde 1910 durch den Anbau eines Sommersitzes ergänzt.",
+    "purpose": [
+      {
+        "de": "adelssitz",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -2850,6 +3108,16 @@
       "en": "foundations",
       "value": 1
     },
+    "purpose": [
+      {
+        "de": "landesburg",
+        "en": null
+      },
+      {
+        "de": "grenzlage",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -2932,6 +3200,12 @@
       "value": 3
     },
     "conditionCommentary": "Gut erhaltene, 1909-12 teilweise ausgebaute Burgruine.",
+    "purpose": [
+      {
+        "de": "landesburg",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -3027,6 +3301,16 @@
       "value": 2
     },
     "conditionCommentary": "Nur wenige Mauerreste und Abarbeitungen am Fels.",
+    "purpose": [
+      {
+        "de": "stammsitz",
+        "en": null
+      },
+      {
+        "de": "dynastensitz",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -3122,6 +3406,16 @@
       "value": 0
     },
     "conditionCommentary": "An die Stelle der mittelalterlichen Wasserburg trat im 16. Jh. ein zweigeschossiges Fachwerkgebäude.",
+    "purpose": [
+      {
+        "de": "ministerialensitz",
+        "en": null
+      },
+      {
+        "de": "adelssitz",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -3214,6 +3508,16 @@
       "value": 0
     },
     "conditionCommentary": "An der Stelle der spätmittelalterlichen Wasserburg entstand um 1600 ein Schlossbau.",
+    "purpose": [
+      {
+        "de": "adelssitz",
+        "en": null
+      },
+      {
+        "de": "ganerbenburg",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -3297,6 +3601,7 @@
       "en": "largely preserved",
       "value": 4
     },
+    "purpose": [],
     "gallery": [
       {
         "id": "0",
@@ -3379,6 +3684,16 @@
       "value": 4
     },
     "conditionCommentary": "Die relativ gut erhaltene spätmittelalterliche Burg wurde 1900-1906 teilweise ausgebaut.",
+    "purpose": [
+      {
+        "de": "landesburg",
+        "en": null
+      },
+      {
+        "de": "herrschaftsmittelpunkt",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -3475,6 +3790,12 @@
       "value": 3
     },
     "conditionCommentary": "Gut erhaltene, imposante Burganlage. Seit den 1990er Jahre Sicherungsarbeiten.",
+    "purpose": [
+      {
+        "de": "landesburg",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -3571,6 +3892,16 @@
       "value": 3
     },
     "conditionCommentary": "Relativ gut erhaltene Burgruine. Umfangreiche Sanierungsmaßnahmen 1991-1998.",
+    "purpose": [
+      {
+        "de": "gegenburg",
+        "en": null
+      },
+      {
+        "de": "landesburg",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -3662,6 +3993,16 @@
       "value": 3
     },
     "conditionCommentary": "Von der Burg blieb neben Resten der Umfassungsmauer im wesentlichen der in den 1980er Jahren sanierte fünfeckige Bergfried erhalten.",
+    "purpose": [
+      {
+        "de": "dynastensitz",
+        "en": null
+      },
+      {
+        "de": "ganerbenburg",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -3760,6 +4101,12 @@
       "value": 4
     },
     "conditionCommentary": "Gut erhaltene, im Kern spätmittelalterliche Niederungsburg mit barockem Herrenhaus, das unter teilweiser Verwendung eines mittelalterlichen Vorgängerbaus entstand.",
+    "purpose": [
+      {
+        "de": "ganerbenburg",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -3856,6 +4203,12 @@
       "value": 3
     },
     "conditionCommentary": "Die noch recht stattliche Burgruine befindet sich in rasch fortschreitendem Verfall und bedarf dringend einer Sanierung.",
+    "purpose": [
+      {
+        "de": "ministerialensitz",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -3947,6 +4300,12 @@
       "value": 2
     },
     "conditionCommentary": "Erhalten blieb die talseitige Wand eines viergeschossigen Wohnturms.",
+    "purpose": [
+      {
+        "de": "ministerialensitz",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -4031,6 +4390,12 @@
       "value": 2
     },
     "conditionCommentary": "Von der hochmittelalterlichen Burg haben sich lediglich Reste von Wall und Graben erhalten.",
+    "purpose": [
+      {
+        "de": "adelssitz",
+        "en": null
+      }
+    ],
     "gallery": [],
     "dates": {
       "start": {
@@ -4089,6 +4454,16 @@
       "value": 4
     },
     "conditionCommentary": "Relativ gut erhaltene Burgruine, in Teilen in den 1770er Jahren ausgebaut (Unterburg).",
+    "purpose": [
+      {
+        "de": "ministerialensitz",
+        "en": null
+      },
+      {
+        "de": "ganerbenburg",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -4179,6 +4554,16 @@
       "en": null
     },
     "conditionCommentary": "Im Zuge der Nutzung als Gastronomiebetrieb teilweise baulich veränderte Burgruine mit Aussichtsterrasse.",
+    "purpose": [
+      {
+        "de": "reichsburg",
+        "en": null
+      },
+      {
+        "de": "ministerialensitz",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -4254,6 +4639,16 @@
       "value": 3
     },
     "conditionCommentary": "Die relativ gut erhaltene Anlage wurde 1971 renoviert.",
+    "purpose": [
+      {
+        "de": "reichsburg",
+        "en": null
+      },
+      {
+        "de": "ministerialensitz",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -4350,6 +4745,16 @@
       "value": 3
     },
     "conditionCommentary": "Beeindruckende Ruine in fortschreitendem Verfall.",
+    "purpose": [
+      {
+        "de": "reichsburg",
+        "en": null
+      },
+      {
+        "de": "ministerialensitz",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -4441,6 +4846,12 @@
       "value": 3
     },
     "conditionCommentary": "Relativ gut erhaltene, gepflegte Burgruine.",
+    "purpose": [
+      {
+        "de": "ministerialensitz",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -4537,6 +4948,16 @@
       "value": 3
     },
     "conditionCommentary": "Bedeutende Reste der hochmittelalterlichen Burganlage, die umfassend saniert worden ist.",
+    "purpose": [
+      {
+        "de": "ministerialensitz",
+        "en": null
+      },
+      {
+        "de": "stammsitz",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -4622,6 +5043,16 @@
       "value": 2
     },
     "conditionCommentary": "2002 Freilegung einer Felsgrube an der südlichen Schmalseite des Burgfelsens (Zisterne).",
+    "purpose": [
+      {
+        "de": "reichsburg",
+        "en": null
+      },
+      {
+        "de": "ministerialensitz",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -4717,6 +5148,12 @@
       "en": "historic reshaping",
       "value": 4
     },
+    "purpose": [
+      {
+        "de": "ministerialensitz",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -4805,6 +5242,12 @@
       "en": "small leftovers",
       "value": 2
     },
+    "purpose": [
+      {
+        "de": "adelssitz",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -4890,6 +5333,16 @@
       "value": 2
     },
     "conditionCommentary": "in Oberburg Felsausarbeitungen, in Unterburg Gebäudereste.",
+    "purpose": [
+      {
+        "de": "adelssitz",
+        "en": null
+      },
+      {
+        "de": "ganerbenburg",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -4975,6 +5428,16 @@
       "value": 3
     },
     "conditionCommentary": "Sehr gut erhaltene, 1970/71 und 1985-87 aufwendig sanierte Burgruine.",
+    "purpose": [
+      {
+        "de": "landesburg",
+        "en": null
+      },
+      {
+        "de": "herrschaftsmittelpunkt",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -5071,6 +5534,16 @@
       "value": 2
     },
     "conditionCommentary": "Im Rahmen der 1989-95 durchgeführten Konservierungsmaßnahmen fanden Grabungen im Bereich der Wirtschaftsgebäude der nördlichen Unterburg statt.",
+    "purpose": [
+      {
+        "de": "reichsburg",
+        "en": null
+      },
+      {
+        "de": "ganerbenburg",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -5167,6 +5640,16 @@
       "value": 3
     },
     "conditionCommentary": "Gut erhaltene, sanierte Höhenburg in Spornlage. Um die Jahrhundertwende zum 20. Jh., vor allem aber seit den 1960er Jahren fanden umfangreiche Sanierungs- und Sicherungsarbeiten statt.",
+    "purpose": [
+      {
+        "de": "reichsburg",
+        "en": null
+      },
+      {
+        "de": "ganerbenburg",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -5266,6 +5749,16 @@
       "en": null
     },
     "conditionCommentary": "auf Oberburg kaum Reste, Unterburg überformt",
+    "purpose": [
+      {
+        "de": "landesburg",
+        "en": null
+      },
+      {
+        "de": "residenz",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -5351,6 +5844,16 @@
       "value": 3
     },
     "conditionCommentary": "1979-81 umfangreiche Instandsetzungsarbeiten. Sanierung der Ringmauern und des Palasmauerwerks mit Ausgrabung des Kellers; Freilegung, Sicherung und teilweise Aufmauerung der Kapellenmauern. Einmauerung gefundener Profilsteine.",
+    "purpose": [
+      {
+        "de": "reichsburg",
+        "en": null
+      },
+      {
+        "de": "ganerbenburg",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -5447,6 +5950,12 @@
       "value": 3
     },
     "conditionCommentary": "Relativ gut erhaltene, teilweise stark sanierte Anlage. 1981 als Baudenkmal ausgewiesen. Ab 1994 umfangreiche Sanierungsmaßnahmen.",
+    "purpose": [
+      {
+        "de": "reichsburg",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -5535,6 +6044,16 @@
       "value": 2
     },
     "conditionCommentary": "Eine in den 1960er Jahren freigelegte Zisterne ist heute verschüttet.",
+    "purpose": [
+      {
+        "de": "reichsburg",
+        "en": null
+      },
+      {
+        "de": "ministerialensitz",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -5631,6 +6150,12 @@
       "value": 2
     },
     "conditionCommentary": "Planmäßige Grabungen 1935 und seit 1988.",
+    "purpose": [
+      {
+        "de": "adelssitz",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -5723,6 +6248,12 @@
       "value": 3
     },
     "conditionCommentary": "Grundmauern erhalten und restauriert. Besonders die westliche Ringmauer, die Schildmauer und Teile des Bergfrieds sind stark ergänzt.",
+    "purpose": [
+      {
+        "de": "adelssitz",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -5814,6 +6345,12 @@
       "en": "small leftovers",
       "value": 2
     },
+    "purpose": [
+      {
+        "de": "reichsburg",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -5899,6 +6436,16 @@
       "value": 1
     },
     "conditionCommentary": "Recht gut erhaltene, bislang noch nicht eingehend archäologisch untersuchte Burgstelle.",
+    "purpose": [
+      {
+        "de": "dynastensitz",
+        "en": null
+      },
+      {
+        "de": "herrschaftsmittelpunkt",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -5994,6 +6541,12 @@
       "en": "no remains",
       "value": 0
     },
+    "purpose": [
+      {
+        "de": "ministerialensitz",
+        "en": null
+      }
+    ],
     "gallery": [],
     "dates": {
       "start": {
@@ -6047,6 +6600,7 @@
       }
     ],
     "condition": "unknown",
+    "purpose": [],
     "gallery": [],
     "dates": {
       "start": {
@@ -6110,6 +6664,16 @@
       "value": 3
     },
     "conditionCommentary": "Bedeutende im Besitz der staatlichen Schlösserverwaltung Rheinland-Pfalz (BSA) befindliche Burgruine. Restaurierung seit 1970 insbes. Bergfried und Wohnbaureste. 1992 fotogrammetrische Vermessung von Palas und Kapelle.",
+    "purpose": [
+      {
+        "de": "dynastensitz",
+        "en": null
+      },
+      {
+        "de": "herrschaftsmittelpunkt",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -6190,6 +6754,16 @@
       "value": 3
     },
     "conditionCommentary": "Eindrucksvolle, in Teilen stark sanierte Burgruine.",
+    "purpose": [
+      {
+        "de": "dynastensitz",
+        "en": null
+      },
+      {
+        "de": "herrschaftsmittelpunkt",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -6286,6 +6860,16 @@
       "value": 3
     },
     "conditionCommentary": "Von der Burg blieben beeindruckende, 1921 gesicherte Baureste erhalten.",
+    "purpose": [
+      {
+        "de": "landesburg",
+        "en": null
+      },
+      {
+        "de": "herrschaftsmittelpunkt",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -6386,6 +6970,16 @@
       "value": 4
     },
     "conditionCommentary": "Die Wasserburg wurde 1978-86 umfassend saniert und instandgesetzt.",
+    "purpose": [
+      {
+        "de": "ministerialensitz",
+        "en": null
+      },
+      {
+        "de": "herrschaftsmittelpunkt",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -6486,6 +7080,12 @@
       "value": 3
     },
     "conditionCommentary": "Von der spätmittelalterlichen Anlage haben sich beachtliche Reste der Ringmauer und eines quadratischen Turmes erhalten, die in die Bauten des 17. Jh. einbezogen wurden.",
+    "purpose": [
+      {
+        "de": "adelssitz",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -6582,6 +7182,12 @@
       "value": 0
     },
     "conditionCommentary": "Auf dem Gelände des spätmittelalterlichen Burghauses entstand im 16. Jh. das heutige Herrenhaus.",
+    "purpose": [
+      {
+        "de": "adelssitz",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -6653,6 +7259,16 @@
       "value": 2
     },
     "conditionCommentary": "Von der mittelalterlichen Burganlage haben sich lediglich die Reste zweier runder Flankentürme erhalten. Die Gebäude des Burghofs datieren ins 18./19. Jh.",
+    "purpose": [
+      {
+        "de": "ministerialensitz",
+        "en": null
+      },
+      {
+        "de": "ganerbenburg",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -6725,6 +7341,12 @@
       "value": 3
     },
     "conditionCommentary": "Relativ gut erhaltene, in den 1930er Jahren teilweise ausgebaute Burgruine.",
+    "purpose": [
+      {
+        "de": "landesburg",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -6824,6 +7446,12 @@
       "en": "no remains",
       "value": 0
     },
+    "purpose": [
+      {
+        "de": "adelssitz",
+        "en": null
+      }
+    ],
     "gallery": [],
     "dates": {
       "start": {
@@ -6872,6 +7500,12 @@
       }
     ],
     "condition": "unknown",
+    "purpose": [
+      {
+        "de": "landesburg",
+        "en": null
+      }
+    ],
     "gallery": [],
     "dates": {
       "start": {
@@ -6925,6 +7559,7 @@
       }
     ],
     "condition": "unknown",
+    "purpose": [],
     "gallery": [],
     "dates": {
       "start": {
@@ -6982,6 +7617,7 @@
       "en": "significant remains",
       "value": 3
     },
+    "purpose": [],
     "gallery": [],
     "dates": {
       "start": {
@@ -7040,6 +7676,7 @@
       "en": "significant remains",
       "value": 3
     },
+    "purpose": [],
     "gallery": [],
     "dates": {
       "start": {
@@ -7093,6 +7730,12 @@
       }
     ],
     "condition": "unknown",
+    "purpose": [
+      {
+        "de": "kommende",
+        "en": null
+      }
+    ],
     "gallery": [],
     "dates": {
       "start": {
@@ -7156,6 +7799,12 @@
       "value": 4
     },
     "conditionCommentary": "Gut erhaltener 1984/85 sanierter Wohnturm.",
+    "purpose": [
+      {
+        "de": "ministerialensitz",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -7220,6 +7869,7 @@
       }
     ],
     "condition": "unknown",
+    "purpose": [],
     "gallery": [],
     "dates": {
       "start": {
@@ -7287,6 +7937,12 @@
       "value": 0
     },
     "conditionCommentary": "Im heutigen Schlossbau noch ältere Reste.",
+    "purpose": [
+      {
+        "de": "landesburg",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -7382,6 +8038,16 @@
       "value": 2
     },
     "conditionCommentary": "Teilweise sanierte Burgruine",
+    "purpose": [
+      {
+        "de": "landesburg",
+        "en": null
+      },
+      {
+        "de": "adelssitz",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
@@ -7479,6 +8145,16 @@
       "value": 3
     },
     "conditionCommentary": "Imposante, dringend sanierungsbedürftige Burgruine.",
+    "purpose": [
+      {
+        "de": "landesburg",
+        "en": null
+      },
+      {
+        "de": "amtssitz",
+        "en": null
+      }
+    ],
     "gallery": [
       {
         "id": "0",
