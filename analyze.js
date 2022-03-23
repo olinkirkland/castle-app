@@ -188,7 +188,7 @@ function transformCondition(str) {
 
   if (!str) return 'unknown';
   str = str.toLowerCase();
-  let t = conditions.find((c) => c.de == str);
+  let t = conditions.find((c) => c.de === str);
   if (!t) t = { de: str, en: null };
 
   if (!uniqueConditions.includes(str)) uniqueConditions.push(str);

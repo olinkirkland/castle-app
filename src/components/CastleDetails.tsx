@@ -12,8 +12,8 @@ export default function CastleDetails({ castle }: Props) {
     console.log(JSON.stringify(castle));
   }
 
-  function formatDate(date: HistoryDate): string {
-    let str = 'Unknown';
+  function formatDate(date: HistoryDate, end: boolean = false): string {
+    let str = end ? 'Present day' : 'Unknown';
     if (!date) return str;
 
     if (date.century) {
@@ -76,7 +76,7 @@ export default function CastleDetails({ castle }: Props) {
           <i className="fa-solid fa-calendar-day"></i>
           <h2>Dating</h2>
         </div>
-        {formatDate(castle.dates.start)} - {formatDate(castle.dates.end)}
+        {formatDate(castle.dates.start)} - {formatDate(castle.dates.end, true)}
         {/* <pre>{JSON.stringify(castle.dates, null, 2)}</pre> */}
       </div>
 
