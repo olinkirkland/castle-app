@@ -78,28 +78,19 @@ export default function CastleDetails({ castle }: Props) {
         {/* <pre>{JSON.stringify(castle.dates, null, 2)}</pre> */}
       </div>
 
-      {/* {castle.dateBegin && castle.dateEnd && (
-          <div className="info">
-            <p className="title">Dating</p>
-            <p>{`${castle.dateBegin} - ${castle.dateEnd}`}</p>
-          </div>
-        )}
+      {castle.structures && (
+        <div className="info">
+          <p className="title">Structure</p>
+          <pre>{JSON.stringify(castle.structures, null, 2)}</pre>
+        </div>
+      )}
 
-        {castle.structureType && (
-          <div className="info">
-            <p className="title">Structure</p>
-
-            <p>{castle.structureType.join(', ')}</p>
-          </div>
-        )}
-
-        {castle.classification && (
-          <div className="info">
-            <p className="title">Classification</p>
-
-            <p>{castle.classification.join(', ')}</p>
-          </div>
-        )} */}
+      {castle.classifications && (
+        <div className="info">
+          <p className="title">Classification</p>
+          <pre>{JSON.stringify(castle.classifications, null, 2)}</pre>
+        </div>
+      )}
 
       {castle.gallery.length > 0 && castle.gallery.length > 0 && (
         <div className="info">
