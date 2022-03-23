@@ -52,6 +52,26 @@ console.log(uniquePurposes);
 // Write to json
 fs.writeFileSync('public/analysis.json', JSON.stringify(all, null, 2));
 
+function transformPurpose(arr) {
+  const purposes = [
+    { de: 'burg', en: 'castle' },
+    { de: 'burg-schloss', en: 'castle-manor' },
+    { de: 'sonstiges', en: 'other' }
+  ];
+
+  if (!arr) arr = [];
+  let t = arr.map((str) => {
+    str = str.toLowerCase();
+    if (!uniquePurposes.includes(str)) uniquePurposes.push(str);
+
+    let u = purposes.find((t) => t.de === str);
+    if (!u) u = { de: str, en: null };
+    return u;
+  });
+
+  return t;
+}
+
 function transformDate(str) {
   let date = { century: null, half: null };
 
@@ -64,10 +84,8 @@ function transformDate(str) {
   }
 
   // Half & Century
-  console.log(str + ' ====');
   const regex = /((?<half>[0-9]+).H.)?((?<century>[0-9]+).Jh.)/gi;
   const r = regex.exec(str);
-  console.log(r.groups.half ? r.groups.half : null, r.groups.century);
   return {
     century: r.groups.century,
     half: r.groups.half ? r.groups.half : null
