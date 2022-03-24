@@ -112,7 +112,9 @@ export default function CastleDetails({ castle }: Props) {
           <h2>Dating</h2>
         </div>
         {formatDate(castle.dates.start)} - {formatDate(castle.dates.end, true)}
-        {/* <pre>{JSON.stringify(castle.dates, null, 2)}</pre> */}
+        <Drawer textOpen="Show JSON" textClose="Hide JSON">
+          <pre>{JSON.stringify(castle.dates, null, 2)}</pre>
+        </Drawer>
       </div>
 
       {castle.purpose && (
