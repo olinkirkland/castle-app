@@ -65,16 +65,18 @@ ul.badge-group {
 .capitalize {
   text-transform: capitalize; }
 
+.muted {
+  opacity: 0.4; }
+
 .text-divider {
   margin: 0 1rem;
   opacity: 0.4; }
 
-.flag-sm {
-  height: 4rem;
-  border-radius: 5px; }
-
 .condition-icon {
   color: var(--text); }
+
+img.flag-sm {
+  height: 1.2rem !important; }
 
 .btn {
   cursor: pointer;
@@ -163,20 +165,6 @@ section#details {
   font-size: 1.2rem;
   border-radius: 5px; }
 
-.location {
-  width: 100%;
-  padding: 1rem;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.8rem; }
-  .location i {
-    opacity: 0.4; }
-  .location p {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 0.4rem; }
-
 .castle-tile {
   padding: 1rem 1.6rem;
   margin-right: 1rem;
@@ -212,6 +200,17 @@ section#details {
       align-items: center;
       opacity: 0.4;
       margin-bottom: 1.2rem; }
+  .details .location {
+    display: flex;
+    gap: 4rem; }
+    .details .location .with-crest {
+      display: flex;
+      align-items: center;
+      gap: 0.8rem; }
+      .details .location .with-crest img {
+        height: 3.2rem; }
+    .details .location .flag-sm {
+      margin-right: 0.8rem; }
   .details .gallery {
     width: 100%;
     display: grid;

@@ -47,16 +47,34 @@ export default function CastleDetails({ castle }: Props) {
           <i className="fa-solid fa-location-dot"></i>
           <h2>Location</h2>
         </div>
-        <p>
-          <span>{castle.location.city && `${castle.location.city},`}</span>
-          <span>{!castle.location.city && `${castle.location.county},`}</span>
-          <span>{`${castle.location.state.en}`}</span>
-        </p>
-        <img
-          className="flag-sm"
-          src={`${process.env.PUBLIC_URL}/flags/countries/${castle.location.country.abbreviation}/states/${castle.location.state.abbreviation}.svg`}
-          alt=""
-        />
+        <div className="location">
+          <div>
+            {castle.location.city && <p>{`${castle.location.city}`}</p>}
+            {castle.location.county && (
+              <p className="muted">{`${castle.location.county}`}</p>
+            )}
+          </div>
+          <div className="with-crest">
+            <img
+              src={`${process.env.PUBLIC_URL}/images/countries/${castle.location.country.abbreviation}/states/${castle.location.state.abbreviation}_crest.svg`}
+              alt=""
+            />
+            <div>
+              {castle.location.region && <p>{`${castle.location.region}`}</p>}
+              <p>{castle.location.state.en}</p>
+            </div>
+          </div>
+          <div>
+            <span>
+              <img
+                className="flag-sm"
+                src={`${process.env.PUBLIC_URL}/images/countries/${castle.location.country.abbreviation}/${castle.location.country.abbreviation}.svg`}
+                alt=""
+              />
+              {castle.location.country.en}
+            </span>
+          </div>
+        </div>
       </div>
 
       {castle.condition && (
