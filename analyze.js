@@ -226,7 +226,7 @@ function transformState(str) {
       en: 'North Rhine-Westphalia',
       abbreviation: 'nw'
     },
-    { de: 'Rheinland-Pfalz', en: 'Rheinland-Pfalz', abbreviation: 'rp' },
+    { de: 'Rheinland-Pfalz', en: 'Rheinland-Palatinate', abbreviation: 'rp' },
     { de: 'Saarland', en: 'Saarland', abbreviation: 'sl' },
     { de: 'Sachsen', en: 'Saxony', abbreviation: 'sn' },
     { de: 'Sachsen-Anhalt', en: 'Saxony-Anhalt', abbreviation: 'st' },
