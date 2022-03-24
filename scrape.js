@@ -310,7 +310,7 @@ function parseToObject(u) {
     gallery.push({
       id: `${index}`,
       url: url,
-      path: `/images/${o.id}/${index}${fileTypeFromUrl(url)}`
+      path: `/images/castles/${o.id}/${index}${fileTypeFromUrl(url)}`
     });
   });
 
@@ -372,8 +372,6 @@ function downloadImages(overwrite = false) {
   let current;
   const intervalId = setInterval(() => {
     if (!current) {
-      console.log(`${imageCount - queue.length}/${imageCount}`);
-
       if (queue.length === 0) {
         clearInterval(intervalId);
         return;
@@ -383,9 +381,11 @@ function downloadImages(overwrite = false) {
 
       // If overwrite is set to false, skip this download if the file already exists
       if (!overwrite && fs.existsSync(current.path)) {
+        console.log(`${imageCount - queue.length}/${imageCount} SKIP`);
         // console.log(`SKIP ${current.path} already exists`);
         current = null;
       } else {
+        console.log(`${imageCount - queue.length}/${imageCount}`);
         const file = fs.createWriteStream(current.path);
         https.get(current.url, function (response) {
           response.pipe(file);
@@ -393,7 +393,7 @@ function downloadImages(overwrite = false) {
         });
       }
     }
-  }, 50);
+  }, 20);
 }
 
 function fileTypeFromUrl(url) {

@@ -19,8 +19,12 @@
       "region": "Westerwald",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -64,7 +68,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/526_101_20051116120750.jpg",
-        "path": "/images/50/0.jpg",
+        "path": "/images/castles/50/0.jpg",
         "castle": "50",
         "caption": "Burgberg mit Ringmauerresten, Foto: J. Friedhoff (2003)",
         "year": "2003"
@@ -101,8 +105,12 @@
       "region": "Westerwald",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -142,7 +150,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/523_101_20051116115206.jpg",
-        "path": "/images/51/0.jpg",
+        "path": "/images/castles/51/0.jpg",
         "castle": "51",
         "caption": "Ruine des Torturms, Foto: J. Friedhoff (2005)",
         "year": "2005"
@@ -179,8 +187,12 @@
       "region": "Westerwald",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -252,8 +264,12 @@
       "region": "Westerwald",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -296,7 +312,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/528_101_20051116121647.jpg",
-        "path": "/images/53/0.jpg",
+        "path": "/images/castles/53/0.jpg",
         "castle": "53",
         "caption": "Bergfried, Foto: J. Friedhoff (2004)",
         "year": "2004"
@@ -304,7 +320,7 @@
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/528_103_20051116121647.jpg",
-        "path": "/images/53/1.jpg",
+        "path": "/images/castles/53/1.jpg",
         "castle": "53",
         "caption": "Spätromanisches Portal, aus: Bornheim gen. Schilling, Rheinische Höhenburgen (1961)",
         "year": "1961"
@@ -312,7 +328,7 @@
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/528_105_20051116121647.jpg",
-        "path": "/images/53/2.jpg",
+        "path": "/images/castles/53/2.jpg",
         "castle": "53",
         "caption": "Spätgotisches Gewölbe im Großen Saal, aus: Bornheim gen. Schilling, Rheinische Höhenburgen (1961)",
         "year": "1961"
@@ -320,7 +336,7 @@
       {
         "id": "3",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/528_23_20051116121647.jpg",
-        "path": "/images/53/3.jpg",
+        "path": "/images/castles/53/3.jpg",
         "castle": "53",
         "caption": "Lageplan von Burg und Schloss Westerburg (1760), aus: Hans Heiberger, Schloss Westerburg (1992)",
         "year": "1760"
@@ -357,8 +373,12 @@
       "region": "Westerwald",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -402,7 +422,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/516_101_20051116110826.jpg",
-        "path": "/images/54/0.jpg",
+        "path": "/images/castles/54/0.jpg",
         "castle": "54",
         "caption": "Gesamtansicht, Foto: J. Friedhoff (2005)",
         "year": "2005"
@@ -410,7 +430,7 @@
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/516_103_20051116110826.jpg",
-        "path": "/images/54/1.jpg",
+        "path": "/images/castles/54/1.jpg",
         "castle": "54",
         "caption": "Bergfried, Foto: J. Friedhoff (2000)",
         "year": "2000"
@@ -418,7 +438,7 @@
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/516_105_20051116110826.jpg",
-        "path": "/images/54/2.jpg",
+        "path": "/images/castles/54/2.jpg",
         "castle": "54",
         "caption": "Ringmauerrest und Bergfried, Foto: J. Friedhoff (2005)",
         "year": "2005"
@@ -426,7 +446,7 @@
       {
         "id": "3",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/516_23_20051116110826.gif",
-        "path": "/images/54/3.gif",
+        "path": "/images/castles/54/3.gif",
         "castle": "54",
         "caption": "Grundriss, aus: Krahe, Burgenlexikon (1994)",
         "year": "1994"
@@ -463,8 +483,12 @@
       "region": "Westerwald",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -508,7 +532,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/74_101_20050520120704.jpg",
-        "path": "/images/55/0.jpg",
+        "path": "/images/castles/55/0.jpg",
         "castle": "55",
         "caption": "Gesamtansicht, Foto: J. Friedhoff (2000)",
         "year": "2000"
@@ -516,7 +540,7 @@
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/74_103_20050520120704.jpg",
-        "path": "/images/55/1.jpg",
+        "path": "/images/castles/55/1.jpg",
         "castle": "55",
         "caption": "Bergfried, Foto: J. Friedhoff (2000)",
         "year": "2000"
@@ -524,7 +548,7 @@
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/74_105_20050520120704.jpg",
-        "path": "/images/55/2.jpg",
+        "path": "/images/castles/55/2.jpg",
         "castle": "55",
         "caption": "Ölgemälde (1866), aus: Spiegel, Chronik (1984)",
         "year": "1866"
@@ -532,7 +556,7 @@
       {
         "id": "3",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/74_23_20050520120704.gif",
-        "path": "/images/55/3.gif",
+        "path": "/images/castles/55/3.gif",
         "castle": "55",
         "caption": "Lageplan, aus: Spiegel, Chronik (1984)",
         "year": "1984"
@@ -569,8 +593,12 @@
       "region": "Westerwald",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -614,7 +642,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/76_101_20050520123339.jpg",
-        "path": "/images/56/0.jpg",
+        "path": "/images/castles/56/0.jpg",
         "castle": "56",
         "caption": "Schildmauer, Feldseite, Foto: J. Friedhoff (2005)",
         "year": "2005"
@@ -622,7 +650,7 @@
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/76_103_20050520123339.jpg",
-        "path": "/images/56/1.jpg",
+        "path": "/images/castles/56/1.jpg",
         "castle": "56",
         "caption": "Torturm, Foto: J. Friedhoff (2005)",
         "year": "2005"
@@ -630,7 +658,7 @@
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/76_105_20050520123339.jpg",
-        "path": "/images/56/2.jpg",
+        "path": "/images/castles/56/2.jpg",
         "castle": "56",
         "caption": "Schildmauer, Hofseite, Foto: J. Friedhoff (2005)",
         "year": "2005"
@@ -638,7 +666,7 @@
       {
         "id": "3",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/76_23_20050520123627.jpg",
-        "path": "/images/56/3.jpg",
+        "path": "/images/castles/56/3.jpg",
         "castle": "56",
         "caption": "Grundriss, aus: Liessem, Sporkenburg (1997)",
         "year": "1997"
@@ -675,8 +703,12 @@
       "region": "Westerwald",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -728,7 +760,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/519_101_20051116113123.jpg",
-        "path": "/images/57/0.jpg",
+        "path": "/images/castles/57/0.jpg",
         "castle": "57",
         "caption": "Ansicht des Barockschlosses, Foto: J. Friedhoff (1999)",
         "year": "1999"
@@ -736,7 +768,7 @@
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/519_23_20051116113123.gif",
-        "path": "/images/57/1.gif",
+        "path": "/images/castles/57/1.gif",
         "castle": "57",
         "caption": "Lageplan der Burg nach dem Burgmodell, aus: Die von Walderdorff, Köln (1998)",
         "year": "1998"
@@ -773,8 +805,12 @@
       "region": "Westerwald",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -825,7 +861,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/517_101_20051116111720.jpg",
-        "path": "/images/58/0.jpg",
+        "path": "/images/castles/58/0.jpg",
         "castle": "58",
         "caption": "Bleistiftzeichnung, um 1860, aus: BuK Unter-Westerwald, St. Goarshausen, Untertaunus und Wiesbaden (1914)",
         "year": "1914"
@@ -833,7 +869,7 @@
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/517_23_20051116111720.gif",
-        "path": "/images/58/1.gif",
+        "path": "/images/castles/58/1.gif",
         "castle": "58",
         "caption": "Bleistiftzeichnung, um 1860, aus: BuK Unter-Westerwald, St. Goarshausen, Untertaunus und Wiesbaden (1914)",
         "year": "1914"
@@ -870,8 +906,12 @@
       "region": "Mittelrhein",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -911,7 +951,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/551_23_20051212111838.gif",
-        "path": "/images/59/0.gif",
+        "path": "/images/castles/59/0.gif",
         "castle": "59",
         "caption": "Lageplan der Gesamtanlage, aus: von Uslar, Studien (1964)",
         "year": "1964"
@@ -948,8 +988,12 @@
       "region": "Westerwald",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -992,7 +1036,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/520_101_20051116113518.jpg",
-        "path": "/images/60/0.jpg",
+        "path": "/images/castles/60/0.jpg",
         "castle": "60",
         "caption": "Hauptburg, Foto: J. Friedhoff (1999)",
         "year": "1999"
@@ -1000,7 +1044,7 @@
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/520_103_20051116113518.jpg",
-        "path": "/images/60/1.jpg",
+        "path": "/images/castles/60/1.jpg",
         "castle": "60",
         "caption": "Bergfried, Foto: J. Friedhoff (1999)",
         "year": "1999"
@@ -1008,7 +1052,7 @@
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/520_105_20051116113518.jpg",
-        "path": "/images/60/2.jpg",
+        "path": "/images/castles/60/2.jpg",
         "castle": "60",
         "caption": "Bastion, im Hintergrund Torhaus mit Flankenturm, Foto: J. Friedhoff (1999)",
         "year": "1999"
@@ -1016,7 +1060,7 @@
       {
         "id": "3",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/520_23_20051116113518.gif",
-        "path": "/images/60/3.gif",
+        "path": "/images/castles/60/3.gif",
         "castle": "60",
         "caption": "Baualtersplan Schloss Montabaur, aus: Markus Wild, Schloss Montabaur (1994)",
         "year": "1994"
@@ -1053,8 +1097,12 @@
       "region": "Westerwald",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -1102,7 +1150,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/515_101_20051116110242.jpg",
-        "path": "/images/61/0.jpg",
+        "path": "/images/castles/61/0.jpg",
         "castle": "61",
         "caption": "Gesamtansicht, Foto: J. Friedhoff (2002)",
         "year": "2002"
@@ -1110,7 +1158,7 @@
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/515_23_20051116110242.gif",
-        "path": "/images/61/1.gif",
+        "path": "/images/castles/61/1.gif",
         "castle": "61",
         "caption": "Grundriss, aus Magnus Backes, Zur Baugeschichte des Schlosses Hachenburg, in: Nassauische Annalen 69 (1958)",
         "year": "1958"
@@ -1147,8 +1195,12 @@
       "region": "Westerwald",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -1183,7 +1235,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/524_101_20051116115546.jpg",
-        "path": "/images/62/0.jpg",
+        "path": "/images/castles/62/0.jpg",
         "castle": "62",
         "caption": "Gesamtansicht, Foto: J. Friedhoff (1999)",
         "year": "1999"
@@ -1220,8 +1272,12 @@
       "region": "Mittelrhein",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -1246,7 +1302,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/216_101_20050715113639.jpg",
-        "path": "/images/63/0.jpg",
+        "path": "/images/castles/63/0.jpg",
         "castle": "63",
         "caption": "Rückwärtige Ansicht, Foto: R. Friedrich (2003)",
         "year": "2003"
@@ -1254,21 +1310,21 @@
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/216_103_20050715113639.jpg",
-        "path": "/images/63/1.jpg",
+        "path": "/images/castles/63/1.jpg",
         "castle": "63",
         "caption": "Die alte Schlossanlage (Ausschnitt aus Lithographie Th. Albert zw. 1849 und 1872), aus: von Preuschen, Schloss Liebeneck, in BuS 2/2003"
       },
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/216_105_20050715113639.jpg",
-        "path": "/images/63/2.jpg",
+        "path": "/images/castles/63/2.jpg",
         "castle": "63",
         "caption": "Das neue Schloss Liebeneck aus nordöstlicher Richtung mit dem alten Pächterhaus und Stall, Foto von 1881, aus: von Preuschen, Schloss Liebeneck, in BuS 2/2003"
       },
       {
         "id": "3",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/216_23_20050715113639.jpg",
-        "path": "/images/63/3.jpg",
+        "path": "/images/castles/63/3.jpg",
         "castle": "63",
         "caption": "Grundriss (EG) von 1875, stellt den realisierten (links) wie nur den geplanten Teil (rechts in Rot) dar, aus: von Preuschen, Schloss Liebeneck, in BuS 2/2003"
       }
@@ -1304,8 +1360,12 @@
       "region": "Lahntal",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -1344,7 +1404,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/214_101_20050715095130.jpg",
-        "path": "/images/64/0.jpg",
+        "path": "/images/castles/64/0.jpg",
         "castle": "64",
         "caption": "Foto: R. Friedrich (2004)",
         "year": "2004"
@@ -1352,7 +1412,7 @@
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/214_103_20050715095130.jpg",
-        "path": "/images/64/1.jpg",
+        "path": "/images/castles/64/1.jpg",
         "castle": "64",
         "caption": "Foto: R. Friedrich (2004)",
         "year": "2004"
@@ -1360,14 +1420,14 @@
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/214_105_20050715095130.jpg",
-        "path": "/images/64/2.jpg",
+        "path": "/images/castles/64/2.jpg",
         "castle": "64",
         "caption": "Historische Ansicht Diez"
       },
       {
         "id": "3",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/214_23_20050715095130.gif",
-        "path": "/images/64/3.gif",
+        "path": "/images/castles/64/3.gif",
         "castle": "64",
         "caption": "Grundriss"
       }
@@ -1403,8 +1463,12 @@
       "region": "Lahntal",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -1452,7 +1516,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/207_101_20050714111342.jpg",
-        "path": "/images/65/0.jpg",
+        "path": "/images/castles/65/0.jpg",
         "castle": "65",
         "caption": "Tor, Foto: R. Friedrich (2003)",
         "year": "2003"
@@ -1460,7 +1524,7 @@
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/207_103_20050714111342.jpg",
-        "path": "/images/65/1.jpg",
+        "path": "/images/castles/65/1.jpg",
         "castle": "65",
         "caption": "Neugotische Zinnen, Foto: R. Friedrich (2003)",
         "year": "2003"
@@ -1468,14 +1532,14 @@
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/207_105_20050714111342.jpg",
-        "path": "/images/65/2.jpg",
+        "path": "/images/castles/65/2.jpg",
         "castle": "65",
         "caption": "Ansicht des 'Fürstlichen Schlosses Schaumburg', Stahlstich von H. Kruse, 1826, Repro im Landesamt für Denkmalpflege, Mainz"
       },
       {
         "id": "3",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/207_23_20050714111342.jpg",
-        "path": "/images/65/3.jpg",
+        "path": "/images/castles/65/3.jpg",
         "castle": "65",
         "caption": "Lageplan von 1868"
       }
@@ -1511,8 +1575,12 @@
       "region": "Mittelrhein",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -1542,7 +1610,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/17_23_20050415091936.jpg",
-        "path": "/images/66/0.jpg",
+        "path": "/images/castles/66/0.jpg",
         "castle": "66",
         "caption": "zum Vergrößern anklicken!"
       }
@@ -1578,8 +1646,12 @@
       "region": "Mittelrhein",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -1623,7 +1695,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/16_101_20050704162924.jpg",
-        "path": "/images/67/0.jpg",
+        "path": "/images/castles/67/0.jpg",
         "castle": "67",
         "caption": "Gesamtansicht Rheinseite, Foto: F. G. Zeitz KG, Königssee (2005)",
         "year": "2005"
@@ -1631,7 +1703,7 @@
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/16_103_20050420114732.jpg",
-        "path": "/images/67/1.jpg",
+        "path": "/images/castles/67/1.jpg",
         "castle": "67",
         "caption": "Gesamtansicht nach W. Dilich (1607/08), aus: Backes / von der Dollen, Marksburg (1993)",
         "year": "1993"
@@ -1639,7 +1711,7 @@
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/16_105_20050420114732.jpg",
-        "path": "/images/67/2.jpg",
+        "path": "/images/castles/67/2.jpg",
         "castle": "67",
         "caption": "Marksburg von Osten, Foto: G. Wagner (2005)",
         "year": "2005"
@@ -1647,7 +1719,7 @@
       {
         "id": "3",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/16_23_20050420115416.jpg",
-        "path": "/images/67/3.jpg",
+        "path": "/images/castles/67/3.jpg",
         "castle": "67",
         "caption": "Grundriss, aus: Backes / von der Dollen, Marksburg (1993)",
         "year": "1993"
@@ -1684,8 +1756,12 @@
       "region": "Taunus",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -1733,7 +1809,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/213_101_20050714145548.jpg",
-        "path": "/images/68/0.jpg",
+        "path": "/images/castles/68/0.jpg",
         "castle": "68",
         "caption": "Ansicht vom Ort aus, Foto: R. Friedrich (2003)",
         "year": "2003"
@@ -1741,21 +1817,21 @@
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/213_103_20050714145548.jpg",
-        "path": "/images/68/1.jpg",
+        "path": "/images/castles/68/1.jpg",
         "castle": "68",
         "caption": "Ausschnitt aus einem Stahlstich von A. Rottmann nach L. Rohbock aus der Zeit nach 1835"
       },
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/213_105_20050714145548.gif",
-        "path": "/images/68/2.gif",
+        "path": "/images/castles/68/2.gif",
         "castle": "68",
         "caption": "Zeichnung nach Dilich"
       },
       {
         "id": "3",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/213_23_20050714145548.gif",
-        "path": "/images/68/3.gif",
+        "path": "/images/castles/68/3.gif",
         "castle": "68",
         "caption": "Grundriss, aus: Hehemann, Burgen (1991)",
         "year": "1991"
@@ -1792,8 +1868,12 @@
       "region": "Taunus",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -1837,7 +1917,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/193_101_20050707113508.jpg",
-        "path": "/images/69/0.jpg",
+        "path": "/images/castles/69/0.jpg",
         "castle": "69",
         "caption": "Gesamtansicht, Foto: J. Friedhoff (2004)",
         "year": "2004"
@@ -1845,7 +1925,7 @@
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/193_103_20050707113508.jpg",
-        "path": "/images/69/1.jpg",
+        "path": "/images/castles/69/1.jpg",
         "castle": "69",
         "caption": "Schildmauer mit Bergfried, Foto: J. Friedhoff (2004)",
         "year": "2004"
@@ -1853,7 +1933,7 @@
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/193_105_20050707113508.jpg",
-        "path": "/images/69/2.jpg",
+        "path": "/images/castles/69/2.jpg",
         "castle": "69",
         "caption": "Schildmauer mit Bergfried. Bleistiftzeichnung Theodor Reiffenstein, Mitte d. 19. Jh.s, aus: J. Friedhoff, Hohlenfels (2005).",
         "year": "2005"
@@ -1861,7 +1941,7 @@
       {
         "id": "3",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/193_23_20050707113508.jpg",
-        "path": "/images/69/3.jpg",
+        "path": "/images/castles/69/3.jpg",
         "castle": "69",
         "caption": "Grundriss, aus: Dehio RP (1984)",
         "year": "1984"
@@ -1898,8 +1978,12 @@
       "region": "Taunus",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -1939,7 +2023,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/211_101_20050714142720.jpg",
-        "path": "/images/70/0.jpg",
+        "path": "/images/castles/70/0.jpg",
         "castle": "70",
         "caption": "Gesamtansicht, Foto: R. Friedrich (2003)",
         "year": "2003"
@@ -1947,7 +2031,7 @@
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/211_103_20050714142720.jpg",
-        "path": "/images/70/1.jpg",
+        "path": "/images/castles/70/1.jpg",
         "castle": "70",
         "caption": "Palas,  Foto: R. Friedrich (2003)",
         "year": "2003"
@@ -1955,7 +2039,7 @@
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/211_105_20050714142720.jpg",
-        "path": "/images/70/2.jpg",
+        "path": "/images/castles/70/2.jpg",
         "castle": "70",
         "caption": "Bergfried,  Foto: R. Friedrich (2003)",
         "year": "2003"
@@ -1963,7 +2047,7 @@
       {
         "id": "3",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/211_23_20050714142720.gif",
-        "path": "/images/70/3.gif",
+        "path": "/images/castles/70/3.gif",
         "castle": "70",
         "caption": "Grundriss"
       }
@@ -1999,8 +2083,12 @@
       "region": "Lahntal",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -2035,28 +2123,28 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/208_101_20210219114607.jpg",
-        "path": "/images/71/0.jpg",
+        "path": "/images/castles/71/0.jpg",
         "castle": "71",
         "caption": "Ansicht von Osten auf die Schildmauer, Foto: E. Peller 2021. Peller 2021"
       },
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/208_103_20210219114607.jpg",
-        "path": "/images/71/1.jpg",
+        "path": "/images/castles/71/1.jpg",
         "castle": "71",
         "caption": "Ardeck, Rundturm (Bergfried) im Norden, Foto: E. Peller 2021"
       },
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/208_105_20210219114607.jpg",
-        "path": "/images/71/2.jpg",
+        "path": "/images/castles/71/2.jpg",
         "castle": "71",
         "caption": "Ardeck, eckiger Turm im Süden, Foto: E. Peller 2021"
       },
       {
         "id": "3",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/208_23_20050714122300.gif",
-        "path": "/images/71/3.gif",
+        "path": "/images/castles/71/3.gif",
         "castle": "71",
         "caption": "Grundriss"
       }
@@ -2092,8 +2180,12 @@
       "region": "Westerwald",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -2141,7 +2233,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/666_101_20060831155301.jpg",
-        "path": "/images/72/0.jpg",
+        "path": "/images/castles/72/0.jpg",
         "castle": "72",
         "caption": "Lützelauer Mühle (18. Jh.), Foto: J. Friedhoff (2006)",
         "year": "2006"
@@ -2178,8 +2270,12 @@
       "region": "Mittelrhein",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -2231,14 +2327,14 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/21_101_20050420152747.jpg",
-        "path": "/images/73/0.jpg",
+        "path": "/images/castles/73/0.jpg",
         "castle": "73",
         "caption": "Gesamtansicht: DBV Dokumentation Martinsburg"
       },
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/21_103_20050420154116.jpg",
-        "path": "/images/73/1.jpg",
+        "path": "/images/castles/73/1.jpg",
         "castle": "73",
         "caption": "Wappen 1497, Foto: G. Wagner (2004)",
         "year": "2004"
@@ -2246,7 +2342,7 @@
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/21_105_20050420153706.jpg",
-        "path": "/images/73/2.jpg",
+        "path": "/images/castles/73/2.jpg",
         "castle": "73",
         "caption": "Tor zur Martinsburg, Foto: G. Wagner (2004)",
         "year": "2004"
@@ -2254,7 +2350,7 @@
       {
         "id": "3",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/21_23_20050420154434.jpg",
-        "path": "/images/73/3.jpg",
+        "path": "/images/castles/73/3.jpg",
         "castle": "73",
         "caption": "Grundriss, aus: BuK Unterwesterwald, St. Goarshausen, Untertaunus, Wiesbaden (1914)",
         "year": "1914"
@@ -2291,8 +2387,12 @@
       "region": "Lahntal",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -2336,7 +2436,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/169_101_20050627140220.jpg",
-        "path": "/images/74/0.jpg",
+        "path": "/images/castles/74/0.jpg",
         "castle": "74",
         "caption": "Bergfried, Foto: S. Wagner (2004)",
         "year": "2004"
@@ -2344,7 +2444,7 @@
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/169_103_20050627140220.jpg",
-        "path": "/images/74/1.jpg",
+        "path": "/images/castles/74/1.jpg",
         "castle": "74",
         "caption": "Foto: S. Wagner (2004)",
         "year": "2004"
@@ -2352,7 +2452,7 @@
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/169_105_20050627140220.jpg",
-        "path": "/images/74/2.jpg",
+        "path": "/images/castles/74/2.jpg",
         "castle": "74",
         "caption": "Detailaufnahme Palas, Foto: G. Wagner (2004)",
         "year": "2004"
@@ -2360,7 +2460,7 @@
       {
         "id": "3",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/169_23_20050627140220.jpg",
-        "path": "/images/74/3.jpg",
+        "path": "/images/castles/74/3.jpg",
         "castle": "74",
         "caption": "Grundriss, aus: BuK Lahngebiet (1907)",
         "year": "1907"
@@ -2397,8 +2497,12 @@
       "region": "Mittelrhein",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -2438,7 +2542,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/24_101_20050421101041.jpg",
-        "path": "/images/75/0.jpg",
+        "path": "/images/castles/75/0.jpg",
         "castle": "75",
         "caption": "Luftaufnahme: Czerwinski (2000), aus. DBV Dokumentation Liebenstein",
         "year": "2000"
@@ -2446,7 +2550,7 @@
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/24_103_20050421101041.jpg",
-        "path": "/images/75/1.jpg",
+        "path": "/images/castles/75/1.jpg",
         "castle": "75",
         "caption": "Rückansicht, Foto: G. Wagner (2004)",
         "year": "2004"
@@ -2454,7 +2558,7 @@
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/24_105_20050421101041.jpg",
-        "path": "/images/75/2.jpg",
+        "path": "/images/castles/75/2.jpg",
         "castle": "75",
         "caption": "Wippbrücke, Foto: S. Wagner (2004)",
         "year": "2004"
@@ -2462,7 +2566,7 @@
       {
         "id": "3",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/24_23_20050421101041.jpg",
-        "path": "/images/75/3.jpg",
+        "path": "/images/castles/75/3.jpg",
         "castle": "75",
         "caption": "Grund- und Aufriss, aus: Monschauer, Sterrenberg und Liebenstein (1985)",
         "year": "1985"
@@ -2499,8 +2603,12 @@
       "region": "Mittelrhein",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -2535,7 +2643,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/23_101_20050421084941.jpg",
-        "path": "/images/76/0.jpg",
+        "path": "/images/castles/76/0.jpg",
         "castle": "76",
         "caption": "Luftaufnahme: Czerwinski (2000), aus: DBV Dokumentation Sterrenberg",
         "year": "2000"
@@ -2543,7 +2651,7 @@
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/23_103_20050421084941.jpg",
-        "path": "/images/76/1.jpg",
+        "path": "/images/castles/76/1.jpg",
         "castle": "76",
         "caption": "Sterrenberg. Bergfried, Foto: R. Friedrich (2004)",
         "year": "2004"
@@ -2551,7 +2659,7 @@
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/23_105_20050421084941.jpg",
-        "path": "/images/76/2.jpg",
+        "path": "/images/castles/76/2.jpg",
         "castle": "76",
         "caption": "Hofseite der ersten Schildmauer mit Kaminresten und Balkenlöchern, Foto: R. Friedrich (2004)",
         "year": "2004"
@@ -2559,7 +2667,7 @@
       {
         "id": "3",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/23_23_20050421085449.jpg",
-        "path": "/images/76/3.jpg",
+        "path": "/images/castles/76/3.jpg",
         "castle": "76",
         "caption": "Grund- und Aufriss, aus: Monschauer, Sterrenberg und Liebenstein (1985).",
         "year": "1985"
@@ -2596,8 +2704,12 @@
       "region": "Westerwald",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -2641,7 +2753,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/530_101_20051207094822.jpg",
-        "path": "/images/77/0.jpg",
+        "path": "/images/castles/77/0.jpg",
         "castle": "77",
         "caption": "Gesamtansicht der Burgstelle, Foto: J. Friedhoff (2005)",
         "year": "2005"
@@ -2678,8 +2790,12 @@
       "region": "Mittelrhein",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -2727,7 +2843,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/38_101_20050421153253.jpg",
-        "path": "/images/78/0.jpg",
+        "path": "/images/castles/78/0.jpg",
         "castle": "78",
         "caption": "Pfalzgrafenstein, Foto: R. Friedrich (2003)",
         "year": "2003"
@@ -2735,7 +2851,7 @@
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/38_103_20050421153253.jpg",
-        "path": "/images/78/1.jpg",
+        "path": "/images/castles/78/1.jpg",
         "castle": "78",
         "caption": "Pfalzgrafenstein, Foto: R. Friedrich (2003)",
         "year": "2003"
@@ -2743,7 +2859,7 @@
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/38_105_20050421153253.jpg",
-        "path": "/images/78/2.jpg",
+        "path": "/images/castles/78/2.jpg",
         "castle": "78",
         "caption": "Gesamtansicht nach D. Meisner / E. Kieser, Politisches Schatzkästlein (1627/31), aus: Backes, Pfalzgrafenstein (2003)",
         "year": "2003"
@@ -2751,7 +2867,7 @@
       {
         "id": "3",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/38_23_20050421153253.jpg",
-        "path": "/images/78/3.jpg",
+        "path": "/images/castles/78/3.jpg",
         "castle": "78",
         "caption": "Grundriss, aus: BuK Unterwesterwald, St. Goarshausen, Untertaunus, Wiesbaden (1914)",
         "year": "1914"
@@ -2788,8 +2904,12 @@
       "region": "Mittelrhein",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -2829,7 +2949,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/37_101_20050421150706.jpg",
-        "path": "/images/79/0.jpg",
+        "path": "/images/castles/79/0.jpg",
         "castle": "79",
         "caption": "Gutenfels über Kaub, Foto: R. Friedrich (2003)",
         "year": "2003"
@@ -2837,7 +2957,7 @@
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/37_103_20050421150706.jpg",
-        "path": "/images/79/1.jpg",
+        "path": "/images/castles/79/1.jpg",
         "castle": "79",
         "caption": "Bergfried, Foto: R. Friedrich (2003)",
         "year": "2003"
@@ -2845,7 +2965,7 @@
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/37_105_20050421150706.jpg",
-        "path": "/images/79/2.jpg",
+        "path": "/images/castles/79/2.jpg",
         "castle": "79",
         "caption": "Bergfried, Foto: R. Friedrich (2003)",
         "year": "2003"
@@ -2853,7 +2973,7 @@
       {
         "id": "3",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/37_23_20050421150706.jpg",
-        "path": "/images/79/3.jpg",
+        "path": "/images/castles/79/3.jpg",
         "castle": "79",
         "caption": "Grundriss, aus: BuK Unterwesterwald, St. Goarshausen, Untertaunus, Wiesbaden (1914)",
         "year": "1914"
@@ -2890,8 +3010,12 @@
       "region": "Mittelrhein",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -2935,7 +3059,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/20_101_20050420142803.jpg",
-        "path": "/images/80/0.jpg",
+        "path": "/images/castles/80/0.jpg",
         "castle": "80",
         "caption": "Gesamtansicht, Foto: R. Friedrich (2003)",
         "year": "2003"
@@ -2943,7 +3067,7 @@
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/20_103_20050420151257.jpg",
-        "path": "/images/80/1.jpg",
+        "path": "/images/castles/80/1.jpg",
         "castle": "80",
         "caption": "Luftaufnahme: Czerwinski (2000), aus: DBV Dokumentation Lahneck",
         "year": "2000"
@@ -2951,14 +3075,14 @@
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/20_105_20050420151257.gif",
-        "path": "/images/80/2.gif",
+        "path": "/images/castles/80/2.gif",
         "castle": "80",
         "caption": "Gesamtansicht nach D. Meisner / E. Kieser, Politisches Schatzkästlein (1627/31), aus: DBV-Dokumentation Lahneck"
       },
       {
         "id": "3",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/20_23_20050420151257.jpg",
-        "path": "/images/80/3.jpg",
+        "path": "/images/castles/80/3.jpg",
         "castle": "80",
         "caption": "Grundriss, aus: BuK Unterwesterwald, St. Goarshausen, Untertaunus, Wiesbaden (1914)",
         "year": "1914"
@@ -2995,8 +3119,12 @@
       "region": "Mittelrhein",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -3023,7 +3151,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/22_101_20050420155606.jpg",
-        "path": "/images/81/0.jpg",
+        "path": "/images/castles/81/0.jpg",
         "castle": "81",
         "caption": "Osterspai Hofseite, Foto: R. Friedrich (2003)",
         "year": "2003"
@@ -3031,7 +3159,7 @@
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/22_103_20050420155606.jpg",
-        "path": "/images/81/1.jpg",
+        "path": "/images/castles/81/1.jpg",
         "castle": "81",
         "caption": "Kapelle St. Petrus (13. Jh.), Foto: R. Friedrich (2003)",
         "year": "2003"
@@ -3039,14 +3167,14 @@
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/22_105_20050420155606.jpg",
-        "path": "/images/81/2.jpg",
+        "path": "/images/castles/81/2.jpg",
         "castle": "81",
         "caption": "Historische Ansicht von Südwesten und Nordosten 1673, in BuS 2002/3"
       },
       {
         "id": "3",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/22_23_20050420160847.jpg",
-        "path": "/images/81/3.jpg",
+        "path": "/images/castles/81/3.jpg",
         "castle": "81",
         "caption": "Grundriss 1. OG (C. Herrmann 1992)"
       }
@@ -3078,8 +3206,12 @@
       "region": "Mittelrhein",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -3122,14 +3254,14 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/32_101_20050421123229.jpg",
-        "path": "/images/82/0.jpg",
+        "path": "/images/castles/82/0.jpg",
         "castle": "82",
         "caption": "Herzogenstein, Foto: R. Friedrich (2003"
       },
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/32_103_20050421123229.jpg",
-        "path": "/images/82/1.jpg",
+        "path": "/images/castles/82/1.jpg",
         "castle": "82",
         "caption": "Herzogenstein, Foto: R. Friedrich (2003)",
         "year": "2003"
@@ -3137,7 +3269,7 @@
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/32_105_20050421123229.jpg",
-        "path": "/images/82/2.jpg",
+        "path": "/images/castles/82/2.jpg",
         "castle": "82",
         "caption": "Herzogenstein, Foto: G. Wagner (2004)",
         "year": "2004"
@@ -3174,8 +3306,12 @@
       "region": "Mittelrhein",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -3210,7 +3346,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/39_101_20050524125102.jpg",
-        "path": "/images/84/0.jpg",
+        "path": "/images/castles/84/0.jpg",
         "castle": "84",
         "caption": "Foto: G. Wagner (2005)",
         "year": "2005"
@@ -3218,7 +3354,7 @@
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/39_103_20050524125102.jpg",
-        "path": "/images/84/1.jpg",
+        "path": "/images/castles/84/1.jpg",
         "castle": "84",
         "caption": "Bergfried, Foto: G. Wagner (2005)",
         "year": "2005"
@@ -3226,7 +3362,7 @@
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/39_105_20050524125102.jpg",
-        "path": "/images/84/2.jpg",
+        "path": "/images/castles/84/2.jpg",
         "castle": "84",
         "caption": "Wehrgang, Foto: G. Wagner (2005)",
         "year": "2005"
@@ -3234,7 +3370,7 @@
       {
         "id": "3",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/39_23_20050421155117.jpg",
-        "path": "/images/84/3.jpg",
+        "path": "/images/castles/84/3.jpg",
         "castle": "84",
         "caption": "Sauerburg"
       }
@@ -3270,8 +3406,12 @@
       "region": "Taunus",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -3315,7 +3455,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/34_101_20050421124754.jpg",
-        "path": "/images/85/0.jpg",
+        "path": "/images/castles/85/0.jpg",
         "castle": "85",
         "caption": "Alte Burg Lipporn, Foto: R. Friedrich (2003)",
         "year": "2003"
@@ -3323,7 +3463,7 @@
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/34_103_20050421124854.jpg",
-        "path": "/images/85/1.jpg",
+        "path": "/images/castles/85/1.jpg",
         "castle": "85",
         "caption": "Alte Burg Lipporn, Foto: R. Friedrich (2003)",
         "year": "2003"
@@ -3331,7 +3471,7 @@
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/34_105_20050421124854.jpg",
-        "path": "/images/85/2.jpg",
+        "path": "/images/castles/85/2.jpg",
         "castle": "85",
         "caption": "Alte Burg Lipporn, Foto: R. Friedrich (2003)",
         "year": "2003"
@@ -3339,7 +3479,7 @@
       {
         "id": "3",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/34_23_20050421125354.jpg",
-        "path": "/images/85/3.jpg",
+        "path": "/images/castles/85/3.jpg",
         "castle": "85",
         "caption": "Grundriss Aufmaß Roser"
       }
@@ -3375,8 +3515,12 @@
       "region": "Taunus",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -3420,7 +3564,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/210_101_20050714141042.jpg",
-        "path": "/images/86/0.jpg",
+        "path": "/images/castles/86/0.jpg",
         "castle": "86",
         "caption": "Foto: R. Friedrich (2003)",
         "year": "2003"
@@ -3428,7 +3572,7 @@
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/210_103_20050714141042.jpg",
-        "path": "/images/86/1.jpg",
+        "path": "/images/castles/86/1.jpg",
         "castle": "86",
         "caption": "Foto: R. Friedrich (2003)",
         "year": "2003"
@@ -3436,7 +3580,7 @@
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/210_105_20050714141042.jpg",
-        "path": "/images/86/2.jpg",
+        "path": "/images/castles/86/2.jpg",
         "castle": "86",
         "caption": "Foto: R. Friedrich (2003)",
         "year": "2003"
@@ -3473,8 +3617,12 @@
       "region": "Taunus",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -3522,7 +3670,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/212_101_20060406145631.jpg",
-        "path": "/images/87/0.jpg",
+        "path": "/images/castles/87/0.jpg",
         "castle": "87",
         "caption": "Vorderansicht, Foto: S. Wagner (2005)",
         "year": "2005"
@@ -3530,7 +3678,7 @@
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/212_103_20060406145631.jpg",
-        "path": "/images/87/1.jpg",
+        "path": "/images/castles/87/1.jpg",
         "castle": "87",
         "caption": "Seitenansicht mit umlaufendem Wassergraben, Foto: S. Wagner (2005)",
         "year": "2005"
@@ -3538,7 +3686,7 @@
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/212_105_20060406145631.jpg",
-        "path": "/images/87/2.jpg",
+        "path": "/images/castles/87/2.jpg",
         "castle": "87",
         "caption": "Innenhof mit Tor, Foto: G. Wagner (2005)",
         "year": "2005"
@@ -3575,8 +3723,12 @@
       "region": "Mittelrhein",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -3606,14 +3758,14 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/155_101_20050622123910.jpg",
-        "path": "/images/88/0.jpg",
+        "path": "/images/castles/88/0.jpg",
         "castle": "88",
         "caption": "Historische Ansicht"
       },
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/155_103_20050622123910.jpg",
-        "path": "/images/88/1.jpg",
+        "path": "/images/castles/88/1.jpg",
         "castle": "88",
         "caption": "Foto: R. Friedrich (2004)",
         "year": "2004"
@@ -3621,7 +3773,7 @@
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/155_105_20050622123910.jpg",
-        "path": "/images/88/2.jpg",
+        "path": "/images/castles/88/2.jpg",
         "castle": "88",
         "caption": "Foto: R. Friedrich (2004)",
         "year": "2004"
@@ -3658,8 +3810,12 @@
       "region": "Mittelrhein",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -3698,7 +3854,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/28_101_20050421103543.jpg",
-        "path": "/images/89/0.jpg",
+        "path": "/images/castles/89/0.jpg",
         "castle": "89",
         "caption": "Luftaufnahme: Czerwinski (2000), aus: DBV Dokumentation Maus",
         "year": "2000"
@@ -3706,7 +3862,7 @@
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/28_103_20050421103543.jpg",
-        "path": "/images/89/1.jpg",
+        "path": "/images/castles/89/1.jpg",
         "castle": "89",
         "caption": "Bergfried, Foto: G. Wagner (2004)",
         "year": "2004"
@@ -3714,7 +3870,7 @@
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/28_105_20050421103543.jpg",
-        "path": "/images/89/2.jpg",
+        "path": "/images/castles/89/2.jpg",
         "castle": "89",
         "caption": "Kegeldach Turm innen, Foto: R. Friedrich (2003)",
         "year": "2003"
@@ -3722,7 +3878,7 @@
       {
         "id": "3",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/28_23_20050421104603.jpg",
-        "path": "/images/89/3.jpg",
+        "path": "/images/castles/89/3.jpg",
         "castle": "89",
         "caption": "Grundriss, aus: BuK Unterwesterwald, St. Goarshausen, Untertaunus, Wiesbaden (1914).",
         "year": "1914"
@@ -3759,8 +3915,12 @@
       "region": "Mittelrhein",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -3800,7 +3960,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/30_101_20050421113104.jpg",
-        "path": "/images/90/0.jpg",
+        "path": "/images/castles/90/0.jpg",
         "castle": "90",
         "caption": "Reichenberg, Gesamtansicht, Foto: R. Friedrich (2004)",
         "year": "2004"
@@ -3808,7 +3968,7 @@
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/30_103_20050421113104.jpg",
-        "path": "/images/90/1.jpg",
+        "path": "/images/castles/90/1.jpg",
         "castle": "90",
         "caption": "Haupttor, Foto: R. Friedrich (2004)",
         "year": "2004"
@@ -3816,7 +3976,7 @@
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/30_105_20050421113104.jpg",
-        "path": "/images/90/2.jpg",
+        "path": "/images/castles/90/2.jpg",
         "castle": "90",
         "caption": "Fenster, Foto: R. Friedrich (2004)",
         "year": "2004"
@@ -3824,7 +3984,7 @@
       {
         "id": "3",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/30_23_20050421113104.jpg",
-        "path": "/images/90/3.jpg",
+        "path": "/images/castles/90/3.jpg",
         "castle": "90",
         "caption": "Grundriss, aus: BuK Unterwesterwald, St. Goarshausen, Untertaunus, Wiesbaden (1914)",
         "year": "1914"
@@ -3861,8 +4021,12 @@
       "region": "Lahntal",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -3906,7 +4070,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/195_101_20050707141846.jpg",
-        "path": "/images/91/0.jpg",
+        "path": "/images/castles/91/0.jpg",
         "castle": "91",
         "caption": "Hauptburg, Foto: J. Friedhoff (1997)",
         "year": "1997"
@@ -3914,7 +4078,7 @@
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/195_103_20050707141846.jpg",
-        "path": "/images/91/1.jpg",
+        "path": "/images/castles/91/1.jpg",
         "castle": "91",
         "caption": "Hauptburg, Foto: J. Friedhoff (1997)",
         "year": "1997"
@@ -3922,7 +4086,7 @@
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/195_105_20050707141846.jpg",
-        "path": "/images/91/2.jpg",
+        "path": "/images/castles/91/2.jpg",
         "castle": "91",
         "caption": "Balduinstein, Ort und Burg im 19. Jh., aus: Friedhoff, Talsiedlungen (1999)",
         "year": "1999"
@@ -3930,7 +4094,7 @@
       {
         "id": "3",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/195_23_20050707141846.gif",
-        "path": "/images/91/3.gif",
+        "path": "/images/castles/91/3.gif",
         "castle": "91",
         "caption": "Grundriss, aus: Urban, Burgen (1996)",
         "year": "1996"
@@ -3967,8 +4131,12 @@
       "region": "Lahntal",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -4007,7 +4175,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/205_101_20050714104231.jpg",
-        "path": "/images/92/0.jpg",
+        "path": "/images/castles/92/0.jpg",
         "castle": "92",
         "caption": "Bergfried, Foto: S. Wagner (2004)",
         "year": "2004"
@@ -4015,14 +4183,14 @@
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/205_103_20050714104231.jpg",
-        "path": "/images/92/1.jpg",
+        "path": "/images/castles/92/1.jpg",
         "castle": "92",
         "caption": "Historische Ansicht über dem Schloss"
       },
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/205_105_20050714104231.jpg",
-        "path": "/images/92/2.jpg",
+        "path": "/images/castles/92/2.jpg",
         "castle": "92",
         "caption": "Bergfried, Foto: R. Friedrich (2003)",
         "year": "2003"
@@ -4030,7 +4198,7 @@
       {
         "id": "3",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/205_23_20050714104231.jpg",
-        "path": "/images/92/3.jpg",
+        "path": "/images/castles/92/3.jpg",
         "castle": "92",
         "caption": "Grundriss"
       }
@@ -4066,8 +4234,12 @@
       "region": "Lahntal",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -4111,7 +4283,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/194_101_20050707120658.jpg",
-        "path": "/images/93/0.jpg",
+        "path": "/images/castles/93/0.jpg",
         "castle": "93",
         "caption": "Gesamtansicht mit Schildmauer von Osten, Foto: J. Friedhoff (2004)",
         "year": "2004"
@@ -4119,7 +4291,7 @@
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/194_103_20050707120658.jpg",
-        "path": "/images/93/1.jpg",
+        "path": "/images/castles/93/1.jpg",
         "castle": "93",
         "caption": "Barockes Herrenhaus mit Hauptturm, Foto: J. Friedhoff (2004)",
         "year": "2004"
@@ -4127,7 +4299,7 @@
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/194_105_20050707120658.jpg",
-        "path": "/images/93/2.jpg",
+        "path": "/images/castles/93/2.jpg",
         "castle": "93",
         "caption": "Hofseitige Ansicht der Schildmauer, Foto: J. Friedhoff (2004)",
         "year": "2004"
@@ -4135,7 +4307,7 @@
       {
         "id": "3",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/194_23_20050707120658.jpg",
-        "path": "/images/93/3.jpg",
+        "path": "/images/castles/93/3.jpg",
         "castle": "93",
         "caption": "Grundriss, aus: BuK Lahngebiet (1907)",
         "year": "1907"
@@ -4172,8 +4344,12 @@
       "region": "Lahntal",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -4213,7 +4389,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/168_101_20050627122058.jpg",
-        "path": "/images/94/0.jpg",
+        "path": "/images/castles/94/0.jpg",
         "castle": "94",
         "caption": "Foto: S. Wagner (2004)",
         "year": "2004"
@@ -4221,7 +4397,7 @@
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/168_103_20050627122058.jpg",
-        "path": "/images/94/1.jpg",
+        "path": "/images/castles/94/1.jpg",
         "castle": "94",
         "caption": "Tor, Foto: R. Friedrich (2003)",
         "year": "2003"
@@ -4229,14 +4405,14 @@
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/168_105_20050627122058.jpg",
-        "path": "/images/94/2.jpg",
+        "path": "/images/castles/94/2.jpg",
         "castle": "94",
         "caption": "Historische Ansicht"
       },
       {
         "id": "3",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/168_23_20050627122058.jpg",
-        "path": "/images/94/3.jpg",
+        "path": "/images/castles/94/3.jpg",
         "castle": "94",
         "caption": "Grundriss, aus: BuK Lahngebiet (1907)",
         "year": "1907"
@@ -4273,8 +4449,12 @@
       "region": "Taunus",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -4310,21 +4490,21 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/209_101_20210219115526.jpg",
-        "path": "/images/95/0.jpg",
+        "path": "/images/castles/95/0.jpg",
         "castle": "95",
         "caption": "Innenseite der Westwand des rechteckigen Wohnturms, Foto: E. Peller 2021"
       },
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/209_103_20210219115526.jpg",
-        "path": "/images/95/1.jpg",
+        "path": "/images/castles/95/1.jpg",
         "castle": "95",
         "caption": "Fenster des Wohnturms, Foto: E. Peller 2021"
       },
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/209_105_20210219115526.jpg",
-        "path": "/images/95/2.jpg",
+        "path": "/images/castles/95/2.jpg",
         "castle": "95",
         "caption": "Fenster des Wohnturms, Foto: E. Peller 2021"
       }
@@ -4359,8 +4539,12 @@
       "county": "Westerwaldkreis",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -4428,8 +4612,12 @@
       "region": "Pfalz",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -4468,7 +4656,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/394_101_20050926120218.jpg",
-        "path": "/images/97/0.jpg",
+        "path": "/images/castles/97/0.jpg",
         "castle": "97",
         "caption": "Gesamtansicht Ostseite, Foto: D.-R. Pietschmann (2000)",
         "year": "2000"
@@ -4476,7 +4664,7 @@
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/394_103_20050926120218.jpg",
-        "path": "/images/97/1.jpg",
+        "path": "/images/castles/97/1.jpg",
         "castle": "97",
         "caption": "Kernburg aus Vorburg, Foto: D.-R. Pietschmann (2000)",
         "year": "2000"
@@ -4484,7 +4672,7 @@
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/394_105_20050926120218.jpg",
-        "path": "/images/97/2.jpg",
+        "path": "/images/castles/97/2.jpg",
         "castle": "97",
         "caption": "Mantelmauer der Kernburg, Foto: D.-R. Pietschmann (2000)",
         "year": "2000"
@@ -4492,7 +4680,7 @@
       {
         "id": "3",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/394_23_20050926120218.gif",
-        "path": "/images/97/3.gif",
+        "path": "/images/castles/97/3.gif",
         "castle": "97",
         "caption": "Grundriss, aus: KD Landau (1928)",
         "year": "1928"
@@ -4529,8 +4717,12 @@
       "region": "Pfalz",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -4568,7 +4760,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/395_101_20050926120906.jpg",
-        "path": "/images/98/0.jpg",
+        "path": "/images/castles/98/0.jpg",
         "castle": "98",
         "caption": "Kernburg und Mantelmauer, Foto: D.-R. Pietschmann (2000)",
         "year": "2000"
@@ -4576,7 +4768,7 @@
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/395_23_20050926120906.gif",
-        "path": "/images/98/1.gif",
+        "path": "/images/castles/98/1.gif",
         "castle": "98",
         "caption": "Grundriss, aus: KD Landau (1928)",
         "year": "1928"
@@ -4613,8 +4805,12 @@
       "region": "Pfalz",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -4653,7 +4849,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/385_101_20050926105541.jpg",
-        "path": "/images/99/0.jpg",
+        "path": "/images/castles/99/0.jpg",
         "castle": "99",
         "caption": "Brunnenschacht in der Oberburg, Foto: D. Barz (2003)",
         "year": "2003"
@@ -4661,7 +4857,7 @@
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/385_103_20050926105541.jpg",
-        "path": "/images/99/1.jpg",
+        "path": "/images/castles/99/1.jpg",
         "castle": "99",
         "caption": "Schildmauer, Foto: D. Barz (2002)",
         "year": "2002"
@@ -4669,7 +4865,7 @@
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/385_105_20050926105541.jpg",
-        "path": "/images/99/2.jpg",
+        "path": "/images/castles/99/2.jpg",
         "castle": "99",
         "caption": "Buckelquader an der Schildmauer, Foto: D. Barz (2002)",
         "year": "2002"
@@ -4677,7 +4873,7 @@
       {
         "id": "3",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/385_23_20050926105541.gif",
-        "path": "/images/99/3.gif",
+        "path": "/images/castles/99/3.gif",
         "castle": "99",
         "caption": "Grundriss und Schnitt aus: KD Bergzabern (1935)",
         "year": "1935"
@@ -4714,8 +4910,12 @@
       "region": "Pfalz",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -4759,7 +4959,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/382_101_20050926103638.jpg",
-        "path": "/images/100/0.jpg",
+        "path": "/images/castles/100/0.jpg",
         "castle": "100",
         "caption": "Brunnenturm am Oberburgfelsen, Foto: D. Barz (2002)",
         "year": "2002"
@@ -4767,7 +4967,7 @@
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/382_103_20050926103003.jpg",
-        "path": "/images/100/1.jpg",
+        "path": "/images/castles/100/1.jpg",
         "castle": "100",
         "caption": "Südlicher Wohnbau, Foto: D. Barz (2005)",
         "year": "2005"
@@ -4775,7 +4975,7 @@
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/382_105_20050926103003.jpg",
-        "path": "/images/100/2.jpg",
+        "path": "/images/castles/100/2.jpg",
         "castle": "100",
         "caption": "Vierteiliges Fenster am südl. Wohnbau, Foto: D. Barz (2002)",
         "year": "2002"
@@ -4783,7 +4983,7 @@
       {
         "id": "3",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/382_23_20050926103003.gif",
-        "path": "/images/100/3.gif",
+        "path": "/images/castles/100/3.gif",
         "castle": "100",
         "caption": "Grundriss, aus: KD Bergzabern (1935)",
         "year": "1935"
@@ -4820,8 +5020,12 @@
       "region": "Pfalz",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -4856,7 +5060,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/384_101_20050926104619.jpg",
-        "path": "/images/101/0.jpg",
+        "path": "/images/castles/101/0.jpg",
         "castle": "101",
         "caption": "Kernburg, Stirnseite, Foto: D.-R. Pietschmann (2000)",
         "year": "2000"
@@ -4864,7 +5068,7 @@
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/384_103_20050926104619.jpg",
-        "path": "/images/101/1.jpg",
+        "path": "/images/castles/101/1.jpg",
         "castle": "101",
         "caption": "Gesamtansicht, Foto: D. Barz (2003)",
         "year": "2003"
@@ -4872,7 +5076,7 @@
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/384_105_20050926104619.jpg",
-        "path": "/images/101/2.jpg",
+        "path": "/images/castles/101/2.jpg",
         "castle": "101",
         "caption": "Schildmauer auf Halsgraben, Foto: D.-R. Pietschmann (2000)",
         "year": "2000"
@@ -4880,7 +5084,7 @@
       {
         "id": "3",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/384_23_20050926104619.gif",
-        "path": "/images/101/3.gif",
+        "path": "/images/castles/101/3.gif",
         "castle": "101",
         "caption": "Grundriss und Schnitt aus: KD Bergzabern (1935)",
         "year": "1935"
@@ -4917,8 +5121,12 @@
       "region": "Pfalz",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -4962,21 +5170,21 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/1085_101_20110118112309.jpg",
-        "path": "/images/102/0.jpg",
+        "path": "/images/castles/102/0.jpg",
         "castle": "102",
         "caption": "Oberburg von Westen"
       },
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/1085_103_20110118112309.jpg",
-        "path": "/images/102/1.jpg",
+        "path": "/images/castles/102/1.jpg",
         "castle": "102",
         "caption": "Ehemaliger Saal"
       },
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/1085_105_20110118112309.jpg",
-        "path": "/images/102/2.jpg",
+        "path": "/images/castles/102/2.jpg",
         "castle": "102",
         "caption": "Tankzisterne"
       }
@@ -5012,8 +5220,12 @@
       "region": "Pfalz",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -5057,7 +5269,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/377_101_20050922145247.jpg",
-        "path": "/images/103/0.jpg",
+        "path": "/images/castles/103/0.jpg",
         "castle": "103",
         "caption": "Oberburgfelsen, Foto: D. Barz (2001)",
         "year": "2001"
@@ -5065,7 +5277,7 @@
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/377_103_20050922145247.jpg",
-        "path": "/images/103/1.jpg",
+        "path": "/images/castles/103/1.jpg",
         "castle": "103",
         "caption": "Fundamentreste der Unterburg, Foto: D. Barz (2001)",
         "year": "2001"
@@ -5073,7 +5285,7 @@
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/377_105_20050922145247.jpg",
-        "path": "/images/103/2.jpg",
+        "path": "/images/castles/103/2.jpg",
         "castle": "103",
         "caption": "Fundamentreste der Unterburg, Foto: D. Barz (2001)",
         "year": "2001"
@@ -5081,7 +5293,7 @@
       {
         "id": "3",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/377_23_20050922145247.gif",
-        "path": "/images/103/3.gif",
+        "path": "/images/castles/103/3.gif",
         "castle": "103",
         "caption": "Grundriss, aus: KD Bergzabern (1935)",
         "year": "1935"
@@ -5118,8 +5330,12 @@
       "region": "Pfalz",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -5158,21 +5374,21 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/1086_101_20110118112657.jpg",
-        "path": "/images/104/0.jpg",
+        "path": "/images/castles/104/0.jpg",
         "castle": "104",
         "caption": "Oberburg von Süden"
       },
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/1086_103_20110118112657.jpg",
-        "path": "/images/104/1.jpg",
+        "path": "/images/castles/104/1.jpg",
         "castle": "104",
         "caption": "Oberburg von Osten"
       },
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/1086_105_20110118112657.jpg",
-        "path": "/images/104/2.jpg",
+        "path": "/images/castles/104/2.jpg",
         "castle": "104",
         "caption": "Berwartstein, kolorierter Stich, EBI"
       }
@@ -5208,8 +5424,12 @@
       "region": "Pfalz",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -5252,21 +5472,21 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/1087_101_20110817123538.jpg",
-        "path": "/images/105/0.jpg",
+        "path": "/images/castles/105/0.jpg",
         "castle": "105",
         "caption": "Schildmauer und Palas vom Halsgraben aus (von SW), Foto: Werner Westermann, 01/2011"
       },
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/1087_103_20110817123538.jpg",
-        "path": "/images/105/1.jpg",
+        "path": "/images/castles/105/1.jpg",
         "castle": "105",
         "caption": "Felsentreppe zur Oberburg, links im Fels Zisterne, Foto: Werner Westermann, 01/2011"
       },
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/1087_105_20110817123538.jpg",
-        "path": "/images/105/2.jpg",
+        "path": "/images/castles/105/2.jpg",
         "castle": "105",
         "caption": "Brücke an der Felstreppe zur Oberburg, evtl. Zugbrücke, Foto: Werner Westermann, 01/2011"
       }
@@ -5302,8 +5522,12 @@
       "region": "Pfalz",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -5347,21 +5571,21 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/1088_101_20110118114553.jpg",
-        "path": "/images/106/0.jpg",
+        "path": "/images/castles/106/0.jpg",
         "castle": "106",
         "caption": "Alter Torturm und Aufsatzfelsen von Westen"
       },
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/1088_103_20110118114553.jpg",
-        "path": "/images/106/1.jpg",
+        "path": "/images/castles/106/1.jpg",
         "castle": "106",
         "caption": "Neuer Torturm von Südosten"
       },
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/1088_105_20110118114553.jpg",
-        "path": "/images/106/2.jpg",
+        "path": "/images/castles/106/2.jpg",
         "castle": "106",
         "caption": "Westlicher Ostfelsen von Osten"
       }
@@ -5397,8 +5621,12 @@
       "region": "Pfalz",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -5442,7 +5670,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/621_101_20060616125914.jpg",
-        "path": "/images/107/0.jpg",
+        "path": "/images/castles/107/0.jpg",
         "castle": "107",
         "caption": "Südliche Unterburg, Foto: J. Friedhoff (2006)",
         "year": "2006"
@@ -5450,7 +5678,7 @@
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/621_103_20060616125914.jpg",
-        "path": "/images/107/1.jpg",
+        "path": "/images/castles/107/1.jpg",
         "castle": "107",
         "caption": "Wohnbau der Oberburg, Foto: J. Friedhoff (2006)",
         "year": "2006"
@@ -5458,7 +5686,7 @@
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/621_105_20060616125914.jpg",
-        "path": "/images/107/2.jpg",
+        "path": "/images/castles/107/2.jpg",
         "castle": "107",
         "caption": "Torturm der nördlichen Unterburg, Foto: J. Friedhoff (2006)",
         "year": "2006"
@@ -5466,7 +5694,7 @@
       {
         "id": "3",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/621_23_20060616130631.gif",
-        "path": "/images/107/3.gif",
+        "path": "/images/castles/107/3.gif",
         "castle": "107",
         "caption": "Grundriss, aus: Pfälzer Burgenlexikon II (2002)",
         "year": "2002"
@@ -5503,8 +5731,12 @@
       "region": "Pfalz",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -5548,7 +5780,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/392_101_20050926115128.jpg",
-        "path": "/images/108/0.jpg",
+        "path": "/images/castles/108/0.jpg",
         "castle": "108",
         "caption": "Oberburg längs, Foto: D.-R. Pietschmann (2000)",
         "year": "2000"
@@ -5556,7 +5788,7 @@
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/392_103_20050926115128.jpg",
-        "path": "/images/108/1.jpg",
+        "path": "/images/castles/108/1.jpg",
         "castle": "108",
         "caption": "Kernburg, Foto: D.-R. Pietschmann (2000)",
         "year": "2000"
@@ -5564,7 +5796,7 @@
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/392_105_20050926115128.jpg",
-        "path": "/images/108/2.jpg",
+        "path": "/images/castles/108/2.jpg",
         "castle": "108",
         "caption": "Vor- und Unterburg, Foto: D.-R. Pietschmann (2000)",
         "year": "2000"
@@ -5572,7 +5804,7 @@
       {
         "id": "3",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/392_23_20050926115128.gif",
-        "path": "/images/108/3.gif",
+        "path": "/images/castles/108/3.gif",
         "castle": "108",
         "caption": "Grundriss, aus: KD Bad Bergzabern (1935)",
         "year": "1935"
@@ -5609,8 +5841,12 @@
       "region": "Pfalz",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -5654,7 +5890,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/379_101_20050926100957.jpg",
-        "path": "/images/109/0.jpg",
+        "path": "/images/castles/109/0.jpg",
         "castle": "109",
         "caption": "Gesamtansicht, Foto: D. Barz (2002)",
         "year": "2002"
@@ -5662,7 +5898,7 @@
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/379_103_20050926100957.jpg",
-        "path": "/images/109/1.jpg",
+        "path": "/images/castles/109/1.jpg",
         "castle": "109",
         "caption": "Bergfried mit Hocheingang, Foto: D. Barz (2003)",
         "year": "2003"
@@ -5670,7 +5906,7 @@
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/379_105_20050926100957.jpg",
-        "path": "/images/109/2.jpg",
+        "path": "/images/castles/109/2.jpg",
         "castle": "109",
         "caption": "Zwinger- und Schildmauer mit Zugang zur Hauptburg, Foto: D. Barz (2005)",
         "year": "2005"
@@ -5678,7 +5914,7 @@
       {
         "id": "3",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/379_23_20050926100957.gif",
-        "path": "/images/109/3.gif",
+        "path": "/images/castles/109/3.gif",
         "castle": "109",
         "caption": "Grundriss und Schnitt, aus: KD Bergzabern (1935)",
         "year": "1935"
@@ -5715,8 +5951,12 @@
       "region": "Pfalz",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -5763,21 +6003,21 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/1089_101_20110118114946.jpg",
-        "path": "/images/110/0.jpg",
+        "path": "/images/castles/110/0.jpg",
         "castle": "110",
         "caption": "Bergfriedrest von Norden"
       },
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/1089_103_20110118114946.jpg",
-        "path": "/images/110/1.jpg",
+        "path": "/images/castles/110/1.jpg",
         "castle": "110",
         "caption": "Kapelle von Westen"
       },
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/1089_105_20110118114946.jpg",
-        "path": "/images/110/2.jpg",
+        "path": "/images/castles/110/2.jpg",
         "castle": "110",
         "caption": "Ringmauer von Südwesten"
       }
@@ -5813,8 +6053,12 @@
       "region": "Pfalz",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -5858,7 +6102,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/380_101_20050926101723.jpg",
-        "path": "/images/111/0.jpg",
+        "path": "/images/castles/111/0.jpg",
         "castle": "111",
         "caption": "Gesamtansicht, Foto: D. Barz (2003)",
         "year": "2003"
@@ -5866,7 +6110,7 @@
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/380_103_20050926101723.jpg",
-        "path": "/images/111/1.jpg",
+        "path": "/images/castles/111/1.jpg",
         "castle": "111",
         "caption": "Palaswand, Foto: D. Barz (2003)",
         "year": "2003"
@@ -5874,7 +6118,7 @@
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/380_105_20050926101723.jpg",
-        "path": "/images/111/2.jpg",
+        "path": "/images/castles/111/2.jpg",
         "castle": "111",
         "caption": "Oberburgplateau südl. Wohngebäude, Foto: D. Barz(2003)",
         "year": "2003"
@@ -5882,7 +6126,7 @@
       {
         "id": "3",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/380_23_20050926101723.gif",
-        "path": "/images/111/3.gif",
+        "path": "/images/castles/111/3.gif",
         "castle": "111",
         "caption": "Grundriss, aus: KD Bergzabern (1935)",
         "year": "1935"
@@ -5919,8 +6163,12 @@
       "region": "Pfalz",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -5960,7 +6208,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/381_101_20050926102439.jpg",
-        "path": "/images/112/0.jpg",
+        "path": "/images/castles/112/0.jpg",
         "castle": "112",
         "caption": "Gesamtansicht, Foto: D. Barz (2001)",
         "year": "2001"
@@ -5968,7 +6216,7 @@
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/381_103_20050926102439.jpg",
-        "path": "/images/112/1.jpg",
+        "path": "/images/castles/112/1.jpg",
         "castle": "112",
         "caption": "Kernburgbereich mit teilsaniertem Turmrest und nördl. Treppenturm des Eberhardbaus, Foto: D. Barz (2003)",
         "year": "2003"
@@ -5976,7 +6224,7 @@
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/381_105_20050926102439.jpg",
-        "path": "/images/112/2.jpg",
+        "path": "/images/castles/112/2.jpg",
         "castle": "112",
         "caption": "Teilsanierter Bergfriedrest der Kernburg, Foto: D. Barz (2003)",
         "year": "2003"
@@ -6013,8 +6261,12 @@
       "region": "Pfalz",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -6058,7 +6310,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/383_101_20050926104002.jpg",
-        "path": "/images/113/0.jpg",
+        "path": "/images/castles/113/0.jpg",
         "castle": "113",
         "caption": "Oberburgfelsen, Foto: D. Barz (2003)",
         "year": "2003"
@@ -6066,7 +6318,7 @@
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/383_103_20050926104002.jpg",
-        "path": "/images/113/1.jpg",
+        "path": "/images/castles/113/1.jpg",
         "castle": "113",
         "caption": "Plateau des Oberburgfelsens, Foto: D. Barz (2003)",
         "year": "2003"
@@ -6074,7 +6326,7 @@
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/383_105_20050926104002.jpg",
-        "path": "/images/113/2.jpg",
+        "path": "/images/castles/113/2.jpg",
         "castle": "113",
         "caption": "Plateau des Oberburgfelsens, Foto: D. Barz (2003)",
         "year": "2003"
@@ -6082,7 +6334,7 @@
       {
         "id": "3",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/383_23_20050926104002.gif",
-        "path": "/images/113/3.gif",
+        "path": "/images/castles/113/3.gif",
         "castle": "113",
         "caption": "Grundriss, aus: KD Landau (1928)",
         "year": "1928"
@@ -6119,8 +6371,12 @@
       "region": "Pfalz",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -6160,28 +6416,28 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/387_101_20050930154519.jpg",
-        "path": "/images/114/0.jpg",
+        "path": "/images/castles/114/0.jpg",
         "castle": "114",
         "caption": "Modell, Quelle: D. Barz"
       },
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/387_103_20050926110929.jpg",
-        "path": "/images/114/1.jpg",
+        "path": "/images/castles/114/1.jpg",
         "castle": "114",
         "caption": "3-D-Rekonstruktion, Quelle: D. Barz"
       },
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/387_105_20050926110929.jpg",
-        "path": "/images/114/2.jpg",
+        "path": "/images/castles/114/2.jpg",
         "castle": "114",
         "caption": "Baubestand, Quelle: D. Barz"
       },
       {
         "id": "3",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/387_23_20050926110929.gif",
-        "path": "/images/114/3.gif",
+        "path": "/images/castles/114/3.gif",
         "castle": "114",
         "caption": "Grundriss Kernburg Vorburg, Quelle: D. Barz"
       }
@@ -6217,8 +6473,12 @@
       "region": "Pfalz",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -6258,28 +6518,28 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/1090_101_20110118115928.jpg",
-        "path": "/images/115/0.jpg",
+        "path": "/images/castles/115/0.jpg",
         "castle": "115",
         "caption": "Saalbau von Westen"
       },
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/1090_103_20110118115928.jpg",
-        "path": "/images/115/1.jpg",
+        "path": "/images/castles/115/1.jpg",
         "castle": "115",
         "caption": "Bergfried von Westen vor der Restaurierung"
       },
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/1090_105_20110118115928.jpg",
-        "path": "/images/115/2.jpg",
+        "path": "/images/castles/115/2.jpg",
         "castle": "115",
         "caption": "Bergfried von Westen nach der Restaurierung"
       },
       {
         "id": "3",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/1090_23_20110118115928.jpg",
-        "path": "/images/115/3.jpg",
+        "path": "/images/castles/115/3.jpg",
         "castle": "115",
         "caption": "Steinenschloss, Grundriss"
       }
@@ -6315,8 +6575,12 @@
       "region": "Pfalz",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -6355,21 +6619,21 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/1091_101_20110118120405.jpg",
-        "path": "/images/116/0.jpg",
+        "path": "/images/castles/116/0.jpg",
         "castle": "116",
         "caption": "Burgfelsen von Westen"
       },
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/1091_103_20110118120405.jpg",
-        "path": "/images/116/1.jpg",
+        "path": "/images/castles/116/1.jpg",
         "castle": "116",
         "caption": "Turm (?) mit Buckequader"
       },
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/1091_105_20110118120405.jpg",
-        "path": "/images/116/2.jpg",
+        "path": "/images/castles/116/2.jpg",
         "castle": "116",
         "caption": "Ober-, Mittel- und Unterburg von Osten  "
       }
@@ -6405,8 +6669,12 @@
       "region": "Mittelrhein",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -6450,7 +6718,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/56_101_20050728161358.jpg",
-        "path": "/images/117/0.jpg",
+        "path": "/images/castles/117/0.jpg",
         "castle": "117",
         "caption": "Turmhügel, Foto: R. Friedrich (2004)",
         "year": "2004"
@@ -6458,7 +6726,7 @@
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/56_103_20050728161358.jpg",
-        "path": "/images/117/1.jpg",
+        "path": "/images/castles/117/1.jpg",
         "castle": "117",
         "caption": "Gebäuderest, Foto: R. Friedrich (2004)",
         "year": "2004"
@@ -6466,7 +6734,7 @@
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/56_105_20050728161358.jpg",
-        "path": "/images/117/2.jpg",
+        "path": "/images/castles/117/2.jpg",
         "castle": "117",
         "caption": "Halsgraben, Foto: R. Friedrich (2004)",
         "year": "2004"
@@ -6474,7 +6742,7 @@
       {
         "id": "3",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/56_23_20050511145917.jpg",
-        "path": "/images/117/3.jpg",
+        "path": "/images/castles/117/3.jpg",
         "castle": "117",
         "caption": "Grundriss, aus: Liessem, Burgen der Salierzeit (1991)",
         "year": "1991"
@@ -6511,8 +6779,12 @@
       "region": "Westerwald",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -6578,8 +6850,12 @@
       "county": "Bitburg-Prüm",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -6633,8 +6909,12 @@
       "region": "Eifel",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -6678,7 +6958,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/512_101_20051024143216.jpg",
-        "path": "/images/125/0.jpg",
+        "path": "/images/castles/125/0.jpg",
         "castle": "125",
         "caption": "Gesamtansicht, Foto: J. Friedhoff (1991)",
         "year": "1991"
@@ -6686,7 +6966,7 @@
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/512_23_20051024143216.gif",
-        "path": "/images/125/1.gif",
+        "path": "/images/castles/125/1.gif",
         "castle": "125",
         "caption": "Grundriss, aus: Schuler, Monreal (1982)",
         "year": "1982"
@@ -6723,8 +7003,12 @@
       "region": "Eifel",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -6768,7 +7052,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/751_101_20070813144630.jpg",
-        "path": "/images/126/0.jpg",
+        "path": "/images/castles/126/0.jpg",
         "castle": "126",
         "caption": "Manderscheider Burgen 1840, aus: KD Wittlich (1982)",
         "year": "1982"
@@ -6776,7 +7060,7 @@
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/751_103_20070813144630.jpg",
-        "path": "/images/126/1.jpg",
+        "path": "/images/castles/126/1.jpg",
         "castle": "126",
         "caption": "Niederburg, Gesamtansicht. Foto: J. Friedhoff (2007)",
         "year": "2007"
@@ -6784,7 +7068,7 @@
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/751_105_20070813144630.jpg",
-        "path": "/images/126/2.jpg",
+        "path": "/images/castles/126/2.jpg",
         "castle": "126",
         "caption": "Niederburg, Gesamtansicht. Foto: J. Friedhoff (2007)",
         "year": "2007"
@@ -6792,7 +7076,7 @@
       {
         "id": "3",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/751_23_20070813144630.gif",
-        "path": "/images/126/3.gif",
+        "path": "/images/castles/126/3.gif",
         "castle": "126",
         "caption": "Niederburg, Grundriss, aus: KD Wittlich (1982)",
         "year": "1982"
@@ -6829,8 +7113,12 @@
       "region": "Eifel",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -6874,7 +7162,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/750_101_20070813143912.jpg",
-        "path": "/images/127/0.jpg",
+        "path": "/images/castles/127/0.jpg",
         "castle": "127",
         "caption": "Oberburg, Gesamtansicht. Foto: J. Friedhoff (2007)",
         "year": "2007"
@@ -6882,7 +7170,7 @@
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/750_103_20070813143912.gif",
-        "path": "/images/127/1.gif",
+        "path": "/images/castles/127/1.gif",
         "castle": "127",
         "caption": "Oberburg. Braun/Hogenberg (1578)",
         "year": "1578"
@@ -6890,7 +7178,7 @@
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/750_105_20070813143912.gif",
-        "path": "/images/127/2.gif",
+        "path": "/images/castles/127/2.gif",
         "castle": "127",
         "caption": "Ober- und Niederburg Manderscheid. M. Merian (1646)",
         "year": "1646"
@@ -6898,7 +7186,7 @@
       {
         "id": "3",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/750_23_20070813143912.gif",
-        "path": "/images/127/3.gif",
+        "path": "/images/castles/127/3.gif",
         "castle": "127",
         "caption": "Oberburg, Grundriss, aus: KD Wittlich (1982)",
         "year": "1982"
@@ -6935,8 +7223,12 @@
       "region": "Eifel",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -6984,7 +7276,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/747_101_20070813124150.jpg",
-        "path": "/images/130/0.jpg",
+        "path": "/images/castles/130/0.jpg",
         "castle": "130",
         "caption": "Rittersdorf, Gesamtansicht. Foto: J. Friedhoff (2006)",
         "year": "2006"
@@ -6992,7 +7284,7 @@
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/747_103_20070813124150.jpg",
-        "path": "/images/130/1.jpg",
+        "path": "/images/castles/130/1.jpg",
         "castle": "130",
         "caption": "Rittersdorf, Bergfried. Foto: J. Friedhoff (2006)",
         "year": "2006"
@@ -7000,7 +7292,7 @@
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/747_105_20070813124150.jpg",
-        "path": "/images/130/2.jpg",
+        "path": "/images/castles/130/2.jpg",
         "castle": "130",
         "caption": "Rittersdorf, Bergfried. Aus: KD Bitburg (1927)",
         "year": "1927"
@@ -7008,7 +7300,7 @@
       {
         "id": "3",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/747_23_20070813124150.jpg",
-        "path": "/images/130/3.jpg",
+        "path": "/images/castles/130/3.jpg",
         "castle": "130",
         "caption": "Rittersdorf, Grundriss. Aus: KD Bitburg (1927)",
         "year": "1927"
@@ -7045,8 +7337,12 @@
       "region": "Eifel",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -7090,7 +7386,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/744_101_20070810110815.jpg",
-        "path": "/images/132/0.jpg",
+        "path": "/images/castles/132/0.jpg",
         "castle": "132",
         "caption": "Seinsfeld, Innenhof. Foto: J. Friedhoff (2006)",
         "year": "2006"
@@ -7098,7 +7394,7 @@
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/744_103_20070810110815.jpg",
-        "path": "/images/132/1.jpg",
+        "path": "/images/castles/132/1.jpg",
         "castle": "132",
         "caption": "Seinsfeld, Hauptburg, Feldseite. Foto: J. Friedhoff (2006)",
         "year": "2006"
@@ -7106,7 +7402,7 @@
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/744_105_20070810110815.jpg",
-        "path": "/images/132/2.jpg",
+        "path": "/images/castles/132/2.jpg",
         "castle": "132",
         "caption": "Seinsfeld. Feldseitige Ansicht der Hauptburg. Foto: J. Friedhoff (2006)",
         "year": "2006"
@@ -7114,7 +7410,7 @@
       {
         "id": "3",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/744_23_20070810110815.gif",
-        "path": "/images/132/3.gif",
+        "path": "/images/castles/132/3.gif",
         "castle": "132",
         "caption": "Seinsfeld, Grundriss, aus: KD Wittlich (1982)",
         "year": "1982"
@@ -7151,8 +7447,12 @@
       "region": "Westerwald",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -7192,7 +7492,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/529_101_20051116122603.jpg",
-        "path": "/images/133/0.jpg",
+        "path": "/images/castles/133/0.jpg",
         "castle": "133",
         "caption": "Gesamtansicht des Burghauses, Foto: J. Friedhoff (2003)",
         "year": "2003"
@@ -7229,8 +7529,12 @@
       "region": "Westerwald",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -7273,7 +7577,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/514_101_20051207100818.jpg",
-        "path": "/images/134/0.jpg",
+        "path": "/images/castles/134/0.jpg",
         "castle": "134",
         "caption": "Gesamtansicht, Foto: J. Friedhoff (2005)",
         "year": "2005"
@@ -7310,8 +7614,12 @@
       "region": "Moseltal",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -7351,7 +7659,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/84_101_20050603102240.jpg",
-        "path": "/images/135/0.jpg",
+        "path": "/images/castles/135/0.jpg",
         "castle": "135",
         "caption": "Gesamtansicht vom linken Moselufer, Foto: J. Friedhoff (1999)",
         "year": "1999"
@@ -7359,7 +7667,7 @@
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/84_103_20050603102240.jpg",
-        "path": "/images/135/1.jpg",
+        "path": "/images/castles/135/1.jpg",
         "castle": "135",
         "caption": "Gesamtansicht, Foto: J. Friedhoff (1999)",
         "year": "1999"
@@ -7367,7 +7675,7 @@
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/84_105_20050603102240.jpg",
-        "path": "/images/135/2.jpg",
+        "path": "/images/castles/135/2.jpg",
         "castle": "135",
         "caption": "Schnitt, aus: KD Mayen (1943)",
         "year": "1943"
@@ -7375,7 +7683,7 @@
       {
         "id": "3",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/84_23_20050603102240.jpg",
-        "path": "/images/135/3.jpg",
+        "path": "/images/castles/135/3.jpg",
         "castle": "135",
         "caption": "Lageplan, aus : KD Mayen (1943)",
         "year": "1943"
@@ -7413,7 +7721,11 @@
       "state": {
         "de": "Nordrhein-Westfalen",
         "en": "North Rhine-Westphalia",
-        "abbreviation": "nw"
+        "abbreviation": "nw",
+        "value": {
+          "flag": "/images/countries/states/nw_flag.svg",
+          "crest": "/images/countries/states/nw_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -7484,7 +7796,11 @@
       "state": {
         "de": "Baden-Württemberg",
         "en": "Baden-Württemberg",
-        "abbreviation": "bw"
+        "abbreviation": "bw",
+        "value": {
+          "flag": "/images/countries/states/bw_flag.svg",
+          "crest": "/images/countries/states/bw_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -7537,8 +7853,12 @@
       "county": "Cochem-Zell",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -7591,8 +7911,12 @@
       "county": "Cochem-Zell",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -7650,8 +7974,12 @@
       "region": "Moseltal",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -7708,8 +8036,12 @@
       "county": "Bernkastel-Wittlich",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -7768,8 +8100,12 @@
       "region": "Moseltal",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -7809,7 +8145,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/768_101_20070814125746.jpg",
-        "path": "/images/143/0.jpg",
+        "path": "/images/castles/143/0.jpg",
         "castle": "143",
         "caption": "Gesamtansicht, Foto: J. Friedhoff (2007)",
         "year": "2007"
@@ -7817,7 +8153,7 @@
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/768_23_20070814125746.gif",
-        "path": "/images/143/1.gif",
+        "path": "/images/castles/143/1.gif",
         "castle": "143",
         "caption": "Grundriss und Querschnitte, aus: Laß/Schmidt, Herrschaftsrepräsentation (2007)",
         "year": "2007"
@@ -7853,7 +8189,11 @@
       "state": {
         "de": "Baden-Württemberg",
         "en": "Baden-Württemberg",
-        "abbreviation": "bw"
+        "abbreviation": "bw",
+        "value": {
+          "flag": "/images/countries/states/bw_flag.svg",
+          "crest": "/images/countries/states/bw_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -7902,8 +8242,12 @@
       "region": "Rheinhessen",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -7947,7 +8291,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/1012_101_20100129110253.jpg",
-        "path": "/images/145/0.jpg",
+        "path": "/images/castles/145/0.jpg",
         "castle": "145",
         "caption": "Gesamtansicht, Foto: Friedhoff (2009)",
         "year": "2009"
@@ -7955,7 +8299,7 @@
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/1012_103_20100129110253.jpg",
-        "path": "/images/145/1.jpg",
+        "path": "/images/castles/145/1.jpg",
         "castle": "145",
         "caption": "Gesamtansicht, Foto: Friedhoff (2009)",
         "year": "2009"
@@ -7963,14 +8307,14 @@
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/1012_105_20100129110253.jpg",
-        "path": "/images/145/2.jpg",
+        "path": "/images/castles/145/2.jpg",
         "castle": "145",
         "caption": "Zeichnung: Maskoop 1577 aus: Krienke, S. 247"
       },
       {
         "id": "3",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/1012_23_20100129110253.gif",
-        "path": "/images/145/3.gif",
+        "path": "/images/castles/145/3.gif",
         "castle": "145",
         "caption": "Grundriss (1898) aus: Krienke",
         "year": "1898"
@@ -8007,8 +8351,12 @@
       "region": "Hunsrück",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -8052,28 +8400,28 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/967_101_20100126124621.jpg",
-        "path": "/images/146/0.jpg",
+        "path": "/images/castles/146/0.jpg",
         "castle": "146",
         "caption": "Torhaus, Foto: Friedhoff 2008"
       },
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/967_103_20100126124621.jpg",
-        "path": "/images/146/1.jpg",
+        "path": "/images/castles/146/1.jpg",
         "castle": "146",
         "caption": "Foto: Friedhoff 2008"
       },
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/967_105_20100126124621.jpg",
-        "path": "/images/146/2.jpg",
+        "path": "/images/castles/146/2.jpg",
         "castle": "146",
         "caption": "Foto: Friedhoff 2008"
       },
       {
         "id": "3",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/967_23_20100126124621.jpg",
-        "path": "/images/146/3.jpg",
+        "path": "/images/castles/146/3.jpg",
         "castle": "146",
         "caption": "-Schnitt-KD-Kreuznach-(1935)",
         "year": "1935"
@@ -8110,8 +8458,12 @@
       "region": "Hunsrück",
       "state": {
         "de": "Rheinland-Pfalz",
-        "en": "Rheinland-Pfalz",
-        "abbreviation": "rp"
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
       },
       "country": {
         "de": "Bundesrepublik Deutschland",
@@ -8159,7 +8511,7 @@
       {
         "id": "0",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/162_101_20050624101516.jpg",
-        "path": "/images/148/0.jpg",
+        "path": "/images/castles/148/0.jpg",
         "castle": "148",
         "caption": "Gesamtansicht, Foto: J. Friedhoff (1996)",
         "year": "1996"
@@ -8167,7 +8519,7 @@
       {
         "id": "1",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/162_103_20050624101516.jpg",
-        "path": "/images/148/1.jpg",
+        "path": "/images/castles/148/1.jpg",
         "castle": "148",
         "caption": "Hoffassade des Wohnturms, Foto: J. Friedhoff (1996)",
         "year": "1996"
@@ -8175,7 +8527,7 @@
       {
         "id": "2",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/162_105_20050624101516.jpg",
-        "path": "/images/148/2.jpg",
+        "path": "/images/castles/148/2.jpg",
         "castle": "148",
         "caption": "Innenansicht des Wohnturms, Foto: J. Friedhoff (1996)",
         "year": "1996"
@@ -8183,7 +8535,7 @@
       {
         "id": "3",
         "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/162_23_20050624101516.jpg",
-        "path": "/images/148/3.jpg",
+        "path": "/images/castles/148/3.jpg",
         "castle": "148",
         "caption": "Grundriss aus: KD Rhein-Hunsrück I (1977)",
         "year": "1977"
