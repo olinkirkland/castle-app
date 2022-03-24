@@ -360,7 +360,7 @@ function parseToObject(u) {
 function downloadImages(overwrite = false) {
   let queue = [];
   Object.values(allJson).forEach((castle) => {
-    castle.gallery.map((g) => {
+    castle.gallery.forEach((g) => {
       const url = `public${g.path}`;
       ensureDirectoryExistence(url);
       queue.push({ path: url, url: g.url });

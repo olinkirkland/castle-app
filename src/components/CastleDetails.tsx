@@ -1,5 +1,5 @@
 import React from 'react';
-import Castle, { HistoryDate } from '../Castle';
+import Castle, { GalleryImage, HistoryDate } from '../Castle';
 import Util from '../Util';
 import Drawer from './Drawer';
 
@@ -23,6 +23,10 @@ export default function CastleDetails({ castle }: Props) {
     }
 
     return str;
+  }
+
+  function enlargeGalleryImage(g: GalleryImage) {
+    console.log(g.url);
   }
 
   if (!castle) {
@@ -101,7 +105,7 @@ export default function CastleDetails({ castle }: Props) {
         </div>
       )}
 
-      {castle.gallery.length > 0 && castle.gallery.length > 0 && (
+      {castle.gallery.length > 0 && (
         <div className="info">
           <div className="info-header">
             <i className="fa-solid fa-images"></i>
@@ -109,7 +113,13 @@ export default function CastleDetails({ castle }: Props) {
           </div>
           <ul className="gallery">
             {castle.gallery.map((g, index) => (
-              <li className="gallery-item" key={index}>
+              <li
+                className="gallery-item"
+                key={index}
+                onClick={() => {
+                  enlargeGalleryImage(g);
+                }}
+              >
                 <img src={process.env.PUBLIC_URL + g.path} alt="" />
                 <div className="gallery-item-overlay">
                   <i className="fa-solid fa-image"></i>

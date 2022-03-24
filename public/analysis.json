@@ -2387,8 +2387,8 @@
       "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=75"
     ],
     "name": {
-      "primary": "Liebenstein am Rhein",
-      "secondary": null
+      "primary": "Liebenstein",
+      "secondary": "am Rhein"
     },
     "slug": "liebenstein-am-rhein",
     "location": {
@@ -3749,8 +3749,8 @@
       "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=90"
     ],
     "name": {
-      "primary": "Reichenberg am Mittelrhein",
-      "secondary": null
+      "primary": "Reichenberg",
+      "secondary": "am Mittelrhein"
     },
     "slug": "reichenberg-am-mittelrhein",
     "location": {
@@ -7474,8 +7474,8 @@
       "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=137"
     ],
     "name": {
-      "primary": "Dilsberg am Neckar",
-      "secondary": null
+      "primary": "Dilsberg",
+      "secondary": "am Neckar"
     },
     "slug": "dilsberg-am-neckar",
     "location": {
@@ -7892,8 +7892,8 @@
       "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=145"
     ],
     "name": {
-      "primary": "Ardeck in Gau-Algeshe",
-      "secondary": "im"
+      "primary": "Ardeck",
+      "secondary": "in Gau-Algesheim"
     },
     "slug": "ardeck-in-gau-algesheim",
     "location": {
