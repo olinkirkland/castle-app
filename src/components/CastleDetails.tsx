@@ -73,8 +73,12 @@ export default function CastleDetails({ castle }: Props) {
               />
               {castle.location.country.en}
             </span>
+            <p className="muted">{castle.location.subregion.en}</p>
           </div>
         </div>
+        <Drawer textOpen="Show JSON" textClose="Hide JSON">
+          <pre>{JSON.stringify(castle.location, null, 2)}</pre>
+        </Drawer>
       </div>
 
       {castle.condition && (
@@ -88,7 +92,16 @@ export default function CastleDetails({ castle }: Props) {
             textOpen="Show Condition Notes"
             textClose="Hide Condition Notes"
           >
-            <p>{castle.conditionCommentary}</p>
+            <>
+              {castle.conditionCommentary &&
+                castle.conditionCommentary.length > 0 && (
+                  <p>{castle.conditionCommentary}</p>
+                )}
+              {(!castle.conditionCommentary ||
+                castle.conditionCommentary.length === 0) && (
+                <p className="muted">No commentary provided</p>
+              )}
+            </>
           </Drawer>
         </div>
       )}

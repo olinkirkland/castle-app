@@ -38,7 +38,7 @@ body {
   border-radius: 5px; }
 
 pre {
-  border: 1px solid var(--secondary);
+  border: 1px dashed var(--secondary-muted);
   color: var(--dark-text);
   page-break-inside: avoid;
   font-family: 'Inconsolata', monospace !important;

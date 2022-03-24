@@ -24,6 +24,7 @@ export interface Location {
   region?: string;
   state: Translatable;
   country: Translatable;
+  subregion: Translatable;
 }
 
 export interface Translatable {

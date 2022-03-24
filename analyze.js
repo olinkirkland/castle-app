@@ -1,4 +1,5 @@
-const fs = require('fs');
+import { readFileSync, writeFileSync } from 'fs';
+import fetch from 'node-fetch';
 
 const states = [
   { de: 'Baden-Württemberg', en: 'Baden-Württemberg', abbreviation: 'bw' },
@@ -28,9 +29,12 @@ const states = [
 ];
 
 // Get raw json
-const data = JSON.parse(fs.readFileSync('public/data.json', 'utf8'));
+const data = JSON.parse(readFileSync('public/data.json', 'utf8'));
 
-// Analysis
+// Data from external API
+let countryData = [];
+
+// Unique keys (analysis)
 let uniqueStructures = [];
 let uniqueClassifications = [];
 let uniqueConditions = [];
@@ -38,47 +42,75 @@ let uniquePurposes = [];
 
 let all = [];
 
-Object.keys(data).forEach((key) => {
-  const d = data[key];
-  let analysis = {
-    id: d.id,
-    urls: d.urls,
-    name: transformTitle(d.title),
-    slug: generateSlug(d.title),
-    location: {
-      city: d.city,
-      county: d.county,
-      region: d.region,
-      state: transformState(d.state),
-      country: transformCountry(d.country)
-    },
-    classifications: d.classification
-      ? d.classification.map((c) => transformClassification(c))
-      : [],
-    structures: d.structureType.map((t) => transformStructure(t)),
-    condition: transformCondition(d.condition),
-    conditionCommentary: d.conditionCommentary,
-    purpose: transformPurpose(d.purpose),
-    gallery: d.gallery,
-    dates: { start: transformDate(d.dateBegin), end: transformDate(d.dateEnd) }
-  };
-
-  all.push(analysis);
+console.log('=== Determining unique location data');
+Object.values(data).forEach((d) => {
+  let u = countryData.find((c) => c.name === d.country);
+  if (!u)
+    countryData.push({
+      name: d.country,
+      url: `https://restcountries.com/v3.1/name/${d.country}`
+    });
 });
 
-console.log(`${all.length} entries`);
+countryData.forEach((c) => {
+  fetch(c.url)
+    .then((response) => response.json())
+    .then((data) => {
+      c.data = data[0];
+      if (countryData.every((c) => c.data)) {
+        mapEntries();
+      }
+    });
+});
 
-// console.log('=== unique classifications ===');
-// console.log(uniqueClassifications);
-// console.log('=== unique types ===');
-// console.log(uniqueStructures);
-// console.log('=== unique conditions ===');
-// console.log(uniqueConditions);
-console.log('=== unique purposes ===');
-console.log(uniquePurposes);
+function mapEntries() {
+  console.log('=== Mapping entries');
+  Object.keys(data).forEach((key) => {
+    const d = data[key];
+    let analysis = {
+      id: d.id,
+      urls: d.urls,
+      name: transformTitle(d.title),
+      slug: generateSlug(d.title),
+      location: {
+        city: d.city,
+        county: d.county,
+        region: d.region,
+        state: transformState(d.state),
+        country: transformCountry(d.country),
+        subregion: transformSubregion(d.country)
+      },
+      classifications: d.classification
+        ? d.classification.map((c) => transformClassification(c))
+        : [],
+      structures: d.structureType.map((t) => transformStructure(t)),
+      condition: transformCondition(d.condition),
+      conditionCommentary: d.conditionCommentary,
+      purpose: transformPurpose(d.purpose),
+      gallery: d.gallery,
+      dates: {
+        start: transformDate(d.dateBegin),
+        end: transformDate(d.dateEnd)
+      }
+    };
 
-// Write to json
-fs.writeFileSync('public/analysis.json', JSON.stringify(all, null, 2));
+    all.push(analysis);
+  });
+
+  console.log(`${all.length} entries`);
+
+  // console.log('=== unique classifications ===');
+  // console.log(uniqueClassifications);
+  // console.log('=== unique types ===');
+  // console.log(uniqueStructures);
+  // console.log('=== unique conditions ===');
+  // console.log(uniqueConditions);
+  // console.log('=== unique purposes ===');
+  // console.log(uniquePurposes);
+
+  // Write to json
+  writeFileSync('public/analysis.json', JSON.stringify(all, null, 2));
+}
 
 function transformPurpose(arr) {
   const purposes = [
@@ -221,17 +253,28 @@ function transformCondition(str) {
 }
 
 function transformCountry(str) {
-  const countries = [
-    {
-      de: 'Bundesrepublik Deutschland',
-      en: 'Germany',
-      abbreviation: 'de'
-    }
-  ];
-
-  const c = countries.find((t) => t.de === str);
+  const c = countryData.find((t) => t.name === str);
   if (!c) console.error(`Country "${str}" didn't match any defined countries`);
-  return c;
+
+  const u = {
+    en: c.data.name.common,
+    de: c.data.translations.deu.common,
+    abbreviation: c.data.cca2.toLowerCase()
+  };
+
+  return u;
+}
+
+function transformSubregion(str) {
+  const c = countryData.find((t) => t.name === str);
+  if (!c) console.error(`Country "${str}" didn't match any defined countries`);
+
+  const u = {
+    en: c.data.subregion,
+    de: null
+  };
+
+  return u;
 }
 
 function transformState(str) {
