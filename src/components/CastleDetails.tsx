@@ -9,7 +9,7 @@ type Props = {
 
 export default function CastleDetails({ castle }: Props) {
   function onClickJson() {
-    console.log(JSON.stringify(castle));
+    Util.download(`${castle!.slug}.json`, JSON.stringify(castle, null, 2));
   }
 
   function formatDate(date: HistoryDate, end: boolean = false): string {
@@ -120,21 +120,27 @@ export default function CastleDetails({ castle }: Props) {
       {castle.purpose && (
         <div className="info">
           <p className="title">Purpose</p>
-          <pre>{JSON.stringify(castle.purpose, null, 2)}</pre>
+          <Drawer textOpen="Show JSON" textClose="Hide JSON">
+            <pre>{JSON.stringify(castle.purpose, null, 2)}</pre>
+          </Drawer>
         </div>
       )}
 
       {castle.classifications && (
         <div className="info">
           <p className="title">Classification</p>
-          <pre>{JSON.stringify(castle.classifications, null, 2)}</pre>
+          <Drawer textOpen="Show JSON" textClose="Hide JSON">
+            <pre>{JSON.stringify(castle.classifications, null, 2)}</pre>
+          </Drawer>
         </div>
       )}
 
       {castle.structures && (
         <div className="info">
           <p className="title">Structure</p>
-          <pre>{JSON.stringify(castle.structures, null, 2)}</pre>
+          <Drawer textOpen="Show JSON" textClose="Hide JSON">
+            <pre>{JSON.stringify(castle.structures, null, 2)}</pre>
+          </Drawer>
         </div>
       )}
 
@@ -176,7 +182,7 @@ export default function CastleDetails({ castle }: Props) {
 
       <div className="details-footer">
         <button className="btn" onClick={onClickJson}>
-          <span>Json data</span>
+          <span>Download JSON</span>
         </button>
 
         <a
@@ -185,7 +191,8 @@ export default function CastleDetails({ castle }: Props) {
           target="_blank"
           rel="noreferrer"
         >
-          <span>Source</span>
+          <span>EBIDAT Reference</span>
+          <i className="fa-solid fa-up-right-from-square"></i>
         </a>
       </div>
     </div>
