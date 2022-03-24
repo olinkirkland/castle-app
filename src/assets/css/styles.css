@@ -6,8 +6,8 @@
   --foreground-muted: #2b2b2b40;
   --text: #fafafa;
   --text-muted: #fafafa40;
-  --primary: #8ce99a;
-  --primary-muted: #8ce99a40;
+  --primary: #ffe380;
+  --primary-muted: #ffe38040;
   --secondary: #ffe380;
   --secondary-muted: #ffe38040;
   --dark: #00000040;
@@ -38,7 +38,7 @@ body {
   border-radius: 5px; }
 
 pre {
-  border: 1px dashed var(--secondary-muted);
+  border: 1px dashed var(--secondary);
   color: var(--dark-text);
   page-break-inside: avoid;
   font-family: 'Inconsolata', monospace !important;
@@ -90,14 +90,12 @@ img.flag-sm {
   padding-block: 0;
   border: none;
   background: none;
-  opacity: 0.8;
   border-bottom: 1px dashed var(--primary);
   transition: all 0.3s; }
   .btn i {
     font-size: 80%; }
 
 .btn:hover {
-  opacity: 1;
   border-bottom: 1px dashed #00000000; }
 
 h1,
