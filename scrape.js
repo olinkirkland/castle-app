@@ -1,8 +1,11 @@
-const fs = require('fs');
-const https = require('https');
-const path = require('path');
-const parse = require('node-html-parser');
-const jsdom = require('jsdom');
+import * as fs from 'fs';
+import * as https from 'https';
+import * as jsdom from 'jsdom';
+import * as path from 'path';
+import ProgressBar from 'progress';
+import * as readline from 'readline';
+import { fileURLToPath } from 'url';
+import analyze from './analyze.js';
 
 const sectionNames = [
   'history',
@@ -38,48 +41,55 @@ const keyMap = [
 
 let allJson = {};
 
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
 const rawDir = 'data/raw-data/';
 const jsonDir = 'data/json-data/';
+
+let rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
 
 /**
  * Perform Actions
  */
 
 let max = 10;
+let skipped = 0;
 
-if (process.argv.length > 2) {
-  const command = process.argv[2];
-  switch (command) {
-    // DOWNLOAD HTML
-    case 'download':
-      if (process.argv.length > 2) max = process.argv[3];
-      // Download new data from EBIDAT, then parse once the downloads are complete
-      // This can take a long time, will save to the raw-data folder
-      console.log(`Downloading ${max} entries...`);
-      loadFromEbidat(1, 0, parseDownloadedFiles);
-      break;
-    // PARSE
-    case 'parse':
-      // Parse downloaded data
-      console.log(`Parsing data...`);
-      parseDownloadedFiles(() => {
-        printOneKey('dateBegin');
-      });
-      parseDownloadedFiles(downloadImages);
-      downloadImages();
-      break;
-    default:
-      printArgError();
-      break;
-  }
-} else {
-  printArgError();
+let bar;
+
+function askDownload() {
+  // todo log summary of all data from data.json
+  rl.question(`Scrape number of entries (number)? `, (str) => {
+    const n = Number.parseInt(str);
+    if (!Number.isInteger(n)) {
+      console.log(`'${str}' is not a valid integer\n`);
+      return askDownload();
+    } else {
+      max = n;
+      return performDownload();
+    }
+  });
 }
 
-function printArgError() {
-  console.log('No action performed; try:');
-  console.log('  node scrape download 50');
-  console.log('  node scrape parse');
+askDownload();
+
+function performDownload() {
+  // Download new data from EBIDAT, then parse once the downloads are complete
+  // This can take a long time, will save to the raw-data folder
+  console.log(`Downloading ${max} entries (${max * 5} files)...`);
+  bar = new ProgressBar(`[:bar] :current/:total | :percent`, {
+    complete: '=',
+    incomplete: ' ',
+    width: 20,
+    total: max * 5
+  });
+
+  skipped = 0;
+  loadFromEbidat(1, 0);
 }
 
 /**
@@ -90,25 +100,19 @@ function loadFromEbidat(index = 1, section = 0, callback = null) {
   // Make sure the file path exists so it can be written to
   let filePath = `${rawDir}${index}/entry-${index}-${section}.html`;
   ensureDirectoryExistence(filePath);
-  const file = fs.createWriteStream(filePath);
 
   // Assemble the query url by combining the correct section with the index
   let url = sectionUrls[section] + index;
 
-  console.log(
-    `${
-      Math.floor(((index - 1 + section / 5) / (max - 1)) * 10000) / 100
-    }% | ${index}/${max - 1} | ${sectionNames[section]} | ${url}`
-  );
-
   if (fs.existsSync(filePath)) {
+    // Skip if it exists
+    skipped++;
     next();
   } else {
-    const request = https.get(url, function (res) {
+    const file = fs.createWriteStream(filePath);
+    https.get(url, function (res) {
       res.setEncoding('binary');
       res.pipe(file);
-
-      console.log('  --> Saved to ' + filePath);
       next();
     });
   }
@@ -122,14 +126,66 @@ function loadFromEbidat(index = 1, section = 0, callback = null) {
       index++;
     }
 
-    if (index < max) {
+    bar.tick();
+
+    if (index <= max) {
       // Load the next url
       loadFromEbidat(index, section, callback);
     } else {
-      console.log('100% | Downloads complete.');
-      callback();
+      const totalFileCount = max * 5;
+      const downloadedFileCount = totalFileCount - skipped;
+      console.log(`Total files: ${totalFileCount}`);
+
+      if (downloadedFileCount === 0)
+        console.log(` No files were downloaded (skipped all)`);
+      if (downloadedFileCount > 0)
+        console.log(
+          ` Downloaded ${downloadedFileCount} files (skipped ${skipped})`
+        );
+
+      askParse();
     }
   }
+}
+
+function askParse() {
+  rl.question('Parse all downloaded files (y/n)? ', (str) => {
+    if (str === 'y') {
+      performParse(askDownloadImages);
+    } else if (str === 'n') {
+      askAnalyze();
+    } else {
+      console.log(`'${str}' is not valid input`);
+      return askParse();
+    }
+  });
+}
+
+function askDownloadImages() {
+  rl.question('Download images (y/n)? ', (str) => {
+    if (str === 'y') {
+      performDownloadImages(askAnalyze);
+    } else if (str === 'n') {
+      askAnalyze();
+    } else {
+      console.log(`'${str}' is not valid input`);
+      return askDownloadImages();
+    }
+  });
+}
+
+function askAnalyze() {
+  rl.question('Publish using analyze.js? (y/n)? ', (str) => {
+    if (str === 'y') {
+      rl.close();
+      analyze();
+    } else if (str === 'n') {
+      rl.close();
+    } else {
+      console.log(`'${str}' is not valid input`);
+      return askParse();
+    }
+  });
 }
 
 function ensureDirectoryExistence(filePath) {
@@ -145,70 +201,76 @@ function ensureDirectoryExistence(filePath) {
  * Parse downloaded files to json
  */
 
-function parseDownloadedFiles(callback = null) {
-  const dirMain = fs.readdir(rawDir, function (err, dirs) {
+function performParse(callback) {
+  fs.readdir(rawDir, function (err, dirs) {
     if (err) {
       return console.log(`Unable to scan directory: ${err}`);
     }
 
+    console.log(`Parsing (${dirs.length} entries)...`);
+    bar = new ProgressBar(`[:bar] :current/:total | :percent`, {
+      complete: '=',
+      incomplete: ' ',
+      width: 20,
+      total: dirs.length
+    });
+
     // Combine the contents of the files into one .json file and store it in json-data
-    // Each folder in 'dirs' contains 5 files.
+    // Each folder in 'dirs' contains 5 files
     parseNext();
 
     function parseNext(index = 0) {
       let dir = dirs[index];
-      console.log('==== ' + dir);
+      bar.tick();
 
-      let dirEntry = fs.readdir(`${rawDir}${dir}`, function (err, files) {
-        let combinedContent = {};
+      const files = fs.readdirSync(`${rawDir}${dir}`);
 
-        files.forEach(function (file) {
-          // Read the file
-          let url = path.resolve(__dirname, `${rawDir}${dir}/${file}`);
+      let combinedContent = {};
 
-          let data = null;
-          try {
-            data = fs.readFileSync(url, 'utf8');
-          } catch (err) {}
+      files.forEach(function (file) {
+        // Read the file
+        let url = path.resolve(__dirname, `${rawDir}${dir}/${file}`);
 
-          // Get the id and section from the file name
-          let arr = file.match(/([0-9]+)/gi);
-          let id = arr[0];
-          let section = arr[1];
+        let data = null;
+        try {
+          data = fs.readFileSync(url, 'utf8');
+        } catch (err) {}
 
-          // Add the data to the combined object
-          combinedContent['id'] = id;
-          combinedContent[sectionNames[section]] = data;
-        });
+        // Get the id and section from the file name
+        let arr = file.match(/([0-9]+)/gi);
+        let id = arr[0];
+        let section = arr[1];
 
-        const object = parseToObject(combinedContent);
-
-        analyzeObject(object);
-
-        // Add it to allJson
-        if (object) {
-          allJson[object.id] = object;
-
-          try {
-            let filePath = `${jsonDir}${object.id}.json`;
-            console.log(filePath);
-            ensureDirectoryExistence(filePath);
-            fs.writeFileSync(filePath, JSON.stringify(object, null, 2));
-          } catch (err) {
-            console.error(err);
-          }
-        }
-
-        if (++index < dirs.length) {
-          parseNext(index);
-        } else {
-          // End
-          writeAllJson();
-          // printAllKeys();
-
-          if (callback) callback();
-        }
+        // Add the data to the combined object
+        combinedContent['id'] = id;
+        combinedContent[sectionNames[section]] = data;
       });
+
+      const object = parseToObject(combinedContent);
+
+      analyzeObject(object);
+
+      // Add it to allJson
+      if (object) {
+        allJson[object.id] = object;
+
+        try {
+          let filePath = `${jsonDir}${object.id}.json`;
+          ensureDirectoryExistence(filePath);
+          fs.writeFileSync(filePath, JSON.stringify(object, null, 2));
+        } catch (err) {}
+      } else {
+        // This wasn't loadable; keep track of non loading ids?
+        // console.log(`\nerror@id=${combinedContent.id}`);
+      }
+
+      if (++index < dirs.length) {
+        parseNext(index);
+      } else {
+        // End
+        writeAllJson();
+        callback();
+      }
     }
   });
 }
@@ -234,7 +296,7 @@ function writeAllJson() {
     let filePath = `public/data.json`;
     ensureDirectoryExistence(filePath);
     fs.writeFileSync(filePath, JSON.stringify(allJson));
-    console.log(`====\nSaved to ${filePath}`);
+    console.log(`Saved to ${filePath}`);
   } catch (err) {
     console.error(err);
   }
@@ -357,7 +419,7 @@ function parseToObject(u) {
   return o;
 }
 
-function downloadImages(overwrite = false) {
+function performDownloadImages(callback, overwrite = false) {
   let queue = [];
   Object.values(allJson).forEach((castle) => {
     castle.gallery.forEach((g) => {
@@ -367,9 +429,24 @@ function downloadImages(overwrite = false) {
     });
   });
 
-  console.log(`Downloading ${queue.length} images...`);
   const imageCount = queue.length;
+
+  if (imageCount === 0) {
+    console.log('No images to download');
+    callback();
+    return;
+  }
+
+  console.log(`Downloading ${imageCount} images...`);
+  bar = new ProgressBar(`[:bar] :current/:total | :percent`, {
+    complete: '=',
+    incomplete: ' ',
+    width: 20,
+    total: imageCount
+  });
+
   let current;
+  skipped = 0;
   const intervalId = setInterval(() => {
     if (!current) {
       if (queue.length === 0) {
@@ -380,20 +457,35 @@ function downloadImages(overwrite = false) {
       current = queue.pop();
 
       // If overwrite is set to false, skip this download if the file already exists
+      bar.tick();
       if (!overwrite && fs.existsSync(current.path)) {
-        console.log(`${imageCount - queue.length}/${imageCount} SKIP`);
-        // console.log(`SKIP ${current.path} already exists`);
+        // console.log(`${imageCount - queue.length}/${imageCount} SKIP`);
+        skipped++;
         current = null;
+        if (bar.complete) finishDownloadImages();
       } else {
-        console.log(`${imageCount - queue.length}/${imageCount}`);
+        // console.log(`${imageCount - queue.length}/${imageCount}`);
         const file = fs.createWriteStream(current.path);
         https.get(current.url, function (response) {
           response.pipe(file);
           current = null;
+          if (bar.complete) finishDownloadImages();
         });
       }
     }
-  }, 20);
+  }, 5);
+
+  function finishDownloadImages() {
+    const downloadCount = imageCount - skipped;
+    console.log(`Total images: ${imageCount}`);
+
+    if (downloadCount === 0)
+      console.log(` No images were downloaded (skipped all)`);
+    if (downloadCount > 0)
+      console.log(` Downloaded ${downloadCount} images (skipped ${skipped})`);
+    clearInterval(intervalId);
+    callback();
+  }
 }
 
 function fileTypeFromUrl(url) {
@@ -421,7 +513,7 @@ function parseDataEls(dom) {
       keyMap.forEach((key) => {
         if (key.ebidatKeys.indexOf(dataKey) >= 0) {
           // Match!
-          if (dataValue != '') {
+          if (dataValue !== '') {
             o[key.id] = dataValue;
             keyMatch = true;
           }

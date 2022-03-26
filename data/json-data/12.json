@@ -15,7 +15,7 @@
     {
       "id": "0",
       "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/41_101_20050504142838.jpg",
-      "path": "/images/12/0.jpg",
+      "path": "/images/castles/12/0.jpg",
       "castle": "12",
       "caption": "Wohngebäude der Hauptburg, Foto: J. Friedhoff (1999)",
       "year": "1999"
@@ -23,14 +23,14 @@
     {
       "id": "1",
       "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/41_103_20050504142838.jpg",
-      "path": "/images/12/1.jpg",
+      "path": "/images/castles/12/1.jpg",
       "castle": "12",
       "caption": "Burgruine und Talsiedlung Isenburg, 1779 aus: Emanuel Graf von Waldersdorff/Lupold von Lehsten, Die Frauen der Walderdorff, Molsberg 1999"
     },
     {
       "id": "2",
       "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/41_105_20050504142838.jpg",
-      "path": "/images/12/2.jpg",
+      "path": "/images/castles/12/2.jpg",
       "castle": "12",
       "caption": "Gesamtansicht, Foto: J. Friedhoff (2001)",
       "year": "2001"
@@ -38,7 +38,7 @@
     {
       "id": "3",
       "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/41_23_20050504142838.jpg",
-      "path": "/images/12/3.jpg",
+      "path": "/images/castles/12/3.jpg",
       "castle": "12",
       "caption": "Grundriss aus: KD Neuwied (1940)",
       "year": "1940"

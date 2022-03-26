@@ -1,306 +1,324 @@
 import { readFileSync, writeFileSync } from 'fs';
 import fetch from 'node-fetch';
 
-const states = [
-  { de: 'Baden-Württemberg', en: 'Baden-Württemberg', abbreviation: 'bw' },
-  { de: 'Bayern', en: 'Bavaria', abbreviation: 'by' },
-  { de: 'Berlin', en: 'Berlin', abbreviation: 'be' },
-  { de: 'Brandenburg', en: 'Brandenburg', abbreviation: 'bb' },
-  { de: 'Bremen', en: 'Bremen', abbreviation: 'hb' },
-  { de: 'Hamburg ', en: 'Hamburg', abbreviation: 'hh' },
-  { de: 'Hessen', en: 'Hesse', abbreviation: 'he' },
-  { de: 'Niedersachsen', en: 'Lower Saxony', abbreviation: 'ni' },
-  {
-    de: 'Mecklenburg-Vorpommern',
-    en: 'Mecklenburg-Western Pomerania',
-    abbreviation: 'mv'
-  },
-  {
-    de: 'Nordrhein-Westfalen',
-    en: 'North Rhine-Westphalia',
-    abbreviation: 'nw'
-  },
-  { de: 'Rheinland-Pfalz', en: 'Rheinland-Palatinate', abbreviation: 'rp' },
-  { de: 'Saarland', en: 'Saarland', abbreviation: 'sl' },
-  { de: 'Sachsen', en: 'Saxony', abbreviation: 'sn' },
-  { de: 'Sachsen-Anhalt', en: 'Saxony-Anhalt', abbreviation: 'st' },
-  { de: 'Schleswig-Holstein', en: 'Schleswig-Holstein', abbreviation: 'sh' },
-  { de: 'Thüringen', en: 'Thuringia', abbreviation: 'th' }
-];
+export default function analyze() {
+  console.log('========= analyze.js =========');
 
-// Get raw json
-const data = JSON.parse(readFileSync('public/data.json', 'utf8'));
-
-// Data from external API
-let countryData = [];
-
-// Unique keys (analysis)
-let uniqueStructures = [];
-let uniqueClassifications = [];
-let uniqueConditions = [];
-let uniquePurposes = [];
-
-let all = [];
-
-console.log('=== Determining unique location data');
-Object.values(data).forEach((d) => {
-  let u = countryData.find((c) => c.name === d.country);
-  if (!u)
-    countryData.push({
-      name: d.country,
-      url: `https://restcountries.com/v3.1/name/${d.country}`
-    });
-});
-
-countryData.forEach((c) => {
-  fetch(c.url)
-    .then((response) => response.json())
-    .then((data) => {
-      c.data = data[0];
-      if (countryData.every((c) => c.data)) {
-        mapEntries();
-      }
-    });
-});
-
-function mapEntries() {
-  console.log('=== Mapping entries');
-  Object.keys(data).forEach((key) => {
-    const d = data[key];
-    let analysis = {
-      id: d.id,
-      urls: d.urls,
-      name: transformTitle(d.title),
-      slug: generateSlug(d.title),
-      location: {
-        city: d.city,
-        county: d.county,
-        region: d.region,
-        state: transformState(d.state),
-        country: transformCountry(d.country),
-        subregion: transformSubregion(d.country)
-      },
-      classifications: d.classification
-        ? d.classification.map((c) => transformClassification(c))
-        : [],
-      structures: d.structureType.map((t) => transformStructure(t)),
-      condition: transformCondition(d.condition),
-      conditionCommentary: d.conditionCommentary,
-      purpose: transformPurpose(d.purpose),
-      gallery: d.gallery,
-      dates: {
-        start: transformDate(d.dateBegin),
-        end: transformDate(d.dateEnd)
-      }
-    };
-
-    all.push(analysis);
-  });
-
-  console.log(`${all.length} entries`);
-
-  // console.log('=== unique classifications ===');
-  // console.log(uniqueClassifications);
-  // console.log('=== unique types ===');
-  // console.log(uniqueStructures);
-  // console.log('=== unique conditions ===');
-  // console.log(uniqueConditions);
-  // console.log('=== unique purposes ===');
-  // console.log(uniquePurposes);
-
-  // Write to json
-  writeFileSync('public/analysis.json', JSON.stringify(all, null, 2));
-}
-
-function transformPurpose(arr) {
-  const purposes = [
-    { de: 'burg', en: 'castle' },
-    { de: 'burg-schloss', en: 'castle-manor' },
-    { de: 'sonstiges', en: 'other' }
+  const states = [
+    { de: 'Baden-Württemberg', en: 'Baden-Württemberg', abbreviation: 'bw' },
+    { de: 'Bayern', en: 'Bavaria', abbreviation: 'by' },
+    { de: 'Berlin', en: 'Berlin', abbreviation: 'be' },
+    { de: 'Brandenburg', en: 'Brandenburg', abbreviation: 'bb' },
+    { de: 'Bremen', en: 'Bremen', abbreviation: 'hb' },
+    { de: 'Hamburg ', en: 'Hamburg', abbreviation: 'hh' },
+    { de: 'Hessen', en: 'Hesse', abbreviation: 'he' },
+    { de: 'Niedersachsen', en: 'Lower Saxony', abbreviation: 'ni' },
+    {
+      de: 'Mecklenburg-Vorpommern',
+      en: 'Mecklenburg-Western Pomerania',
+      abbreviation: 'mv'
+    },
+    {
+      de: 'Nordrhein-Westfalen',
+      en: 'North Rhine-Westphalia',
+      abbreviation: 'nw'
+    },
+    { de: 'Rheinland-Pfalz', en: 'Rheinland-Palatinate', abbreviation: 'rp' },
+    { de: 'Saarland', en: 'Saarland', abbreviation: 'sl' },
+    { de: 'Sachsen', en: 'Saxony', abbreviation: 'sn' },
+    { de: 'Sachsen-Anhalt', en: 'Saxony-Anhalt', abbreviation: 'st' },
+    {
+      de: 'Schleswig-Holstein',
+      en: 'Schleswig-Holstein',
+      abbreviation: 'sh'
+    },
+    { de: 'Thüringen', en: 'Thuringia', abbreviation: 'th' }
   ];
 
-  if (!arr) arr = [];
-  let t = arr.map((str) => {
-    str = str.toLowerCase();
-    if (!uniquePurposes.includes(str)) uniquePurposes.push(str);
+  // Get raw json
+  const data = JSON.parse(readFileSync('public/data.json', 'utf8'));
 
-    let u = purposes.find((t) => t.de === str);
-    if (!u) u = { de: str, en: null };
-    return u;
+  // Data from external API
+  let countryData = [];
+
+  // Unique keys (analysis)
+  let uniqueStructures = [];
+  let uniqueClassifications = [];
+  let uniqueConditions = [];
+  let uniquePurposes = [];
+
+  let all = [];
+
+  console.log('1. Determining unique location data');
+  Object.values(data).forEach((d) => {
+    let u = countryData.find((c) => c.name === d.country);
+    if (!u)
+      countryData.push({
+        name: d.country,
+        url: `https://restcountries.com/v3.1/name/${d.country}`
+      });
   });
 
-  return t;
-}
+  countryData.forEach((c) => {
+    fetch(c.url)
+      .then((response) => response.json())
+      .then((data) => {
+        c.data = data[0];
+        if (countryData.every((c) => c.data)) {
+          mapEntries();
+        }
+      });
+  });
 
-function transformDate(str) {
-  let date = { century: null, half: null };
+  function mapEntries() {
+    console.log('2. Mapping entries');
+    Object.keys(data).forEach((key) => {
+      const d = data[key];
+      let analysis = {
+        id: d.id,
+        urls: d.urls,
+        name: transformTitle(d.title),
+        slug: generateSlug(d.title),
+        location: {
+          city: d.city,
+          county: d.county,
+          region: d.region,
+          state: transformState(d.state, d.id),
+          country: transformCountry(d.country),
+          subregion: transformSubregion(d.country)
+        },
+        classifications: d.classification
+          ? d.classification.map((c) => transformClassification(c))
+          : [],
+        structures: d.structureType.map((t) => transformStructure(t)),
+        condition: transformCondition(d.condition),
+        conditionCommentary: d.conditionCommentary,
+        purpose: transformPurpose(d.purpose),
+        gallery: d.gallery,
+        dates: {
+          start: transformDate(d.dateBegin),
+          end: transformDate(d.dateEnd)
+        }
+      };
 
-  if (!str) return;
-  str = str.toLowerCase().trim();
+      all.push(analysis);
+    });
 
-  // Unknown
-  if (str === 'unbekannt') {
-    return date;
+    console.log(`Analyzed ${all.length} entries`);
+
+    // console.log('=== unique classifications ===');
+    // console.log(uniqueClassifications);
+    // console.log('=== unique types ===');
+    // console.log(uniqueStructures);
+    // console.log('=== unique conditions ===');
+    // console.log(uniqueConditions);
+    // console.log('=== unique purposes ===');
+    // console.log(uniquePurposes);
+
+    // Write to json
+    writeFileSync('public/analysis.json', JSON.stringify(all, null, 2));
+    console.log('Saved to public/analysis.json');
   }
 
-  // Half & Century
-  const regex = /((?<half>[0-9]+).H.)?((?<century>[0-9]+).Jh.)/gi;
-  const r = regex.exec(str);
-  return {
-    century: r.groups.century,
-    half: r.groups.half ? r.groups.half : null
-  };
-}
+  function transformPurpose(arr) {
+    const purposes = [
+      { de: 'burg', en: 'castle' },
+      { de: 'burg-schloss', en: 'castle-manor' },
+      { de: 'sonstiges', en: 'other' }
+    ];
 
-function transformTitle(str) {
-  // Fix foo.bar -> foo. bar
-  // Fix foo,bar -> foo, bar
-  str = str.replaceAll(/([.,])([a-z])/gi, '$1 $2');
-  if (!str.trim().includes(' ')) {
-    // For single words, just return the str
+    if (!arr) arr = [];
+    let t = arr.map((str) => {
+      str = str.toLowerCase();
+      if (!uniquePurposes.includes(str)) uniquePurposes.push(str);
+
+      let u = purposes.find((t) => t.de === str);
+      if (!u) u = { de: str, en: null };
+      return u;
+    });
+
+    return t;
+  }
+
+  function transformDate(str) {
+    let date = { century: null, half: null };
+
+    if (!str) return;
+    str = str.toLowerCase().trim();
+
+    // Unknown
+    if (str === 'unbekannt') {
+      return date;
+    }
+
+    // Half & Century
+    const regex = /((?<half>[0-9]+).H.)?((?<century>[0-9]+).Jh.)/gi;
+    const r = regex.exec(str);
     return {
-      primary: str,
-      secondary: null
+      century: r.groups.century,
+      half: r.groups.half ? r.groups.half : null
     };
   }
 
-  str = str.replaceAll(' b. ', ' bei ');
-  str = str.replaceAll(' i. ', ' im ');
+  function transformTitle(str) {
+    // Fix foo.bar -> foo. bar
+    // Fix foo,bar -> foo, bar
+    str = str.replaceAll(/([.,])([a-z])/gi, '$1 $2');
+    if (!str.trim().includes(' ')) {
+      // For single words, just return the str
+      return {
+        primary: str,
+        secondary: null
+      };
+    }
 
-  const regex = /( (b\.|bei|im|am|in|a\. d\.))|(,)/gi;
-  const separatorIndex = str.search(regex);
+    str = str.replaceAll(' b. ', ' bei ');
+    str = str.replaceAll(' i. ', ' im ');
 
-  // TODO: Use google search result count to determine if it's "an der" or "an dem"
+    const regex = /( (b\.|bei|im|am|in|a\. d\.))|(,)/gi;
+    const separatorIndex = str.search(regex);
 
-  // Primary
-  const primary =
-    separatorIndex < 0 ? str : str.substring(0, separatorIndex).trim();
+    // TODO: Use google search result count to determine if it's "an der" or "an dem"
 
-  // Secondary
-  let secondary =
-    separatorIndex < 0 ? null : str.substring(separatorIndex).trim();
-  // Fix leading comma
-  if (secondary && secondary.indexOf(', ') === 0)
-    secondary = secondary.substring(2);
+    // Primary
+    const primary =
+      separatorIndex < 0 ? str : str.substring(0, separatorIndex).trim();
 
-  return {
-    primary: primary,
-    secondary: secondary
-  };
-}
+    // Secondary
+    let secondary =
+      separatorIndex < 0 ? null : str.substring(separatorIndex).trim();
+    // Fix leading comma
+    if (secondary && secondary.indexOf(', ') === 0)
+      secondary = secondary.substring(2);
 
-function transformStructure(str) {
-  const structures = [
-    { de: 'burg', en: 'castle' },
-    { de: 'burg-schloss', en: 'castle-manor' },
-    { de: 'sonstiges', en: 'other' }
-  ];
+    return {
+      primary: primary,
+      secondary: secondary
+    };
+  }
 
-  str = str.toLowerCase();
-  let t = structures.find((t) => t.de === str);
-  if (!t) t = { de: str, en: null };
+  function transformStructure(str) {
+    const structures = [
+      { de: 'burg', en: 'castle' },
+      { de: 'burg-schloss', en: 'castle-manor' },
+      { de: 'sonstiges', en: 'other' }
+    ];
 
-  if (!uniqueStructures.includes(str)) uniqueStructures.push(str);
-  return t;
-}
+    str = str.toLowerCase();
+    let t = structures.find((t) => t.de === str);
+    if (!t) t = { de: str, en: null };
 
-function transformClassification(str) {
-  const classifications = [
-    { de: 'wasserburg', en: 'water castle' },
-    // { de: 'randhausanlage', en: '' },
-    // { de: 'ringmauerburg', en: '' },
-    // { de: 'schildmauerburg', en: '' },
-    { de: 'burghaus', en: 'fortified house' },
-    { de: 'wohnturm', en: 'keep' },
-    { de: 'abgegangene burgstelle', en: 'abandoned ruin' },
-    { de: 'niederungsburg', en: 'lowland castle' },
-    // { de: 'frontturmburg', en: '' },
-    { de: 'bodendenkmal', en: '' },
-    { de: 'burgstelle', en: 'castle site' },
-    { de: 'burg allgemein', en: 'castle' },
-    { de: 'kastellburg', en: 'quadrangular castle' },
-    { de: 'felsenburg', en: 'rock castle' },
-    { de: 'burgstall', en: 'stable' }
-    // { de: 'kompaktanlage', en: '' }
-  ];
+    if (!uniqueStructures.includes(str)) uniqueStructures.push(str);
+    return t;
+  }
 
-  str = str.toLowerCase();
-  let t = classifications.find((c) => c.de == str);
-  if (!t) t = { de: str, en: null };
+  function transformClassification(str) {
+    const classifications = [
+      { de: 'wasserburg', en: 'water castle' },
+      // { de: 'randhausanlage', en: '' },
+      // { de: 'ringmauerburg', en: '' },
+      // { de: 'schildmauerburg', en: '' },
+      { de: 'burghaus', en: 'fortified house' },
+      { de: 'wohnturm', en: 'keep' },
+      { de: 'abgegangene burgstelle', en: 'abandoned ruin' },
+      { de: 'niederungsburg', en: 'lowland castle' },
+      // { de: 'frontturmburg', en: '' },
+      { de: 'bodendenkmal', en: '' },
+      { de: 'burgstelle', en: 'castle site' },
+      { de: 'burg allgemein', en: 'castle' },
+      { de: 'kastellburg', en: 'quadrangular castle' },
+      { de: 'felsenburg', en: 'rock castle' },
+      { de: 'burgstall', en: 'stable' }
+      // { de: 'kompaktanlage', en: '' }
+    ];
 
-  if (!uniqueClassifications.includes(str)) uniqueClassifications.push(str);
-  return t;
-}
+    str = str.toLowerCase();
+    let t = classifications.find((c) => c.de == str);
+    if (!t) t = { de: str, en: null };
 
-function transformCondition(str) {
-  const conditions = [
-    { de: 'keine reste', en: 'no remains', value: 0 },
-    { de: 'überbaut', en: 'overbuilt', value: 0 },
-    { de: 'fundamente', en: 'foundations', value: 1 },
-    { de: 'geringe reste', en: 'small leftovers', value: 2 },
-    { de: 'bedeutende reste', en: 'significant remains', value: 3 },
-    { de: 'weitgehend erhalten', en: 'largely preserved', value: 4 },
-    { de: 'stark historisierend überformt', en: 'historic reshaping', value: 4 }
-  ];
+    if (!uniqueClassifications.includes(str)) uniqueClassifications.push(str);
+    return t;
+  }
 
-  if (!str) return 'unknown';
-  str = str.toLowerCase();
-  let t = conditions.find((c) => c.de === str);
-  if (!t) t = { de: str, en: null };
+  function transformCondition(str) {
+    const conditions = [
+      { de: 'keine reste', en: 'no remains', value: 0 },
+      { de: 'überbaut', en: 'overbuilt', value: 0 },
+      { de: 'fundamente', en: 'foundations', value: 1 },
+      { de: 'geringe reste', en: 'small leftovers', value: 2 },
+      { de: 'bedeutende reste', en: 'significant remains', value: 3 },
+      { de: 'weitgehend erhalten', en: 'largely preserved', value: 4 },
+      {
+        de: 'stark historisierend überformt',
+        en: 'historic reshaping',
+        value: 4
+      }
+    ];
 
-  if (!uniqueConditions.includes(str)) uniqueConditions.push(str);
-  return t;
-}
+    if (!str) return 'unknown';
+    str = str.toLowerCase();
+    let t = conditions.find((c) => c.de === str);
+    if (!t) t = { de: str, en: null };
 
-function transformCountry(str) {
-  const c = countryData.find((t) => t.name === str);
-  if (!c) console.error(`Country "${str}" didn't match any defined countries`);
+    if (!uniqueConditions.includes(str)) uniqueConditions.push(str);
+    return t;
+  }
 
-  const u = {
-    en: c.data.name.common,
-    de: c.data.translations.deu.common,
-    abbreviation: c.data.cca2.toLowerCase()
-  };
+  function transformCountry(str) {
+    const c = countryData.find((t) => t.name === str);
+    if (!c)
+      console.error(`Country "${str}" didn't match any defined countries`);
 
-  return u;
-}
+    const u = {
+      en: c.data.name.common,
+      de: c.data.translations.deu.common,
+      abbreviation: c.data.cca2.toLowerCase()
+    };
 
-function transformSubregion(str) {
-  const c = countryData.find((t) => t.name === str);
-  if (!c) console.error(`Country "${str}" didn't match any defined countries`);
+    return u;
+  }
 
-  const u = {
-    en: c.data.subregion,
-    de: null
-  };
+  function transformSubregion(str) {
+    const c = countryData.find((t) => t.name === str);
+    if (!c)
+      console.error(`Country "${str}" didn't match any defined countries`);
 
-  return u;
-}
+    const u = {
+      en: c.data.subregion,
+      de: null
+    };
 
-function transformState(str) {
-  const s = states.find((t) => t.de === str);
-  if (!s) console.error(`State "${str}" didn't match any defined states`);
+    return u;
+  }
 
-  s.value = {
-    flag: `/images/countries/states/${s.abbreviation}_flag.svg`,
-    crest: `/images/countries/states/${s.abbreviation}_crest.svg`
-  };
+  function transformState(str, id) {
+    const s = states.find((t) => t.de === str);
+    if (!s) {
+      console.error(`State "${str}" (${id}) didn't match any defined states`);
+      return { flag: null, crest: null };
+    }
 
-  return s;
-}
+    s.value = {
+      flag: `/images/countries/states/${s.abbreviation}_flag.svg`,
+      crest: `/images/countries/states/${s.abbreviation}_crest.svg`
+    };
 
-function generateSlug(str) {
-  // Generate a unique slug based on str
-  let i = 0;
-  str = str
-    .toLowerCase()
-    .replaceAll(/[ -\.]/g, '-')
-    .replaceAll(/-+/g, '-');
-  let slug;
-  do {
-    slug = i > 0 ? `${str}-${i}` : str;
-    i++;
-  } while (all.some(({ l }) => slug == l));
+    return s;
+  }
 
-  return slug;
+  function generateSlug(str) {
+    // Generate a unique slug based on str
+    let i = 0;
+    str = str
+      .toLowerCase()
+      .replaceAll(/[ -\.]/g, '-')
+      .replaceAll(/-+/g, '-');
+    let slug;
+    do {
+      slug = i > 0 ? `${str}-${i}` : str;
+      i++;
+    } while (all.some(({ l }) => slug == l));
+
+    return slug;
+  }
 }
