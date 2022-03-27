@@ -214,10 +214,12 @@ section#details {
       margin-right: 0.8rem; }
   .details .gallery {
     width: 100%;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr); }
+    display: flex;
+    gap: 1rem; }
     .details .gallery .gallery-item {
+      width: 8rem;
       height: 8rem;
+      border-radius: 5px;
       overflow: hidden;
       background-color: var(--background);
       display: flex;
@@ -247,6 +249,11 @@ section#details {
     display: flex;
     gap: 1rem;
     justify-content: center; }
+
+.spotlight {
+  width: 100%; }
+  .spotlight img {
+    width: 100%; }
 
 footer {
   padding: 2rem;

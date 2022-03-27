@@ -1,3 +1,5 @@
+import Translatable from './Translatable';
+
 export default interface Castle {
   id: string;
   urls: string[];
@@ -25,13 +27,6 @@ export interface Location {
   state: Translatable;
   country: Translatable;
   subregion: Translatable;
-}
-
-export interface Translatable {
-  de: string;
-  en?: string;
-  abbreviation?: string;
-  value?: any;
 }
 
 export interface GalleryImage {

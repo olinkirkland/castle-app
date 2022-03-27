@@ -6,6 +6,7 @@ function Search({ applyFilter }: Props) {
   return (
     <div className="search">
       <p>Search & Filters</p>
+      
     </div>
   );
 }

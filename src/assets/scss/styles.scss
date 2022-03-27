@@ -288,11 +288,14 @@ section#details {
   .gallery {
     width: 100%;
 
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    display: flex;
+    gap: 1rem;
+    // grid-template-columns: repeat(5, 1fr);
 
     .gallery-item {
+      width: 8rem;
       height: 8rem;
+      border-radius: 5px;
 
       overflow: hidden;
       background-color: var(--background);
@@ -335,6 +338,13 @@ section#details {
     display: flex;
     gap: 1rem;
     justify-content: center;
+  }
+}
+
+.spotlight {
+  width: 100%;
+  img {
+    width: 100%;
   }
 }
 

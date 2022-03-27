@@ -14,6 +14,18 @@ export default class Util {
     return n + ending;
   }
 
+  // Capitalize first letter
+  static capitalize(str: string): string {
+    const arr: string[] = str.split(' ');
+    str = arr.reduce(
+      (accumulator, s) =>
+        accumulator + ' ' + s.charAt(0).toUpperCase() + s.substring(1),
+      ''
+    );
+
+    return str.trim();
+  }
+
   public static download(name: string, text: string) {
     var element = document.createElement('a');
     element.setAttribute(

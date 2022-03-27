@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Castle, { GalleryImage, HistoryDate } from '../Castle';
 import Util from '../Util';
 import Drawer from './Drawer';
@@ -8,6 +8,17 @@ type Props = {
 };
 
 export default function CastleDetails({ castle }: Props) {
+  const [spotlight, setSpotlight] = useState<GalleryImage | undefined>();
+
+  useEffect(() => {
+    if (!castle) return;
+    if (castle.gallery && castle.gallery.length > 0) {
+      setSpotlight(castle.gallery[0]);
+    } else {
+      setSpotlight(undefined);
+    }
+  }, [castle]);
+
   function onClickJson() {
     Util.download(`${castle!.slug}.json`, JSON.stringify(castle, null, 2));
   }
@@ -23,10 +34,6 @@ export default function CastleDetails({ castle }: Props) {
     }
 
     return str;
-  }
-
-  function enlargeGalleryImage(g: GalleryImage) {
-    console.log(g.url);
   }
 
   if (!castle) {
@@ -76,9 +83,9 @@ export default function CastleDetails({ castle }: Props) {
             <p className="muted">{castle.location.subregion.en}</p>
           </div>
         </div>
-        <Drawer textOpen="Show JSON" textClose="Hide JSON">
+        {/* <Drawer textOpen="Show JSON" textClose="Hide JSON">
           <pre>{JSON.stringify(castle.location, null, 2)}</pre>
-        </Drawer>
+        </Drawer> */}
       </div>
 
       {castle.condition && (
@@ -112,35 +119,52 @@ export default function CastleDetails({ castle }: Props) {
           <h2>Dating</h2>
         </div>
         {formatDate(castle.dates.start)} - {formatDate(castle.dates.end, true)}
-        <Drawer textOpen="Show JSON" textClose="Hide JSON">
+        {/* <Drawer textOpen="Show JSON" textClose="Hide JSON">
           <pre>{JSON.stringify(castle.dates, null, 2)}</pre>
-        </Drawer>
+        </Drawer> */}
+      </div>
+
+      <div className="info">
+        <p className="title">Classification</p>
+        {castle.structures && (
+          <ul className="badge-group">
+            {castle.structures.map((t) => (
+              <li className={`capitalize ${!t.en && 'muted'}`}>{`${
+                t.en ? t.en : t.de
+              }`}</li>
+            ))}
+          </ul>
+          // <Drawer textOpen="Show JSON" textClose="Hide JSON">
+          //   <pre>{JSON.stringify(castle.structures, null, 2)}</pre>
+          // </Drawer>
+        )}
+        {castle.classifications && (
+          <ul className="badge-group">
+            {castle.classifications.map((t) => (
+              <li className={`capitalize ${!t.en && 'muted'}`}>{`${
+                t.en ? t.en : t.de
+              }`}</li>
+            ))}
+          </ul>
+          // <Drawer textOpen="Show JSON" textClose="Hide JSON">
+          //   <pre>{JSON.stringify(castle.classifications, null, 2)}</pre>
+          // </Drawer>
+        )}
       </div>
 
       {castle.purpose && (
         <div className="info">
           <p className="title">Purpose</p>
-          <Drawer textOpen="Show JSON" textClose="Hide JSON">
+          <ul className="badge-group">
+            {castle.purpose.map((t) => (
+              <li className={`capitalize ${!t.en && 'muted'}`}>{`${
+                t.en ? t.en : t.de
+              }`}</li>
+            ))}
+          </ul>
+          {/* <Drawer textOpen="Show JSON" textClose="Hide JSON">
             <pre>{JSON.stringify(castle.purpose, null, 2)}</pre>
-          </Drawer>
-        </div>
-      )}
-
-      {castle.classifications && (
-        <div className="info">
-          <p className="title">Classification</p>
-          <Drawer textOpen="Show JSON" textClose="Hide JSON">
-            <pre>{JSON.stringify(castle.classifications, null, 2)}</pre>
-          </Drawer>
-        </div>
-      )}
-
-      {castle.structures && (
-        <div className="info">
-          <p className="title">Structure</p>
-          <Drawer textOpen="Show JSON" textClose="Hide JSON">
-            <pre>{JSON.stringify(castle.structures, null, 2)}</pre>
-          </Drawer>
+          </Drawer> */}
         </div>
       )}
 
@@ -156,7 +180,7 @@ export default function CastleDetails({ castle }: Props) {
                 className="gallery-item"
                 key={index}
                 onClick={() => {
-                  enlargeGalleryImage(g);
+                  setSpotlight(g);
                 }}
               >
                 <img src={process.env.PUBLIC_URL + g.path} alt="" />
@@ -166,6 +190,13 @@ export default function CastleDetails({ castle }: Props) {
               </li>
             ))}
           </ul>
+          {spotlight && (
+            // <p>{JSON.stringify(spotlight)}</p>
+            <div className="spotlight">
+              <img src={`${process.env.PUBLIC_URL}${spotlight.path}`} alt="" />
+              <p>{spotlight.caption}</p>
+            </div>
+          )}
         </div>
       )}
 
