@@ -119,54 +119,44 @@ export default function CastleDetails({ castle }: Props) {
           <h2>Dating</h2>
         </div>
         {formatDate(castle.dates.start)} - {formatDate(castle.dates.end, true)}
-        {/* <Drawer textOpen="Show JSON" textClose="Hide JSON">
-          <pre>{JSON.stringify(castle.dates, null, 2)}</pre>
-        </Drawer> */}
       </div>
 
-      <div className="info">
-        <p className="title">Classification</p>
-        {castle.structures && (
-          <ul className="badge-group">
-            {castle.structures.map((t) => (
-              <li className={`capitalize ${!t.en && 'muted'}`}>{`${
-                t.en ? t.en : t.de
-              }`}</li>
-            ))}
-          </ul>
-          // <Drawer textOpen="Show JSON" textClose="Hide JSON">
-          //   <pre>{JSON.stringify(castle.structures, null, 2)}</pre>
-          // </Drawer>
-        )}
-        {castle.classifications && (
-          <ul className="badge-group">
-            {castle.classifications.map((t) => (
-              <li className={`capitalize ${!t.en && 'muted'}`}>{`${
-                t.en ? t.en : t.de
-              }`}</li>
-            ))}
-          </ul>
-          // <Drawer textOpen="Show JSON" textClose="Hide JSON">
-          //   <pre>{JSON.stringify(castle.classifications, null, 2)}</pre>
-          // </Drawer>
-        )}
-      </div>
-
-      {castle.purpose && (
+      <div className="grid grid-col-2">
         <div className="info">
-          <p className="title">Purpose</p>
-          <ul className="badge-group">
-            {castle.purpose.map((t) => (
-              <li className={`capitalize ${!t.en && 'muted'}`}>{`${
-                t.en ? t.en : t.de
-              }`}</li>
-            ))}
-          </ul>
-          {/* <Drawer textOpen="Show JSON" textClose="Hide JSON">
-            <pre>{JSON.stringify(castle.purpose, null, 2)}</pre>
-          </Drawer> */}
+          <p className="title">Classification</p>
+          {castle.structures && (
+            <ul className="badge-group">
+              {castle.structures.map((t) => (
+                <li className={`capitalize ${!t.en && 'muted'}`}>{`${
+                  t.en ? t.en : t.de
+                }`}</li>
+              ))}
+            </ul>
+          )}
+          {castle.classifications && (
+            <ul className="badge-group">
+              {castle.classifications.map((t) => (
+                <li className={`capitalize ${!t.en && 'muted'}`}>{`${
+                  t.en ? t.en : t.de
+                }`}</li>
+              ))}
+            </ul>
+          )}
         </div>
-      )}
+
+        {castle.purpose && (
+          <div className="info">
+            <p className="title">Purpose</p>
+            <ul className="badge-group">
+              {castle.purpose.map((t) => (
+                <li className={`capitalize ${!t.en && 'muted'}`}>{`${
+                  t.en ? t.en : t.de
+                }`}</li>
+              ))}
+            </ul>
+          </div>
+        )}
+      </div>
 
       {castle.gallery.length > 0 && (
         <div className="info">
@@ -191,7 +181,6 @@ export default function CastleDetails({ castle }: Props) {
             ))}
           </ul>
           {spotlight && (
-            // <p>{JSON.stringify(spotlight)}</p>
             <div className="spotlight">
               <img src={`${process.env.PUBLIC_URL}${spotlight.path}`} alt="" />
               <p>{spotlight.caption}</p>

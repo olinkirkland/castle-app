@@ -24944,5 +24944,265 @@
         "half": null
       }
     }
+  },
+  {
+    "id": "403",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=403",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=403",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=403",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=403",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=403"
+    ],
+    "name": {
+      "primary": "Heidenburg",
+      "secondary": null
+    },
+    "slug": "heidenburg",
+    "location": {
+      "city": "Kreimbach-Kaulbach /67757)",
+      "county": "Kusel",
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
+      },
+      "country": {
+        "en": "Germany",
+        "de": "Deutschland",
+        "abbreviation": "de"
+      },
+      "subregion": {
+        "en": "Western Europe",
+        "de": null
+      }
+    },
+    "classifications": [
+      {
+        "de": "ringwall",
+        "en": null
+      }
+    ],
+    "structures": [
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ],
+    "condition": {
+      "de": "fundamente",
+      "en": "foundations",
+      "value": 1
+    },
+    "purpose": [],
+    "gallery": [],
+    "dates": {
+      "start": {
+        "century": null,
+        "half": null
+      },
+      "end": {
+        "century": null,
+        "half": null
+      }
+    }
+  },
+  {
+    "id": "404",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=404",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=404",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=404",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=404",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=404"
+    ],
+    "name": {
+      "primary": "Junkernhaus",
+      "secondary": "bei Betzdorf"
+    },
+    "slug": "junkernhaus-bei-betzdorf",
+    "location": {
+      "city": "Betzdorf",
+      "county": "Altenkirchen",
+      "region": "Siegtal",
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
+      },
+      "country": {
+        "en": "Germany",
+        "de": "Deutschland",
+        "abbreviation": "de"
+      },
+      "subregion": {
+        "en": "Western Europe",
+        "de": null
+      }
+    },
+    "classifications": [
+      {
+        "de": "abgegangene burgstelle",
+        "en": "abandoned ruin"
+      },
+      {
+        "de": "burghaus",
+        "en": "fortified house"
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ],
+    "condition": {
+      "de": "stark modern überformt",
+      "en": null
+    },
+    "conditionCommentary": "Das ehemalige Burghaus der Herren von Betzdorf wurde nach 1914 modern umgestaltet.",
+    "purpose": [
+      {
+        "de": "adelssitz",
+        "en": null
+      },
+      {
+        "de": "ministerialensitz",
+        "en": null
+      }
+    ],
+    "gallery": [],
+    "dates": {
+      "start": {
+        "century": "15",
+        "half": null
+      },
+      "end": {
+        "century": "19",
+        "half": null
+      }
+    }
+  },
+  {
+    "id": "405",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=405",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=405",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=405",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=405",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=405"
+    ],
+    "name": {
+      "primary": "Frauenberg",
+      "secondary": "bei Marburg"
+    },
+    "slug": "frauenberg-bei-marburg",
+    "location": {
+      "city": "Beltershausen",
+      "county": "Marburg-Biedenkopf",
+      "region": "Oberhessen",
+      "state": {
+        "de": "Hessen",
+        "en": "Hesse",
+        "abbreviation": "he",
+        "value": {
+          "flag": "/images/countries/states/he_flag.svg",
+          "crest": "/images/countries/states/he_crest.svg"
+        }
+      },
+      "country": {
+        "en": "Germany",
+        "de": "Deutschland",
+        "abbreviation": "de"
+      },
+      "subregion": {
+        "en": "Western Europe",
+        "de": null
+      }
+    },
+    "classifications": [
+      {
+        "de": "ringmauerburg",
+        "en": null
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ],
+    "condition": {
+      "de": "geringe reste",
+      "en": "small leftovers",
+      "value": 2
+    },
+    "conditionCommentary": "Im Jahre 1908 wurden Teile der Ruine durch die Stadt Marburg und den Verschönerungsverein ausgebessert.",
+    "purpose": [
+      {
+        "de": "landesburg",
+        "en": null
+      },
+      {
+        "de": "herrschaftsmittelpunkt",
+        "en": null
+      }
+    ],
+    "gallery": [
+      {
+        "id": "0",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/585_101_20201001095820.jpg",
+        "path": "/images/castles/405/0.jpg",
+        "castle": "405",
+        "caption": "Frauenberg. Umfassungsmauer, Feldseite. J. Friedhoff 2015"
+      },
+      {
+        "id": "1",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/585_103_20201001095820.jpg",
+        "path": "/images/castles/405/1.jpg",
+        "castle": "405",
+        "caption": "Frauenberg. Blick von der Aussichtsplattform über die Ringmauer. J. Friedhoff 2015"
+      },
+      {
+        "id": "2",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/585_105_20201001095820.jpg",
+        "path": "/images/castles/405/2.jpg",
+        "castle": "405",
+        "caption": "Frauenberg. Ringmauer, Hofseite. J. Friedhoff 2015"
+      },
+      {
+        "id": "3",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/585_23_20060413124033.gif",
+        "path": "/images/castles/405/3.gif",
+        "castle": "405",
+        "caption": "Grundriss-Skizze, aus: Krahe, Grundrisslexikon"
+      }
+    ],
+    "dates": {
+      "start": {
+        "century": "12",
+        "half": "2"
+      },
+      "end": {
+        "century": "15",
+        "half": "2"
+      }
+    }
   }
 ]

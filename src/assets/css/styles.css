@@ -156,6 +156,13 @@ section#details {
   flex-direction: column;
   gap: 0.4rem; }
 
+.grid {
+  display: grid; }
+
+.grid-col-2 {
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1.6rem; }
+
 .search {
   text-align: center; }
 
@@ -253,7 +260,10 @@ section#details {
 .spotlight {
   width: 100%; }
   .spotlight img {
-    width: 100%; }
+    height: 24rem;
+    overflow: scroll;
+    object-fit: cover;
+    max-width: 100%; }
 
 footer {
   padding: 2rem;
