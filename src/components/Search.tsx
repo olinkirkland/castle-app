@@ -9,18 +9,22 @@ function Search({ applyFilters }: Props) {
   const [filters, setFilters] = useState([]);
 
   return (
-    <div className="search">
-      <button className="btn" onClick={applyFilters(filters)}>
-        Apply Filters
-      </button>
-
+    <form
+      className="search"
+      onSubmit={(event) => {
+        event.preventDefault();
+        applyFilters(filters);
+      }}
+    >
       <Drawer
         textOpen="Show Advanced Filters"
         textClose="Hide Advanced Filters"
       >
         <span>Advanced Filters</span>
       </Drawer>
-    </div>
+
+      <input className="btn" type="submit" value="Apply Filters" />
+    </form>
   );
 }
 

@@ -43,17 +43,13 @@ export default function CastleDetails({ castle }: Props) {
   return (
     <div className="details">
       <div className="info">
-        <h1>{castle.name.primary}</h1>
-        {castle.name.secondary && castle.name.secondary.length > 0 && (
-          <h2>{castle.name.secondary}</h2>
-        )}
-      </div>
-
-      <div className="info">
-        <div className="info-header">
-          <i className="fa-solid fa-location-dot"></i>
-          <h2>Location</h2>
+        <div className="title">
+          <h1>{castle.name.primary}</h1>
+          {castle.name.secondary && castle.name.secondary.length > 0 && (
+            <h2>{castle.name.secondary}</h2>
+          )}
         </div>
+
         <div className="location">
           <div>
             {castle.location.city && <p>{`${castle.location.city}`}</p>}
@@ -83,6 +79,35 @@ export default function CastleDetails({ castle }: Props) {
             <p className="muted">{castle.location.subregion.en}</p>
           </div>
         </div>
+      </div>
+      <div className="details-footer">
+        <button className="btn" onClick={onClickJson}>
+          <span>Download JSON</span>
+        </button>
+
+        <a
+          className="btn"
+          href={castle.urls[0]}
+          target="_blank"
+          rel="noreferrer"
+        >
+          <span>EBIDAT Reference</span>
+          <i className="fa-solid fa-up-right-from-square"></i>
+        </a>
+
+        <a
+          href={`https://google.com/maps/search/${castle.name.primary} ${
+            castle.name.secondary ? castle.name.secondary : ''
+          }, ${castle.location.city ? castle.location.city : ''}, ${
+            castle.location.county ? castle.location.county : ''
+          }, ${castle.location.state.de}, ${castle.location.country.en}`}
+          target="_blank"
+          className="btn"
+          rel="noreferrer"
+        >
+          <span>Google Maps</span>
+          <i className="fa-solid fa-up-right-from-square"></i>
+        </a>
       </div>
 
       <div className="info">
@@ -193,22 +218,6 @@ export default function CastleDetails({ castle }: Props) {
           <li>{castle.id}</li>
           <li>{castle.slug}</li>
         </ul>
-      </div>
-
-      <div className="details-footer">
-        <button className="btn" onClick={onClickJson}>
-          <span>Download JSON</span>
-        </button>
-
-        <a
-          className="btn"
-          href={castle.urls[0]}
-          target="_blank"
-          rel="noreferrer"
-        >
-          <span>EBIDAT Reference</span>
-          <i className="fa-solid fa-up-right-from-square"></i>
-        </a>
       </div>
     </div>
   );
