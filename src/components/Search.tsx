@@ -1,25 +1,30 @@
 import { useEffect, useState } from 'react';
 import { SearchFilter } from '../SearchFilter';
 import Checkbox from './Checkbox';
+import Drawer from './Drawer';
 
 type Props = {
   applyFilters: Function;
   resultsCount: number;
 };
 
+const defaultFilter = {
+  name: '',
+  primaryNameOnly: false
+};
+
 function Search({ applyFilters: applyFilter, resultsCount }: Props) {
-  const [filter, setFilter] = useState<SearchFilter>({
-    name: '',
-    primaryNameOnly: false
-  });
-  const [appliedFilter, setAppliedFilter] = useState<SearchFilter>({
-    name: '',
-    primaryNameOnly: false
-  });
+  const [filter, setFilter] = useState<SearchFilter>(defaultFilter);
+  const [appliedFilter, setAppliedFilter] =
+    useState<SearchFilter>(defaultFilter);
 
   useEffect(() => {
     applyFilter(filter);
   }, []);
+
+  function validateView() {
+    // Apply filter to view rather than the other way around
+  }
 
   return (
     <form
@@ -60,10 +65,16 @@ function Search({ applyFilters: applyFilter, resultsCount }: Props) {
 
         {/* <input className="filter-name" type="text" placeholder="Location" /> */}
       </div>
-      <div className="grid grid-2">
-        <pre>{JSON.stringify(filter, null, 2)}</pre>
-        <pre>{JSON.stringify(appliedFilter, null, 2)}</pre>
-      </div>
+
+      <Drawer
+        textOpen="View JSON filter output"
+        textClose="Hide JSON filter output"
+      >
+        <div className="grid grid-2">
+          <pre>{JSON.stringify(filter, null, 2)}</pre>
+          <pre>{JSON.stringify(appliedFilter, null, 2)}</pre>
+        </div>
+      </Drawer>
 
       {/* <Drawer
         textOpen="Show Advanced Filters"
@@ -73,6 +84,16 @@ function Search({ applyFilters: applyFilter, resultsCount }: Props) {
       </Drawer> */}
 
       <div className="submit-box">
+        {/* <button
+          className="btn"
+          disabled={JSON.stringify(filter) === JSON.stringify(defaultFilter)}
+          onClick={() => {
+            setFilter(defaultFilter);
+            validateView();
+          }}
+        >
+          Reset
+        </button> */}
         <input
           className="btn"
           disabled={JSON.stringify(filter) === JSON.stringify(appliedFilter)}

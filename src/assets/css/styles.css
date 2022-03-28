@@ -141,8 +141,7 @@ img.flag-sm {
     font-size: 80%; }
 
 .btn:focus {
-  outline: none;
-  border: none; }
+  outline: none; }
 
 .btn:hover {
   border-bottom: 1px dashed #00000000; }
@@ -254,7 +253,8 @@ section#details {
     .search .filters input.filter-name {
       flex-grow: 1; }
   .search .submit-box {
-    align-self: flex-end; }
+    display: flex;
+    gap: 1rem; }
 
 .country-code {
   color: var(--background);

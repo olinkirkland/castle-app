@@ -173,7 +173,6 @@ img.flag-sm {
 
 .btn:focus {
   outline: none;
-  border: none;
 }
 
 .btn:hover {
@@ -317,7 +316,9 @@ section#details {
   }
 
   .submit-box {
-    align-self: flex-end;
+    display: flex;
+    gap: 1rem;
+    // align-self: flex-end;
   }
 }
 
