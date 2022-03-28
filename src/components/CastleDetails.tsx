@@ -83,22 +83,21 @@ export default function CastleDetails({ castle }: Props) {
             <p className="muted">{castle.location.subregion.en}</p>
           </div>
         </div>
-        {/* <Drawer textOpen="Show JSON" textClose="Hide JSON">
-          <pre>{JSON.stringify(castle.location, null, 2)}</pre>
-        </Drawer> */}
       </div>
 
-      {castle.condition && (
-        <div className="info">
-          <div className="info-header">
-            <i className="fa-solid fa-archway"></i>
-            <h2>Condition</h2>
-          </div>
-          <p className="capitalize">{castle.condition.en}</p>
-          <Drawer
-            textOpen="Show Condition Notes"
-            textClose="Hide Condition Notes"
-          >
+      <div className="info">
+        <div className="info-header">
+          <i className="fa-solid fa-calendar-day"></i>
+          <h2>Dating and Condition</h2>
+        </div>
+        {formatDate(castle.dates.start)} - {formatDate(castle.dates.end, true)}
+        <em>
+          {Util.capitalize(
+            castle.condition.en ? castle.condition.en : castle.condition.de
+          )}
+        </em>
+        {castle.condition && (
+          <Drawer textOpen="Show more" textClose="Show less">
             <>
               {castle.conditionCommentary &&
                 castle.conditionCommentary.length > 0 && (
@@ -110,51 +109,47 @@ export default function CastleDetails({ castle }: Props) {
               )}
             </>
           </Drawer>
-        </div>
-      )}
+        )}
+      </div>
 
       <div className="info">
         <div className="info-header">
-          <i className="fa-solid fa-calendar-day"></i>
-          <h2>Dating</h2>
+          <i className="fa-solid fa-book"></i>
+          <h2 className="title">Classification and Purpose</h2>
         </div>
-        {formatDate(castle.dates.start)} - {formatDate(castle.dates.end, true)}
-      </div>
+        {castle.structures && (
+          <ul className="badge-group">
+            {castle.structures.map((t, index) => {
+              if (castle.structures.length > 1 && t.en === 'other')
+                return <></>;
 
-      <div className="grid grid-col-2">
-        <div className="info">
-          <p className="title">Classification</p>
-          {castle.structures && (
-            <ul className="badge-group">
-              {castle.structures.map((t) => (
-                <li className={`capitalize ${!t.en && 'muted'}`}>{`${
-                  t.en ? t.en : t.de
-                }`}</li>
-              ))}
-            </ul>
-          )}
-          {castle.classifications && (
-            <ul className="badge-group">
-              {castle.classifications.map((t) => (
-                <li className={`capitalize ${!t.en && 'muted'}`}>{`${
-                  t.en ? t.en : t.de
-                }`}</li>
-              ))}
-            </ul>
-          )}
-        </div>
+              return (
+                <li
+                  key={index}
+                  className={`capitalize ${!t.en && 'muted'}`}
+                >{`${t.en ? t.en : t.de}`}</li>
+              );
+            })}
+          </ul>
+        )}
+        {castle.classifications && castle.classifications.length > 0 && (
+          <ul className="badge-group">
+            {castle.classifications.map((t, index) => (
+              <li key={index} className={`capitalize ${!t.en && 'muted'}`}>{`${
+                t.en ? t.en : t.de
+              }`}</li>
+            ))}
+          </ul>
+        )}
 
         {castle.purpose && (
-          <div className="info">
-            <p className="title">Purpose</p>
-            <ul className="badge-group">
-              {castle.purpose.map((t) => (
-                <li className={`capitalize ${!t.en && 'muted'}`}>{`${
-                  t.en ? t.en : t.de
-                }`}</li>
-              ))}
-            </ul>
-          </div>
+          <ul className="badge-group">
+            {castle.purpose.map((t, index) => (
+              <li key={index} className={`capitalize ${!t.en && 'muted'}`}>{`${
+                t.en ? t.en : t.de
+              }`}</li>
+            ))}
+          </ul>
         )}
       </div>
 

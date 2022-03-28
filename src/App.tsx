@@ -7,6 +7,7 @@ import CastleList from './components/CastleList';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Search from './components/Search';
+import { SearchFilter } from './SearchFilter';
 
 function App() {
   const [castles, setCastles] = useState<Castle[]>([]);
@@ -24,15 +25,15 @@ function App() {
       });
   }, []);
 
-  function applyFilters() {
-    console.log('apply filters');
+  function applyFilters(filters: String[]) {
+    console.log('Filters:', JSON.stringify(filters));
   }
 
   return (
     <div className="main">
       <Header />
 
-      <Search applyFilter={applyFilters} />
+      <Search applyFilters={applyFilters} />
 
       <article>
         <section id="list">

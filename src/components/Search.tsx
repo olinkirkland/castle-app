@@ -1,12 +1,25 @@
+import { useState } from 'react';
+import Drawer from './Drawer';
+
 type Props = {
-  applyFilter: Function;
+  applyFilters: Function;
 };
 
-function Search({ applyFilter }: Props) {
+function Search({ applyFilters }: Props) {
+  const [filters, setFilters] = useState([]);
+
   return (
     <div className="search">
-      <p>Search & Filters</p>
-      
+      <button className="btn" onClick={applyFilters(filters)}>
+        Apply Filters
+      </button>
+
+      <Drawer
+        textOpen="Show Advanced Filters"
+        textClose="Hide Advanced Filters"
+      >
+        <span>Advanced Filters</span>
+      </Drawer>
     </div>
   );
 }

@@ -16,6 +16,8 @@ export default class Util {
 
   // Capitalize first letter
   static capitalize(str: string): string {
+    if (!str) return str;
+
     const arr: string[] = str.split(' ');
     str = arr.reduce(
       (accumulator, s) =>
