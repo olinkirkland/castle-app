@@ -57,7 +57,7 @@ function App() {
     <div className="main">
       <Header />
 
-      <Search applyFilters={applyFilters} />
+      <Search applyFilters={applyFilters} resultsCount={castles.length} />
 
       <article className="container">
         <section id="list">

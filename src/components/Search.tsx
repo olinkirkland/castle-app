@@ -4,9 +4,10 @@ import Checkbox from './Checkbox';
 
 type Props = {
   applyFilters: Function;
+  resultsCount: number;
 };
 
-function Search({ applyFilters: applyFilter }: Props) {
+function Search({ applyFilters: applyFilter, resultsCount }: Props) {
   const [filter, setFilter] = useState<SearchFilter>({
     name: '',
     primaryNameOnly: false
@@ -30,8 +31,9 @@ function Search({ applyFilters: applyFilter }: Props) {
       }}
     >
       <h3>
-        <strong>37</strong> Results in Bavaria, Brandenburg, and North
-        Rhine-Westphalia
+        <strong>{resultsCount}</strong> results
+        {/* in Bavaria, Brandenburg, and North
+        Rhine-Westphalia */}
       </h3>
       <div className="filters">
         <input
