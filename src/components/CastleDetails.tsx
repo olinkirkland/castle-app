@@ -144,17 +144,18 @@ export default function CastleDetails({ castle }: Props) {
         </div>
         {castle.structures && (
           <ul className="badge-group">
-            {castle.structures.map((t, index) => {
-              if (castle.structures.length > 1 && t.en === 'other')
-                return <></>;
-
-              return (
-                <li
-                  key={index}
-                  className={`capitalize ${!t.en && 'muted'}`}
-                >{`${t.en ? t.en : t.de}`}</li>
-              );
-            })}
+            {castle.structures
+              .filter((t) => {
+                return !(castle.structures.length > 1 && t.en === 'other');
+              })
+              .map((t, index) => {
+                return (
+                  <li
+                    key={index}
+                    className={`capitalize ${!t.en && 'muted'}`}
+                  >{`${t.en ? t.en : t.de}`}</li>
+                );
+              })}
           </ul>
         )}
         {castle.classifications && castle.classifications.length > 0 && (
