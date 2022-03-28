@@ -1,1 +1,4 @@
-export interface SearchFilter {}
+export interface SearchFilter {
+  name: string;
+  primaryNameOnly: boolean;
+}

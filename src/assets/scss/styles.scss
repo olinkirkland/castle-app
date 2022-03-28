@@ -38,6 +38,8 @@ body {
 
 .grid {
   display: grid;
+  column-gap: 1rem;
+  row-gap: 1rem;
 }
 
 .grid-2 {
@@ -80,9 +82,32 @@ input[type='text'] {
   color: var(--primary);
 }
 
+.icon-frame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1.6rem;
+  height: 1.6rem;
+  color: var(--primary);
+  border-radius: 3px;
+  background-color: var(--darker);
+  transition: all 0.3s;
+  font-size: 1rem;
+}
+
+.icon-frame:hover {
+  background-color: var(--dark);
+}
+
 input[type='text']:focus {
   outline: none;
   border: 1px solid var(--primary-muted);
+}
+
+.checkbox {
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
 }
 
 li {
@@ -146,6 +171,11 @@ img.flag-sm {
   }
 }
 
+.btn:focus {
+  outline: none;
+  border: none;
+}
+
 .btn:hover {
   border-bottom: 1px dashed #00000000;
 }
@@ -153,10 +183,11 @@ img.flag-sm {
 .btn:disabled {
   cursor: default;
   opacity: 0.2;
+  border-bottom: 1px dashed #00000000;
 }
 
 .btn:disabled:hover {
-  border-bottom: 1px dashed currentColor;
+  border-bottom: 1px dashed #00000000;
 }
 
 .btn-header {
@@ -277,6 +308,7 @@ section#details {
     display: flex;
     gap: 1rem;
     width: 100%;
+    align-items: center;
 
     input.filter-name {
       flex-grow: 1;

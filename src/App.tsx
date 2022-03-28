@@ -10,8 +10,10 @@ import Search from './components/Search';
 import { SearchFilter } from './SearchFilter';
 
 function App() {
+  const [allCastles, setAllCastles] = useState<Castle[]>([]);
   const [castles, setCastles] = useState<Castle[]>([]);
   const [selectedCastle, setSelectedCastle] = useState();
+  const [filter, setFilter] = useState<SearchFilter>();
 
   useEffect(() => {
     fetch(`${process.env.PUBLIC_URL}/analysis.json`)
@@ -21,12 +23,34 @@ function App() {
           (key) => data[key as keyof typeof castles]
         );
 
-        setCastles(arr);
+        setAllCastles(arr);
       });
   }, []);
 
-  function applyFilters(filters: String[]) {
-    console.log('Filters:', JSON.stringify(filters));
+  useEffect(() => {
+    if (!filter) return;
+    // Apply filters
+    let results = allCastles.filter((c) => {
+      let b = true;
+
+      if (filter.name.length > 0)
+        if (!matchesName(c, filter.name, filter.primaryNameOnly)) b = false;
+
+      return b;
+    });
+
+    setCastles(results);
+  }, [allCastles, filter]);
+
+  function matchesName(c: Castle, text: string, primaryOnly: boolean): boolean {
+    let str: string = c.name.primary;
+    if (!primaryOnly && c.name.secondary) str += c.name.secondary;
+    return str.toLowerCase().includes(text.toLowerCase());
+  }
+
+  function applyFilters(f: SearchFilter) {
+    console.log('Filters:', JSON.stringify(f));
+    setFilter(f);
   }
 
   return (

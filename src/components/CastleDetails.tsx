@@ -37,7 +37,7 @@ export default function CastleDetails({ castle }: Props) {
   }
 
   if (!castle) {
-    return <>No castle selected</>;
+    return <></>;
   }
 
   return (

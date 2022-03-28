@@ -1,26 +1,37 @@
-import { useState } from 'react';
-import Drawer from './Drawer';
+import { useEffect, useState } from 'react';
+import { SearchFilter } from '../SearchFilter';
+import Checkbox from './Checkbox';
 
 type Props = {
   applyFilters: Function;
 };
 
-function Search({ applyFilters }: Props) {
-  const [filters, setFilters] = useState({ name: '' });
-  const [appliedFilters, setAppliedFilters] = useState({ name: '' });
+function Search({ applyFilters: applyFilter }: Props) {
+  const [filter, setFilter] = useState<SearchFilter>({
+    name: '',
+    primaryNameOnly: false
+  });
+  const [appliedFilter, setAppliedFilter] = useState<SearchFilter>({
+    name: '',
+    primaryNameOnly: false
+  });
+
+  useEffect(() => {
+    applyFilter(filter);
+  }, []);
 
   return (
     <form
       className="search container"
       onSubmit={(event) => {
         event.preventDefault();
-        applyFilters(filters);
-        setAppliedFilters(filters);
+        applyFilter(filter);
+        setAppliedFilter(filter);
       }}
     >
       <h3>
-        <strong>37</strong> Results in Bavaria, Brandenburg, and
-        Northrhine-Westphalia
+        <strong>37</strong> Results in Bavaria, Brandenburg, and North
+        Rhine-Westphalia
       </h3>
       <div className="filters">
         <input
@@ -28,16 +39,28 @@ function Search({ applyFilters }: Props) {
           type="text"
           placeholder="Castle Name"
           onChange={(event) => {
-            setFilters((prev) => {
+            setFilter((prev) => {
               return { ...prev, name: event.target.value };
             });
           }}
         />
+
+        <label>
+          <Checkbox
+            text="Primary Name"
+            checked={(b: boolean) => {
+              setFilter((prev) => {
+                return { ...prev, primaryNameOnly: b };
+              });
+            }}
+          />
+        </label>
+
         {/* <input className="filter-name" type="text" placeholder="Location" /> */}
       </div>
       <div className="grid grid-2">
-        <pre>{JSON.stringify(filters, null, 2)}</pre>
-        <pre>{JSON.stringify(appliedFilters, null, 2)}</pre>
+        <pre>{JSON.stringify(filter, null, 2)}</pre>
+        <pre>{JSON.stringify(appliedFilter, null, 2)}</pre>
       </div>
 
       {/* <Drawer
@@ -50,7 +73,7 @@ function Search({ applyFilters }: Props) {
       <div className="submit-box">
         <input
           className="btn"
-          disabled={JSON.stringify(filters) === JSON.stringify(appliedFilters)}
+          disabled={JSON.stringify(filter) === JSON.stringify(appliedFilter)}
           type="submit"
           value="Apply Filters"
         />
