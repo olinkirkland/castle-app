@@ -10,20 +10,28 @@ function Search({ applyFilters }: Props) {
 
   return (
     <form
-      className="search"
+      className="search container"
       onSubmit={(event) => {
         event.preventDefault();
         applyFilters(filters);
       }}
     >
-      <Drawer
+      <h3><strong>37</strong> Results in Bavaria, Brandenburg, and Northrhine-Westphalia</h3>
+      <div className="filters">
+        <input className="filter-name" type="text" placeholder="Castle Name" />
+        <input className="filter-name" type="text" placeholder="Castle Name" />
+      </div>
+
+      {/* <Drawer
         textOpen="Show Advanced Filters"
         textClose="Hide Advanced Filters"
       >
         <span>Advanced Filters</span>
-      </Drawer>
+      </Drawer> */}
 
-      <input className="btn" type="submit" value="Apply Filters" />
+      <div className="submit-box">
+        <input className="btn" type="submit" value="Apply Filters" />
+      </div>
     </form>
   );
 }

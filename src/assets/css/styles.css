@@ -6,10 +6,10 @@
   --foreground-muted: #2b2b2b40;
   --text: #fafafa;
   --text-muted: #fafafa40;
-  --primary: #ffe380;
-  --primary-muted: #ffe38040;
-  --secondary: #ffe380;
-  --secondary-muted: #ffe38040;
+  --primary: #ffe066;
+  --primary-muted: #ffe06640;
+  --secondary: #5c940d;
+  --secondary-muted: #5c940d40;
   --dark: #00000040;
   --darker: #00000080;
   --light: #ffffff10;
@@ -52,6 +52,20 @@ pre {
   display: block;
   white-space: pre;
   width: 100%; }
+
+input[type='text'] {
+  font-family: 'Outfit', serif;
+  padding: 1rem;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: var(--darker);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 5px 0px inset;
+  transition: all 0.3s;
+  color: var(--primary); }
+
+input[type='text']:focus {
+  outline: none;
+  border: 1px solid var(--primary-muted); }
 
 li {
   list-style: none; }
@@ -108,33 +122,39 @@ h2 {
   text-transform: uppercase;
   letter-spacing: 4px; }
 
-h3 {
-  border-bottom: 1px solid var(--lighter);
-  padding-bottom: 0.4rem;
-  margin-bottom: 0.8rem; }
-
 h1 {
-  font-size: 3.2rem;
+  font-size: 2rem;
   letter-spacing: 8px; }
   h1 span {
     opacity: 0.4; }
+
+h3 {
+  font-weight: 100;
+  letter-spacing: 1px; }
 
 .main {
   display: flex;
   flex-direction: column;
   height: 100vh; }
 
+.container {
+  width: 96rem;
+  margin: 0 auto; }
+
 header {
-  padding: 2rem;
-  text-align: center; }
+  border-bottom: 1px solid var(--lighter);
+  padding: 3.2rem 0; }
+  header .container {
+    display: flex;
+    align-items: center;
+    gap: 1rem; }
 
 article {
   position: relative;
   display: flex;
   height: 0;
-  width: 96rem;
   flex-grow: 1;
-  margin: 2rem auto; }
+  margin: 2rem; }
 
 section {
   height: 100%;
@@ -155,7 +175,7 @@ section#list {
 section#details {
   width: 100%;
   overflow-x: hidden;
-  overflow-y: scroll; }
+  overflow-y: auto; }
 
 .castle-list {
   display: flex;
@@ -163,8 +183,18 @@ section#details {
   gap: 0.4rem; }
 
 .search {
+  display: flex;
+  flex-direction: column;
   gap: 1rem;
-  padding: 1rem 2rem; }
+  padding: 2rem 0; }
+  .search .filters {
+    display: flex;
+    gap: 1rem;
+    width: 100%; }
+    .search .filters input.filter-name {
+      flex-grow: 1; }
+  .search .submit-box {
+    align-self: flex-end; }
 
 .country-code {
   color: var(--background);
