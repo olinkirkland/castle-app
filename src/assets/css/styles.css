@@ -91,6 +91,7 @@ input[type='text']:focus {
   border: 1px solid var(--primary-muted); }
 
 .checkbox {
+  cursor: pointer;
   display: flex;
   gap: 0.4rem;
   align-items: center; }
@@ -250,8 +251,10 @@ section#details {
     gap: 1rem;
     width: 100%;
     align-items: center; }
-    .search .filters input.filter-name {
+    .search .filters .filter-full {
       flex-grow: 1; }
+    .search .filters .filter-short {
+      width: 8rem; }
   .search .submit-box {
     display: flex;
     gap: 1rem; }

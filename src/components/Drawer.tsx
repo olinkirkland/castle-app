@@ -14,7 +14,7 @@ export default function Drawer({ textOpen, textClose, children }: Props) {
   }
 
   return (
-    <div className="drawer" tabIndex={-1}>
+    <div className="drawer">
       {isOpen && <div className="drawer-body">{children}</div>}
       <button
         className="btn"

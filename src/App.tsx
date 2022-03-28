@@ -29,13 +29,17 @@ function App() {
 
   useEffect(() => {
     if (!filter) return;
-    // Apply filters
+    // Apply filter
     let results = allCastles.filter((c) => {
       let b = true;
 
       if (filter.name.length > 0)
         if (!matchesName(c, filter.name, filter.primaryNameOnly)) b = false;
 
+      if (filter.mustHaveImages)
+        if (!c.gallery || c.gallery.length === 0) b = false;
+
+      if (filter.id.length > 0) if (c.id !== filter.id) b = false;
       return b;
     });
 
@@ -48,8 +52,7 @@ function App() {
     return str.toLowerCase().includes(text.toLowerCase());
   }
 
-  function applyFilters(f: SearchFilter) {
-    console.log('Filters:', JSON.stringify(f));
+  function applyFilter(f: SearchFilter) {
     setFilter(f);
   }
 
@@ -57,7 +60,7 @@ function App() {
     <div className="main">
       <Header />
 
-      <Search applyFilters={applyFilters} resultsCount={castles.length} />
+      <Search applyFilter={applyFilter} resultsCount={castles.length} />
 
       <article className="container">
         <section id="list">

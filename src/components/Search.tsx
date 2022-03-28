@@ -4,16 +4,18 @@ import Checkbox from './Checkbox';
 import Drawer from './Drawer';
 
 type Props = {
-  applyFilters: Function;
+  applyFilter: Function;
   resultsCount: number;
 };
 
-const defaultFilter = {
+const defaultFilter: SearchFilter = {
   name: '',
-  primaryNameOnly: false
+  primaryNameOnly: false,
+  mustHaveImages: false,
+  id: ''
 };
 
-function Search({ applyFilters: applyFilter, resultsCount }: Props) {
+function Search({ applyFilter, resultsCount }: Props) {
   const [filter, setFilter] = useState<SearchFilter>(defaultFilter);
   const [appliedFilter, setAppliedFilter] =
     useState<SearchFilter>(defaultFilter);
@@ -22,19 +24,13 @@ function Search({ applyFilters: applyFilter, resultsCount }: Props) {
     applyFilter(filter);
   }, []);
 
-  function validateView() {
-    // Apply filter to view rather than the other way around
+  function submit() {
+    applyFilter(filter);
+    setAppliedFilter(filter);
   }
 
   return (
-    <form
-      className="search container"
-      onSubmit={(event) => {
-        event.preventDefault();
-        applyFilter(filter);
-        setAppliedFilter(filter);
-      }}
-    >
+    <div className="search container">
       <h3>
         <strong>{resultsCount}</strong> results
         {/* in Bavaria, Brandenburg, and North
@@ -42,28 +38,47 @@ function Search({ applyFilters: applyFilter, resultsCount }: Props) {
       </h3>
       <div className="filters">
         <input
-          className="filter-name"
+          className="filter-short"
+          type="text"
+          placeholder="Id"
+          value={filter.id}
+          onChange={(event) => {
+            setFilter((prev) => {
+              return { ...prev, id: event.target.value };
+            });
+          }}
+        />
+        <input
+          className="filter-full"
           type="text"
           placeholder="Castle Name"
+          value={filter.name}
           onChange={(event) => {
             setFilter((prev) => {
               return { ...prev, name: event.target.value };
             });
           }}
         />
-
-        <label>
-          <Checkbox
-            text="Primary Name"
-            checked={(b: boolean) => {
-              setFilter((prev) => {
-                return { ...prev, primaryNameOnly: b };
-              });
-            }}
-          />
-        </label>
-
-        {/* <input className="filter-name" type="text" placeholder="Location" /> */}
+      </div>
+      <div className="filters">
+        <Checkbox
+          text="Primary name only"
+          value={filter.primaryNameOnly}
+          checked={(b: boolean) => {
+            setFilter((prev) => {
+              return { ...prev, primaryNameOnly: b };
+            });
+          }}
+        />
+        <Checkbox
+          text="Must contain images"
+          value={filter.mustHaveImages}
+          checked={(b: boolean) => {
+            setFilter((prev) => {
+              return { ...prev, mustHaveImages: b };
+            });
+          }}
+        />
       </div>
 
       <Drawer
@@ -84,24 +99,25 @@ function Search({ applyFilters: applyFilter, resultsCount }: Props) {
       </Drawer> */}
 
       <div className="submit-box">
-        {/* <button
+        <button
           className="btn"
           disabled={JSON.stringify(filter) === JSON.stringify(defaultFilter)}
           onClick={() => {
             setFilter(defaultFilter);
-            validateView();
           }}
         >
           Reset
-        </button> */}
-        <input
+        </button>
+
+        <button
+          onClick={submit}
           className="btn"
           disabled={JSON.stringify(filter) === JSON.stringify(appliedFilter)}
-          type="submit"
-          value="Apply Filters"
-        />
+        >
+          Apply Filters
+        </button>
       </div>
-    </form>
+    </div>
   );
 }
 
