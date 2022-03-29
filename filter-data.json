@@ -1,0 +1,2039 @@
+{
+  "geography": {
+    "nodes": [
+      {
+        "name": "de",
+        "type": "country",
+        "nodes": [
+          {
+            "name": "rp",
+            "type": "state",
+            "nodes": [
+              {
+                "name": "Mittelrhein",
+                "type": "region",
+                "nodes": [
+                  {
+                    "name": "Neuwied",
+                    "type": "county",
+                    "nodes": [
+                      {
+                        "name": "Linz",
+                        "type": "city",
+                        "nodes": [
+                          "1",
+                          "5",
+                          "30"
+                        ]
+                      },
+                      {
+                        "name": "Hammerstein",
+                        "type": "city",
+                        "nodes": [
+                          "2"
+                        ]
+                      },
+                      {
+                        "name": "Leubsdorf",
+                        "type": "city",
+                        "nodes": [
+                          "3"
+                        ]
+                      },
+                      {
+                        "name": "Rheinbreitbach",
+                        "type": "city",
+                        "nodes": [
+                          "16",
+                          "17"
+                        ]
+                      },
+                      {
+                        "name": "Unkel",
+                        "type": "city",
+                        "nodes": [
+                          "19"
+                        ]
+                      },
+                      {
+                        "name": "Neuwied",
+                        "type": "city",
+                        "nodes": [
+                          "20"
+                        ]
+                      },
+                      {
+                        "name": "Bad Hönningen",
+                        "type": "city",
+                        "nodes": [
+                          "28"
+                        ]
+                      },
+                      {
+                        "name": "Engers",
+                        "type": "city",
+                        "nodes": [
+                          "32"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Ahrweiler",
+                    "type": "county",
+                    "nodes": [
+                      {
+                        "name": "Bad Breisig",
+                        "type": "city",
+                        "nodes": [
+                          "59",
+                          "206"
+                        ]
+                      },
+                      {
+                        "name": "Remagen",
+                        "type": "city",
+                        "nodes": [
+                          "219"
+                        ]
+                      },
+                      {
+                        "name": "Bad Neuenahr",
+                        "type": "city",
+                        "nodes": [
+                          "220"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Rhein-Lahn-Kreis",
+                    "type": "county",
+                    "nodes": [
+                      {
+                        "name": "Osterspai",
+                        "type": "city",
+                        "nodes": [
+                          "63",
+                          "81"
+                        ]
+                      },
+                      {
+                        "name": "Braubach",
+                        "type": "city",
+                        "nodes": [
+                          "66",
+                          "67"
+                        ]
+                      },
+                      {
+                        "name": "Lahnstein",
+                        "type": "city",
+                        "nodes": [
+                          "73",
+                          "80"
+                        ]
+                      },
+                      {
+                        "name": "Kamp-Bornhofen",
+                        "type": "city",
+                        "nodes": [
+                          "75",
+                          "76",
+                          "88"
+                        ]
+                      },
+                      {
+                        "name": "Kaub",
+                        "type": "city",
+                        "nodes": [
+                          "78",
+                          "79"
+                        ]
+                      },
+                      {
+                        "name": "Dörscheid",
+                        "type": "city",
+                        "nodes": [
+                          "82"
+                        ]
+                      },
+                      {
+                        "name": "Sauerthal",
+                        "type": "city",
+                        "nodes": [
+                          "84"
+                        ]
+                      },
+                      {
+                        "name": "St. Goarshausen",
+                        "type": "city",
+                        "nodes": [
+                          "89"
+                        ]
+                      },
+                      {
+                        "name": "Reichenberg",
+                        "type": "city",
+                        "nodes": [
+                          "90"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Mayen-Koblenz",
+                    "type": "county",
+                    "nodes": [
+                      {
+                        "name": "Bendorf-Sayn",
+                        "type": "city",
+                        "nodes": [
+                          "117"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Mainz-Bingen",
+                    "type": "county",
+                    "nodes": [
+                      {
+                        "name": "Ingelheim",
+                        "type": "city",
+                        "nodes": [
+                          "177"
+                        ]
+                      },
+                      {
+                        "name": "Trechtingshausen",
+                        "type": "city",
+                        "nodes": [
+                          "265",
+                          "266"
+                        ]
+                      },
+                      {
+                        "name": "Niederheimbach",
+                        "type": "city",
+                        "nodes": [
+                          "267"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Koblenz-Stadt",
+                    "type": "county",
+                    "nodes": [
+                      {
+                        "name": "Koblenz",
+                        "type": "city",
+                        "nodes": [
+                          "199",
+                          "277"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Westerwald",
+                "type": "region",
+                "nodes": [
+                  {
+                    "name": "Neuwied",
+                    "type": "county",
+                    "nodes": [
+                      {
+                        "name": "Linz",
+                        "type": "city",
+                        "nodes": [
+                          "4"
+                        ]
+                      },
+                      {
+                        "name": "Neustadt",
+                        "type": "city",
+                        "nodes": [
+                          "6",
+                          "7"
+                        ]
+                      },
+                      {
+                        "name": "Niederbreitbach",
+                        "type": "city",
+                        "nodes": [
+                          "8"
+                        ]
+                      },
+                      {
+                        "name": "Neuwied",
+                        "type": "city",
+                        "nodes": [
+                          "9",
+                          "11"
+                        ]
+                      },
+                      {
+                        "name": "Isenburg",
+                        "type": "city",
+                        "nodes": [
+                          "12"
+                        ]
+                      },
+                      {
+                        "name": "Asbach",
+                        "type": "city",
+                        "nodes": [
+                          "18"
+                        ]
+                      },
+                      {
+                        "name": "Puderbach",
+                        "type": "city",
+                        "nodes": [
+                          "21"
+                        ]
+                      },
+                      {
+                        "name": "Dierdorf",
+                        "type": "city",
+                        "nodes": [
+                          "29"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Westerwaldkreis",
+                    "type": "county",
+                    "nodes": [
+                      {
+                        "name": "Hachenburg",
+                        "type": "city",
+                        "nodes": [
+                          "10",
+                          "41",
+                          "49",
+                          "61",
+                          "62",
+                          "72",
+                          "77",
+                          "189"
+                        ]
+                      },
+                      {
+                        "name": "Montabaur",
+                        "type": "city",
+                        "nodes": [
+                          "13",
+                          "60",
+                          "134",
+                          "356"
+                        ]
+                      },
+                      {
+                        "name": "Westerburg",
+                        "type": "city",
+                        "nodes": [
+                          "15",
+                          "48",
+                          "50",
+                          "52",
+                          "53",
+                          "57"
+                        ]
+                      },
+                      {
+                        "name": "Steinebach",
+                        "type": "city",
+                        "nodes": [
+                          "51"
+                        ]
+                      },
+                      {
+                        "name": "Hartenfels",
+                        "type": "city",
+                        "nodes": [
+                          "54"
+                        ]
+                      },
+                      {
+                        "name": "Höhr-Grenzhausen",
+                        "type": "city",
+                        "nodes": [
+                          "55"
+                        ]
+                      },
+                      {
+                        "name": "Eitelborn",
+                        "type": "city",
+                        "nodes": [
+                          "56"
+                        ]
+                      },
+                      {
+                        "name": "Herschbach",
+                        "type": "city",
+                        "nodes": [
+                          "58"
+                        ]
+                      },
+                      {
+                        "name": "Rennerod",
+                        "type": "city",
+                        "nodes": [
+                          "119"
+                        ]
+                      },
+                      {
+                        "name": "Wallmerod",
+                        "type": "city",
+                        "nodes": [
+                          "133"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Altenkirchen",
+                    "type": "county",
+                    "nodes": [
+                      {
+                        "name": "Altenkirchen",
+                        "type": "city",
+                        "nodes": [
+                          "33",
+                          "43"
+                        ]
+                      },
+                      {
+                        "name": "Flammersfeld",
+                        "type": "city",
+                        "nodes": [
+                          "44",
+                          "276"
+                        ]
+                      },
+                      {
+                        "name": "Peterslahr",
+                        "type": "city",
+                        "nodes": [
+                          "275"
+                        ]
+                      },
+                      {
+                        "name": "Rosenheim",
+                        "type": "city",
+                        "nodes": [
+                          "284"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Hunsrück",
+                "type": "region",
+                "nodes": [
+                  {
+                    "name": "Rhein-Hunsrück-Kreis",
+                    "type": "county",
+                    "nodes": [
+                      {
+                        "name": "Horn",
+                        "type": "city",
+                        "nodes": [
+                          "22"
+                        ]
+                      },
+                      {
+                        "name": "Buch",
+                        "type": "city",
+                        "nodes": [
+                          "148"
+                        ]
+                      },
+                      {
+                        "name": "Dill",
+                        "type": "city",
+                        "nodes": [
+                          "155"
+                        ]
+                      },
+                      {
+                        "name": "Kastellaun",
+                        "type": "city",
+                        "nodes": [
+                          "162"
+                        ]
+                      },
+                      {
+                        "name": "Henau",
+                        "type": "city",
+                        "nodes": [
+                          "164"
+                        ]
+                      },
+                      {
+                        "name": "Tiefenbach",
+                        "type": "city",
+                        "nodes": [
+                          "175"
+                        ]
+                      },
+                      {
+                        "name": "Oppenhausen",
+                        "type": "city",
+                        "nodes": [
+                          "260"
+                        ]
+                      },
+                      {
+                        "name": "Wahlenau",
+                        "type": "city",
+                        "nodes": [
+                          "261"
+                        ]
+                      },
+                      {
+                        "name": "Schmidthausen",
+                        "type": "city",
+                        "nodes": [
+                          "263"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Bad Kreuznach",
+                    "type": "county",
+                    "nodes": [
+                      {
+                        "name": "Argenschwang",
+                        "type": "city",
+                        "nodes": [
+                          "146"
+                        ]
+                      },
+                      {
+                        "name": "Hochstetten-Dhaun",
+                        "type": "city",
+                        "nodes": [
+                          "150",
+                          "363"
+                        ]
+                      },
+                      {
+                        "name": "Burgsponheim",
+                        "type": "city",
+                        "nodes": [
+                          "152"
+                        ]
+                      },
+                      {
+                        "name": "Dalberg",
+                        "type": "city",
+                        "nodes": [
+                          "153"
+                        ]
+                      },
+                      {
+                        "name": "Dhaun",
+                        "type": "city",
+                        "nodes": [
+                          "154"
+                        ]
+                      },
+                      {
+                        "name": "Kirn",
+                        "type": "city",
+                        "nodes": [
+                          "165",
+                          "294"
+                        ]
+                      },
+                      {
+                        "name": "Schneppenbach",
+                        "type": "city",
+                        "nodes": [
+                          "171"
+                        ]
+                      },
+                      {
+                        "name": "Kirn Land",
+                        "type": "city",
+                        "nodes": [
+                          "194"
+                        ]
+                      },
+                      {
+                        "name": "Winterburg",
+                        "type": "city",
+                        "nodes": [
+                          "295"
+                        ]
+                      },
+                      {
+                        "name": "Dörrebach",
+                        "type": "city",
+                        "nodes": [
+                          "364"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Ahrweiler",
+                "type": "county",
+                "nodes": [
+                  {
+                    "name": "Ahrweiler",
+                    "type": "city",
+                    "nodes": [
+                      "24"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Ahrweiler",
+                "type": "county",
+                "nodes": [
+                  {
+                    "name": "Bad Neuenahr-Ahrweiler",
+                    "type": "city",
+                    "nodes": [
+                      "26"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Siegerland",
+                "type": "region",
+                "nodes": [
+                  {
+                    "name": "Altenkirchen",
+                    "type": "county",
+                    "nodes": [
+                      {
+                        "name": "Friesenhagen",
+                        "type": "city",
+                        "nodes": [
+                          "34",
+                          "42",
+                          "45"
+                        ]
+                      },
+                      {
+                        "name": "Daaden",
+                        "type": "city",
+                        "nodes": [
+                          "35"
+                        ]
+                      },
+                      {
+                        "name": "Wissen",
+                        "type": "city",
+                        "nodes": [
+                          "47"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Ahrweiler",
+                "type": "county",
+                "nodes": [
+                  {
+                    "name": "Unkelbach",
+                    "type": "city",
+                    "nodes": [
+                      "37"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Ahrweiler",
+                "type": "county",
+                "nodes": [
+                  {
+                    "name": "Dümpelfeld",
+                    "type": "city",
+                    "nodes": [
+                      "38"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Eifel",
+                "type": "region",
+                "nodes": [
+                  {
+                    "name": "Ahrweiler",
+                    "type": "county",
+                    "nodes": [
+                      {
+                        "name": "Altenahr",
+                        "type": "city",
+                        "nodes": [
+                          "39",
+                          "179",
+                          "217",
+                          "221",
+                          "262"
+                        ]
+                      },
+                      {
+                        "name": "Nürburg",
+                        "type": "city",
+                        "nodes": [
+                          "180",
+                          "246"
+                        ]
+                      },
+                      {
+                        "name": "Antweiler-Aremberg",
+                        "type": "city",
+                        "nodes": [
+                          "203"
+                        ]
+                      },
+                      {
+                        "name": "Brohl",
+                        "type": "city",
+                        "nodes": [
+                          "205"
+                        ]
+                      },
+                      {
+                        "name": "Mayschoss",
+                        "type": "city",
+                        "nodes": [
+                          "208"
+                        ]
+                      },
+                      {
+                        "name": "Bad Neuenahr-Ahrweiler",
+                        "type": "city",
+                        "nodes": [
+                          "209",
+                          "231",
+                          "233",
+                          "244",
+                          "247"
+                        ]
+                      },
+                      {
+                        "name": "Oberzissen",
+                        "type": "city",
+                        "nodes": [
+                          "210"
+                        ]
+                      },
+                      {
+                        "name": "Vettelhoven",
+                        "type": "city",
+                        "nodes": [
+                          "212"
+                        ]
+                      },
+                      {
+                        "name": "Adenau",
+                        "type": "city",
+                        "nodes": [
+                          "213",
+                          "313"
+                        ]
+                      },
+                      {
+                        "name": "Holzweiler",
+                        "type": "city",
+                        "nodes": [
+                          "214"
+                        ]
+                      },
+                      {
+                        "name": "Kirchsahr",
+                        "type": "city",
+                        "nodes": [
+                          "215"
+                        ]
+                      },
+                      {
+                        "name": "Lantershofen",
+                        "type": "city",
+                        "nodes": [
+                          "216"
+                        ]
+                      },
+                      {
+                        "name": "Sinzig",
+                        "type": "city",
+                        "nodes": [
+                          "218",
+                          "229"
+                        ]
+                      },
+                      {
+                        "name": "Unkelbach",
+                        "type": "city",
+                        "nodes": [
+                          "248"
+                        ]
+                      },
+                      {
+                        "name": "Niederlützingen",
+                        "type": "city",
+                        "nodes": [
+                          "249"
+                        ]
+                      },
+                      {
+                        "name": "Nohn",
+                        "type": "city",
+                        "nodes": [
+                          "257"
+                        ]
+                      },
+                      {
+                        "name": "Kempenich",
+                        "type": "city",
+                        "nodes": [
+                          "306"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Mayen-Koblenz",
+                    "type": "county",
+                    "nodes": [
+                      {
+                        "name": "Mayen",
+                        "type": "city",
+                        "nodes": [
+                          "125",
+                          "302"
+                        ]
+                      },
+                      {
+                        "name": "Virneburg",
+                        "type": "city",
+                        "nodes": [
+                          "192"
+                        ]
+                      },
+                      {
+                        "name": "Ochtendung",
+                        "type": "city",
+                        "nodes": [
+                          "253"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Bernkastel-Wittlich",
+                    "type": "county",
+                    "nodes": [
+                      {
+                        "name": "Manderscheid",
+                        "type": "city",
+                        "nodes": [
+                          "126",
+                          "127"
+                        ]
+                      },
+                      {
+                        "name": "Bruch",
+                        "type": "city",
+                        "nodes": [
+                          "182"
+                        ]
+                      },
+                      {
+                        "name": "Schladt",
+                        "type": "city",
+                        "nodes": [
+                          "281"
+                        ]
+                      },
+                      {
+                        "name": "Hontheim",
+                        "type": "city",
+                        "nodes": [
+                          "282"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Bitburg-Prüm",
+                    "type": "county",
+                    "nodes": [
+                      {
+                        "name": "Rittersdorf",
+                        "type": "city",
+                        "nodes": [
+                          "130"
+                        ]
+                      },
+                      {
+                        "name": "Seinsfeld",
+                        "type": "city",
+                        "nodes": [
+                          "132"
+                        ]
+                      },
+                      {
+                        "name": "Dudeldorf",
+                        "type": "city",
+                        "nodes": [
+                          "185"
+                        ]
+                      },
+                      {
+                        "name": "Waldhof-Falkenstein",
+                        "type": "city",
+                        "nodes": [
+                          "186"
+                        ]
+                      },
+                      {
+                        "name": "Prüm zur Lay",
+                        "type": "city",
+                        "nodes": [
+                          "188"
+                        ]
+                      },
+                      {
+                        "name": "Bettingen",
+                        "type": "city",
+                        "nodes": [
+                          "283"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Ahrweiler",
+                "type": "county",
+                "nodes": [
+                  {
+                    "name": "Bad Neuenahr-Ahrweiler",
+                    "type": "city",
+                    "nodes": [
+                      "40"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Siegtal",
+                "type": "region",
+                "nodes": [
+                  {
+                    "name": "Altenkirchen",
+                    "type": "county",
+                    "nodes": [
+                      {
+                        "name": "Kirchen",
+                        "type": "city",
+                        "nodes": [
+                          "46"
+                        ]
+                      },
+                      {
+                        "name": "Betzdorf",
+                        "type": "city",
+                        "nodes": [
+                          "404"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Lahntal",
+                "type": "region",
+                "nodes": [
+                  {
+                    "name": "Rhein-Lahn-Kreis",
+                    "type": "county",
+                    "nodes": [
+                      {
+                        "name": "Diez",
+                        "type": "city",
+                        "nodes": [
+                          "64"
+                        ]
+                      },
+                      {
+                        "name": "Balduinstein",
+                        "type": "city",
+                        "nodes": [
+                          "65",
+                          "91"
+                        ]
+                      },
+                      {
+                        "name": "Holzheim",
+                        "type": "city",
+                        "nodes": [
+                          "71"
+                        ]
+                      },
+                      {
+                        "name": "Nassau",
+                        "type": "city",
+                        "nodes": [
+                          "74",
+                          "94"
+                        ]
+                      },
+                      {
+                        "name": "Laurenburg",
+                        "type": "city",
+                        "nodes": [
+                          "92"
+                        ]
+                      },
+                      {
+                        "name": "Obernhof",
+                        "type": "city",
+                        "nodes": [
+                          "93"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Taunus",
+                "type": "region",
+                "nodes": [
+                  {
+                    "name": "Rhein-Lahn-Kreis",
+                    "type": "county",
+                    "nodes": [
+                      {
+                        "name": "Katzenelnbogen",
+                        "type": "city",
+                        "nodes": [
+                          "68"
+                        ]
+                      },
+                      {
+                        "name": "Mudershausen",
+                        "type": "city",
+                        "nodes": [
+                          "69"
+                        ]
+                      },
+                      {
+                        "name": "Hahnstätten",
+                        "type": "city",
+                        "nodes": [
+                          "70",
+                          "87"
+                        ]
+                      },
+                      {
+                        "name": "Nastätten",
+                        "type": "city",
+                        "nodes": [
+                          "85"
+                        ]
+                      },
+                      {
+                        "name": "Aull",
+                        "type": "city",
+                        "nodes": [
+                          "86"
+                        ]
+                      },
+                      {
+                        "name": "Oberneisen",
+                        "type": "city",
+                        "nodes": [
+                          "95"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Westerwaldkreis",
+                "type": "county",
+                "nodes": [
+                  {
+                    "name": "Montabaur",
+                    "type": "city",
+                    "nodes": [
+                      "96"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Pfalz",
+                "type": "region",
+                "nodes": [
+                  {
+                    "name": "Südliche Weinstraße",
+                    "type": "county",
+                    "nodes": [
+                      {
+                        "name": "St. Martin",
+                        "type": "city",
+                        "nodes": [
+                          "97"
+                        ]
+                      },
+                      {
+                        "name": "Rhodt unter Rietburg",
+                        "type": "city",
+                        "nodes": [
+                          "98"
+                        ]
+                      },
+                      {
+                        "name": "Ramberg",
+                        "type": "city",
+                        "nodes": [
+                          "99",
+                          "100",
+                          "300"
+                        ]
+                      },
+                      {
+                        "name": "Flemlingen",
+                        "type": "city",
+                        "nodes": [
+                          "101"
+                        ]
+                      },
+                      {
+                        "name": "Annweiler",
+                        "type": "city",
+                        "nodes": [
+                          "103"
+                        ]
+                      },
+                      {
+                        "name": "Oberotterbach",
+                        "type": "city",
+                        "nodes": [
+                          "108"
+                        ]
+                      },
+                      {
+                        "name": "Klingenmünster",
+                        "type": "city",
+                        "nodes": [
+                          "109",
+                          "114",
+                          "301"
+                        ]
+                      },
+                      {
+                        "name": "Vorderweidenthal",
+                        "type": "city",
+                        "nodes": [
+                          "111"
+                        ]
+                      },
+                      {
+                        "name": "Eschbach",
+                        "type": "city",
+                        "nodes": [
+                          "112"
+                        ]
+                      },
+                      {
+                        "name": "Leinsweiler",
+                        "type": "city",
+                        "nodes": [
+                          "113"
+                        ]
+                      },
+                      {
+                        "name": "Landau",
+                        "type": "city",
+                        "nodes": [
+                          "392"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Südwestpfalz",
+                    "type": "county",
+                    "nodes": [
+                      {
+                        "name": "Dahn",
+                        "type": "city",
+                        "nodes": [
+                          "102"
+                        ]
+                      },
+                      {
+                        "name": "Erlenbach",
+                        "type": "city",
+                        "nodes": [
+                          "104"
+                        ]
+                      },
+                      {
+                        "name": "Schönau",
+                        "type": "city",
+                        "nodes": [
+                          "105"
+                        ]
+                      },
+                      {
+                        "name": "Busenberg",
+                        "type": "city",
+                        "nodes": [
+                          "106"
+                        ]
+                      },
+                      {
+                        "name": "Merzalben",
+                        "type": "city",
+                        "nodes": [
+                          "107"
+                        ]
+                      },
+                      {
+                        "name": "Lemberg",
+                        "type": "city",
+                        "nodes": [
+                          "110",
+                          "291"
+                        ]
+                      },
+                      {
+                        "name": "Thaleischweiler-Fröschen",
+                        "type": "city",
+                        "nodes": [
+                          "115"
+                        ]
+                      },
+                      {
+                        "name": "Nothweiler",
+                        "type": "city",
+                        "nodes": [
+                          "116"
+                        ]
+                      },
+                      {
+                        "name": "Großbundenbach",
+                        "type": "city",
+                        "nodes": [
+                          "201"
+                        ]
+                      },
+                      {
+                        "name": "Eppenbrunn",
+                        "type": "city",
+                        "nodes": [
+                          "259"
+                        ]
+                      },
+                      {
+                        "name": "Hornbach",
+                        "type": "city",
+                        "nodes": [
+                          "264"
+                        ]
+                      },
+                      {
+                        "name": "Wiesbach",
+                        "type": "city",
+                        "nodes": [
+                          "310"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Rhein-Pfalz-Kreis",
+                    "type": "county",
+                    "nodes": [
+                      {
+                        "name": "Böhl-Igelheim",
+                        "type": "city",
+                        "nodes": [
+                          "377"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Bitburg-Prüm",
+                "type": "county",
+                "nodes": [
+                  {
+                    "name": "Bollendorf",
+                    "type": "city",
+                    "nodes": [
+                      "121"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Moseltal",
+                "type": "region",
+                "nodes": [
+                  {
+                    "name": "Mayen-Koblenz",
+                    "type": "county",
+                    "nodes": [
+                      {
+                        "name": "Münstermaifeld",
+                        "type": "city",
+                        "nodes": [
+                          "135"
+                        ]
+                      },
+                      {
+                        "name": "Koblenz",
+                        "type": "city",
+                        "nodes": [
+                          "256"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Cochem-Zell",
+                    "type": "county",
+                    "nodes": [
+                      {
+                        "name": "Zell",
+                        "type": "city",
+                        "nodes": [
+                          "141"
+                        ]
+                      },
+                      {
+                        "name": "Senheim",
+                        "type": "city",
+                        "nodes": [
+                          "143"
+                        ]
+                      },
+                      {
+                        "name": "Ellenz-Poltersdorf",
+                        "type": "city",
+                        "nodes": [
+                          "240"
+                        ]
+                      },
+                      {
+                        "name": "Cochem",
+                        "type": "city",
+                        "nodes": [
+                          "320"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Cochem-Zell",
+                "type": "county",
+                "nodes": [
+                  {
+                    "name": "Treis-Karden",
+                    "type": "city",
+                    "nodes": [
+                      "138"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Cochem-Zell",
+                "type": "county",
+                "nodes": [
+                  {
+                    "name": "Zell",
+                    "type": "city",
+                    "nodes": [
+                      "140"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Bernkastel-Wittlich",
+                "type": "county",
+                "nodes": [
+                  {
+                    "name": "Zeltingen-Rachtig",
+                    "type": "city",
+                    "nodes": [
+                      "142"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Rheinhessen",
+                "type": "region",
+                "nodes": [
+                  {
+                    "name": "Mainz-Bingen",
+                    "type": "county",
+                    "nodes": [
+                      {
+                        "name": "Gau-Algesheim",
+                        "type": "city",
+                        "nodes": [
+                          "145"
+                        ]
+                      },
+                      {
+                        "name": "Dienheim",
+                        "type": "city",
+                        "nodes": [
+                          "163"
+                        ]
+                      },
+                      {
+                        "name": "Nierstein",
+                        "type": "city",
+                        "nodes": [
+                          "178"
+                        ]
+                      },
+                      {
+                        "name": "Stadecken-Elsheim",
+                        "type": "city",
+                        "nodes": [
+                          "304"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Bad Kreuznach",
+                    "type": "county",
+                    "nodes": [
+                      {
+                        "name": "Fürfeld",
+                        "type": "city",
+                        "nodes": [
+                          "223"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Mainz-Bingen",
+                "type": "county",
+                "nodes": [
+                  {
+                    "name": "Münster-Sarmsheim",
+                    "type": "city",
+                    "nodes": [
+                      "174"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Mainz-Bingen",
+                "type": "county",
+                "nodes": [
+                  {
+                    "name": "Bingen",
+                    "type": "city",
+                    "nodes": [
+                      "181"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Bernkastel-Wittlich",
+                "type": "county",
+                "nodes": [
+                  {
+                    "name": "Zeltingen-Rachtig",
+                    "type": "city",
+                    "nodes": [
+                      "183"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Neustadt",
+                "type": "county",
+                "nodes": [
+                  {
+                    "name": "Neustadt a.d.Weinstraße",
+                    "type": "city",
+                    "nodes": [
+                      "200"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Ahrweiler",
+                "type": "county",
+                "nodes": [
+                  {
+                    "name": "Adenau",
+                    "type": "city",
+                    "nodes": [
+                      "204"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Ahrweiler",
+                "type": "county",
+                "nodes": [
+                  {
+                    "name": "Bad Breisig",
+                    "type": "city",
+                    "nodes": [
+                      "207"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Bernkastel-Wittlich",
+                "type": "county",
+                "nodes": [
+                  {
+                    "name": "Wittlich",
+                    "type": "city",
+                    "nodes": [
+                      "232"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Birkenfeld",
+                "type": "county",
+                "nodes": [
+                  {
+                    "name": "Kempfeld",
+                    "type": "city",
+                    "nodes": [
+                      "234"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Ahrweiler",
+                "type": "county",
+                "nodes": [
+                  {
+                    "name": "Altenahr",
+                    "type": "city",
+                    "nodes": [
+                      "269"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Ahrweiler",
+                "type": "county",
+                "nodes": [
+                  {
+                    "name": "Adenau",
+                    "type": "city",
+                    "nodes": [
+                      "274"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Kaiserslautern-Stadt",
+                "type": "county",
+                "nodes": [
+                  {
+                    "name": "Kaiserslautern",
+                    "type": "city",
+                    "nodes": [
+                      "278"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Bad Dürkheim",
+                "type": "county",
+                "nodes": [
+                  {
+                    "name": "Bad Dürkheim",
+                    "type": "city",
+                    "nodes": [
+                      "285"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Neustadt",
+                "type": "county",
+                "nodes": [
+                  {
+                    "name": "Neustadt a.d.Weinstraße",
+                    "type": "city",
+                    "nodes": [
+                      "308"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Neustadt",
+                "type": "county",
+                "nodes": [
+                  {
+                    "name": "Neustadt a.d.Weinstraße",
+                    "type": "city",
+                    "nodes": [
+                      "309"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Worms-Stadt",
+                "type": "county",
+                "nodes": [
+                  {
+                    "name": "Worms",
+                    "type": "city",
+                    "nodes": [
+                      "341"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Donnersbergkreis",
+                "type": "county",
+                "nodes": [
+                  {
+                    "name": "Morschheim",
+                    "type": "city",
+                    "nodes": [
+                      "389"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Bad Kreuznach",
+                "type": "county",
+                "nodes": [
+                  {
+                    "name": "Odernheim",
+                    "type": "city",
+                    "nodes": [
+                      "391"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Kusel",
+                "type": "county",
+                "nodes": [
+                  {
+                    "name": "Kreimbach-Kaulbach",
+                    "type": "city",
+                    "nodes": [
+                      "403"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "nw",
+            "type": "state",
+            "nodes": [
+              {
+                "name": "Siegerland",
+                "type": "region",
+                "nodes": [
+                  {
+                    "name": "Siegen-Wittgenstein",
+                    "type": "county",
+                    "nodes": [
+                      {
+                        "name": "Burbach",
+                        "type": "city",
+                        "nodes": [
+                          "14",
+                          "23"
+                        ]
+                      },
+                      {
+                        "name": "Neunkirchen",
+                        "type": "city",
+                        "nodes": [
+                          "25"
+                        ]
+                      },
+                      {
+                        "name": "Wilnsdorf",
+                        "type": "city",
+                        "nodes": [
+                          "36",
+                          "136"
+                        ]
+                      },
+                      {
+                        "name": "Daaden",
+                        "type": "city",
+                        "nodes": [
+                          "305"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Siegen-Wittgenstein",
+                "type": "county",
+                "nodes": [
+                  {
+                    "name": "Neunkirchen",
+                    "type": "city",
+                    "nodes": [
+                      "27"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Niederrhein",
+                "type": "region",
+                "nodes": [
+                  {
+                    "name": "Heinsberg",
+                    "type": "county",
+                    "nodes": [
+                      {
+                        "name": "Erkelenz",
+                        "type": "city",
+                        "nodes": [
+                          "211"
+                        ]
+                      },
+                      {
+                        "name": "Heinsberg",
+                        "type": "city",
+                        "nodes": [
+                          "344"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "bw",
+            "type": "state",
+            "nodes": [
+              {
+                "name": "Rhein-Neckar-Kreis",
+                "type": "county",
+                "nodes": [
+                  {
+                    "name": "Neckargemünd",
+                    "type": "city",
+                    "nodes": [
+                      "137"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Neckar-Odenwald-Kreis",
+                "type": "county",
+                "nodes": [
+                  "144"
+                ]
+              },
+              {
+                "name": "Neckar-Odenwald-Kreis",
+                "type": "county",
+                "nodes": [
+                  {
+                    "name": "Neunkirchen",
+                    "type": "city",
+                    "nodes": [
+                      "176"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "he",
+            "type": "state",
+            "nodes": [
+              {
+                "name": "Odenwald",
+                "type": "region",
+                "nodes": [
+                  {
+                    "name": "Bergstraße",
+                    "type": "county",
+                    "nodes": [
+                      {
+                        "name": "Lindenfels",
+                        "type": "city",
+                        "nodes": [
+                          "190",
+                          "191"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Bergstraße",
+                "type": "region",
+                "nodes": [
+                  {
+                    "name": "Darmstadt-Dieburg",
+                    "type": "county",
+                    "nodes": [
+                      {
+                        "name": "Nieder-Beerbach",
+                        "type": "city",
+                        "nodes": [
+                          "296"
+                        ]
+                      },
+                      {
+                        "name": "Alsbach",
+                        "type": "city",
+                        "nodes": [
+                          "303",
+                          "314"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Bergstraße",
+                    "type": "county",
+                    "nodes": [
+                      {
+                        "name": "Heppenheim",
+                        "type": "city",
+                        "nodes": [
+                          "317"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Oberhessen",
+                "type": "region",
+                "nodes": [
+                  {
+                    "name": "Marburg-Biedenkopf",
+                    "type": "county",
+                    "nodes": [
+                      {
+                        "name": "Biedenkopf",
+                        "type": "city",
+                        "nodes": [
+                          "336"
+                        ]
+                      },
+                      {
+                        "name": "Amöneburg",
+                        "type": "city",
+                        "nodes": [
+                          "349",
+                          "360"
+                        ]
+                      },
+                      {
+                        "name": "Schönstadt",
+                        "type": "city",
+                        "nodes": [
+                          "366"
+                        ]
+                      },
+                      {
+                        "name": "Schweinsberg",
+                        "type": "city",
+                        "nodes": [
+                          "378"
+                        ]
+                      },
+                      {
+                        "name": "Marburg",
+                        "type": "city",
+                        "nodes": [
+                          "393"
+                        ]
+                      },
+                      {
+                        "name": "Beltershausen",
+                        "type": "city",
+                        "nodes": [
+                          "405"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Vogelsberg",
+                "type": "region",
+                "nodes": [
+                  {
+                    "name": "Vogelsbergkreis",
+                    "type": "county",
+                    "nodes": [
+                      {
+                        "name": "Romrod",
+                        "type": "city",
+                        "nodes": [
+                          "369"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Gießen",
+                    "type": "county",
+                    "nodes": [
+                      {
+                        "name": "Laubach",
+                        "type": "city",
+                        "nodes": [
+                          "375"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "th",
+            "type": "state",
+            "nodes": [
+              {
+                "name": "Schmalkalden-Meiningen",
+                "type": "county",
+                "nodes": [
+                  {
+                    "name": "Untermaßbach",
+                    "type": "city",
+                    "nodes": [
+                      "372"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Sonneberg",
+                "type": "county",
+                "nodes": [
+                  {
+                    "name": "Schalkau",
+                    "type": "city",
+                    "nodes": [
+                      "374"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Sonneberg",
+                "type": "county",
+                "nodes": [
+                  {
+                    "name": "Schalkau",
+                    "type": "city",
+                    "nodes": [
+                      "376"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "by",
+            "type": "state",
+            "nodes": [
+              {
+                "name": "Kronach",
+                "type": "county",
+                "nodes": [
+                  {
+                    "name": "Kronach",
+                    "type": "city",
+                    "nodes": [
+                      "379"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

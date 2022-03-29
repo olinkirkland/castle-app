@@ -15476,7 +15476,7 @@
     },
     "slug": "dudeldorf-burg",
     "location": {
-      "city": "Dudeldorf (54647)",
+      "city": "Dudeldorf",
       "county": "Bitburg-Prüm",
       "region": "Eifel",
       "state": {
@@ -19610,56 +19610,6 @@
       },
       "end": {
         "century": "18",
-        "half": null
-      }
-    }
-  },
-  {
-    "id": "258",
-    "urls": [
-      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=258",
-      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=258",
-      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=258",
-      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=258",
-      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=258"
-    ],
-    "name": {
-      "primary": "Neublankenheim",
-      "secondary": null
-    },
-    "slug": "neublankenheim",
-    "location": {
-      "state": {
-        "flag": null,
-        "crest": null
-      },
-      "country": {
-        "en": "Germany",
-        "de": "Deutschland",
-        "abbreviation": "de"
-      },
-      "subregion": {
-        "en": "Western Europe",
-        "de": null
-      }
-    },
-    "classifications": [],
-    "structures": [
-      {
-        "de": "sonstiges",
-        "en": "other"
-      }
-    ],
-    "condition": "unknown",
-    "purpose": [],
-    "gallery": [],
-    "dates": {
-      "start": {
-        "century": null,
-        "half": null
-      },
-      "end": {
-        "century": null,
         "half": null
       }
     }
@@ -24722,7 +24672,7 @@
     },
     "slug": "odernheim-ii",
     "location": {
-      "city": "Odernheim (55571)",
+      "city": "Odernheim",
       "county": "Bad Kreuznach",
       "state": {
         "de": "Rheinland-Pfalz",
@@ -24960,7 +24910,7 @@
     },
     "slug": "heidenburg",
     "location": {
-      "city": "Kreimbach-Kaulbach /67757)",
+      "city": "Kreimbach-Kaulbach",
       "county": "Kusel",
       "state": {
         "de": "Rheinland-Pfalz",
