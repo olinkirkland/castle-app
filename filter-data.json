@@ -103,6 +103,13 @@
                         "nodes": [
                           "220"
                         ]
+                      },
+                      {
+                        "name": "Sinzig",
+                        "type": "city",
+                        "nodes": [
+                          "460"
+                        ]
                       }
                     ]
                   },
@@ -191,6 +198,27 @@
                         "nodes": [
                           "117"
                         ]
+                      },
+                      {
+                        "name": "Bendorf",
+                        "type": "city",
+                        "nodes": [
+                          "454"
+                        ]
+                      },
+                      {
+                        "name": "Andernach",
+                        "type": "city",
+                        "nodes": [
+                          "457"
+                        ]
+                      },
+                      {
+                        "name": "Bendorf Sayn",
+                        "type": "city",
+                        "nodes": [
+                          "458"
+                        ]
                       }
                     ]
                   },
@@ -217,7 +245,23 @@
                         "name": "Niederheimbach",
                         "type": "city",
                         "nodes": [
-                          "267"
+                          "267",
+                          "470"
+                        ]
+                      },
+                      {
+                        "name": "Bacharach",
+                        "type": "city",
+                        "nodes": [
+                          "471",
+                          "472"
+                        ]
+                      },
+                      {
+                        "name": "Oberdiebach",
+                        "type": "city",
+                        "nodes": [
+                          "473"
                         ]
                       }
                     ]
@@ -232,6 +276,33 @@
                         "nodes": [
                           "199",
                           "277"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Rhein-Hunsrück-Kreis",
+                    "type": "county",
+                    "nodes": [
+                      {
+                        "name": "St. Goar",
+                        "type": "city",
+                        "nodes": [
+                          "461"
+                        ]
+                      },
+                      {
+                        "name": "Oberwesel",
+                        "type": "city",
+                        "nodes": [
+                          "474"
+                        ]
+                      },
+                      {
+                        "name": "Boppard",
+                        "type": "city",
+                        "nodes": [
+                          "475"
                         ]
                       }
                     ]
@@ -635,7 +706,8 @@
                         "name": "Daaden",
                         "type": "city",
                         "nodes": [
-                          "35"
+                          "35",
+                          "422"
                         ]
                       },
                       {
@@ -691,7 +763,9 @@
                           "179",
                           "217",
                           "221",
-                          "262"
+                          "262",
+                          "432",
+                          "453"
                         ]
                       },
                       {
@@ -731,7 +805,9 @@
                           "231",
                           "233",
                           "244",
-                          "247"
+                          "247",
+                          "455",
+                          "456"
                         ]
                       },
                       {
@@ -925,6 +1001,19 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "name": "Cochem-Zell",
+                    "type": "county",
+                    "nodes": [
+                      {
+                        "name": "Roes",
+                        "type": "city",
+                        "nodes": [
+                          "485"
+                        ]
+                      }
+                    ]
                   }
                 ]
               },
@@ -953,7 +1042,8 @@
                         "name": "Kirchen",
                         "type": "city",
                         "nodes": [
-                          "46"
+                          "46",
+                          "463"
                         ]
                       },
                       {
@@ -1179,6 +1269,13 @@
                         "nodes": [
                           "392"
                         ]
+                      },
+                      {
+                        "name": "Pleisweiler-Oberhofen",
+                        "type": "city",
+                        "nodes": [
+                          "466"
+                        ]
                       }
                     ]
                   },
@@ -1285,6 +1382,19 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "name": "Germersheim",
+                    "type": "county",
+                    "nodes": [
+                      {
+                        "name": "Zeiskam",
+                        "type": "city",
+                        "nodes": [
+                          "420"
+                        ]
+                      }
+                    ]
                   }
                 ]
               },
@@ -1313,7 +1423,9 @@
                         "name": "Münstermaifeld",
                         "type": "city",
                         "nodes": [
-                          "135"
+                          "135",
+                          "483",
+                          "484"
                         ]
                       },
                       {
@@ -1321,6 +1433,30 @@
                         "type": "city",
                         "nodes": [
                           "256"
+                        ]
+                      },
+                      {
+                        "name": "Kobern-Gondorf",
+                        "type": "city",
+                        "nodes": [
+                          "476",
+                          "477",
+                          "478",
+                          "479"
+                        ]
+                      },
+                      {
+                        "name": "Alken",
+                        "type": "city",
+                        "nodes": [
+                          "480"
+                        ]
+                      },
+                      {
+                        "name": "Brodenbach",
+                        "type": "city",
+                        "nodes": [
+                          "481"
                         ]
                       }
                     ]
@@ -1354,7 +1490,58 @@
                         "name": "Cochem",
                         "type": "city",
                         "nodes": [
-                          "320"
+                          "320",
+                          "488",
+                          "489"
+                        ]
+                      },
+                      {
+                        "name": "Neef",
+                        "type": "city",
+                        "nodes": [
+                          "442"
+                        ]
+                      },
+                      {
+                        "name": "Klotten",
+                        "type": "city",
+                        "nodes": [
+                          "482"
+                        ]
+                      },
+                      {
+                        "name": "Treis-Karden",
+                        "type": "city",
+                        "nodes": [
+                          "486",
+                          "487"
+                        ]
+                      },
+                      {
+                        "name": "Alf",
+                        "type": "city",
+                        "nodes": [
+                          "490"
+                        ]
+                      },
+                      {
+                        "name": "Beilstein",
+                        "type": "city",
+                        "nodes": [
+                          "491"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Bernkastel-Wittlich",
+                    "type": "county",
+                    "nodes": [
+                      {
+                        "name": "Traben-Trarbach",
+                        "type": "city",
+                        "nodes": [
+                          "493"
                         ]
                       }
                     ]
@@ -1686,6 +1873,84 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Kaiserslautern",
+                "type": "county",
+                "nodes": [
+                  {
+                    "name": "Bruchmühlbach-Miesau",
+                    "type": "city",
+                    "nodes": [
+                      "439"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Bad Kreuznach",
+                "type": "county",
+                "nodes": [
+                  {
+                    "name": "Bad Kreuznach",
+                    "type": "city",
+                    "nodes": [
+                      "446"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Ahrweiler",
+                "type": "county",
+                "nodes": [
+                  {
+                    "name": "Herschbach",
+                    "type": "city",
+                    "nodes": [
+                      "462"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Bernkastel-Wittlich",
+                "type": "county",
+                "nodes": [
+                  {
+                    "name": "Traben-Trarbach",
+                    "type": "city",
+                    "nodes": [
+                      "468"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Neustadt",
+                "type": "county",
+                "nodes": [
+                  {
+                    "name": "Neustadt a.d.Weinstraße",
+                    "type": "city",
+                    "nodes": [
+                      "469"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Bernkastel-Wittlich",
+                "type": "county",
+                "nodes": [
+                  {
+                    "name": "Starkenburg",
+                    "type": "city",
+                    "nodes": [
+                      "494"
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -1767,7 +2032,8 @@
                         "name": "Heinsberg",
                         "type": "city",
                         "nodes": [
-                          "344"
+                          "344",
+                          "495"
                         ]
                       }
                     ]
@@ -1965,6 +2231,32 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Ederbergland",
+                "type": "region",
+                "nodes": [
+                  {
+                    "name": "Waldeck-Frankenberg",
+                    "type": "county",
+                    "nodes": [
+                      {
+                        "name": "Lichtenfels",
+                        "type": "city",
+                        "nodes": [
+                          "409"
+                        ]
+                      },
+                      {
+                        "name": "Hatzfeld",
+                        "type": "city",
+                        "nodes": [
+                          "431"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -2029,11 +2321,178 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Krögelstein",
+                "type": "city",
+                "nodes": [
+                  "444"
+                ]
+              },
+              {
+                "name": "Lichtenfels",
+                "type": "county",
+                "nodes": [
+                  {
+                    "name": "Altenkundstadt",
+                    "type": "city",
+                    "nodes": [
+                      "447"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Oberfranken",
+                "type": "region",
+                "nodes": [
+                  {
+                    "name": "Kronach",
+                    "type": "county",
+                    "nodes": [
+                      {
+                        "name": "Markt Küps",
+                        "type": "city",
+                        "nodes": [
+                          "448"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Kronach",
+                "type": "county",
+                "nodes": [
+                  {
+                    "name": "Mitwitz",
+                    "type": "city",
+                    "nodes": [
+                      "449"
+                    ]
+                  }
+                ]
               }
             ]
           }
         ]
       }
     ]
-  }
+  },
+  "classifications": [
+    {
+      "de": "wasserburg",
+      "en": "water castle"
+    },
+    {
+      "de": "randhausanlage",
+      "en": null
+    },
+    {
+      "de": "ringmauerburg",
+      "en": null
+    },
+    {
+      "de": "schildmauerburg",
+      "en": null
+    },
+    {
+      "de": "burghaus",
+      "en": "fortified house"
+    },
+    {
+      "de": "wohnturm",
+      "en": "keep"
+    },
+    {
+      "de": "abgegangene burgstelle",
+      "en": "abandoned ruin"
+    },
+    {
+      "de": "niederungsburg",
+      "en": "lowland castle"
+    },
+    {
+      "de": "frontturmburg",
+      "en": null
+    },
+    {
+      "de": "bodendenkmal",
+      "en": ""
+    },
+    {
+      "de": "burgstelle",
+      "en": "castle site"
+    },
+    {
+      "de": "burg allgemein",
+      "en": "castle"
+    },
+    {
+      "de": "kastellburg",
+      "en": "quadrangular castle"
+    },
+    {
+      "de": "felsenburg",
+      "en": "rock castle"
+    },
+    {
+      "de": "burgstall",
+      "en": "stable"
+    },
+    {
+      "de": "kompaktanlage",
+      "en": null
+    },
+    {
+      "de": "abschnittswall",
+      "en": null
+    },
+    {
+      "de": "stadtburg",
+      "en": null
+    },
+    {
+      "de": "festes haus",
+      "en": null
+    },
+    {
+      "de": "ringwall",
+      "en": null
+    },
+    {
+      "de": "keine angabe",
+      "en": null
+    }
+  ],
+  "purposes": [
+    "stadtburg",
+    "landesburg",
+    "reichsburg",
+    "adelssitz",
+    "ministerialensitz",
+    "herrschaftsmittelpunkt",
+    "stammsitz",
+    "dynastensitz",
+    "ganerbenburg",
+    "unbekannt",
+    "verwaltungssitz",
+    "keine angabe",
+    "amtssitz",
+    "grenzlage",
+    "residenz",
+    "zollstelle",
+    "gegenburg",
+    "kommende",
+    "fluchtburg",
+    "pfalz",
+    "bischofshof"
+  ],
+  "structures": [
+    "burg",
+    "burg-schloss",
+    "sonstiges",
+    "festung"
+  ]
 }
