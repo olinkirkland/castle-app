@@ -1,7 +1,6 @@
 import { readFileSync, writeFileSync } from 'fs';
 import fetch from 'node-fetch';
 
-analyze();
 export default function analyze() {
   console.log('========= analyze.js =========');
 
@@ -43,7 +42,12 @@ export default function analyze() {
   let countryData = [];
 
   // Compiled filter data
-  let filterData = { geography: { nodes: [] } };
+  let filterData = {
+    geography: { nodes: [] },
+    classifications: [],
+    purposes: [],
+    structures: []
+  };
 
   // Final data
   let all = [];
@@ -108,9 +112,17 @@ export default function analyze() {
       }
     });
 
+    finishAnalysis();
+
     function isAnalysisValid(analysis) {
       if (!analysis.location.state.abbreviation) return false;
       return true;
+    }
+
+    function finishAnalysis() {
+      filterData.classifications = filterData.classifications
+        .filter((f) => f.count > 1)
+        .map((f) => f.t);
     }
 
     console.log(`Analyzed ${all.length} entries`);
@@ -134,14 +146,28 @@ export default function analyze() {
   }
 
   function addFilterData(d) {
-    // city
-    // county
-    // region
-    // state
-    // country
-    // subregion
+    // Classification
+    d.classifications.forEach((u) => {
+      const f = filterData.classifications.find((f) => f.t.de === u.de);
+      if (f) f.count++;
+      else filterData.classifications.push({ t: u, count: 1 });
+    });
 
-    // Location
+    // Purpose
+    d.purpose.forEach((u) => {
+      if (!filterData.purposes.includes(u.de)) {
+        filterData.purposes.push(u.de);
+      }
+    });
+
+    // Structure
+    d.structures.forEach((u) => {
+      if (!filterData.structures.includes(u.de)) {
+        filterData.structures.push(u.de);
+      }
+    });
+
+    // Geography
     const city = d.location.city ? d.location.city : null;
     const county = d.location.county ? d.location.county : null;
     const region = d.location.region ? d.location.region : null;
@@ -193,7 +219,7 @@ export default function analyze() {
   function transformPurpose(arr) {
     const purposes = [
       { de: 'burg', en: 'castle' },
-      { de: 'burg-schloss', en: 'castle-manor' },
+      { de: 'burg-schloss', en: 'manor' },
       { de: 'sonstiges', en: 'other' }
     ];
 

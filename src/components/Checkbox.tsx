@@ -3,10 +3,16 @@ import { useEffect, useState } from 'react';
 type Props = {
   text?: String;
   value: boolean;
+  capitalize?: boolean;
   checked: Function;
 };
 
-export default function Checkbox({ text, value = false, checked }: Props) {
+export default function Checkbox({
+  text,
+  value = false,
+  checked,
+  capitalize = false
+}: Props) {
   const [isChecked, setIsChecked] = useState(value);
 
   useEffect(() => {
@@ -26,7 +32,7 @@ export default function Checkbox({ text, value = false, checked }: Props) {
       <span className="icon-frame">
         {isChecked && <i className="fa-solid fa-check"></i>}
       </span>
-      <p>{text}</p>
+      <p className={`noselect ${capitalize ? 'capitalize' : ''}`}>{text}</p>
     </div>
   );
 }

@@ -25154,5 +25154,4724 @@
         "half": "2"
       }
     }
+  },
+  {
+    "id": "409",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=409",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=409",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=409",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=409",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=409"
+    ],
+    "name": {
+      "primary": "Lichtenfels",
+      "secondary": "bei Dalwigksthal"
+    },
+    "slug": "lichtenfels-b-dalwigksthal",
+    "location": {
+      "city": "Lichtenfels",
+      "county": "Waldeck-Frankenberg",
+      "region": "Ederbergland",
+      "state": {
+        "de": "Hessen",
+        "en": "Hesse",
+        "abbreviation": "he",
+        "value": {
+          "flag": "/images/countries/states/he_flag.svg",
+          "crest": "/images/countries/states/he_crest.svg"
+        }
+      },
+      "country": {
+        "en": "Germany",
+        "de": "Deutschland",
+        "abbreviation": "de"
+      },
+      "subregion": {
+        "en": "Western Europe",
+        "de": null
+      }
+    },
+    "classifications": [
+      {
+        "de": "randhausanlage",
+        "en": null
+      },
+      {
+        "de": "frontturmburg",
+        "en": null
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ],
+    "condition": {
+      "de": "stark historisierend überformt",
+      "en": "historic reshaping",
+      "value": 4
+    },
+    "conditionCommentary": "Vollständig erhaltene, späthistoristisch überformte hochmittelalterliche Burganlage.",
+    "purpose": [
+      {
+        "de": "herrschaftsmittelpunkt",
+        "en": null
+      },
+      {
+        "de": "landesburg",
+        "en": null
+      }
+    ],
+    "gallery": [
+      {
+        "id": "0",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/602_101_20060613152412.jpg",
+        "path": "/images/castles/409/0.jpg",
+        "castle": "409",
+        "caption": "Luftaufnahme. Historische Postkarte, aus: EBI-Dokumentation Lichtenfels"
+      },
+      {
+        "id": "1",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/602_103_20060613152412.jpg",
+        "path": "/images/castles/409/1.jpg",
+        "castle": "409",
+        "caption": "Späthistorisches Hauptgebäude, Foto: J. Friedhoff (2004)",
+        "year": "2004"
+      },
+      {
+        "id": "2",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/602_105_20060613152412.jpg",
+        "path": "/images/castles/409/2.jpg",
+        "castle": "409",
+        "caption": "Historische Fotografie (Ende 19. Jh.), aus: Römer, Lichtenfels"
+      },
+      {
+        "id": "3",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/602_23_20060704133136.gif",
+        "path": "/images/castles/409/3.gif",
+        "castle": "409",
+        "caption": "Grundriss der Hauptburg, aus: R. Fischer, Die Burg Lichtenfels in Waldeck und ihre Wiederherstellung, in: Die Denkmalpflege 15 (1913)",
+        "year": "1913"
+      }
+    ],
+    "dates": {
+      "start": {
+        "century": "12",
+        "half": "2"
+      },
+      "end": {
+        "century": null,
+        "half": null
+      }
+    }
+  },
+  {
+    "id": "420",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=420",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=420",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=420",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=420",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=420"
+    ],
+    "name": {
+      "primary": "Zeiskam",
+      "secondary": null
+    },
+    "slug": "zeiskam",
+    "location": {
+      "city": "Zeiskam",
+      "county": "Germersheim",
+      "region": "Pfalz",
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
+      },
+      "country": {
+        "en": "Germany",
+        "de": "Deutschland",
+        "abbreviation": "de"
+      },
+      "subregion": {
+        "en": "Western Europe",
+        "de": null
+      }
+    },
+    "classifications": [
+      {
+        "de": "wasserburg",
+        "en": "water castle"
+      },
+      {
+        "de": "keine angabe",
+        "en": null
+      }
+    ],
+    "structures": [
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ],
+    "condition": {
+      "de": "keine reste",
+      "en": "no remains",
+      "value": 0
+    },
+    "conditionCommentary": "Keine Angabe",
+    "purpose": [
+      {
+        "de": "keine angabe",
+        "en": null
+      }
+    ],
+    "gallery": [],
+    "dates": {
+      "start": {
+        "century": "10",
+        "half": "1"
+      },
+      "end": {
+        "century": null,
+        "half": null
+      }
+    }
+  },
+  {
+    "id": "422",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=422",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=422",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=422",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=422",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=422"
+    ],
+    "name": {
+      "primary": "Mauden",
+      "secondary": null
+    },
+    "slug": "mauden",
+    "location": {
+      "city": "Daaden",
+      "county": "Altenkirchen",
+      "region": "Siegerland",
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
+      },
+      "country": {
+        "en": "Germany",
+        "de": "Deutschland",
+        "abbreviation": "de"
+      },
+      "subregion": {
+        "en": "Western Europe",
+        "de": null
+      }
+    },
+    "classifications": [
+      {
+        "de": "bodendenkmal",
+        "en": ""
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ],
+    "condition": {
+      "de": "geringe reste",
+      "en": "small leftovers",
+      "value": 2
+    },
+    "conditionCommentary": "Der teilweise abgetragene Mottenhügel ist erkennbar. In neuerer Zeit wurde der Ringgraben teilweise mit Wasser gefüllt.",
+    "purpose": [
+      {
+        "de": "adelssitz",
+        "en": null
+      },
+      {
+        "de": "ministerialensitz",
+        "en": null
+      }
+    ],
+    "gallery": [
+      {
+        "id": "0",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/563_101_20060106105106.jpg",
+        "path": "/images/castles/422/0.jpg",
+        "castle": "422",
+        "caption": "Gesamtansicht, Foto: J. Friedhoff (1999)",
+        "year": "1999"
+      }
+    ],
+    "dates": {
+      "start": {
+        "century": "14",
+        "half": "1"
+      },
+      "end": {
+        "century": "16",
+        "half": null
+      }
+    }
+  },
+  {
+    "id": "431",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=431",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=431",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=431",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=431",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=431"
+    ],
+    "name": {
+      "primary": "Hatzfeld",
+      "secondary": null
+    },
+    "slug": "hatzfeld",
+    "location": {
+      "city": "Hatzfeld",
+      "county": "Waldeck-Frankenberg",
+      "region": "Ederbergland",
+      "state": {
+        "de": "Hessen",
+        "en": "Hesse",
+        "abbreviation": "he",
+        "value": {
+          "flag": "/images/countries/states/he_flag.svg",
+          "crest": "/images/countries/states/he_crest.svg"
+        }
+      },
+      "country": {
+        "en": "Germany",
+        "de": "Deutschland",
+        "abbreviation": "de"
+      },
+      "subregion": {
+        "en": "Western Europe",
+        "de": null
+      }
+    },
+    "classifications": [
+      {
+        "de": "randhausanlage",
+        "en": null
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ],
+    "condition": {
+      "de": "geringe reste",
+      "en": "small leftovers",
+      "value": 2
+    },
+    "conditionCommentary": "Relativ gut erhaltene, seit 1988 sanierte und z.T. ergänzte Burgruine.",
+    "purpose": [
+      {
+        "de": "ganerbenburg",
+        "en": null
+      },
+      {
+        "de": "herrschaftsmittelpunkt",
+        "en": null
+      }
+    ],
+    "gallery": [
+      {
+        "id": "0",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/620_101_20060616121331.jpg",
+        "path": "/images/castles/431/0.jpg",
+        "castle": "431",
+        "caption": "Stadt und Burg (um 1340), aus: Friedhoff, Hatzfeld (1996)",
+        "year": "1996"
+      },
+      {
+        "id": "1",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/620_103_20060616121331.jpg",
+        "path": "/images/castles/431/1.jpg",
+        "castle": "431",
+        "caption": "Östliche Ringmauer mit Flankenturm, Foto: J. Friedhoff (1995)",
+        "year": "1995"
+      },
+      {
+        "id": "2",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/620_105_20060616121331.jpg",
+        "path": "/images/castles/431/2.jpg",
+        "castle": "431",
+        "caption": "Südliche Ringmauer , Foto: J. Friedhoff (1995)",
+        "year": "1995"
+      },
+      {
+        "id": "3",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/620_23_20060616121331.jpg",
+        "path": "/images/castles/431/3.jpg",
+        "castle": "431",
+        "caption": "Grundriss, aus: Friedhoff, Sanierung (2004)",
+        "year": "2004"
+      }
+    ],
+    "dates": {
+      "start": {
+        "century": "13",
+        "half": "2"
+      },
+      "end": {
+        "century": "17",
+        "half": "2"
+      }
+    }
+  },
+  {
+    "id": "432",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=432",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=432",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=432",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=432",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=432"
+    ],
+    "name": {
+      "primary": "Uprath",
+      "secondary": null
+    },
+    "slug": "uprath",
+    "location": {
+      "city": "Altenahr",
+      "county": "Ahrweiler",
+      "region": "Eifel",
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
+      },
+      "country": {
+        "en": "Germany",
+        "de": "Deutschland",
+        "abbreviation": "de"
+      },
+      "subregion": {
+        "en": "Western Europe",
+        "de": null
+      }
+    },
+    "classifications": [
+      {
+        "de": "burghaus",
+        "en": "fortified house"
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ],
+    "condition": {
+      "de": "weitgehend erhalten",
+      "en": "largely preserved",
+      "value": 4
+    },
+    "conditionCommentary": "1996 erfolgte eine umfassende Sanierung des in Privatbesitz befindlichen Anwesens.",
+    "purpose": [
+      {
+        "de": "adelssitz",
+        "en": null
+      }
+    ],
+    "gallery": [
+      {
+        "id": "0",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/669_101_20061116104850.jpg",
+        "path": "/images/castles/432/0.jpg",
+        "castle": "432",
+        "caption": "Burghaus Uprath mit Burg Are. Zeichnung von N. Ponsart (1831), aus: KD Ahrweiler (1938), S. 147",
+        "year": "1831"
+      }
+    ],
+    "dates": {
+      "start": {
+        "century": "14",
+        "half": "2"
+      },
+      "end": {
+        "century": null,
+        "half": null
+      }
+    }
+  },
+  {
+    "id": "439",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=439",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=439",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=439",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=439",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=439"
+    ],
+    "name": {
+      "primary": "Scheidenburg",
+      "secondary": null
+    },
+    "slug": "scheidenburg",
+    "location": {
+      "city": "Bruchmühlbach-Miesau",
+      "county": "Kaiserslautern",
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
+      },
+      "country": {
+        "en": "Germany",
+        "de": "Deutschland",
+        "abbreviation": "de"
+      },
+      "subregion": {
+        "en": "Western Europe",
+        "de": null
+      }
+    },
+    "classifications": [
+      {
+        "de": "burgstelle",
+        "en": "castle site"
+      },
+      {
+        "de": "burg allgemein",
+        "en": "castle"
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ],
+    "condition": {
+      "de": "keine reste",
+      "en": "no remains",
+      "value": 0
+    },
+    "conditionCommentary": "An der angeblichen Burgstelle lassen sich derzeit keinerlei Reste einer Befestigung erkennen.",
+    "purpose": [
+      {
+        "de": "adelssitz",
+        "en": null
+      }
+    ],
+    "gallery": [],
+    "dates": {
+      "start": {
+        "century": "15",
+        "half": "2"
+      },
+      "end": {
+        "century": "15",
+        "half": "2"
+      }
+    }
+  },
+  {
+    "id": "442",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=442",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=442",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=442",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=442",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=442"
+    ],
+    "name": {
+      "primary": "Neef",
+      "secondary": null
+    },
+    "slug": "neef",
+    "location": {
+      "city": "Neef",
+      "county": "Cochem-Zell",
+      "region": "Moseltal",
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
+      },
+      "country": {
+        "en": "Germany",
+        "de": "Deutschland",
+        "abbreviation": "de"
+      },
+      "subregion": {
+        "en": "Western Europe",
+        "de": null
+      }
+    },
+    "classifications": [
+      {
+        "de": "burghaus",
+        "en": "fortified house"
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ],
+    "condition": {
+      "de": "weitgehend erhalten",
+      "en": "largely preserved",
+      "value": 4
+    },
+    "conditionCommentary": "Gut erhaltenes, im Detail in nachmittelalterlicher Zeit verändertes Burghaus. 1995 Rekonstruktion der Farbfassung und der Fassadengestaltung.",
+    "purpose": [
+      {
+        "de": "landesburg",
+        "en": null
+      }
+    ],
+    "gallery": [
+      {
+        "id": "0",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/767_101_20070814125603.jpg",
+        "path": "/images/castles/442/0.jpg",
+        "castle": "442",
+        "caption": "Rückwärtige Fassade, Foto: J. Friedhoff (2007)",
+        "year": "2007"
+      }
+    ],
+    "dates": {
+      "start": {
+        "century": "13",
+        "half": "1"
+      },
+      "end": {
+        "century": null,
+        "half": null
+      }
+    }
+  },
+  {
+    "id": "444",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=444",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=444",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=444",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=444",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=444"
+    ],
+    "name": {
+      "primary": "Krögelstein",
+      "secondary": null
+    },
+    "slug": "krögelstein",
+    "location": {
+      "city": "Krögelstein",
+      "state": {
+        "de": "Bayern",
+        "en": "Bavaria",
+        "abbreviation": "by",
+        "value": {
+          "flag": "/images/countries/states/by_flag.svg",
+          "crest": "/images/countries/states/by_crest.svg"
+        }
+      },
+      "country": {
+        "en": "Germany",
+        "de": "Deutschland",
+        "abbreviation": "de"
+      },
+      "subregion": {
+        "en": "Western Europe",
+        "de": null
+      }
+    },
+    "classifications": [],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ],
+    "condition": "unknown",
+    "purpose": [],
+    "gallery": [],
+    "dates": {
+      "start": {
+        "century": null,
+        "half": null
+      },
+      "end": {
+        "century": null,
+        "half": null
+      }
+    }
+  },
+  {
+    "id": "446",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=446",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=446",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=446",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=446",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=446"
+    ],
+    "name": {
+      "primary": "Pleitersheim",
+      "secondary": null
+    },
+    "slug": "pleitersheim",
+    "location": {
+      "city": "Bad Kreuznach",
+      "county": "Bad Kreuznach",
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
+      },
+      "country": {
+        "en": "Germany",
+        "de": "Deutschland",
+        "abbreviation": "de"
+      },
+      "subregion": {
+        "en": "Western Europe",
+        "de": null
+      }
+    },
+    "classifications": [
+      {
+        "de": "abgegangene burgstelle",
+        "en": "abandoned ruin"
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ],
+    "condition": {
+      "de": "keine reste",
+      "en": "no remains",
+      "value": 0
+    },
+    "conditionCommentary": "völlig abgegangen; unklar, ob überhaupt eine Burg existierte.",
+    "purpose": [
+      {
+        "de": "unbekannt",
+        "en": null
+      }
+    ],
+    "gallery": [],
+    "dates": {
+      "start": {
+        "century": null,
+        "half": null
+      },
+      "end": {
+        "century": null,
+        "half": null
+      }
+    }
+  },
+  {
+    "id": "447",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=447",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=447",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=447",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=447",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=447"
+    ],
+    "name": {
+      "primary": "Strössendorf",
+      "secondary": null
+    },
+    "slug": "strössendorf",
+    "location": {
+      "city": "Altenkundstadt",
+      "county": "Lichtenfels",
+      "state": {
+        "de": "Bayern",
+        "en": "Bavaria",
+        "abbreviation": "by",
+        "value": {
+          "flag": "/images/countries/states/by_flag.svg",
+          "crest": "/images/countries/states/by_crest.svg"
+        }
+      },
+      "country": {
+        "en": "Germany",
+        "de": "Deutschland",
+        "abbreviation": "de"
+      },
+      "subregion": {
+        "en": "Western Europe",
+        "de": null
+      }
+    },
+    "classifications": [],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "burg-schloss",
+        "en": "castle-manor"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ],
+    "condition": "unknown",
+    "purpose": [],
+    "gallery": [],
+    "dates": {
+      "start": {
+        "century": null,
+        "half": null
+      },
+      "end": {
+        "century": null,
+        "half": null
+      }
+    }
+  },
+  {
+    "id": "448",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=448",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=448",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=448",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=448",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=448"
+    ],
+    "name": {
+      "primary": "Theisenort",
+      "secondary": null
+    },
+    "slug": "theisenort",
+    "location": {
+      "city": "Markt Küps",
+      "county": "Kronach",
+      "region": "Oberfranken",
+      "state": {
+        "de": "Bayern",
+        "en": "Bavaria",
+        "abbreviation": "by",
+        "value": {
+          "flag": "/images/countries/states/by_flag.svg",
+          "crest": "/images/countries/states/by_crest.svg"
+        }
+      },
+      "country": {
+        "en": "Germany",
+        "de": "Deutschland",
+        "abbreviation": "de"
+      },
+      "subregion": {
+        "en": "Western Europe",
+        "de": null
+      }
+    },
+    "classifications": [
+      {
+        "de": "ringmauerburg",
+        "en": null
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "burg-schloss",
+        "en": "castle-manor"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ],
+    "condition": {
+      "de": "bedeutende reste",
+      "en": "significant remains",
+      "value": 3
+    },
+    "conditionCommentary": "Nach Brandzerstörung 1947 wiederhergestelltes Hauptgebäude.",
+    "purpose": [
+      {
+        "de": "landesburg",
+        "en": null
+      }
+    ],
+    "gallery": [],
+    "dates": {
+      "start": {
+        "century": "14",
+        "half": "1"
+      },
+      "end": {
+        "century": null,
+        "half": null
+      }
+    }
+  },
+  {
+    "id": "449",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=449",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=449",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=449",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=449",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=449"
+    ],
+    "name": {
+      "primary": "Mitwitz",
+      "secondary": null
+    },
+    "slug": "mitwitz",
+    "location": {
+      "city": "Mitwitz",
+      "county": "Kronach",
+      "state": {
+        "de": "Bayern",
+        "en": "Bavaria",
+        "abbreviation": "by",
+        "value": {
+          "flag": "/images/countries/states/by_flag.svg",
+          "crest": "/images/countries/states/by_crest.svg"
+        }
+      },
+      "country": {
+        "en": "Germany",
+        "de": "Deutschland",
+        "abbreviation": "de"
+      },
+      "subregion": {
+        "en": "Western Europe",
+        "de": null
+      }
+    },
+    "classifications": [
+      {
+        "de": "festes haus",
+        "en": null
+      }
+    ],
+    "structures": [
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ],
+    "condition": "unknown",
+    "purpose": [],
+    "gallery": [],
+    "dates": {
+      "start": {
+        "century": null,
+        "half": null
+      },
+      "end": {
+        "century": null,
+        "half": null
+      }
+    }
+  },
+  {
+    "id": "453",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=453",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=453",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=453",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=453",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=453"
+    ],
+    "name": {
+      "primary": "Ecka",
+      "secondary": null
+    },
+    "slug": "ecka",
+    "location": {
+      "city": "Altenahr",
+      "county": "Ahrweiler",
+      "region": "Eifel",
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
+      },
+      "country": {
+        "en": "Germany",
+        "de": "Deutschland",
+        "abbreviation": "de"
+      },
+      "subregion": {
+        "en": "Western Europe",
+        "de": null
+      }
+    },
+    "classifications": [
+      {
+        "de": "abgegangene burgstelle",
+        "en": "abandoned ruin"
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ],
+    "condition": {
+      "de": "keine reste",
+      "en": "no remains",
+      "value": 0
+    },
+    "purpose": [
+      {
+        "de": "ministerialensitz",
+        "en": null
+      }
+    ],
+    "gallery": [],
+    "dates": {
+      "start": {
+        "century": "13",
+        "half": "1"
+      },
+      "end": {
+        "century": "13",
+        "half": "2"
+      }
+    }
+  },
+  {
+    "id": "454",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=454",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=454",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=454",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=454",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=454"
+    ],
+    "name": {
+      "primary": "Sayn",
+      "secondary": null
+    },
+    "slug": "sayn",
+    "location": {
+      "city": "Bendorf",
+      "county": "Mayen-Koblenz",
+      "region": "Mittelrhein",
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
+      },
+      "country": {
+        "en": "Germany",
+        "de": "Deutschland",
+        "abbreviation": "de"
+      },
+      "subregion": {
+        "en": "Western Europe",
+        "de": null
+      }
+    },
+    "classifications": [
+      {
+        "de": "randhausanlage",
+        "en": null
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ],
+    "condition": {
+      "de": "bedeutende reste",
+      "en": "significant remains",
+      "value": 3
+    },
+    "conditionCommentary": "Umfangreiche, seit Mitte der 1970er Jahre sanierte Abschnittsburg. 1983 Freilegung und Sanierung der Ruinenreste der Burgkapelle.",
+    "purpose": [
+      {
+        "de": "dynastensitz",
+        "en": null
+      }
+    ],
+    "gallery": [
+      {
+        "id": "0",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/66_101_20050518145213.jpg",
+        "path": "/images/castles/454/0.jpg",
+        "castle": "454",
+        "caption": "Bergfried von der Kapelle aus gesehen, Foto: Alexander Fürst zu Sayn-Wittgenstein-Sayn"
+      },
+      {
+        "id": "1",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/66_103_20050513100909.jpg",
+        "path": "/images/castles/454/1.jpg",
+        "castle": "454",
+        "caption": "Burg und Schloss Sayn, um 1850, aus: Alexander Fürst zu Sayn-Wittgenstein-Sayn, Sayn, Ort und Fürstentum (1979)",
+        "year": "1979"
+      },
+      {
+        "id": "2",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/66_105_20050513100909.jpg",
+        "path": "/images/castles/454/2.jpg",
+        "castle": "454",
+        "caption": "Burgkapelle, Foto: J. Friedhoff (1993)",
+        "year": "1993"
+      },
+      {
+        "id": "3",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/66_23_20050513100909.jpg",
+        "path": "/images/castles/454/3.jpg",
+        "castle": "454",
+        "caption": "Grundriss, aus: Halbekamm, Grafen von Sayn (1997)",
+        "year": "1997"
+      }
+    ],
+    "dates": {
+      "start": {
+        "century": "12",
+        "half": "2"
+      },
+      "end": {
+        "century": "17",
+        "half": "1"
+      }
+    }
+  },
+  {
+    "id": "455",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=455",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=455",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=455",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=455",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=455"
+    ],
+    "name": {
+      "primary": "Roter Turm",
+      "secondary": null
+    },
+    "slug": "roter-turm",
+    "location": {
+      "city": "Bad Neuenahr-Ahrweiler",
+      "county": "Ahrweiler",
+      "region": "Eifel",
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
+      },
+      "country": {
+        "en": "Germany",
+        "de": "Deutschland",
+        "abbreviation": "de"
+      },
+      "subregion": {
+        "en": "Western Europe",
+        "de": null
+      }
+    },
+    "classifications": [
+      {
+        "de": "abgegangene burgstelle",
+        "en": "abandoned ruin"
+      },
+      {
+        "de": "wasserburg",
+        "en": "water castle"
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ],
+    "condition": {
+      "de": "keine reste",
+      "en": "no remains",
+      "value": 0
+    },
+    "purpose": [
+      {
+        "de": "ministerialensitz",
+        "en": null
+      }
+    ],
+    "gallery": [
+      {
+        "id": "0",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/671_101_20061116105612.jpg",
+        "path": "/images/castles/455/0.jpg",
+        "castle": "455",
+        "caption": "Ansicht des Roten Turmes (Ende 18. Jh.), aus: Heyen, Arenberger in der Eifel (1987), S. 77",
+        "year": "1987"
+      },
+      {
+        "id": "1",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/671_23_20061116105612.gif",
+        "path": "/images/castles/455/1.gif",
+        "castle": "455",
+        "caption": "Grundriss des Roten Turmes (Ende 18. Jh.), aus: Heyen, Arenberger in der Eifel (1987), S. 77",
+        "year": "1987"
+      }
+    ],
+    "dates": {
+      "start": {
+        "century": "13",
+        "half": "1"
+      },
+      "end": {
+        "century": "19",
+        "half": "1"
+      }
+    }
+  },
+  {
+    "id": "456",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=456",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=456",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=456",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=456",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=456"
+    ],
+    "name": {
+      "primary": "Kolventurm",
+      "secondary": null
+    },
+    "slug": "kolventurm",
+    "location": {
+      "city": "Bad Neuenahr-Ahrweiler",
+      "county": "Ahrweiler",
+      "region": "Eifel",
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
+      },
+      "country": {
+        "en": "Germany",
+        "de": "Deutschland",
+        "abbreviation": "de"
+      },
+      "subregion": {
+        "en": "Western Europe",
+        "de": null
+      }
+    },
+    "classifications": [
+      {
+        "de": "abgegangene burgstelle",
+        "en": "abandoned ruin"
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ],
+    "condition": {
+      "de": "keine reste",
+      "en": "no remains",
+      "value": 0
+    },
+    "purpose": [
+      {
+        "de": "ministerialensitz",
+        "en": null
+      }
+    ],
+    "gallery": [],
+    "dates": {
+      "start": {
+        "century": "14",
+        "half": "2"
+      },
+      "end": {
+        "century": "18",
+        "half": "1"
+      }
+    }
+  },
+  {
+    "id": "457",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=457",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=457",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=457",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=457",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=457"
+    ],
+    "name": {
+      "primary": "Namedy",
+      "secondary": null
+    },
+    "slug": "namedy",
+    "location": {
+      "city": "Andernach",
+      "county": "Mayen-Koblenz",
+      "region": "Mittelrhein",
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
+      },
+      "country": {
+        "en": "Germany",
+        "de": "Deutschland",
+        "abbreviation": "de"
+      },
+      "subregion": {
+        "en": "Western Europe",
+        "de": null
+      }
+    },
+    "classifications": [
+      {
+        "de": "wasserburg",
+        "en": "water castle"
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg-schloss",
+        "en": "castle-manor"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ],
+    "condition": {
+      "de": "stark historisierend überformt",
+      "en": "historic reshaping",
+      "value": 4
+    },
+    "conditionCommentary": "Späthistoristisch überformte, 1993-96 sanierte Anlage.",
+    "purpose": [
+      {
+        "de": "adelssitz",
+        "en": null
+      }
+    ],
+    "gallery": [
+      {
+        "id": "0",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/49_101_20050510155032.jpg",
+        "path": "/images/castles/457/0.jpg",
+        "castle": "457",
+        "caption": "Gesamtansicht, Foto: J. Friedhoff (1999)",
+        "year": "1999"
+      },
+      {
+        "id": "1",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/49_23_20050510155144.jpg",
+        "path": "/images/castles/457/1.jpg",
+        "castle": "457",
+        "caption": "Grundriss der Burg, aus: KD Mayen (1941)",
+        "year": "1941"
+      }
+    ],
+    "dates": {
+      "start": {
+        "century": "13",
+        "half": "2"
+      },
+      "end": {
+        "century": null,
+        "half": null
+      }
+    }
+  },
+  {
+    "id": "458",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=458",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=458",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=458",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=458",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=458"
+    ],
+    "name": {
+      "primary": "Sayn",
+      "secondary": "Mittleres Burghaus"
+    },
+    "slug": "sayn-mittleres-burghaus",
+    "location": {
+      "city": "Bendorf Sayn",
+      "county": "Mayen-Koblenz",
+      "region": "Mittelrhein",
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
+      },
+      "country": {
+        "en": "Germany",
+        "de": "Deutschland",
+        "abbreviation": "de"
+      },
+      "subregion": {
+        "en": "Western Europe",
+        "de": null
+      }
+    },
+    "classifications": [
+      {
+        "de": "burghaus",
+        "en": "fortified house"
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ],
+    "condition": {
+      "de": "bedeutende reste",
+      "en": "significant remains",
+      "value": 3
+    },
+    "conditionCommentary": "Relativ gut erhaltene Ruine des Burghauses.",
+    "purpose": [
+      {
+        "de": "ministerialensitz",
+        "en": null
+      }
+    ],
+    "gallery": [
+      {
+        "id": "0",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/64_101_20050512162535.jpg",
+        "path": "/images/castles/458/0.jpg",
+        "castle": "458",
+        "caption": "Gesamtansicht, Foto: J. Friedhoff (1993)",
+        "year": "1993"
+      },
+      {
+        "id": "1",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/64_23_20050519142130.jpg",
+        "path": "/images/castles/458/1.jpg",
+        "castle": "458",
+        "caption": "Grundriss"
+      }
+    ],
+    "dates": {
+      "start": {
+        "century": "15",
+        "half": null
+      },
+      "end": {
+        "century": "17",
+        "half": "1"
+      }
+    }
+  },
+  {
+    "id": "460",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=460",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=460",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=460",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=460",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=460"
+    ],
+    "name": {
+      "primary": "Godenhaus",
+      "secondary": null
+    },
+    "slug": "godenhaus",
+    "location": {
+      "city": "Sinzig",
+      "county": "Ahrweiler",
+      "region": "Mittelrhein",
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
+      },
+      "country": {
+        "en": "Germany",
+        "de": "Deutschland",
+        "abbreviation": "de"
+      },
+      "subregion": {
+        "en": "Western Europe",
+        "de": null
+      }
+    },
+    "classifications": [
+      {
+        "de": "burghaus",
+        "en": "fortified house"
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ],
+    "condition": {
+      "de": "überbaut",
+      "en": "overbuilt",
+      "value": 0
+    },
+    "conditionCommentary": "An die Stelle des Ministerialensitzes trat eine barocke Hofanlage.",
+    "purpose": [
+      {
+        "de": "ministerialensitz",
+        "en": null
+      }
+    ],
+    "gallery": [
+      {
+        "id": "0",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/683_101_20061121102152.jpg",
+        "path": "/images/castles/460/0.jpg",
+        "castle": "460",
+        "caption": "Godenhaus. Historische Fotografie, aus: KD. Ahrweiler (1938), S. 636",
+        "year": "1938"
+      }
+    ],
+    "dates": {
+      "start": {
+        "century": "13",
+        "half": "2"
+      },
+      "end": {
+        "century": null,
+        "half": null
+      }
+    }
+  },
+  {
+    "id": "461",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=461",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=461",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=461",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=461",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=461"
+    ],
+    "name": {
+      "primary": "St. Goar",
+      "secondary": null
+    },
+    "slug": "st-goar",
+    "location": {
+      "city": "St. Goar",
+      "county": "Rhein-Hunsrück-Kreis",
+      "region": "Mittelrhein",
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
+      },
+      "country": {
+        "en": "Germany",
+        "de": "Deutschland",
+        "abbreviation": "de"
+      },
+      "subregion": {
+        "en": "Western Europe",
+        "de": null
+      }
+    },
+    "classifications": [
+      {
+        "de": "abgegangene burgstelle",
+        "en": "abandoned ruin"
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ],
+    "condition": {
+      "de": "überbaut",
+      "en": "overbuilt",
+      "value": 0
+    },
+    "conditionCommentary": "Die bis zum 19. Jh. in Resten erhaltene Burg fiel dem Bau der Eisenbahnlinie zum Opfer.",
+    "purpose": [
+      {
+        "de": "stadtburg",
+        "en": null
+      }
+    ],
+    "gallery": [],
+    "dates": {
+      "start": {
+        "century": "13",
+        "half": "1"
+      },
+      "end": {
+        "century": "19",
+        "half": null
+      }
+    }
+  },
+  {
+    "id": "462",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=462",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=462",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=462",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=462",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=462"
+    ],
+    "name": {
+      "primary": "Herschbach",
+      "secondary": "Hundsburgkopf"
+    },
+    "slug": "herschbach-hundsburgkopf",
+    "location": {
+      "city": "Herschbach",
+      "county": "Ahrweiler",
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
+      },
+      "country": {
+        "en": "Germany",
+        "de": "Deutschland",
+        "abbreviation": "de"
+      },
+      "subregion": {
+        "en": "Western Europe",
+        "de": null
+      }
+    },
+    "classifications": [
+      {
+        "de": "burgstelle",
+        "en": "castle site"
+      }
+    ],
+    "structures": [
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ],
+    "condition": "unknown",
+    "purpose": [],
+    "gallery": [],
+    "dates": {
+      "start": {
+        "century": null,
+        "half": null
+      },
+      "end": {
+        "century": null,
+        "half": null
+      }
+    }
+  },
+  {
+    "id": "463",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=463",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=463",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=463",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=463",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=463"
+    ],
+    "name": {
+      "primary": "Junkernthal",
+      "secondary": null
+    },
+    "slug": "junkernthal",
+    "location": {
+      "city": "Kirchen",
+      "county": "Altenkirchen",
+      "region": "Siegtal",
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
+      },
+      "country": {
+        "en": "Germany",
+        "de": "Deutschland",
+        "abbreviation": "de"
+      },
+      "subregion": {
+        "en": "Western Europe",
+        "de": null
+      }
+    },
+    "classifications": [
+      {
+        "de": "abgegangene burgstelle",
+        "en": "abandoned ruin"
+      },
+      {
+        "de": "burghaus",
+        "en": "fortified house"
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "burg-schloss",
+        "en": "castle-manor"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ],
+    "condition": {
+      "de": "überbaut",
+      "en": "overbuilt",
+      "value": 0
+    },
+    "conditionCommentary": "Von den spätmittelalterlichen Gebäuden haben sich keine Reste erhalten. Bestehende Wirtschaftsgebäude (18. Jh.), Herrenhaus 19./20. Jh.",
+    "purpose": [
+      {
+        "de": "adelssitz",
+        "en": null
+      },
+      {
+        "de": "ministerialensitz",
+        "en": null
+      }
+    ],
+    "gallery": [
+      {
+        "id": "0",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/558_101_20060106094903.gif",
+        "path": "/images/castles/463/0.gif",
+        "castle": "463",
+        "caption": "Historische Ansicht 1741/46, aus: Bartolosch, Polygewerbliche Wirtschaft (1993)",
+        "year": "1993"
+      }
+    ],
+    "dates": {
+      "start": {
+        "century": "15",
+        "half": "1"
+      },
+      "end": {
+        "century": null,
+        "half": null
+      }
+    }
+  },
+  {
+    "id": "466",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=466",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=466",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=466",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=466",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=466"
+    ],
+    "name": {
+      "primary": "Pleisweiler",
+      "secondary": null
+    },
+    "slug": "pleisweiler",
+    "location": {
+      "city": "Pleisweiler-Oberhofen",
+      "county": "Südliche Weinstraße",
+      "region": "Pfalz",
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
+      },
+      "country": {
+        "en": "Germany",
+        "de": "Deutschland",
+        "abbreviation": "de"
+      },
+      "subregion": {
+        "en": "Western Europe",
+        "de": null
+      }
+    },
+    "classifications": [
+      {
+        "de": "wasserburg",
+        "en": "water castle"
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "burg-schloss",
+        "en": "castle-manor"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ],
+    "condition": {
+      "de": "weitgehend erhalten",
+      "en": "largely preserved",
+      "value": 4
+    },
+    "conditionCommentary": "Teilweise erhaltene spätmittelalterliche Wasserburg.",
+    "purpose": [
+      {
+        "de": "adelssitz",
+        "en": null
+      }
+    ],
+    "gallery": [
+      {
+        "id": "0",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/2883_101_20150925142805.jpg",
+        "path": "/images/castles/466/0.jpg",
+        "castle": "466",
+        "caption": "Burgstelle Pleisweiler, Südflügel und Westflügel, Luftaufnahme von Südwesten 11994 (Aufnahme: Manfred Czerwinski, Institut für pfälzische Geschichte und Volkskunde)"
+      },
+      {
+        "id": "1",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/2883_103_20150925142805.jpg",
+        "path": "/images/castles/466/1.jpg",
+        "castle": "466",
+        "caption": "Burg/Schloss Pleisweiler, Ansicht von Südwesten, 1984 (Aufnahme: Verbands-GemA Bad Bergzabern, FotoA Nr. 22/59)"
+      },
+      {
+        "id": "2",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/2883_105_20150925142805.jpg",
+        "path": "/images/castles/466/2.jpg",
+        "castle": "466",
+        "caption": "Burgstelle Pleisweiler, Schlüsselscharten für Hakenbüchsen in Westmauer und Kragstein eines Guss- oder Aborterkers, 1996 (Aufnahme: Verbands-GemA Bad Bergzabern, FotoA Nr. 17/34)"
+      }
+    ],
+    "dates": {
+      "start": {
+        "century": "15",
+        "half": "2"
+      },
+      "end": {
+        "century": null,
+        "half": null
+      }
+    }
+  },
+  {
+    "id": "468",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=468",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=468",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=468",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=468",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=468"
+    ],
+    "name": {
+      "primary": "Trarbach",
+      "secondary": null
+    },
+    "slug": "trarbach",
+    "location": {
+      "city": "Traben-Trarbach",
+      "county": "Bernkastel-Wittlich",
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
+      },
+      "country": {
+        "en": "Germany",
+        "de": "Deutschland",
+        "abbreviation": "de"
+      },
+      "subregion": {
+        "en": "Western Europe",
+        "de": null
+      }
+    },
+    "classifications": [
+      {
+        "de": "festes haus",
+        "en": null
+      }
+    ],
+    "structures": [
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ],
+    "condition": "unknown",
+    "purpose": [],
+    "gallery": [],
+    "dates": {
+      "start": {
+        "century": "14",
+        "half": "2"
+      },
+      "end": {
+        "century": null,
+        "half": null
+      }
+    }
+  },
+  {
+    "id": "469",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=469",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=469",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=469",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=469",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=469"
+    ],
+    "name": {
+      "primary": "Heidelberg",
+      "secondary": "bei Hambach"
+    },
+    "slug": "heidelberg-bei-hambach",
+    "location": {
+      "city": "Neustadt a.d.Weinstraße",
+      "county": "Neustadt",
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
+      },
+      "country": {
+        "en": "Germany",
+        "de": "Deutschland",
+        "abbreviation": "de"
+      },
+      "subregion": {
+        "en": "Western Europe",
+        "de": null
+      }
+    },
+    "classifications": [
+      {
+        "de": "ringwall",
+        "en": null
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ],
+    "condition": {
+      "de": "fundamente",
+      "en": "foundations",
+      "value": 1
+    },
+    "conditionCommentary": "Nur Reste der Wallanlage erhalten.",
+    "purpose": [
+      {
+        "de": "fluchtburg",
+        "en": null
+      }
+    ],
+    "gallery": [],
+    "dates": {
+      "start": {
+        "century": null,
+        "half": null
+      },
+      "end": {
+        "century": null,
+        "half": null
+      }
+    }
+  },
+  {
+    "id": "470",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=470",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=470",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=470",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=470",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=470"
+    ],
+    "name": {
+      "primary": "Heimburg",
+      "secondary": null
+    },
+    "slug": "heimburg",
+    "location": {
+      "city": "Niederheimbach",
+      "county": "Mainz-Bingen",
+      "region": "Mittelrhein",
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
+      },
+      "country": {
+        "en": "Germany",
+        "de": "Deutschland",
+        "abbreviation": "de"
+      },
+      "subregion": {
+        "en": "Western Europe",
+        "de": null
+      }
+    },
+    "classifications": [
+      {
+        "de": "randhausanlage",
+        "en": null
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ],
+    "condition": {
+      "de": "stark historisierend überformt",
+      "en": "historic reshaping",
+      "value": 4
+    },
+    "conditionCommentary": "Stark historisierend überformte, im Kern mittelalterliche Burganlage",
+    "purpose": [
+      {
+        "de": "landesburg",
+        "en": null
+      },
+      {
+        "de": "gegenburg",
+        "en": null
+      }
+    ],
+    "gallery": [
+      {
+        "id": "0",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/175_101_20050704124104.jpg",
+        "path": "/images/castles/470/0.jpg",
+        "castle": "470",
+        "caption": "Gesamtansicht, Foto: J. Friedhoff (2004)",
+        "year": "2004"
+      },
+      {
+        "id": "1",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/175_103_20050704124104.jpg",
+        "path": "/images/castles/470/1.jpg",
+        "castle": "470",
+        "caption": "Luftbild, DBV-Bildarchiv Nr. 2471"
+      },
+      {
+        "id": "2",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/175_105_20050704124104.jpg",
+        "path": "/images/castles/470/2.jpg",
+        "castle": "470",
+        "caption": "Luftbild, DBV-Bildarchiv Nr. 2471"
+      }
+    ],
+    "dates": {
+      "start": {
+        "century": "13",
+        "half": "2"
+      },
+      "end": {
+        "century": null,
+        "half": null
+      }
+    }
+  },
+  {
+    "id": "471",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=471",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=471",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=471",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=471",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=471"
+    ],
+    "name": {
+      "primary": "Stahleck",
+      "secondary": null
+    },
+    "slug": "stahleck",
+    "location": {
+      "city": "Bacharach",
+      "county": "Mainz-Bingen",
+      "region": "Mittelrhein",
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
+      },
+      "country": {
+        "en": "Germany",
+        "de": "Deutschland",
+        "abbreviation": "de"
+      },
+      "subregion": {
+        "en": "Western Europe",
+        "de": null
+      }
+    },
+    "classifications": [
+      {
+        "de": "schildmauerburg",
+        "en": null
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ],
+    "condition": {
+      "de": "stark modern überformt",
+      "en": null
+    },
+    "conditionCommentary": "Gut erhaltene, gepflegte Anlage.",
+    "purpose": [
+      {
+        "de": "dynastensitz",
+        "en": null
+      },
+      {
+        "de": "landesburg",
+        "en": null
+      }
+    ],
+    "gallery": [
+      {
+        "id": "0",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/183_101_20050705094930.jpg",
+        "path": "/images/castles/471/0.jpg",
+        "castle": "471",
+        "caption": "Gesamtansicht, Foto: R. Friedrich (2003)",
+        "year": "2003"
+      },
+      {
+        "id": "1",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/183_103_20050705094930.jpg",
+        "path": "/images/castles/471/1.jpg",
+        "castle": "471",
+        "caption": "Gesamtansicht vom rechten Rheinufer, Foto: J. Friedhoff (2002)",
+        "year": "2002"
+      },
+      {
+        "id": "2",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/183_105_20050705094930.jpg",
+        "path": "/images/castles/471/2.jpg",
+        "castle": "471",
+        "caption": "Burg Stahleck mit Stadtbefestigung von Bacharach, Foto: J. Friedhoff (2002)",
+        "year": "2002"
+      },
+      {
+        "id": "3",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/183_23_20050712120616.gif",
+        "path": "/images/castles/471/3.gif",
+        "castle": "471",
+        "caption": "Grundriss, aus: Laß, Burgen (2005)",
+        "year": "2005"
+      }
+    ],
+    "dates": {
+      "start": {
+        "century": "12",
+        "half": "1"
+      },
+      "end": {
+        "century": null,
+        "half": null
+      }
+    }
+  },
+  {
+    "id": "472",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=472",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=472",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=472",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=472",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=472"
+    ],
+    "name": {
+      "primary": "Stahlberg",
+      "secondary": null
+    },
+    "slug": "stahlberg",
+    "location": {
+      "city": "Bacharach",
+      "county": "Mainz-Bingen",
+      "region": "Mittelrhein",
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
+      },
+      "country": {
+        "en": "Germany",
+        "de": "Deutschland",
+        "abbreviation": "de"
+      },
+      "subregion": {
+        "en": "Western Europe",
+        "de": null
+      }
+    },
+    "classifications": [],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ],
+    "condition": {
+      "de": "bedeutende reste",
+      "en": "significant remains",
+      "value": 3
+    },
+    "conditionCommentary": "Sanierte und bauhistorisch eingehend untersuchte Burgruine.",
+    "purpose": [
+      {
+        "de": "herrschaftsmittelpunkt",
+        "en": null
+      }
+    ],
+    "gallery": [
+      {
+        "id": "0",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/184_101_20050705102501.jpg",
+        "path": "/images/castles/472/0.jpg",
+        "castle": "472",
+        "caption": "Gesamtansicht, Foto: J. Friedhoff (1995)",
+        "year": "1995"
+      },
+      {
+        "id": "1",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/184_103_20050705102501.jpg",
+        "path": "/images/castles/472/1.jpg",
+        "castle": "472",
+        "caption": "Runder Bergfried, Foto: J. Friedhoff (1991)",
+        "year": "1991"
+      },
+      {
+        "id": "2",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/184_105_20050705102501.jpg",
+        "path": "/images/castles/472/2.jpg",
+        "castle": "472",
+        "caption": "Quadratischer Bergfried, DBV-Bildarchiv Nr. 12480"
+      },
+      {
+        "id": "3",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/184_23_20050712110537.gif",
+        "path": "/images/castles/472/3.gif",
+        "castle": "472",
+        "caption": "Grundriss Burg Stahlberg, aus: DBV-Archiv"
+      }
+    ],
+    "dates": {
+      "start": {
+        "century": "13",
+        "half": "1"
+      },
+      "end": {
+        "century": "17",
+        "half": "1"
+      }
+    }
+  },
+  {
+    "id": "473",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=473",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=473",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=473",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=473",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=473"
+    ],
+    "name": {
+      "primary": "Fürstenberg",
+      "secondary": "am Rhein"
+    },
+    "slug": "fürstenberg-am-rhein",
+    "location": {
+      "city": "Oberdiebach",
+      "county": "Mainz-Bingen",
+      "region": "Mittelrhein",
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
+      },
+      "country": {
+        "en": "Germany",
+        "de": "Deutschland",
+        "abbreviation": "de"
+      },
+      "subregion": {
+        "en": "Western Europe",
+        "de": null
+      }
+    },
+    "classifications": [
+      {
+        "de": "schildmauerburg",
+        "en": null
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ],
+    "condition": {
+      "de": "bedeutende reste",
+      "en": "significant remains",
+      "value": 3
+    },
+    "conditionCommentary": "Vorbildlich sanierte Burgruine",
+    "purpose": [
+      {
+        "de": "landesburg",
+        "en": null
+      }
+    ],
+    "gallery": [
+      {
+        "id": "0",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/174_101_20050704122217.jpg",
+        "path": "/images/castles/473/0.jpg",
+        "castle": "473",
+        "caption": "Gesamtansicht, Foto: J. Friedhoff (2004)",
+        "year": "2004"
+      },
+      {
+        "id": "1",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/174_103_20050704122217.jpg",
+        "path": "/images/castles/473/1.jpg",
+        "castle": "473",
+        "caption": "Schildmauer mit Bergfried, Foto: J. Friedhoff (2004)",
+        "year": "2004"
+      },
+      {
+        "id": "2",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/174_105_20050704122217.jpg",
+        "path": "/images/castles/473/2.jpg",
+        "castle": "473",
+        "caption": "Ansicht der Burg aus dem frühen 17. Jh.; aus: K. Frein/J. Meißner, Burgen am Rhein, Hamburg 1983"
+      },
+      {
+        "id": "3",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/174_23_20050712114948.gif",
+        "path": "/images/castles/473/3.gif",
+        "castle": "473",
+        "caption": "Grundriss, aus: Laß, Burgen (2005)",
+        "year": "2005"
+      }
+    ],
+    "dates": {
+      "start": {
+        "century": "13",
+        "half": "1"
+      },
+      "end": {
+        "century": "17",
+        "half": "2"
+      }
+    }
+  },
+  {
+    "id": "474",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=474",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=474",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=474",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=474",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=474"
+    ],
+    "name": {
+      "primary": "Schönburg",
+      "secondary": "bei Oberwesel"
+    },
+    "slug": "schönburg-bei-oberwesel",
+    "location": {
+      "city": "Oberwesel",
+      "county": "Rhein-Hunsrück-Kreis",
+      "region": "Mittelrhein",
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
+      },
+      "country": {
+        "en": "Germany",
+        "de": "Deutschland",
+        "abbreviation": "de"
+      },
+      "subregion": {
+        "en": "Western Europe",
+        "de": null
+      }
+    },
+    "classifications": [],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ],
+    "condition": {
+      "de": "weitgehend erhalten",
+      "en": "largely preserved",
+      "value": 4
+    },
+    "conditionCommentary": "Imposante, seit dem Ende des 19. Jh. ausgebaute Halbruine in eindrucksvoller Lage. Sanierungen 1920, in den 1950er Jahren u. 1979. 1978-81 Rekonstruktion des südlichen Palas.",
+    "purpose": [
+      {
+        "de": "ganerbenburg",
+        "en": null
+      },
+      {
+        "de": "reichsburg",
+        "en": null
+      }
+    ],
+    "gallery": [
+      {
+        "id": "0",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/165_101_20050627101208.jpg",
+        "path": "/images/castles/474/0.jpg",
+        "castle": "474",
+        "caption": "Bergfried, Foto: J. Friedhoff (2000)",
+        "year": "2000"
+      },
+      {
+        "id": "1",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/165_103_20050627101208.jpg",
+        "path": "/images/castles/474/1.jpg",
+        "castle": "474",
+        "caption": "Gesamtansicht, Foto: J. Friedhoff (2000)",
+        "year": "2000"
+      },
+      {
+        "id": "2",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/165_105_20050704151839.jpg",
+        "path": "/images/castles/474/2.jpg",
+        "castle": "474",
+        "caption": "Mantelmauer, Foto: R. Friedrich (2003)",
+        "year": "2003"
+      },
+      {
+        "id": "3",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/165_23_20050627101208.jpg",
+        "path": "/images/castles/474/3.jpg",
+        "castle": "474",
+        "caption": "Grundriss, aus: Dehio RP (1984)",
+        "year": "1984"
+      }
+    ],
+    "dates": {
+      "start": {
+        "century": "12",
+        "half": "1"
+      },
+      "end": {
+        "century": null,
+        "half": null
+      }
+    }
+  },
+  {
+    "id": "475",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=475",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=475",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=475",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=475",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=475"
+    ],
+    "name": {
+      "primary": "Boppard",
+      "secondary": null
+    },
+    "slug": "boppard",
+    "location": {
+      "city": "Boppard",
+      "county": "Rhein-Hunsrück-Kreis",
+      "region": "Mittelrhein",
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
+      },
+      "country": {
+        "en": "Germany",
+        "de": "Deutschland",
+        "abbreviation": "de"
+      },
+      "subregion": {
+        "en": "Western Europe",
+        "de": null
+      }
+    },
+    "classifications": [
+      {
+        "de": "wohnturm",
+        "en": "keep"
+      },
+      {
+        "de": "niederungsburg",
+        "en": "lowland castle"
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ],
+    "condition": {
+      "de": "weitgehend erhalten",
+      "en": "largely preserved",
+      "value": 4
+    },
+    "conditionCommentary": "Restaurierung 1951. 1974 u. 1978f. Erneuerung des Außenputzes der Burganlage.",
+    "purpose": [
+      {
+        "de": "stadtburg",
+        "en": null
+      }
+    ],
+    "gallery": [
+      {
+        "id": "0",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/163_101_20050704114108.jpg",
+        "path": "/images/castles/475/0.jpg",
+        "castle": "475",
+        "caption": "Stadtseitige Fassade, Foto: R. Friedrich (2003)",
+        "year": "2003"
+      },
+      {
+        "id": "1",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/163_103_20050704114108.gif",
+        "path": "/images/castles/475/1.gif",
+        "castle": "475",
+        "caption": "Schnitt durch den Wohnturm, aus: Herrmann, Wohntürme (1995)",
+        "year": "1995"
+      },
+      {
+        "id": "2",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/163_23_20050624112527.gif",
+        "path": "/images/castles/475/2.gif",
+        "castle": "475",
+        "caption": "Grundriss des Wohnturms, vierte Etage, aus: Herrmann, Wohntürme (1995)",
+        "year": "1995"
+      }
+    ],
+    "dates": {
+      "start": {
+        "century": "13",
+        "half": "2"
+      },
+      "end": {
+        "century": null,
+        "half": null
+      }
+    }
+  },
+  {
+    "id": "476",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=476",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=476",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=476",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=476",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=476"
+    ],
+    "name": {
+      "primary": "Kobern Niederburg",
+      "secondary": null
+    },
+    "slug": "kobern-niederburg",
+    "location": {
+      "city": "Kobern-Gondorf",
+      "county": "Mayen-Koblenz",
+      "region": "Moseltal",
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
+      },
+      "country": {
+        "en": "Germany",
+        "de": "Deutschland",
+        "abbreviation": "de"
+      },
+      "subregion": {
+        "en": "Western Europe",
+        "de": null
+      }
+    },
+    "classifications": [
+      {
+        "de": "randhausanlage",
+        "en": null
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ],
+    "condition": {
+      "de": "bedeutende reste",
+      "en": "significant remains",
+      "value": 3
+    },
+    "conditionCommentary": "Die relativ gut erhaltene Burgruine befindet sich seit 1948 im Besitz des Landes Rheinland-Pfalz und wurde 1976-78 restauriert.",
+    "purpose": [
+      {
+        "de": "dynastensitz",
+        "en": null
+      },
+      {
+        "de": "landesburg",
+        "en": null
+      }
+    ],
+    "gallery": [
+      {
+        "id": "0",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/59_101_20050512111353.jpg",
+        "path": "/images/castles/476/0.jpg",
+        "castle": "476",
+        "caption": "Gesamtansicht von Nieder- und Oberburg, Foto: J. Friedhoff (1999)",
+        "year": "1999"
+      },
+      {
+        "id": "1",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/59_103_20050512111353.jpg",
+        "path": "/images/castles/476/1.jpg",
+        "castle": "476",
+        "caption": "Niederburg von Südosten, Foto: J. Friedhoff (1999)",
+        "year": "1999"
+      },
+      {
+        "id": "2",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/59_105_20050512111353.jpg",
+        "path": "/images/castles/476/2.jpg",
+        "castle": "476",
+        "caption": "Schnitt, aus: KD Koblenz (1944)",
+        "year": "1944"
+      },
+      {
+        "id": "3",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/59_23_20050512111353.jpg",
+        "path": "/images/castles/476/3.jpg",
+        "castle": "476",
+        "caption": "Grundriss, aus: KD Koblenz (1944)",
+        "year": "1944"
+      }
+    ],
+    "dates": {
+      "start": {
+        "century": "12",
+        "half": "2"
+      },
+      "end": {
+        "century": "17",
+        "half": "2"
+      }
+    }
+  },
+  {
+    "id": "477",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=477",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=477",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=477",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=477",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=477"
+    ],
+    "name": {
+      "primary": "Kobern Oberburg",
+      "secondary": null
+    },
+    "slug": "kobern-oberburg",
+    "location": {
+      "city": "Kobern-Gondorf",
+      "county": "Mayen-Koblenz",
+      "region": "Moseltal",
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
+      },
+      "country": {
+        "en": "Germany",
+        "de": "Deutschland",
+        "abbreviation": "de"
+      },
+      "subregion": {
+        "en": "Western Europe",
+        "de": null
+      }
+    },
+    "classifications": [
+      {
+        "de": "randhausanlage",
+        "en": null
+      },
+      {
+        "de": "frontturmburg",
+        "en": null
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ],
+    "condition": {
+      "de": "bedeutende reste",
+      "en": "significant remains",
+      "value": 3
+    },
+    "conditionCommentary": "1987/88 erfolgten Grabungen und bauarchäologische Untersuchungen des LfD anlässlich der Errichtung eines Wohn- und Wirtschaftsgebäudes. 1992 wurde die Sanierung der Matthiaskapelle abgeschlossen.",
+    "purpose": [
+      {
+        "de": "dynastensitz",
+        "en": null
+      },
+      {
+        "de": "landesburg",
+        "en": null
+      }
+    ],
+    "gallery": [
+      {
+        "id": "0",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/65_101_20050513094604.jpg",
+        "path": "/images/castles/477/0.jpg",
+        "castle": "477",
+        "caption": "Gesamtansicht, Foto: J. Friedhoff (1993)",
+        "year": "1993"
+      },
+      {
+        "id": "1",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/65_103_20050513094604.jpg",
+        "path": "/images/castles/477/1.jpg",
+        "castle": "477",
+        "caption": "Hypothetische Rekonstruktion der Burganlage, Situation Anf. 13. Jh., aus: Wulf, Matthiaskapelle (1995)",
+        "year": "1995"
+      },
+      {
+        "id": "2",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/65_105_20050513094604.jpg",
+        "path": "/images/castles/477/2.jpg",
+        "castle": "477",
+        "caption": "Matthiaskapelle, Foto: J. Friedhoff (1993)",
+        "year": "1993"
+      },
+      {
+        "id": "3",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/65_23_20050513094604.jpg",
+        "path": "/images/castles/477/3.jpg",
+        "castle": "477",
+        "caption": "Grundriss, Situation Anf. 13. Jh., aus: Wulf, Matthiaskapelle (1995)",
+        "year": "1995"
+      }
+    ],
+    "dates": {
+      "start": {
+        "century": "12",
+        "half": "1"
+      },
+      "end": {
+        "century": "17",
+        "half": "2"
+      }
+    }
+  },
+  {
+    "id": "478",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=478",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=478",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=478",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=478",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=478"
+    ],
+    "name": {
+      "primary": "Gondorf Niederburg",
+      "secondary": null
+    },
+    "slug": "gondorf-niederburg",
+    "location": {
+      "city": "Kobern-Gondorf",
+      "county": "Mayen-Koblenz",
+      "region": "Moseltal",
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
+      },
+      "country": {
+        "en": "Germany",
+        "de": "Deutschland",
+        "abbreviation": "de"
+      },
+      "subregion": {
+        "en": "Western Europe",
+        "de": null
+      }
+    },
+    "classifications": [
+      {
+        "de": "burghaus",
+        "en": "fortified house"
+      },
+      {
+        "de": "niederungsburg",
+        "en": "lowland castle"
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg-schloss",
+        "en": "castle-manor"
+      }
+    ],
+    "condition": {
+      "de": "stark historisierend überformt",
+      "en": "historic reshaping",
+      "value": 4
+    },
+    "conditionCommentary": "Relativ gut erhaltenes, im Kern mittelalterliches Burghaus, Mitte des 19. Jh. historistisch überformt.",
+    "purpose": [
+      {
+        "de": "adelssitz",
+        "en": null
+      },
+      {
+        "de": "ministerialensitz",
+        "en": null
+      }
+    ],
+    "gallery": [
+      {
+        "id": "0",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/60_101_20050512113108.jpg",
+        "path": "/images/castles/478/0.jpg",
+        "castle": "478",
+        "caption": "Gesamtansicht: Foto: J. Friedhoff (1993)",
+        "year": "1993"
+      }
+    ],
+    "dates": {
+      "start": {
+        "century": "13",
+        "half": "2"
+      },
+      "end": {
+        "century": null,
+        "half": null
+      }
+    }
+  },
+  {
+    "id": "479",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=479",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=479",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=479",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=479",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=479"
+    ],
+    "name": {
+      "primary": "Gondorf Oberburg",
+      "secondary": null
+    },
+    "slug": "gondorf-oberburg",
+    "location": {
+      "city": "Kobern-Gondorf",
+      "county": "Mayen-Koblenz",
+      "region": "Moseltal",
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
+      },
+      "country": {
+        "en": "Germany",
+        "de": "Deutschland",
+        "abbreviation": "de"
+      },
+      "subregion": {
+        "en": "Western Europe",
+        "de": null
+      }
+    },
+    "classifications": [],
+    "structures": [
+      {
+        "de": "burg-schloss",
+        "en": "castle-manor"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ],
+    "condition": {
+      "de": "weitgehend erhalten",
+      "en": "largely preserved",
+      "value": 4
+    },
+    "conditionCommentary": "Relativ gut erhaltene zweiteilige Burganlage mit spätmittelalterlichem und frühneuzeitlichem Gebäudebestand.",
+    "purpose": [
+      {
+        "de": "adelssitz",
+        "en": null
+      }
+    ],
+    "gallery": [
+      {
+        "id": "0",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/61_101_20050512113927.jpg",
+        "path": "/images/castles/479/0.jpg",
+        "castle": "479",
+        "caption": "Feldseite der Hauptburg mit Bergfried, Foto: J. Friedhoff (1993)",
+        "year": "1993"
+      },
+      {
+        "id": "1",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/61_103_20050512113927.jpg",
+        "path": "/images/castles/479/1.jpg",
+        "castle": "479",
+        "caption": "Gesamtansicht der Hauptburg mit Innenhof, Foto: J. Friedhoff (1993)",
+        "year": "1993"
+      },
+      {
+        "id": "2",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/61_105_20050512113927.jpg",
+        "path": "/images/castles/479/2.jpg",
+        "castle": "479",
+        "caption": "Gesamtansicht, Foto: J. Friedhoff (1993)",
+        "year": "1993"
+      },
+      {
+        "id": "3",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/61_23_20050512113927.jpg",
+        "path": "/images/castles/479/3.jpg",
+        "castle": "479",
+        "caption": "Lageplan vor dem Bau der Bundesstraße, aus: KD Mayen (1943)",
+        "year": "1943"
+      }
+    ],
+    "dates": {
+      "start": {
+        "century": "13",
+        "half": "2"
+      },
+      "end": {
+        "century": null,
+        "half": null
+      }
+    }
+  },
+  {
+    "id": "480",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=480",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=480",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=480",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=480",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=480"
+    ],
+    "name": {
+      "primary": "Thurandt",
+      "secondary": null
+    },
+    "slug": "thurandt",
+    "location": {
+      "city": "Alken",
+      "county": "Mayen-Koblenz",
+      "region": "Moseltal",
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
+      },
+      "country": {
+        "en": "Germany",
+        "de": "Deutschland",
+        "abbreviation": "de"
+      },
+      "subregion": {
+        "en": "Western Europe",
+        "de": null
+      }
+    },
+    "classifications": [
+      {
+        "de": "randhausanlage",
+        "en": null
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ],
+    "condition": {
+      "de": "bedeutende reste",
+      "en": "significant remains",
+      "value": 3
+    },
+    "conditionCommentary": "Die 1689 zerstörte, relativ gut erhaltene Burg wurde zu Beginn des 20. Jh.s teilweise wiederaufgebaut.",
+    "purpose": [
+      {
+        "de": "dynastensitz",
+        "en": null
+      },
+      {
+        "de": "landesburg",
+        "en": null
+      }
+    ],
+    "gallery": [
+      {
+        "id": "0",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/62_101_20050512121520.jpg",
+        "path": "/images/castles/480/0.jpg",
+        "castle": "480",
+        "caption": "Ansicht von Süden, Foto: J. Friedhoff (1999)",
+        "year": "1999"
+      },
+      {
+        "id": "1",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/62_103_20050512121520.jpg",
+        "path": "/images/castles/480/1.jpg",
+        "castle": "480",
+        "caption": "Torhaus, Foto: J. Friedhoff (1999)",
+        "year": "1999"
+      },
+      {
+        "id": "2",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/62_105_20050512121520.jpg",
+        "path": "/images/castles/480/2.jpg",
+        "castle": "480",
+        "caption": "Bergfried der Trierer Burg, Foto: J. Friedhoff (1999)",
+        "year": "1999"
+      },
+      {
+        "id": "3",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/62_23_20050512121520.jpg",
+        "path": "/images/castles/480/3.jpg",
+        "castle": "480",
+        "caption": "Grundriss, DBV-Dokumentation Thurant"
+      }
+    ],
+    "dates": {
+      "start": {
+        "century": "13",
+        "half": "1"
+      },
+      "end": {
+        "century": "17",
+        "half": "2"
+      }
+    }
+  },
+  {
+    "id": "481",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=481",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=481",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=481",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=481",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=481"
+    ],
+    "name": {
+      "primary": "Ehrenburg an der Mosel",
+      "secondary": null
+    },
+    "slug": "ehrenburg-an-der-mosel",
+    "location": {
+      "city": "Brodenbach",
+      "county": "Mayen-Koblenz",
+      "region": "Moseltal",
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
+      },
+      "country": {
+        "en": "Germany",
+        "de": "Deutschland",
+        "abbreviation": "de"
+      },
+      "subregion": {
+        "en": "Western Europe",
+        "de": null
+      }
+    },
+    "classifications": [
+      {
+        "de": "randhausanlage",
+        "en": null
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ],
+    "condition": {
+      "de": "bedeutende reste",
+      "en": "significant remains",
+      "value": 3
+    },
+    "conditionCommentary": "Imposante, recht gut erhaltene Burgruine. 1993 Revitalisierung der Burg durch den Freundeskreis Ehrenburg. Bauforschung 2006/2007.",
+    "purpose": [
+      {
+        "de": "herrschaftsmittelpunkt",
+        "en": null
+      },
+      {
+        "de": "ganerbenburg",
+        "en": null
+      }
+    ],
+    "gallery": [
+      {
+        "id": "0",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/58_101_20050512102657.jpg",
+        "path": "/images/castles/481/0.jpg",
+        "castle": "481",
+        "caption": "Ansicht vom Ehrenbachtal, Foto: J. Friedhoff (1993)",
+        "year": "1993"
+      },
+      {
+        "id": "1",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/58_103_20050512102657.jpg",
+        "path": "/images/castles/481/1.jpg",
+        "castle": "481",
+        "caption": "Toranlage, Rampenturm und Doppelturm, Foto: J. Friedhoff (1993)",
+        "year": "1993"
+      },
+      {
+        "id": "2",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/58_105_20050512102657.jpg",
+        "path": "/images/castles/481/2.jpg",
+        "castle": "481",
+        "caption": "Doppelturm, Foto: J. Friedhoff (1993)",
+        "year": "1993"
+      },
+      {
+        "id": "3",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/58_23_20050512102657.jpg",
+        "path": "/images/castles/481/3.jpg",
+        "castle": "481",
+        "caption": "Grundriss, aus: Dehio RP (1984)",
+        "year": "1984"
+      }
+    ],
+    "dates": {
+      "start": {
+        "century": "12",
+        "half": "2"
+      },
+      "end": {
+        "century": "17",
+        "half": "2"
+      }
+    }
+  },
+  {
+    "id": "482",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=482",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=482",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=482",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=482",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=482"
+    ],
+    "name": {
+      "primary": "Coraidelstein",
+      "secondary": null
+    },
+    "slug": "coraidelstein",
+    "location": {
+      "city": "Klotten",
+      "county": "Cochem-Zell",
+      "region": "Moseltal",
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
+      },
+      "country": {
+        "en": "Germany",
+        "de": "Deutschland",
+        "abbreviation": "de"
+      },
+      "subregion": {
+        "en": "Western Europe",
+        "de": null
+      }
+    },
+    "classifications": [
+      {
+        "de": "randhausanlage",
+        "en": null
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ],
+    "condition": {
+      "de": "geringe reste",
+      "en": "small leftovers",
+      "value": 2
+    },
+    "conditionCommentary": "In den 1920er Jahren teilweise zu Wohnzwecken ausgebaute Burgruine.",
+    "purpose": [
+      {
+        "de": "landesburg",
+        "en": null
+      }
+    ],
+    "gallery": [
+      {
+        "id": "0",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/761_101_20070814110901.jpg",
+        "path": "/images/castles/482/0.jpg",
+        "castle": "482",
+        "caption": "Ansicht nach einem Ölgemälde von C. Stansfield (1793-1876), aus: EBI Dokumentation"
+      },
+      {
+        "id": "1",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/761_103_20070814110901.jpg",
+        "path": "/images/castles/482/1.jpg",
+        "castle": "482",
+        "caption": "Gesamtansicht, Foto: J. Friedhoff (2007)",
+        "year": "2007"
+      },
+      {
+        "id": "2",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/761_105_20070814110901.jpg",
+        "path": "/images/castles/482/2.jpg",
+        "castle": "482",
+        "caption": "Gesamtansicht, Foto: J. Friedhoff (2007)",
+        "year": "2007"
+      },
+      {
+        "id": "3",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/761_23_20070814111514.gif",
+        "path": "/images/castles/482/3.gif",
+        "castle": "482",
+        "caption": "Grundriss, aus: KD Cochem (1959)",
+        "year": "1959"
+      }
+    ],
+    "dates": {
+      "start": {
+        "century": "13",
+        "half": "1"
+      },
+      "end": {
+        "century": "19",
+        "half": "1"
+      }
+    }
+  },
+  {
+    "id": "483",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=483",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=483",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=483",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=483",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=483"
+    ],
+    "name": {
+      "primary": "Trutzeltz",
+      "secondary": null
+    },
+    "slug": "trutzeltz",
+    "location": {
+      "city": "Münstermaifeld",
+      "county": "Mayen-Koblenz",
+      "region": "Moseltal",
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
+      },
+      "country": {
+        "en": "Germany",
+        "de": "Deutschland",
+        "abbreviation": "de"
+      },
+      "subregion": {
+        "en": "Western Europe",
+        "de": null
+      }
+    },
+    "classifications": [
+      {
+        "de": "wohnturm",
+        "en": "keep"
+      },
+      {
+        "de": "frontturmburg",
+        "en": null
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ],
+    "condition": {
+      "de": "bedeutende reste",
+      "en": "significant remains",
+      "value": 3
+    },
+    "conditionCommentary": "Ungesicherte Ruine in fortschreitendem Verfall.",
+    "purpose": [
+      {
+        "de": "gegenburg",
+        "en": null
+      },
+      {
+        "de": "landesburg",
+        "en": null
+      }
+    ],
+    "gallery": [
+      {
+        "id": "0",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/100_101_20050704102839.jpg",
+        "path": "/images/castles/483/0.jpg",
+        "castle": "483",
+        "caption": "Schildmauer, Foto: R. Friedrich (2003)",
+        "year": "2003"
+      },
+      {
+        "id": "1",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/100_103_20050610143038.jpg",
+        "path": "/images/castles/483/1.jpg",
+        "castle": "483",
+        "caption": "Foto: Olaf Wagener (2002)",
+        "year": "2002"
+      },
+      {
+        "id": "2",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/100_105_20050610143038.jpg",
+        "path": "/images/castles/483/2.jpg",
+        "castle": "483",
+        "caption": "Foto: Olaf Wagener (2002)",
+        "year": "2002"
+      }
+    ],
+    "dates": {
+      "start": {
+        "century": "14",
+        "half": "1"
+      },
+      "end": {
+        "century": "15",
+        "half": null
+      }
+    }
+  },
+  {
+    "id": "484",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=484",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=484",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=484",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=484",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=484"
+    ],
+    "name": {
+      "primary": "Eltz",
+      "secondary": null
+    },
+    "slug": "eltz",
+    "location": {
+      "city": "Münstermaifeld",
+      "county": "Mayen-Koblenz",
+      "region": "Moseltal",
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
+      },
+      "country": {
+        "en": "Germany",
+        "de": "Deutschland",
+        "abbreviation": "de"
+      },
+      "subregion": {
+        "en": "Western Europe",
+        "de": null
+      }
+    },
+    "classifications": [
+      {
+        "de": "randhausanlage",
+        "en": null
+      },
+      {
+        "de": "kompaktanlage",
+        "en": null
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ],
+    "condition": {
+      "de": "weitgehend erhalten",
+      "en": "largely preserved",
+      "value": 4
+    },
+    "conditionCommentary": "Gut erhaltene, seit dem 12. Jh. in Familienbesitz befindliche imposante Ganerbenburg.",
+    "purpose": [
+      {
+        "de": "ganerbenburg",
+        "en": null
+      }
+    ],
+    "gallery": [
+      {
+        "id": "0",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/159_101_20050623155651.jpg",
+        "path": "/images/castles/484/0.jpg",
+        "castle": "484",
+        "caption": "Gesamtansicht, aus: Ritzenhofen (2002)",
+        "year": "2002"
+      },
+      {
+        "id": "1",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/159_103_20050623155651.jpg",
+        "path": "/images/castles/484/1.jpg",
+        "castle": "484",
+        "caption": "Blick auf die turmhohen Kempenicher und Rodendorfer Häuser mit dem Remisengebäude im Vordergrund, aus: Ritzenhofen (2002)",
+        "year": "2002"
+      },
+      {
+        "id": "2",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/159_105_20050623155651.jpg",
+        "path": "/images/castles/484/2.jpg",
+        "castle": "484",
+        "caption": "Zeichnung von William Clarkson Stanfield, Burg Eltz, um 1830, aus: Ritzenhofen (2002)",
+        "year": "2002"
+      },
+      {
+        "id": "3",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/159_23_20050623155651.jpg",
+        "path": "/images/castles/484/3.jpg",
+        "castle": "484",
+        "caption": "Grundriss, aus: Ritzenhofen (2002)",
+        "year": "2002"
+      }
+    ],
+    "dates": {
+      "start": {
+        "century": "12",
+        "half": "2"
+      },
+      "end": {
+        "century": null,
+        "half": null
+      }
+    }
+  },
+  {
+    "id": "485",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=485",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=485",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=485",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=485",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=485"
+    ],
+    "name": {
+      "primary": "Pyrmont",
+      "secondary": "in der Eifel"
+    },
+    "slug": "pyrmont-in-der-eifel",
+    "location": {
+      "city": "Roes",
+      "county": "Cochem-Zell",
+      "region": "Eifel",
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
+      },
+      "country": {
+        "en": "Germany",
+        "de": "Deutschland",
+        "abbreviation": "de"
+      },
+      "subregion": {
+        "en": "Western Europe",
+        "de": null
+      }
+    },
+    "classifications": [
+      {
+        "de": "randhausanlage",
+        "en": null
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "burg-schloss",
+        "en": "castle-manor"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ],
+    "condition": {
+      "de": "weitgehend erhalten",
+      "en": "largely preserved",
+      "value": 4
+    },
+    "conditionCommentary": "Die Burganlage ist im Wesentlichen gut erhalten. Der Barockbau der Oberburg wurde 1810 zur Ruine und in den 1960er Jahren wiederhergestellt.",
+    "purpose": [
+      {
+        "de": "herrschaftsmittelpunkt",
+        "en": null
+      },
+      {
+        "de": "ganerbenburg",
+        "en": null
+      }
+    ],
+    "gallery": [
+      {
+        "id": "0",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/510_101_20060901104626.jpg",
+        "path": "/images/castles/485/0.jpg",
+        "castle": "485",
+        "caption": "Vor- und Hauptburg. Foto: J. Friedhoff (2006)",
+        "year": "2006"
+      },
+      {
+        "id": "1",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/510_103_20051024135837.jpg",
+        "path": "/images/castles/485/1.jpg",
+        "castle": "485",
+        "caption": "Burg Pyrmont vor 1963, aus Krekler, Pyrmont (1983)",
+        "year": "1983"
+      },
+      {
+        "id": "2",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/510_105_20051024135837.jpg",
+        "path": "/images/castles/485/2.jpg",
+        "castle": "485",
+        "caption": "Historische Ansicht einer Karte der Herrschaft Pyrmont (1712), aus: Italiaander, Pyrmont (1965)",
+        "year": "1712"
+      },
+      {
+        "id": "3",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/510_23_20051024135837.jpg",
+        "path": "/images/castles/485/3.jpg",
+        "castle": "485",
+        "caption": "Lageplan, aus: Krekler, Pyrmont (1983)",
+        "year": "1983"
+      }
+    ],
+    "dates": {
+      "start": {
+        "century": "13",
+        "half": "1"
+      },
+      "end": {
+        "century": "19",
+        "half": "1"
+      }
+    }
+  },
+  {
+    "id": "486",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=486",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=486",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=486",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=486",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=486"
+    ],
+    "name": {
+      "primary": "Treis",
+      "secondary": null
+    },
+    "slug": "treis",
+    "location": {
+      "city": "Treis-Karden",
+      "county": "Cochem-Zell",
+      "region": "Moseltal",
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
+      },
+      "country": {
+        "en": "Germany",
+        "de": "Deutschland",
+        "abbreviation": "de"
+      },
+      "subregion": {
+        "en": "Western Europe",
+        "de": null
+      }
+    },
+    "classifications": [
+      {
+        "de": "ringmauerburg",
+        "en": null
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ],
+    "condition": {
+      "de": "geringe reste",
+      "en": "small leftovers",
+      "value": 2
+    },
+    "conditionCommentary": "Im Zuge einer Sanierung erhöhter und mit einem flachen Zeltdach versehener Bergfried. Ungesicherte Mauerreste.",
+    "purpose": [
+      {
+        "de": "reichsburg",
+        "en": null
+      },
+      {
+        "de": "landesburg",
+        "en": null
+      }
+    ],
+    "gallery": [
+      {
+        "id": "0",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/764_101_20070814122538.jpg",
+        "path": "/images/castles/486/0.jpg",
+        "castle": "486",
+        "caption": "Gesamtansicht, Foto: J. Friedhoff (2007)",
+        "year": "2007"
+      },
+      {
+        "id": "1",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/764_23_20070814122538.gif",
+        "path": "/images/castles/486/1.gif",
+        "castle": "486",
+        "caption": "Grundriss, aus: Thon/Ulrich, Burgen (2007)",
+        "year": "2007"
+      }
+    ],
+    "dates": {
+      "start": {
+        "century": "12",
+        "half": "1"
+      },
+      "end": {
+        "century": "17",
+        "half": "2"
+      }
+    }
+  },
+  {
+    "id": "487",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=487",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=487",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=487",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=487",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=487"
+    ],
+    "name": {
+      "primary": "Wildburg",
+      "secondary": "bei Treis"
+    },
+    "slug": "wildburg-bei-treis",
+    "location": {
+      "city": "Treis-Karden",
+      "county": "Cochem-Zell",
+      "region": "Moseltal",
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
+      },
+      "country": {
+        "en": "Germany",
+        "de": "Deutschland",
+        "abbreviation": "de"
+      },
+      "subregion": {
+        "en": "Western Europe",
+        "de": null
+      }
+    },
+    "classifications": [],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ],
+    "condition": {
+      "de": "stark modern überformt",
+      "en": null
+    },
+    "conditionCommentary": "Die Anlage ist Resultat eines Wiederaufbaus in den späten 1950er Jahren unter Berücksichtigung von Teilen des mittelalterlichen Baubestandes.",
+    "purpose": [
+      {
+        "de": "ministerialensitz",
+        "en": null
+      },
+      {
+        "de": "ganerbenburg",
+        "en": null
+      }
+    ],
+    "gallery": [
+      {
+        "id": "0",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/763_101_20070814122251.jpg",
+        "path": "/images/castles/487/0.jpg",
+        "castle": "487",
+        "caption": "Gesamtansicht, Foto: J. Friedhoff (2007)",
+        "year": "2007"
+      },
+      {
+        "id": "1",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/763_23_20070814122251.gif",
+        "path": "/images/castles/487/1.gif",
+        "castle": "487",
+        "caption": "Grundriss und Aufriss, aus: KD Cochem (1959)",
+        "year": "1959"
+      }
+    ],
+    "dates": {
+      "start": {
+        "century": "13",
+        "half": "2"
+      },
+      "end": {
+        "century": "17",
+        "half": "2"
+      }
+    }
+  },
+  {
+    "id": "488",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=488",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=488",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=488",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=488",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=488"
+    ],
+    "name": {
+      "primary": "Cochem",
+      "secondary": null
+    },
+    "slug": "cochem",
+    "location": {
+      "city": "Cochem",
+      "county": "Cochem-Zell",
+      "region": "Moseltal",
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
+      },
+      "country": {
+        "en": "Germany",
+        "de": "Deutschland",
+        "abbreviation": "de"
+      },
+      "subregion": {
+        "en": "Western Europe",
+        "de": null
+      }
+    },
+    "classifications": [
+      {
+        "de": "randhausanlage",
+        "en": null
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ],
+    "condition": {
+      "de": "stark historisierend überformt",
+      "en": "historic reshaping",
+      "value": 4
+    },
+    "conditionCommentary": "Von der mittelalterlichen Burg wurden umfangreiche Reste bei der Wiederherstellung im späten 19. Jahrhundert integriert.",
+    "purpose": [
+      {
+        "de": "reichsburg",
+        "en": null
+      },
+      {
+        "de": "landesburg",
+        "en": null
+      }
+    ],
+    "gallery": [
+      {
+        "id": "0",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/757_101_20070814100826.jpg",
+        "path": "/images/castles/488/0.jpg",
+        "castle": "488",
+        "caption": "Gesamtansicht, Foto: J. Friedhoff (2007)",
+        "year": "2007"
+      },
+      {
+        "id": "1",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/757_103_20070814100826.gif",
+        "path": "/images/castles/488/1.gif",
+        "castle": "488",
+        "caption": "Burg Cochem (1576), aus: KD Cochem (1959)",
+        "year": "1576"
+      },
+      {
+        "id": "2",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/757_105_20070814100826.jpg",
+        "path": "/images/castles/488/2.jpg",
+        "castle": "488",
+        "caption": "Burg Cochem (1825), aus: KD Cochem (1959)",
+        "year": "1825"
+      },
+      {
+        "id": "3",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/757_23_20070814100826.gif",
+        "path": "/images/castles/488/3.gif",
+        "castle": "488",
+        "caption": "Grundriss der Burg Cochem (Dokumentation EBI)"
+      }
+    ],
+    "dates": {
+      "start": {
+        "century": "12",
+        "half": "1"
+      },
+      "end": {
+        "century": null,
+        "half": null
+      }
+    }
+  },
+  {
+    "id": "489",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=489",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=489",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=489",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=489",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=489"
+    ],
+    "name": {
+      "primary": "Winneburg",
+      "secondary": null
+    },
+    "slug": "winneburg",
+    "location": {
+      "city": "Cochem",
+      "county": "Cochem-Zell",
+      "region": "Moseltal",
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
+      },
+      "country": {
+        "en": "Germany",
+        "de": "Deutschland",
+        "abbreviation": "de"
+      },
+      "subregion": {
+        "en": "Western Europe",
+        "de": null
+      }
+    },
+    "classifications": [
+      {
+        "de": "randhausanlage",
+        "en": null
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ],
+    "condition": {
+      "de": "bedeutende reste",
+      "en": "significant remains",
+      "value": 3
+    },
+    "conditionCommentary": "Von der 1996 zuletzt bauhistorische untersuchten Burgruine haben sich umfangreiche sanierte Baureste erhalten.",
+    "purpose": [
+      {
+        "de": "herrschaftsmittelpunkt",
+        "en": null
+      }
+    ],
+    "gallery": [
+      {
+        "id": "0",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/758_101_20070814101402.jpg",
+        "path": "/images/castles/489/0.jpg",
+        "castle": "489",
+        "caption": "Winneburg, Bergfried. Foto: J. Friedhoff (2007)",
+        "year": "2007"
+      },
+      {
+        "id": "1",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/758_103_20070814101402.jpg",
+        "path": "/images/castles/489/1.jpg",
+        "castle": "489",
+        "caption": "Winneburg, Bergfried, Palas und Tourellen. Foto: J. Friedhoff (2007)",
+        "year": "2007"
+      },
+      {
+        "id": "2",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/758_105_20070814101402.jpg",
+        "path": "/images/castles/489/2.jpg",
+        "castle": "489",
+        "caption": "Winneburg (1576), aus: KD Cochem (1959)",
+        "year": "1576"
+      },
+      {
+        "id": "3",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/758_23_20070814101402.jpg",
+        "path": "/images/castles/489/3.jpg",
+        "castle": "489",
+        "caption": "Winneburg, Bauphasenplan, aus: Frank/Hujer, Winneburg (2005)",
+        "year": "2005"
+      }
+    ],
+    "dates": {
+      "start": {
+        "century": "13",
+        "half": "1"
+      },
+      "end": {
+        "century": "17",
+        "half": "2"
+      }
+    }
+  },
+  {
+    "id": "490",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=490",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=490",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=490",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=490",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=490"
+    ],
+    "name": {
+      "primary": "Arras",
+      "secondary": null
+    },
+    "slug": "arras",
+    "location": {
+      "city": "Alf",
+      "county": "Cochem-Zell",
+      "region": "Moseltal",
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
+      },
+      "country": {
+        "en": "Germany",
+        "de": "Deutschland",
+        "abbreviation": "de"
+      },
+      "subregion": {
+        "en": "Western Europe",
+        "de": null
+      }
+    },
+    "classifications": [
+      {
+        "de": "randhausanlage",
+        "en": null
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ],
+    "condition": {
+      "de": "stark historisierend überformt",
+      "en": "historic reshaping",
+      "value": 4
+    },
+    "conditionCommentary": "Teile der hochmittelalterlichen Anlage wurden in den späthistoristischen Neubau zu Beginn des 20. Jh. eingebunden.",
+    "purpose": [
+      {
+        "de": "landesburg",
+        "en": null
+      }
+    ],
+    "gallery": [
+      {
+        "id": "0",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/765_101_20070814122809.jpg",
+        "path": "/images/castles/490/0.jpg",
+        "castle": "490",
+        "caption": "Bergfried, Foto: J. Friedhoff (2007)",
+        "year": "2007"
+      },
+      {
+        "id": "1",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/765_103_20070814122809.jpg",
+        "path": "/images/castles/490/1.jpg",
+        "castle": "490",
+        "caption": "Schildmauer, Foto: J. Friedhoff (2007)",
+        "year": "2007"
+      },
+      {
+        "id": "2",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/765_105_20070814122809.jpg",
+        "path": "/images/castles/490/2.jpg",
+        "castle": "490",
+        "caption": "Historischer Wohnturm, Foto: J. Friedhoff (2007)",
+        "year": "2007"
+      },
+      {
+        "id": "3",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/765_23_20070814122809.jpg",
+        "path": "/images/castles/490/3.jpg",
+        "castle": "490",
+        "caption": "Grundriss, aus: KD Zell (1938)",
+        "year": "1938"
+      }
+    ],
+    "dates": {
+      "start": {
+        "century": "12",
+        "half": "1"
+      },
+      "end": {
+        "century": "17",
+        "half": "2"
+      }
+    }
+  },
+  {
+    "id": "491",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=491",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=491",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=491",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=491",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=491"
+    ],
+    "name": {
+      "primary": "Beilstein",
+      "secondary": "a. d. Mosel"
+    },
+    "slug": "beilstein-a-d-mosel",
+    "location": {
+      "city": "Beilstein",
+      "county": "Cochem-Zell",
+      "region": "Moseltal",
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
+      },
+      "country": {
+        "en": "Germany",
+        "de": "Deutschland",
+        "abbreviation": "de"
+      },
+      "subregion": {
+        "en": "Western Europe",
+        "de": null
+      }
+    },
+    "classifications": [
+      {
+        "de": "randhausanlage",
+        "en": null
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ],
+    "condition": {
+      "de": "bedeutende reste",
+      "en": "significant remains",
+      "value": 3
+    },
+    "conditionCommentary": "2001 Sanierung der Palasruine; Restauranteinbauten im Kernburgbereich.",
+    "purpose": [
+      {
+        "de": "herrschaftsmittelpunkt",
+        "en": null
+      }
+    ],
+    "gallery": [
+      {
+        "id": "0",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/766_101_20070814125154.jpg",
+        "path": "/images/castles/491/0.jpg",
+        "castle": "491",
+        "caption": "Gesamtansicht, Foto: J. Friedhoff (2007)",
+        "year": "2007"
+      },
+      {
+        "id": "1",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/766_103_20070814125154.jpg",
+        "path": "/images/castles/491/1.jpg",
+        "castle": "491",
+        "caption": "Hauptburg, Foto: J. Friedhoff (2007)",
+        "year": "2007"
+      },
+      {
+        "id": "2",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/766_105_20070814125154.gif",
+        "path": "/images/castles/491/2.gif",
+        "castle": "491",
+        "caption": "Burg Beilstein nach M. Merian (1646), aus Dokumentation EBI",
+        "year": "1646"
+      },
+      {
+        "id": "3",
+        "url": "https://www.ebidat.de/r30/vc_content/bilder/firma451/msvc_intern/766_23_20070814125154.gif",
+        "path": "/images/castles/491/3.gif",
+        "castle": "491",
+        "caption": "Grundriss, aus: KD Zell (1938)",
+        "year": "1938"
+      }
+    ],
+    "dates": {
+      "start": {
+        "century": "13",
+        "half": "2"
+      },
+      "end": {
+        "century": "17",
+        "half": "2"
+      }
+    }
+  },
+  {
+    "id": "493",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=493",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=493",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=493",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=493",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=493"
+    ],
+    "name": {
+      "primary": "Grevenburg",
+      "secondary": null
+    },
+    "slug": "grevenburg",
+    "location": {
+      "city": "Traben-Trarbach",
+      "county": "Bernkastel-Wittlich",
+      "region": "Moseltal",
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
+      },
+      "country": {
+        "en": "Germany",
+        "de": "Deutschland",
+        "abbreviation": "de"
+      },
+      "subregion": {
+        "en": "Western Europe",
+        "de": null
+      }
+    },
+    "classifications": [
+      {
+        "de": "wohnturm",
+        "en": "keep"
+      },
+      {
+        "de": "ringmauerburg",
+        "en": null
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "festung",
+        "en": null
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ],
+    "condition": {
+      "de": "geringe reste",
+      "en": "small leftovers",
+      "value": 2
+    },
+    "conditionCommentary": "Restaurierungen 1900-03 (Kommandantenbau); und seit 2003",
+    "purpose": [
+      {
+        "de": "landesburg",
+        "en": null
+      },
+      {
+        "de": "residenz",
+        "en": null
+      }
+    ],
+    "gallery": [],
+    "dates": {
+      "start": {
+        "century": "14",
+        "half": "1"
+      },
+      "end": {
+        "century": "18",
+        "half": "1"
+      }
+    }
+  },
+  {
+    "id": "494",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=494",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=494",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=494",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=494",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=494"
+    ],
+    "name": {
+      "primary": "Starkenburg",
+      "secondary": "a. d. Mosel"
+    },
+    "slug": "starkenburg-a-d-mosel",
+    "location": {
+      "city": "Starkenburg",
+      "county": "Bernkastel-Wittlich",
+      "state": {
+        "de": "Rheinland-Pfalz",
+        "en": "Rheinland-Palatinate",
+        "abbreviation": "rp",
+        "value": {
+          "flag": "/images/countries/states/rp_flag.svg",
+          "crest": "/images/countries/states/rp_crest.svg"
+        }
+      },
+      "country": {
+        "en": "Germany",
+        "de": "Deutschland",
+        "abbreviation": "de"
+      },
+      "subregion": {
+        "en": "Western Europe",
+        "de": null
+      }
+    },
+    "classifications": [],
+    "structures": [
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ],
+    "condition": {
+      "de": "fundamente",
+      "en": "foundations",
+      "value": 1
+    },
+    "purpose": [],
+    "gallery": [],
+    "dates": {
+      "start": {
+        "century": "12",
+        "half": "2"
+      },
+      "end": {
+        "century": null,
+        "half": null
+      }
+    }
+  },
+  {
+    "id": "495",
+    "urls": [
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?id=495",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=h&id=495",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=o&id=495",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=g&id=495",
+      "https://www.ebidat.de/cgi-bin/ebidat.pl?m=n&id=495"
+    ],
+    "name": {
+      "primary": "Randerath",
+      "secondary": null
+    },
+    "slug": "randerath",
+    "location": {
+      "city": "Heinsberg",
+      "county": "Heinsberg",
+      "region": "Niederrhein",
+      "state": {
+        "de": "Nordrhein-Westfalen",
+        "en": "North Rhine-Westphalia",
+        "abbreviation": "nw",
+        "value": {
+          "flag": "/images/countries/states/nw_flag.svg",
+          "crest": "/images/countries/states/nw_crest.svg"
+        }
+      },
+      "country": {
+        "en": "Germany",
+        "de": "Deutschland",
+        "abbreviation": "de"
+      },
+      "subregion": {
+        "en": "Western Europe",
+        "de": null
+      }
+    },
+    "classifications": [
+      {
+        "de": "wasserburg",
+        "en": "water castle"
+      }
+    ],
+    "structures": [
+      {
+        "de": "burg",
+        "en": "castle"
+      },
+      {
+        "de": "burg-schloss",
+        "en": "castle-manor"
+      },
+      {
+        "de": "sonstiges",
+        "en": "other"
+      }
+    ],
+    "condition": {
+      "de": "bedeutende reste",
+      "en": "significant remains",
+      "value": 3
+    },
+    "conditionCommentary": "Von der Burg blieb lediglich ein Turmrest erhalten, dessen Baubestand in einem barocken Neubau (Kellerei) aufging.",
+    "purpose": [
+      {
+        "de": "dynastensitz",
+        "en": null
+      },
+      {
+        "de": "amtssitz",
+        "en": null
+      }
+    ],
+    "gallery": [],
+    "dates": {
+      "start": {
+        "century": "11",
+        "half": "2"
+      },
+      "end": {
+        "century": "18",
+        "half": "2"
+      }
+    }
   }
 ]

@@ -41,6 +41,22 @@ function App() {
         if (!c.gallery || c.gallery.length === 0) b = false;
 
       if (filter.id.length > 0) if (c.id !== filter.id) b = false;
+
+      if (filter.dateFrom.length > 0) {
+      }
+
+      if (filter.dateTo.length > 0) {
+      }
+
+      if (
+        !filter.classifications.some((filterClassification) => {
+          return c.classifications.some((castleClassification) => {
+            return filterClassification.de === castleClassification.de;
+          });
+        })
+      )
+        b = false;
+
       return b;
     });
 
