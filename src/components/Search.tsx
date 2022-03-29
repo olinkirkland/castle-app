@@ -61,7 +61,7 @@ function Search({ applyFilter, resultsCount }: Props) {
             }}
           />
           <Checkbox
-            text="Include epithet"
+            text="Include name suffix"
             value={filter.includeSecondaryName}
             checked={(b: boolean) => {
               setFilter((prev) => {
