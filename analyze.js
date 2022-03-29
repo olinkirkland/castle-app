@@ -43,7 +43,7 @@ export default function analyze() {
   let countryData = [];
 
   // Compiled filter data
-  let filterData = {};
+  let filterData = { geography: { nodes: [] } };
 
   // Final data
   let all = [];
@@ -79,8 +79,8 @@ export default function analyze() {
         name: transformTitle(d.title),
         slug: generateSlug(d.title),
         location: {
-          city: d.city,
-          county: d.county,
+          city: cleanZip(d.city),
+          county: cleanZip(d.county),
           region: d.region,
           state: transformState(d.state, d.id),
           country: transformCountry(d.country),
@@ -100,28 +100,94 @@ export default function analyze() {
         }
       };
 
-      addFilterData(analysis);
-      all.push(analysis);
+      if (isAnalysisValid(analysis)) {
+        addFilterData(analysis);
+        all.push(analysis);
+      } else {
+        // todo: keep track of entries that are considered invalid, in case there's a lot of them
+      }
     });
+
+    function isAnalysisValid(analysis) {
+      if (!analysis.location.state.abbreviation) return false;
+      return true;
+    }
 
     console.log(`Analyzed ${all.length} entries`);
 
-    // console.log('=== unique classifications ===');
-    // console.log(uniqueClassifications);
-    // console.log('=== unique types ===');
-    // console.log(uniqueStructures);
-    // console.log('=== unique conditions ===');
-    // console.log(uniqueConditions);
-    // console.log('=== unique purposes ===');
-    // console.log(uniquePurposes);
-
     // Write to json
     writeFileSync('public/analysis.json', JSON.stringify(all, null, 2));
-    console.log('Saved to public/analysis.json');
+    console.log('Saved analysis to public/analysis.json');
+    writeFileSync(
+      'public/filter-data.json',
+      JSON.stringify(filterData, null, 2)
+    );
+    console.log('Saved filter data to public/filter-data.json');
+  }
+
+  function cleanZip(str) {
+    if (!str) return str;
+    str = str.replaceAll(/[()/\\]/gi, '');
+    const arr = str.split(' ').filter((s) => !s.match(/[0-9]{5}/));
+    str = arr.join(' ');
+    return str;
   }
 
   function addFilterData(d) {
-    // d = analysis
+    // city
+    // county
+    // region
+    // state
+    // country
+    // subregion
+
+    // Location
+    const city = d.location.city ? d.location.city : null;
+    const county = d.location.county ? d.location.county : null;
+    const region = d.location.region ? d.location.region : null;
+    const state = d.location.state ? d.location.state.abbreviation : null;
+    const country = d.location.country ? d.location.country.abbreviation : null;
+
+    const g = filterData.geography; // { nodes: [] }
+
+    // Merge into the node tree
+    const types = ['country', 'state', 'region', 'county', 'city'];
+    const arr = [country, state, region, county, city, d.id];
+    function addGeographyNode(parent, index = 0) {
+      const name = arr[index];
+      const isId = index === arr.length - 1;
+
+      let obj = parent.nodes.find((n) => n.name === name);
+      if (!obj) {
+        obj = isId ? name : { name: name, type: types[index], nodes: [] };
+        parent.nodes.push(obj);
+      }
+
+      index++;
+      if (index < arr.length) addGeographyNode(obj, index);
+    }
+
+    // Start the recursive node-adding process
+    addGeographyNode(g);
+
+    function collapseChildrenWithNoName(parent) {
+      parent.nodes.forEach((childNode, index) => {
+        // Check for type to determine it's not an id
+        if (childNode.type && !childNode.name) {
+          // Collapse the child nodes into the parent nodes
+          parent.nodes.splice(index, 1);
+          if (childNode.nodes)
+            parent.nodes = [...parent.nodes, ...childNode.nodes];
+        }
+      });
+
+      parent.nodes.forEach((childNode) => {
+        if (childNode.nodes) collapseChildrenWithNoName(childNode);
+      });
+    }
+
+    // Collapse nodes without a name
+    collapseChildrenWithNoName(g);
   }
 
   function transformPurpose(arr) {
@@ -266,8 +332,8 @@ export default function analyze() {
 
   function transformCountry(str) {
     const c = countryData.find((t) => t.name === str);
-    if (!c)
-      console.error(`Country "${str}" didn't match any defined countries`);
+    // if (!c)
+    //   console.error(`Country "${str}" didn't match any defined countries`);
 
     const u = {
       en: c.data.name.common,
@@ -294,7 +360,7 @@ export default function analyze() {
   function transformState(str, id) {
     const s = states.find((t) => t.de === str);
     if (!s) {
-      console.error(`State "${str}" (${id}) didn't match any defined states`);
+      // console.error(`State "${str}" (${id}) didn't match any defined states`);
       return { flag: null, crest: null };
     }
 
