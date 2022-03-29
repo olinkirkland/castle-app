@@ -10,7 +10,7 @@ type Props = {
 
 const defaultFilter: SearchFilter = {
   name: '',
-  primaryNameOnly: false,
+  includeSecondaryName: false,
   mustHaveImages: false,
   id: ''
 };
@@ -48,30 +48,32 @@ function Search({ applyFilter, resultsCount }: Props) {
             });
           }}
         />
-        <input
-          className="filter-full"
-          type="text"
-          placeholder="Castle Name"
-          value={filter.name}
-          onChange={(event) => {
-            setFilter((prev) => {
-              return { ...prev, name: event.target.value };
-            });
-          }}
-        />
+        <div className="inputWithCheckbox">
+          <input
+            className="filter-long"
+            type="text"
+            placeholder="Castle Name"
+            value={filter.name}
+            onChange={(event) => {
+              setFilter((prev) => {
+                return { ...prev, name: event.target.value };
+              });
+            }}
+          />
+          <Checkbox
+            text="Include epithet"
+            value={filter.includeSecondaryName}
+            checked={(b: boolean) => {
+              setFilter((prev) => {
+                return { ...prev, includeSecondaryName: b };
+              });
+            }}
+          />
+        </div>
       </div>
       <div className="filters">
         <Checkbox
-          text="Primary name only"
-          value={filter.primaryNameOnly}
-          checked={(b: boolean) => {
-            setFilter((prev) => {
-              return { ...prev, primaryNameOnly: b };
-            });
-          }}
-        />
-        <Checkbox
-          text="Must contain images"
+          text="Image gallery"
           value={filter.mustHaveImages}
           checked={(b: boolean) => {
             setFilter((prev) => {

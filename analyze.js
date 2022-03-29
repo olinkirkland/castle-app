@@ -1,6 +1,7 @@
 import { readFileSync, writeFileSync } from 'fs';
 import fetch from 'node-fetch';
 
+analyze();
 export default function analyze() {
   console.log('========= analyze.js =========');
 
@@ -41,12 +42,10 @@ export default function analyze() {
   // Data from external API
   let countryData = [];
 
-  // Unique keys (analysis)
-  let uniqueStructures = [];
-  let uniqueClassifications = [];
-  let uniqueConditions = [];
-  let uniquePurposes = [];
+  // Compiled filter data
+  let filterData = {};
 
+  // Final data
   let all = [];
 
   console.log('1. Determining unique location data');
@@ -101,6 +100,7 @@ export default function analyze() {
         }
       };
 
+      addFilterData(analysis);
       all.push(analysis);
     });
 
@@ -120,6 +120,10 @@ export default function analyze() {
     console.log('Saved to public/analysis.json');
   }
 
+  function addFilterData(d) {
+    // d = analysis
+  }
+
   function transformPurpose(arr) {
     const purposes = [
       { de: 'burg', en: 'castle' },
@@ -130,7 +134,6 @@ export default function analyze() {
     if (!arr) arr = [];
     let t = arr.map((str) => {
       str = str.toLowerCase();
-      if (!uniquePurposes.includes(str)) uniquePurposes.push(str);
 
       let u = purposes.find((t) => t.de === str);
       if (!u) u = { de: str, en: null };
@@ -208,7 +211,6 @@ export default function analyze() {
     let t = structures.find((t) => t.de === str);
     if (!t) t = { de: str, en: null };
 
-    if (!uniqueStructures.includes(str)) uniqueStructures.push(str);
     return t;
   }
 
@@ -236,7 +238,6 @@ export default function analyze() {
     let t = classifications.find((c) => c.de == str);
     if (!t) t = { de: str, en: null };
 
-    if (!uniqueClassifications.includes(str)) uniqueClassifications.push(str);
     return t;
   }
 
@@ -260,7 +261,6 @@ export default function analyze() {
     let t = conditions.find((c) => c.de === str);
     if (!t) t = { de: str, en: null };
 
-    if (!uniqueConditions.includes(str)) uniqueConditions.push(str);
     return t;
   }
 

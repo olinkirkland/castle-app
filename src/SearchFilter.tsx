@@ -1,6 +1,6 @@
 export interface SearchFilter {
   name: string;
-  primaryNameOnly: boolean;
+  includeSecondaryName: boolean;
   mustHaveImages: boolean;
   id: string;
 }

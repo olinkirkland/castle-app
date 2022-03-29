@@ -34,7 +34,8 @@ function App() {
       let b = true;
 
       if (filter.name.length > 0)
-        if (!matchesName(c, filter.name, filter.primaryNameOnly)) b = false;
+        if (!matchesName(c, filter.name, filter.includeSecondaryName))
+          b = false;
 
       if (filter.mustHaveImages)
         if (!c.gallery || c.gallery.length === 0) b = false;
@@ -46,9 +47,13 @@ function App() {
     setCastles(results);
   }, [allCastles, filter]);
 
-  function matchesName(c: Castle, text: string, primaryOnly: boolean): boolean {
+  function matchesName(
+    c: Castle,
+    text: string,
+    includeSecondary: boolean
+  ): boolean {
     let str: string = c.name.primary;
-    if (!primaryOnly && c.name.secondary) str += c.name.secondary;
+    if (includeSecondary && c.name.secondary) str += c.name.secondary;
     return str.toLowerCase().includes(text.toLowerCase());
   }
 
