@@ -53,6 +53,9 @@ function Search({ applyFilter, resultsCount }: Props) {
       ...defaultFilter,
       classifications: [...classifications]
     };
+
+    applyFilter(defaultFilter);
+    setAppliedFilter(defaultFilter);
   }, [classifications]);
 
   function toggleSelectAllClassifications() {
@@ -125,6 +128,8 @@ function Search({ applyFilter, resultsCount }: Props) {
           textClose={`Hide Classifications (${filter.classifications.length})`}
         >
           <>
+            {/* <div className="filters">
+            </div> */}
             <div className="filters">
               {classifications.map((c, index) => (
                 <Checkbox
@@ -183,7 +188,10 @@ function Search({ applyFilter, resultsCount }: Props) {
         textOpen="View JSON filter output"
         textClose="Hide JSON filter output"
       >
-        <pre>{JSON.stringify(filter, null, 2)}</pre>
+        <div className="grid grid-2">
+          <pre>{JSON.stringify(filter, null, 2)}</pre>
+          <pre>{JSON.stringify(appliedFilter, null, 2)}</pre>
+        </div>
       </Drawer>
 
       {/* <Drawer
