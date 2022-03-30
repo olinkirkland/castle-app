@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { SearchFilter } from '../SearchFilter';
 import Translatable from '../Translatable';
+import Util from '../Util';
 import Checkbox from './Checkbox';
 import Drawer from './Drawer';
 
@@ -45,13 +46,17 @@ function Search({ applyFilter, resultsCount }: Props) {
 
   useEffect(() => {
     if (!classifications) return;
+
     setFilter((prev) => {
-      return { ...prev, classifications: [...classifications] };
+      return {
+        ...prev,
+        classifications: [...Util.sortOnTranslatable(classifications)]
+      };
     });
 
     defaultFilter = {
       ...defaultFilter,
-      classifications: [...classifications]
+      classifications: [...Util.sortOnTranslatable(classifications)]
     };
 
     applyFilter(defaultFilter);
@@ -145,7 +150,10 @@ function Search({ applyFilter, resultsCount }: Props) {
                     let arr = [...filter.classifications];
                     if (b) {
                       const i: number = arr.findIndex((f) => f.de === c.de);
-                      if (i === -1) arr.push(c);
+                      if (i === -1) {
+                        arr.push(c);
+                        arr = Util.sortOnTranslatable(arr);
+                      }
                     } else {
                       const i: number = arr.findIndex((f) => f.de === c.de);
                       if (i !== -1) arr.splice(i, 1);

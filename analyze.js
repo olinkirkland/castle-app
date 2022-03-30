@@ -121,7 +121,7 @@ export default function analyze() {
 
     function finishAnalysis() {
       filterData.classifications = filterData.classifications
-        .filter((f) => f.count > 1)
+        // .filter((f) => f.count > 1)
         .map((f) => f.t);
     }
 

@@ -2458,11 +2458,39 @@
       "en": null
     },
     {
+      "de": "randhausanlage: frontturmburg",
+      "en": null
+    },
+    {
+      "de": "motte",
+      "en": null
+    },
+    {
+      "de": "wallanlage",
+      "en": null
+    },
+    {
+      "de": "nicht lokalisierte anlage",
+      "en": null
+    },
+    {
+      "de": "motte-fraglich",
+      "en": null
+    },
+    {
+      "de": "ringabschnittswall",
+      "en": null
+    },
+    {
       "de": "ringwall",
       "en": null
     },
     {
       "de": "keine angabe",
+      "en": null
+    },
+    {
+      "de": "schloss",
       "en": null
     }
   ],

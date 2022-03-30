@@ -1,3 +1,5 @@
+import Translatable from './Translatable';
+
 export default class Util {
   public static numberToAdj(n: number): string {
     // 4 -> 4th, 23 -> 23rd
@@ -12,6 +14,14 @@ export default class Util {
       ending = ['st', 'nd', 'rd'][lastDigit - 1];
 
     return n + ending;
+  }
+
+  static sortOnTranslatable(arr: Translatable[]) {
+    return arr.sort((a, b) => {
+      if (a.de > b.de) return 1;
+      if (a.de < b.de) return -1;
+      return 0;
+    });
   }
 
   // Capitalize first letter
