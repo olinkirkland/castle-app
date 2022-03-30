@@ -130,6 +130,7 @@ function Search({ applyFilter, resultsCount }: Props) {
                 <Checkbox
                   key={index}
                   text={c.en ? c.en : c.de}
+                  untranslated={!c.en}
                   value={
                     filter.classifications.find((f) => c.de === f.de) !==
                     undefined

@@ -5,13 +5,15 @@ type Props = {
   value: boolean;
   capitalize?: boolean;
   checked: Function;
+  untranslated?: boolean;
 };
 
 export default function Checkbox({
   text,
   value = false,
   checked,
-  capitalize = false
+  capitalize = false,
+  untranslated = false
 }: Props) {
   const [isChecked, setIsChecked] = useState(value);
 
@@ -32,6 +34,7 @@ export default function Checkbox({
       <span className="icon-frame">
         {isChecked && <i className="fa-solid fa-check"></i>}
       </span>
+      {untranslated && <div className="country-badge">de</div>}
       <p className={`noselect ${capitalize ? 'capitalize' : ''}`}>{text}</p>
     </div>
   );
